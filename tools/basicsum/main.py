@@ -1,3 +1,4 @@
+import arrr
 from pyscript import document
 
 def run(event):
