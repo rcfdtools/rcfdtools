@@ -3,7 +3,9 @@ from pyscript import document
 
 
 def translate_english(event):
-    input_text = document.querySelector("#english")
-    english = input_text.value
+    input_text_a= document.querySelector("#a")
+    input_text_b= document.querySelector("#b")
+    a = input_text.a
+    b = input_text.b
     output_div = document.querySelector("#output")
-    output_div.innerText = arrr.translate(english)
+    output_div.innerText = a+b
