@@ -1,6 +1,6 @@
 from pyscript import document
 
-def translate_english(event):
+def run(event):
     input_a = document.querySelector("#a")
     input_b = document.querySelector("#b")
     a = input_a.value
