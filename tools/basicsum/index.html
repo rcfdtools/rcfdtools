@@ -14,11 +14,13 @@
     b: <input type="text" id="b" value="0.023" /><br><br>
     <button py-click="run">Run 9</button>
     <div id="output"></div>
-    <script type="py" src="./main.py" config="./pyscript.json">
-        from pyscript import display
-        from datetime import datetime
-        now = datetime.now()
-        display(now.strftime("%m/%d/%Y, %H:%M:%S"))
-    </script>
+    <section class="pyscript">
+        <script type="py" src="./main.py" config="./pyscript.json">
+            from pyscript import display
+            from datetime import datetime
+            now = datetime.now()
+            display(now.strftime("%m/%d/%Y, %H:%M:%S"))
+        </script>
+    </section>
   </body>
 </html>
