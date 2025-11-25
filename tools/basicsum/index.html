@@ -12,15 +12,8 @@
     <p>Input your a & b values...</p>
     a: <input type="text" id="a" placeholder="Type a value..." /><br>
     b: <input type="text" id="b" value="0.023" /><br><br>
-    <button py-click="run">Run 10</button>
+    <button py-click="run">Run</button>
     <div id="output"></div>
-    <section class="pyscript">
-        <script type="py" src="./main.py" config="./pyscript.json">
-            from pyscript import display
-            from datetime import datetime
-            now = datetime.now()
-            display(now.strftime("%m/%d/%Y, %H:%M:%S"))
-        </script>
-    </section>
+    <script type="py" src="./main.py" config="./pyscript.json"></script>
   </body>
 </html>
