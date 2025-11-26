@@ -3,17 +3,26 @@
   <head>
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width,initial-scale=1" />
-      <title>YnYc - Trapezoidal, rectangular and ditch open flow channel</title>
+      <title>Yn & Yc calculation</title>
       <link rel="stylesheet" href="https://pyscript.net/releases/2025.11.1/core.css">
       <script type="module" src="https://pyscript.net/releases/2025.11.1/core.js"></script>
   </head>
   <body>
-    <h1>YnYc</h1>
-    <p>Input your a & b values...</p>
-    a: <input type="text" id="a" placeholder="Type a value..." /><br>
-    b: <input type="text" id="b" value="0.023" /><br><br>
+    <h1>Yn & Yc</h1>
+    <p>Geometries: Trapezoid, rectangle, triangle, ditch</p>
+    <div style="text-align: center; background-color: #f0f0f0; padding: 10px;">
+    Q (flow): <input type="text" id="Q" placeholder="1.5" /><br>
+    g (gravity): <input type="text" id="g" value="9.806" /><br><br>
+    b (channel base): <input type="text" id="b" value="0" /><br><br>
+    z1 (left side slope): <input type="text" id="z1" value="1" /><br><br>
+    z2 (right side slope): <input type="text" id="z2" value="1" /><br><br>
+    n (Manning roughness coefficient): <input type="text" id="n" value="1" /><br><br>
+    alpha (kinetic energy correction factor): <input type="text" id="alpha" value="1" /><br><br>
+    UnitSys (unit system): <input type="text" id="UnitSys" value="1" /><br><br>
+    iterat (iteration steps): <input type="text" id="iterat" value="1" /><br><br>
     <button py-click="run">Run</button>
     <div id="output"></div>
+    </div>
     <script type="py" src="./main.py" config="./pyscript.json"></script>
   </body>
 </html>
