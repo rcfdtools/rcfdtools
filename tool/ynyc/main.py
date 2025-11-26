@@ -66,8 +66,6 @@ for inc in iterat:
     y1 = y2 # xxxx check zero difference validation
     y2 = y2a
 
-
-
 def area_trapezoid(b, z1, z2, y):
     area = b * y + ((y ** 2) / 2) * (z1 + z2)
     return area
