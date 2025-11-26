@@ -57,14 +57,14 @@ def run(event):
     y1a = y1
     y2b = y2
 
-# Yc Calculations
-inc = 0
-for inc in iterat:
-    y2a = (y2 + y1) / 2
-    q1 = f_yc_calc(q, g, b, z1, z2, y2, alpha)
-    q2 = f_yc_calc(Q, g, b, z1, z2, Y2a, alpha)
-    y1 = y2 # xxxx check zero difference validation
-    y2 = y2a
+    # Yc Calculations
+    inc = 0
+    for inc in iterat:
+        y2a = (y2 + y1) / 2
+        q1 = f_yc_calc(q, g, b, z1, z2, y2, alpha)
+        q2 = f_yc_calc(Q, g, b, z1, z2, Y2a, alpha)
+        y1 = y2 # xxxx check zero difference validation
+        y2 = y2a
 
 def area_trapezoid(b, z1, z2, y):
     area = b * y + ((y ** 2) / 2) * (z1 + z2)
