@@ -59,7 +59,7 @@ def run(event):
 
 # Yc Calculations
 inc = 0
-for i in iterat:
+for inc in iterat:
     y2a = (y2 + y1) / 2
     q1 = f_yc_calc(q, g, b, z1, z2, y2, alpha)
     q2 = f_yc_calc(Q, g, b, z1, z2, Y2a, alpha)
