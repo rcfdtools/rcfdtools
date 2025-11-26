@@ -22,7 +22,10 @@ def run(event):
     n = float(input_n.value)
     alpha = float(input_alpha.value)
     iterat = float(input_iterat.value)
-    xxx = (Q + g + b + z1 + z2 + n + alpha + iterat)
+    area = area_trapezoid(b, z1, z2, Y)
     output_div = document.querySelector("#output")
-    output_div.innerText = xxx
+    output_div.innerText = area
 
+def area_trapezoid(b, z1, z2, Y):
+    area = b * Y + ((Y ^ 2) / 2) * (z1 + z2)
+    return area
