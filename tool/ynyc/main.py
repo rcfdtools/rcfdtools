@@ -27,8 +27,6 @@ def run(event):
     n = float(input_n.value)
     alpha = float(input_alpha.value)
     alpha = float(input_alpha.value)
-
-
     y2 = float(input_y2.value)
     results = '\nResults:\n'
     area = area_trapezoid(b, z1, z2, y2)
@@ -37,5 +35,5 @@ def run(event):
     output_div.innerText = results
 
 def area_trapezoid(b, z1, z2, y):
-    area = b * y + ((y ^ 2) / 2) * (z1 + z2)
+    area = b * y + ((y ** 2) / 2) * (z1 + z2)
     return area
