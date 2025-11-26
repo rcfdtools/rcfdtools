@@ -26,7 +26,8 @@ def run(event):
     sf = float(input_sf.value)
     n = float(input_n.value)
     alpha = float(input_alpha.value)
-    iterat = float(input_iterat.value)
+    alpha = float(input_alpha.value)
+    y2 = float(input_y2.value)
     results = '\nResults:\n'
     area = area_trapezoid(b, z1, z2, y2)
     results += f'Area: {area}\n'
