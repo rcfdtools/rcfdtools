@@ -13,6 +13,7 @@ def run(event):
     input_sf = document.querySelector("#z2")
     input_n = document.querySelector("#n")
     input_alpha = document.querySelector("#alpha")
+    input_y2 = document.querySelector("#y2")
     input_iterat = document.querySelector("#iterat")
 
     # read fields values
@@ -27,11 +28,11 @@ def run(event):
     alpha = float(input_alpha.value)
     iterat = float(input_iterat.value)
     results = '\nResults:\n'
-    area = area_trapezoid(b, z1, z2, Y)
+    area = area_trapezoid(b, z1, z2, y2)
     results += f'Area: {area}\n'
     output_div = document.querySelector("#output")
     output_div.innerText = results
 
-def area_trapezoid(b, z1, z2, Y):
-    area = b * Y + ((Y ^ 2) / 2) * (z1 + z2)
+def area_trapezoid(b, z1, z2, y):
+    area = b * y + ((y ^ 2) / 2) * (z1 + z2)
     return area
