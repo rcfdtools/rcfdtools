@@ -2,17 +2,23 @@
 
 # Main vars
 UnitSys = 'SI' # SI - International, US - Imperial/US
-q = 30.5
+q = 522.1
 g = 9.806
-b = 1
-z1 = 2
-z2 = 5
-sf = 0.8969
+b = 200
+z1 = 3
+z2 = 3
+so = 0.0008969
 n = 0.018
 alpha = 1
 y1 = 0.001
-y2 = 100
+y2 = 10
+ro = 1000 # kg/m³
 steps = 32
+
+# Shear stress
+def f_shear_stress (ro, g, r, so): # r = hydraulic ratio
+    shear_stress = ro * g * r * so
+    return shear_stress
 
 # Geometric shape type
 def f_shape_type(b, z1, z2):
@@ -37,8 +43,8 @@ def f_yc_calc(q, g, b, z1, z2, y, alpha):
     return yc_calc
 
 # Normal depth
-def f_yn_calc(q, b, z1, z2, y, sf, n, c):
-    yn_calc = q - ((c / n) * (f_area(b, z1, z2, y)) * (f_hydraulic_ratio(b, z1, z2, y)) ** (2 / 3) * sf ** 0.5)
+def f_yn_calc(q, b, z1, z2, y, so, n, c):
+    yn_calc = q - ((c / n) * (f_area(b, z1, z2, y)) * (f_hydraulic_ratio(b, z1, z2, y)) ** (2 / 3) * so ** 0.5)
     return yn_calc
 
 # Hydraulic ratio
@@ -100,9 +106,11 @@ def txt_separator(num):
 if UnitSys.upper() == 'SI':
     c = 1
     c_unit_text = "m"
+    c_unit_text_shear_stress = 'Pa' # N/m²
 else:
     c = 1.486
     c_unit_text = "ft"
+    c_unit_text_shear_stress = 'lbf/ft²' # psf
 # alpha validation
 if alpha == 0: alpha = 1
 # eval y2 > y1
@@ -127,8 +135,8 @@ for i in range(steps):
 # Yn Calculation
 for i in range(steps):
     y2c = (y2b + y1a) / 2
-    q1 = f_yn_calc(q, b, z1, z2, y2b, sf, n, c)
-    q2 = f_yn_calc(q, b, z1, z2, y2c, sf, n, c)
+    q1 = f_yn_calc(q, b, z1, z2, y2b, so, n, c)
+    q2 = f_yn_calc(q, b, z1, z2, y2c, so, n, c)
     if (sgn(q2) + sgn(q1)) == 0:
         y1a = y2b
     y2b = y2c
@@ -162,7 +170,10 @@ results += f'    Vc({c_unit_text}/s): {q / f_area(b, z1, z2, y2)}\n'
 results += f'\nFroude Number\n    F = V / (g * D) ^ 0.5\n'
 results += f'    Fn({c_unit_text}): {f_froude_number(q / f_area(b, z1, z2, y2b), g, f_hydraulic_depth(b, z1, z2, y2b))}\n'
 results += f'    Fc({c_unit_text}): {f_froude_number(q / f_area(b, z1, z2, y2), g, f_hydraulic_depth(b, z1, z2, y2))}\n'
+results += f'\nShear stress\n    τօ = ro * g * r * so\n'
+results += f'    τn({c_unit_text_shear_stress}): {f_shear_stress(ro, g, f_hydraulic_ratio(b, z1, z2, y2b), so)}\n'
+results += f'    τc({c_unit_text_shear_stress}): {f_shear_stress(ro, g, f_hydraulic_ratio(b, z1, z2, y2), so)}\n'
 results += f'\nProfile type & Critical slope\n    Sc = g * n ^ 2 * (Pc / Tc) / (c ^ 2 * Rc ^ (1 / 3))\n'
-results += f'    Slope type: {f_profile_type(sf, y2b, y2)}\n'
+results += f'    Slope type: {f_profile_type(so, y2b, y2)}\n'
 results += f'    Sc({c_unit_text}/{c_unit_text}): {f_critic_slope(g, n, f_wet_perimeter(b, z1, z2, y2), f_top_width(b, z1, z2, y2), c, f_hydraulic_ratio(b, z1, z2, y2))}\n'
 print(results)
