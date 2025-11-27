@@ -1,5 +1,30 @@
-# Solving with Bisection Method
+# Yn Yc: solved with Bisection Method
 
+# Main vars
+UnitSys = 'SI' # SI - International, US - Imperial/US
+q = 30.5
+g = 9.806
+b = 1
+z1 = 2
+z2 = 5
+sf = 0.8969
+n = 0.018
+alpha = 1
+y1 = 0.001
+y2 = 100
+steps = 32
+
+# Geometric shape type
+def f_shape_type(b, z1, z2):
+    if z1 == 0 and z2 == 0:
+        shape_type = "RECTANGULAR"
+    elif b == 0 and z1 > 0 and z2 > 0 and z1 == z2:
+        shape_type = "TRIANGULAR"
+    elif b > 0 and z1 > 0 and z2 > 0:
+        shape_type = "TRAPEZOIDAL"
+    else:
+        shape_type = "DITCH"
+    return shape_type
 
 # Area
 def f_area(b, z1, z2, y):
@@ -41,6 +66,22 @@ def f_froude_number(v, g, d):
     froude_number = v / (g * d) ** 0.5
     return froude_number
 
+# Profile type
+def f_profile_type(s, yn, yc):
+    if s == 0:
+        fProfileType = 'H, Horizontal'
+    else:
+        if yn > yc: fProfileType = 'M, Mild' # Moderado
+        if yn < yc: fProfileType = 'S, Steeped' # Escarpado
+        if yn == yc: fProfileType = 'C, Critical' # Critico
+        if s < 0: fProfileType = 'A, Adverse' #Adverso
+    return fProfileType
+
+# Critical slope
+def f_critic_slope(g, n, pc, tc, c, rc):
+    critic_slope = g * n ** 2 * (pc / tc) / (c ** 2 * rc ** (1 / 3))
+    return critic_slope
+
 # Sign of a number
 def sgn(num):
   if num > 0:
@@ -54,23 +95,9 @@ def sgn(num):
 def txt_separator(num):
   return '-' * num
 
-# Main vars
-UnitSys = 'SI' # SI - International, US - Imperial/US
-q = 1.5
-g = 9.806
-b = 1
-z1 = 1
-z2 = 1
-sf = 0.0008969
-n = 0.018
-alpha = 1
-y1 = 0.001
-y2 = 10
-steps = 32
-
 # Pre validations
 # Units system eval
-if UnitSys == 'SI':
+if UnitSys.upper() == 'SI':
     c = 1
     c_unit_text = "m"
 else:
@@ -106,8 +133,11 @@ for i in range(steps):
         y1a = y2b
     y2b = y2c
 
+# Shape
+shape = f_shape_type(b, z1, z2)
+
 # Print results
-results = f'\n{txt_separator(43)}\nResults for Normal (n) an Critical (c) Flow\n{txt_separator(43)}\n'
+results = f'\n{txt_separator(60)}\n{shape} >>> Results for Normal (n) an Critical (c) flow\n{txt_separator(60)}\n'
 results += f'\nDepth (Y)\n'
 results += f'    Yn({c_unit_text}): {y2b}\n'
 results += f'    Yc({c_unit_text}): {y2}\n'
@@ -120,16 +150,19 @@ results += f'    Pc({c_unit_text}): {f_wet_perimeter(b, z1, z2, y2)}\n'
 results += f'\nTop width (T)\n'
 results += f'    Tn({c_unit_text}): {f_top_width(b, z1, z2, y2b)}\n'
 results += f'    Tc({c_unit_text}): {f_top_width(b, z1, z2, y2)}\n'
-results += f'\nHydraulic ratio (R = A / P)\n'
+results += f'\nHydraulic ratio\n    R = A / P\n'
 results += f'    Rn({c_unit_text}): {f_hydraulic_ratio(b, z1, z2, y2b)}\n'
 results += f'    Rc({c_unit_text}): {f_hydraulic_ratio(b, z1, z2, y2)}\n'
-results += f'\nHydraulic depth (D = A / T)\n'
+results += f'\nHydraulic depth\n    D = A / T\n'
 results += f'    Dn({c_unit_text}): {f_hydraulic_depth(b, z1, z2, y2b)}\n'
 results += f'    Dc({c_unit_text}): {f_hydraulic_depth(b, z1, z2, y2)}\n'
-results += f'\nVelocity (V = Q / A)\n'
+results += f'\nVelocity\n    V = Q / A\n'
 results += f'    Vn({c_unit_text}/s): {q / f_area(b, z1, z2, y2b)}\n'
 results += f'    Vc({c_unit_text}/s): {q / f_area(b, z1, z2, y2)}\n'
-results += f'\nFroude Number (F = V / (g * D) ^ 0.5)\n'
+results += f'\nFroude Number\n    F = V / (g * D) ^ 0.5\n'
 results += f'    Fn({c_unit_text}): {f_froude_number(q / f_area(b, z1, z2, y2b), g, f_hydraulic_depth(b, z1, z2, y2b))}\n'
 results += f'    Fc({c_unit_text}): {f_froude_number(q / f_area(b, z1, z2, y2), g, f_hydraulic_depth(b, z1, z2, y2))}\n'
+results += f'\nProfile type & Critical slope\n    Sc = g * n ^ 2 * (Pc / Tc) / (c ^ 2 * Rc ^ (1 / 3))\n'
+results += f'    Slope type: {f_profile_type(sf, y2b, y2)}\n'
+results += f'    Sc({c_unit_text}/{c_unit_text}): {f_critic_slope(g, n, f_wet_perimeter(b, z1, z2, y2), f_top_width(b, z1, z2, y2), c, f_hydraulic_ratio(b, z1, z2, y2))}\n'
 print(results)
