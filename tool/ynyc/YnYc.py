@@ -4,21 +4,16 @@
 UnitSys = 'SI' # SI - International, US - Imperial/US
 q = 522.1
 g = 9.806
-b = 200
-z1 = 3
-z2 = 3
+b = 130
+z1 = 2
+z2 = 2
 so = 0.0008969
-n = 0.018
+n = 0.035
 alpha = 1
 y1 = 0.001
 y2 = 10
-ro = 1000 # kg/m³
+rho = 1000 # ρ: density, kg/m³
 steps = 32
-
-# Shear stress
-def f_shear_stress (ro, g, r, so): # r = hydraulic ratio
-    shear_stress = ro * g * r * so
-    return shear_stress
 
 # Geometric shape type
 def f_shape_type(b, z1, z2):
@@ -88,6 +83,16 @@ def f_critic_slope(g, n, pc, tc, c, rc):
     critic_slope = g * n ** 2 * (pc / tc) / (c ** 2 * rc ** (1 / 3))
     return critic_slope
 
+# Shear stress
+def f_shear_stress (rho, g, rh, so): # rh = hydraulic ratio
+    shear_stress = rho * g * rh * so
+    return shear_stress
+
+# Centroidal depth
+def f_y_centroid(b, z1, z2, y):
+    y_centroid = y ** 2 * ((3 * b / y) + z1 + z2) / (6 * b + 3 * y * (z1 + z2))
+    return y_centroid
+
 # Sign of a number
 def sgn(num):
   if num > 0:
@@ -107,10 +112,12 @@ if UnitSys.upper() == 'SI':
     c = 1
     c_unit_text = "m"
     c_unit_text_shear_stress = 'Pa' # N/m²
+    c_unit_text_shear_hydraulic_force = 'N' # Newton
 else:
     c = 1.486
     c_unit_text = "ft"
     c_unit_text_shear_stress = 'lbf/ft²' # psf
+    c_unit_text_shear_hydraulic_force = 'lb'  # Newton
 # alpha validation
 if alpha == 0: alpha = 1
 # eval y2 > y1
@@ -147,33 +154,44 @@ shape = f_shape_type(b, z1, z2)
 # Print results
 results = f'\n{txt_separator(60)}\n{shape} >>> Results for Normal (n) an Critical (c) flow\n{txt_separator(60)}\n'
 results += f'\nDepth (Y)\n'
-results += f'    Yn({c_unit_text}): {y2b}\n'
-results += f'    Yc({c_unit_text}): {y2}\n'
-results += f'\nFlow area (A)\n'
-results += f'    An({c_unit_text}²): {f_area(b, z1, z2, y2b)}\n'
-results += f'    Ac({c_unit_text}²): {f_area(b, z1, z2, y2)}\n'
+results += f'    Yn ({c_unit_text}): {y2b}\n'
+results += f'    Yc ({c_unit_text}): {y2}\n'
+results += f'\nArea (A)\n'
+results += f'    An ({c_unit_text}²): {f_area(b, z1, z2, y2b)}\n'
+results += f'    Ac ({c_unit_text}²): {f_area(b, z1, z2, y2)}\n'
 results += f'\nWet perimeter (P)\n'
-results += f'    Pn({c_unit_text}): {f_wet_perimeter(b, z1, z2, y2b)}\n'
-results += f'    Pc({c_unit_text}): {f_wet_perimeter(b, z1, z2, y2)}\n'
+results += f'    Pn ({c_unit_text}): {f_wet_perimeter(b, z1, z2, y2b)}\n'
+results += f'    Pc ({c_unit_text}): {f_wet_perimeter(b, z1, z2, y2)}\n'
 results += f'\nTop width (T)\n'
-results += f'    Tn({c_unit_text}): {f_top_width(b, z1, z2, y2b)}\n'
-results += f'    Tc({c_unit_text}): {f_top_width(b, z1, z2, y2)}\n'
+results += f'    Tn ({c_unit_text}): {f_top_width(b, z1, z2, y2b)}\n'
+results += f'    Tc ({c_unit_text}): {f_top_width(b, z1, z2, y2)}\n'
 results += f'\nHydraulic ratio\n    R = A / P\n'
-results += f'    Rn({c_unit_text}): {f_hydraulic_ratio(b, z1, z2, y2b)}\n'
-results += f'    Rc({c_unit_text}): {f_hydraulic_ratio(b, z1, z2, y2)}\n'
+results += f'    Rn ({c_unit_text}): {f_hydraulic_ratio(b, z1, z2, y2b)}\n'
+results += f'    Rc ({c_unit_text}): {f_hydraulic_ratio(b, z1, z2, y2)}\n'
 results += f'\nHydraulic depth\n    D = A / T\n'
-results += f'    Dn({c_unit_text}): {f_hydraulic_depth(b, z1, z2, y2b)}\n'
-results += f'    Dc({c_unit_text}): {f_hydraulic_depth(b, z1, z2, y2)}\n'
+results += f'    Dn ({c_unit_text}): {f_hydraulic_depth(b, z1, z2, y2b)}\n'
+results += f'    Dc ({c_unit_text}): {f_hydraulic_depth(b, z1, z2, y2)}\n'
 results += f'\nVelocity\n    V = Q / A\n'
-results += f'    Vn({c_unit_text}/s): {q / f_area(b, z1, z2, y2b)}\n'
-results += f'    Vc({c_unit_text}/s): {q / f_area(b, z1, z2, y2)}\n'
+results += f'    Vn ({c_unit_text}/s): {q / f_area(b, z1, z2, y2b)}\n'
+results += f'    Vc ({c_unit_text}/s): {q / f_area(b, z1, z2, y2)}\n'
 results += f'\nFroude Number\n    F = V / (g * D) ^ 0.5\n'
-results += f'    Fn({c_unit_text}): {f_froude_number(q / f_area(b, z1, z2, y2b), g, f_hydraulic_depth(b, z1, z2, y2b))}\n'
-results += f'    Fc({c_unit_text}): {f_froude_number(q / f_area(b, z1, z2, y2), g, f_hydraulic_depth(b, z1, z2, y2))}\n'
-results += f'\nShear stress\n    τօ = ro * g * r * so\n'
-results += f'    τn({c_unit_text_shear_stress}): {f_shear_stress(ro, g, f_hydraulic_ratio(b, z1, z2, y2b), so)}\n'
-results += f'    τc({c_unit_text_shear_stress}): {f_shear_stress(ro, g, f_hydraulic_ratio(b, z1, z2, y2), so)}\n'
+results += f'    Fn ({c_unit_text}): {f_froude_number(q / f_area(b, z1, z2, y2b), g, f_hydraulic_depth(b, z1, z2, y2b))}\n'
+results += f'    Fc ({c_unit_text}): {f_froude_number(q / f_area(b, z1, z2, y2), g, f_hydraulic_depth(b, z1, z2, y2))}\n'
+results += f'\nShear stress\n    τօ = ρ * g * rh * so\n'
+results += f'    τn ({c_unit_text_shear_stress}): {f_shear_stress(rho, g, f_hydraulic_ratio(b, z1, z2, y2b), so)}\n'
+results += f'    τc ({c_unit_text_shear_stress}): {f_shear_stress(rho, g, f_hydraulic_ratio(b, z1, z2, y2), so)}\n'
+results += f'\nShape centroid & Hydraulic force\n    Fh = (Ycentroid * ρ * g) * A\n'
+results += f'    Yn centroid ({c_unit_text}): {f_y_centroid(b, z1, z2, y2b)}\n'
+results += f'    Yc centroid ({c_unit_text}): {f_y_centroid(b, z1, z2, y2)}\n'
+results += f'    Fhn ({c_unit_text_shear_hydraulic_force}): {f_y_centroid(b, z1, z2, y2b) * g * rho * f_area(b, z1, z2, y2b)}\n'
+results += f'    Fhc ({c_unit_text_shear_hydraulic_force}): {f_y_centroid(b, z1, z2, y2) * g * rho * f_area(b, z1, z2, y2)}\n'
 results += f'\nProfile type & Critical slope\n    Sc = g * n ^ 2 * (Pc / Tc) / (c ^ 2 * Rc ^ (1 / 3))\n'
 results += f'    Slope type: {f_profile_type(so, y2b, y2)}\n'
-results += f'    Sc({c_unit_text}/{c_unit_text}): {f_critic_slope(g, n, f_wet_perimeter(b, z1, z2, y2), f_top_width(b, z1, z2, y2), c, f_hydraulic_ratio(b, z1, z2, y2))}\n'
+results += f'    Sc ({c_unit_text}/{c_unit_text}): {f_critic_slope(g, n, f_wet_perimeter(b, z1, z2, y2), f_top_width(b, z1, z2, y2), c, f_hydraulic_ratio(b, z1, z2, y2))}\n'
 print(results)
+
+
+# Developers
+# r.cfdtools@gmail.com
+# frank.velasco@escuelaing.edu.co
+# juan.rodriguez@escuelaing.edu.co
