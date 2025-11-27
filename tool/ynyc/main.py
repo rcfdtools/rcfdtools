@@ -30,7 +30,7 @@ def run(event):
     alpha = float(input_alpha.value)
     y1 = float(input_y1.value)
     y2 = float(input_y2.value)
-    steps = float(input_steps.value)
+    steps = int(input_steps.value)
     results = '\nResults:\n'
     area = area_trapezoid(b, z1, z2, y2)
     results += f'Area: {area}\n'
