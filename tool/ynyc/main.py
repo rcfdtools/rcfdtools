@@ -27,7 +27,6 @@ def run(event):
     sf = float(input_sf.value)
     n = float(input_n.value)
     alpha = float(input_alpha.value)
-    alpha = float(input_alpha.value)
     y1 = float(input_y1.value)
     y2 = float(input_y2.value)
     steps = int(input_steps.value)
@@ -58,7 +57,7 @@ def run(event):
     y2b = y2
 
     # Yc Calculations
-    for i in steps:
+    for i in range(steps):
         y2a = (y2 + y1) / 2
         q1 = f_yc_calc(q, g, b, z1, z2, y2, alpha)
         q2 = f_yc_calc(Q, g, b, z1, z2, Y2a, alpha)
