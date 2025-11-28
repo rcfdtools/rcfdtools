@@ -8,7 +8,7 @@ b = 5 # Channel base
 z1 = 2 # Left side slope
 z2 = 2 # Right side slope
 so = 0.0008969 # Channel slope
-n = 0.035 # Roughness
+n = 0.035 # Channel roughness
 alpha = 1 # Kinetic correction factor
 rho = 1000 # ρ: fluid density, kg/m³, lb/ft³
 y1 = 0.001 # Numerical method, low elevation seed
@@ -17,7 +17,18 @@ steps = 32 # Numerical method, steps
 
 # Dictionary definitions
 dictionary = {
-    'Q': 'Flow (Q)',
+    'Q': '(Q)  Flow',
+    'g': '(g)  Gravity acceleration',
+    'b': '(b)  Channel base',
+    'z1': '(z1) Left side slope',
+    'z2': '(z2) Right side slope',
+    'So': '(So) Channel slope',
+    'n': '(n) Channel roughness',
+    'alpha': '(α) Kinetic correction factor, aplha',
+    'rho': '(ρ) Kinetic correction factor, rho',
+    'y1': '(Y1) Numerical method, low elevation seed',
+    'y2': '(Y2) Numerical method, high elevation seed',
+    'steps': '(Steps) Numerical method, step times',
 
     'D': 'Hydraulic depth (D) is the ratio of the cross-sectional area of flow A to the top width T of the water surface, expressed as D=A/T. It is a key parameter in open channel hydraulics, particularly useful for calculating things like the Froude number and energy relationships, while hydraulic radius is used for frictional losses. In a rectangular channel, the hydraulic depth is simply equal to the vertical depth of the flow.',
 
@@ -224,8 +235,6 @@ results += f'\n● Profile type & Critical slope (Sc)\n\n{dictionary['Sc']}\n\n 
 results += f'    Sc ({c_unit_text}/{c_unit_text}): {f_critic_slope(g, n, f_wet_perimeter(b, z1, z2, y2), f_top_width(b, z1, z2, y2), c, f_hydraulic_ratio(b, z1, z2, y2))}\n'
 results += f'    Slope type: {f_profile_type(so, y2b, y2)}\n'
 print(results)
-
-
 
 
 # Developers
