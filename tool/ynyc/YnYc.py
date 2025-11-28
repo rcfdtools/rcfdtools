@@ -22,6 +22,7 @@ app_version = 'v20251128' # Version control
 # Dictionary definitions
 dictionary = {
     'UnitSys': 'Units system',
+    'c': 'c, units conversion factor',
     'Q': 'Q, flow',
     'g': 'g, gravity acceleration',
     'b': 'b, channel base',
@@ -223,7 +224,8 @@ results += f'{dictionary['z2']}: {z2} {c_unit_length}\n'
 results += f'{dictionary['So']}: {so} {c_unit_length}/{c_unit_length}\n'
 results += f'{dictionary['n']}: {n}\n'
 results += f'{dictionary['alpha']}: {alpha}\n'
-results += f'{dictionary['rho']}: {rho} {c_unit_rho}\n\n'
+results += f'{dictionary['rho']}: {rho} {c_unit_rho}\n'
+results += f'{dictionary['c']}: {c}\n\n'
 results += f'Numerical method parameters\n\n'
 results += f'{dictionary['y1']}: {y1aux} {c_unit_length}\n'
 results += f'{dictionary['y2']}: {y2aux} {c_unit_length}\n'
