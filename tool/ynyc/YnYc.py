@@ -211,19 +211,19 @@ shape = f_shape_type(b, z1, z2)
 results = f'App version: {app_version}\n'
 results += f'\n{txt_separator(70)}\n{shape} SHAPE >>> Input values ({dictionary['UnitSys']}: {UnitSys})\n{txt_separator(70)}\n\n'
 results += f'General parameters\n\n'
-results += f'    {dictionary['Q']}: {q} {c_unit_q}\n'
-results += f'    {dictionary['g']}: {g} {c_unit_g}\n'
-results += f'    {dictionary['b']}: {b} {c_unit_length}\n'
-results += f'    {dictionary['z1']}: {z1} {c_unit_length}\n'
-results += f'    {dictionary['z2']}: {z2} {c_unit_length}\n'
-results += f'    {dictionary['So']}: {so} {c_unit_length}/{c_unit_length}\n'
-results += f'    {dictionary['n']}: {n}\n'
-results += f'    {dictionary['alpha']}: {alpha}\n'
-results += f'    {dictionary['rho']}: {rho} {c_unit_rho}\n\n'
+results += f'{dictionary['Q']}: {q} {c_unit_q}\n'
+results += f'{dictionary['g']}: {g} {c_unit_g}\n'
+results += f'{dictionary['b']}: {b} {c_unit_length}\n'
+results += f'{dictionary['z1']}: {z1} {c_unit_length}\n'
+results += f'{dictionary['z2']}: {z2} {c_unit_length}\n'
+results += f'{dictionary['So']}: {so} {c_unit_length}/{c_unit_length}\n'
+results += f'{dictionary['n']}: {n}\n'
+results += f'{dictionary['alpha']}: {alpha}\n'
+results += f'{dictionary['rho']}: {rho} {c_unit_rho}\n\n'
 results += f'Numerical method parameters\n\n'
-results += f'    {dictionary['y1']}: {y1aux} {c_unit_length}\n'
-results += f'    {dictionary['y2']}: {y2aux} {c_unit_length}\n'
-results += f'    {dictionary['steps']}: {steps}\n'
+results += f'{dictionary['y1']}: {y1aux} {c_unit_length}\n'
+results += f'{dictionary['y2']}: {y2aux} {c_unit_length}\n'
+results += f'{dictionary['steps']}: {steps}\n'
 
 # Print results
 results += f'\n{txt_separator(70)}\nResults for Normal (n) an Critical (c) flow\n{txt_separator(70)}\n'
@@ -264,7 +264,6 @@ results += f'\n● {dictionary['Sc']}\n\nSc = g * n ^ 2 * (Pc / Tc) / (c ^ 2 * R
 results += f'Sc: {f_critic_slope(g, n, f_wet_perimeter(b, z1, z2, y2), f_top_width(b, z1, z2, y2), c, f_hydraulic_ratio(b, z1, z2, y2))} {c_unit_length}/{c_unit_length}\n'
 results += f'Slope type: {f_profile_type(so, y2b, y2)}\n'
 print(results)
-
 
 # Developers
 # github.com/rcfdtools
