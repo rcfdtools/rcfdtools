@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width,initial-scale=1" />
+      <title>r.cfdtools | Yn & Yc</title>
+      <link rel="stylesheet" href="https://pyscript.net/releases/2025.11.1/core.css">
+      <script type="module" src="https://pyscript.net/releases/2025.11.1/core.js"></script>
+  </head>
+  <body>
+    <div style="text-align: center; background-color: #f0f0f0; padding: 10px;">
+        <h1>r.cfdtools | Yn & Yc</h1>
+        <p>Geometries: Trapezoid, rectangle, triangle, ditch</p>
+        Unit system (SI or US): <input type="text" id="UnitSys" value="SI" /><br><br>
+        Q (flow): <input type="number" id="q" value="1.5" /><br><br>
+        g (gravity): <input type="number" id="g" value="9.806" /><br><br>
+        b (channel base): <input type="number" id="b" value="1" /><br><br>
+        z1 (left side slope): <input type="number" id="z1" value="1" /><br><br>
+        z2 (right side slope): <input type="number" id="z2" value="1" /><br><br>
+        sf (friction slope): <input type="number" id="sf" value="0.0008969" /><br><br>
+        n (<a href="https://www.hec.usace.army.mil/confluence/rasdocs/ras1dtechref/6.6/basic-data-requirements/geometric-data/energy-loss-coefficients">Energy Loss Coefficient</a>): <input type="number" id="n" value="0.018" /><br><br>
+        alpha (kinetic energy correction factor): <input type="number" id="alpha" value="1" /><br><br>
+        Y1 (min high channel deep to eval, Y2 > Y1): <input type="number" id="y1" value="0.001" /><br><br>
+        Y2 (max high channel deep to eval, Y2 > Y1): <input type="number" id="y2" value="10" /><br><br>
+        Steps (iteration steps): <input type="number" id="steps" value="32" /><br><br>
+        <button py-click="run">Run 2</button>
+    </div>
+    <div id="output"></div>
+    <script type="py" src="./main.py" config="./pyscript.json"></script>
+  </body>
+</html>
