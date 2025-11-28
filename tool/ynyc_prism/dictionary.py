@@ -1,5 +1,5 @@
 # Dictionary definitions
-dictionary = {
+dict = {
     'unit_sys': 'Units system',
 
     'c': 'c, units conversion factor',
