@@ -198,7 +198,7 @@ for i in range(steps):
 shape = f_shape_type(b, z1, z2)
 
 # Print results
-results = f'\n{txt_separator(60)}\n{shape} >>> Results for Normal (n) an Critical (c) flow\n{txt_separator(60)}\n'
+results = f'\n{txt_separator(80)}\n{shape} >>> Results for Normal (n) an Critical (c) flow\n{txt_separator(80)}\n'
 results += f'\n● Normal and critical depth (Y)\n\n{dictionary['Yn']}\n\n{dictionary['Yc']}\n\n'
 results += f'    Yn ({c_unit_text}): {y2b}\n'
 results += f'    Yc ({c_unit_text}): {y2}\n'
