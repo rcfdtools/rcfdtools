@@ -54,7 +54,7 @@ dictionary = {
 
     'A': 'Geometric area (A)\n\nIn a channel is the cross-sectional area of the flow, which represents the space occupied by the fluid as it moves through the channel. It is a crucial parameter for understanding how much water can pass through a channel at any given time.',
 
-    'τօ': 'Shear stress (τօ)\n\nIn channels is the force exerted by a fluid flowing over a surface, acting parallel to that surface and causing a drag or friction force. It is calculated as the force per unit area and is a measure of the fluids resistance to flow, which can erode the channel bed or be a factor in sediment transport. The stress is also present between layers of the fluid itself and is influenced by factors like fluid viscosity, flow depth, channel slope, and turbulence.',
+    'τօ': 'Shear stress (τօ), tau\n\nIn channels is the force exerted by a fluid flowing over a surface, acting parallel to that surface and causing a drag or friction force. It is calculated as the force per unit area and is a measure of the fluids resistance to flow, which can erode the channel bed or be a factor in sediment transport. The stress is also present between layers of the fluid itself and is influenced by factors like fluid viscosity, flow depth, channel slope, and turbulence.',
 
     'F': 'Hydraulic force (F)\n\nIn open channels, hydraulic force is the force exerted by the flowing water, which is driven primarily by gravity and influenced by pressure and shear stress. This force is essential for understanding and designing channels, as it can be used to measure discharge, control water levels, and dissipate energy through structures like hydraulic jumps.',
 
@@ -162,20 +162,20 @@ def txt_separator(num):
 # Units system eval
 if UnitSys.upper() == 'SI':
     c = 1
-    c_unit_q = "m³/s"
-    c_unit_length = 'm'
-    c_unit_rho = 'kg/m³'
-    c_unit_g = 'm/s²'
-    c_unit_shear_stress = 'Pa' # N/m²
-    c_unit_hydraulic_force = 'N' # Newton
+    unit_q = "m³/s"
+    unit_length = 'm'
+    unit_rho = 'kg/m³'
+    unit_g = 'm/s²'
+    unit_tau = 'Pa, N/m²' # Shear stress
+    unit_f = 'N' # Hydraulic force, Newton
 else:
     c = 1.486
-    c_unit_q = "ft³/s"
-    c_unit_length = "ft"
-    c_unit_rho = 'lb/ft³'
-    c_unit_g = 'ft/s²'
-    c_unit_shear_stress = 'lbf/ft²' # psf
-    c_unit_hydraulic_force = 'lb'  # Newton
+    unit_q = "ft³/s"
+    unit_length = "ft"
+    unit_rho = 'lb/ft³'
+    unit_g = 'ft/s²'
+    unit_tau = 'lbf/ft²' # # Shear stress, psf
+    unit_f = 'lb'  # Hydraulic force, lb
 # alpha validation
 if alpha == 0: alpha = 1
 # eval y2 > y1
@@ -216,58 +216,58 @@ results = f'App version: {app_version}\n'
 results += f'Run date: {datetime.now()}\n'
 results += f'\n{txt_separator(70)}\n{shape} SHAPE >>> Input values ({dictionary['UnitSys']}: {UnitSys})\n{txt_separator(70)}\n\n'
 results += f'General parameters\n\n'
-results += f'{dictionary['Q']}: {q} {c_unit_q}\n'
-results += f'{dictionary['g']}: {g} {c_unit_g}\n'
-results += f'{dictionary['b']}: {b} {c_unit_length}\n'
-results += f'{dictionary['z1']}: {z1} {c_unit_length}\n'
-results += f'{dictionary['z2']}: {z2} {c_unit_length}\n'
-results += f'{dictionary['So']}: {so} {c_unit_length}/{c_unit_length}\n'
+results += f'{dictionary['Q']}: {q} {unit_q}\n'
+results += f'{dictionary['g']}: {g} {unit_g}\n'
+results += f'{dictionary['b']}: {b} {unit_length}\n'
+results += f'{dictionary['z1']}: {z1} {unit_length}\n'
+results += f'{dictionary['z2']}: {z2} {unit_length}\n'
+results += f'{dictionary['So']}: {so} {unit_length}/{unit_length}\n'
 results += f'{dictionary['n']}: {n}\n'
 results += f'{dictionary['alpha']}: {alpha}\n'
-results += f'{dictionary['rho']}: {rho} {c_unit_rho}\n'
+results += f'{dictionary['rho']}: {rho} {unit_rho}\n'
 results += f'{dictionary['c']}: {c}\n\n'
 results += f'Numerical method parameters\n\n'
-results += f'{dictionary['y1']}: {y1aux} {c_unit_length}\n'
-results += f'{dictionary['y2']}: {y2aux} {c_unit_length}\n'
+results += f'{dictionary['y1']}: {y1aux} {unit_length}\n'
+results += f'{dictionary['y2']}: {y2aux} {unit_length}\n'
 results += f'{dictionary['steps']}: {steps}\n'
 
 # Print results
 results += f'\n{txt_separator(70)}\nResults for Normal (n) an Critical (c) flow\n{txt_separator(70)}\n'
 results += f'\n● {dictionary['Yn']}\n\n'
-results += f'Yn: {y2b} {c_unit_length}\n'
+results += f'Yn: {y2b} {unit_length}\n'
 results += f'\n● {dictionary['Yc']}\n\n'
-results += f'Yc: {y2} {c_unit_length}\n'
+results += f'Yc: {y2} {unit_length}\n'
 results += f'\n● {dictionary['A']}\n\n'
-results += f'An: {f_area(b, z1, z2, y2b)} {c_unit_length}²\n'
-results += f'Ac: {f_area(b, z1, z2, y2)} {c_unit_length}²\n'
+results += f'An: {f_area(b, z1, z2, y2b)} {unit_length}²\n'
+results += f'Ac: {f_area(b, z1, z2, y2)} {unit_length}²\n'
 results += f'\n● {dictionary['P']}\n\n'
-results += f'Pn: {f_wet_perimeter(b, z1, z2, y2b)} {c_unit_length}\n'
-results += f'Pc: {f_wet_perimeter(b, z1, z2, y2)} {c_unit_length}\n'
+results += f'Pn: {f_wet_perimeter(b, z1, z2, y2b)} {unit_length}\n'
+results += f'Pc: {f_wet_perimeter(b, z1, z2, y2)} {unit_length}\n'
 results += f'\n● {dictionary['T']}\n\n'
-results += f'Tn: {f_top_width(b, z1, z2, y2b)} {c_unit_length}\n'
-results += f'Tc: {f_top_width(b, z1, z2, y2)} {c_unit_length}\n'
+results += f'Tn: {f_top_width(b, z1, z2, y2b)} {unit_length}\n'
+results += f'Tc: {f_top_width(b, z1, z2, y2)} {unit_length}\n'
 results += f'\n● {dictionary['R']}\n\nR = A / P\n'
-results += f'Rn: {f_hydraulic_ratio(b, z1, z2, y2b)} {c_unit_length}\n'
-results += f'Rc: {f_hydraulic_ratio(b, z1, z2, y2)} {c_unit_length}\n'
+results += f'Rn: {f_hydraulic_ratio(b, z1, z2, y2b)} {unit_length}\n'
+results += f'Rc: {f_hydraulic_ratio(b, z1, z2, y2)} {unit_length}\n'
 results += f'\n● {dictionary['D']}\n\nD = A / T\n'
-results += f'Dn: {f_hydraulic_depth(b, z1, z2, y2b)} {c_unit_length}\n'
-results += f'Dc: {f_hydraulic_depth(b, z1, z2, y2)} {c_unit_length}\n'
+results += f'Dn: {f_hydraulic_depth(b, z1, z2, y2b)} {unit_length}\n'
+results += f'Dc: {f_hydraulic_depth(b, z1, z2, y2)} {unit_length}\n'
 results += f'\n● {dictionary['V']}\n\nV = Q / A\n'
-results += f'Vn: {q / f_area(b, z1, z2, y2b)} {c_unit_length}/s\n'
-results += f'Vc: {q / f_area(b, z1, z2, y2)} {c_unit_length}/s\n'
+results += f'Vn: {q / f_area(b, z1, z2, y2b)} {unit_length}/s\n'
+results += f'Vc: {q / f_area(b, z1, z2, y2)} {unit_length}/s\n'
 results += f'\n● {dictionary['Fr']}\n\nFr = V / (g * D) ^ 0.5\n'
 results += f'Frn: {f_froude_number(q / f_area(b, z1, z2, y2b), g, f_hydraulic_depth(b, z1, z2, y2b))[0]} {f_froude_number(q / f_area(b, z1, z2, y2b), g, f_hydraulic_depth(b, z1, z2, y2b))[1]}\n'
 results += f'Frc: {f_froude_number(q / f_area(b, z1, z2, y2), g, f_hydraulic_depth(b, z1, z2, y2))[0]} {f_froude_number(q / f_area(b, z1, z2, y2), g, f_hydraulic_depth(b, z1, z2, y2))[1]}\n'
 results += f'\n● {dictionary['τօ']}\n\nτօ = ρ * g * R * so\n'
-results += f'τn: {f_shear_stress(rho, g, f_hydraulic_ratio(b, z1, z2, y2b), so)} {c_unit_shear_stress}\n'
-results += f'τc: {f_shear_stress(rho, g, f_hydraulic_ratio(b, z1, z2, y2), so)} {c_unit_shear_stress}\n'
+results += f'τn: {f_shear_stress(rho, g, f_hydraulic_ratio(b, z1, z2, y2b), so)} {unit_tau}\n'
+results += f'τc: {f_shear_stress(rho, g, f_hydraulic_ratio(b, z1, z2, y2), so)} {unit_tau}\n'
 results += f'\n● {dictionary['F']}\n\nF = (Ycentroid * ρ * g) * A\n'
-results += f'Yn centroid: {f_y_centroid(b, z1, z2, y2b)} {c_unit_length}\n'
-results += f'Yc centroid: {f_y_centroid(b, z1, z2, y2)} {c_unit_length}\n'
-results += f'Fn: {f_y_centroid(b, z1, z2, y2b) * g * rho * f_area(b, z1, z2, y2b)} {c_unit_hydraulic_force}\n'
-results += f'Fc: {f_y_centroid(b, z1, z2, y2) * g * rho * f_area(b, z1, z2, y2)} {c_unit_hydraulic_force}\n'
+results += f'Yn centroid: {f_y_centroid(b, z1, z2, y2b)} {unit_length}\n'
+results += f'Yc centroid: {f_y_centroid(b, z1, z2, y2)} {unit_length}\n'
+results += f'Fn: {f_y_centroid(b, z1, z2, y2b) * g * rho * f_area(b, z1, z2, y2b)} {unit_f}\n'
+results += f'Fc: {f_y_centroid(b, z1, z2, y2) * g * rho * f_area(b, z1, z2, y2)} {unit_f}\n'
 results += f'\n● {dictionary['Sc']}\n\nSc = g * n ^ 2 * (Pc / Tc) / (c ^ 2 * Rc ^ (1 / 3))\n'
-results += f'Sc: {f_critic_slope(g, n, f_wet_perimeter(b, z1, z2, y2), f_top_width(b, z1, z2, y2), c, f_hydraulic_ratio(b, z1, z2, y2))} {c_unit_length}/{c_unit_length}\n'
+results += f'Sc: {f_critic_slope(g, n, f_wet_perimeter(b, z1, z2, y2), f_top_width(b, z1, z2, y2), c, f_hydraulic_ratio(b, z1, z2, y2))} {unit_length}/{unit_length}\n'
 results += f'Slope type: {f_profile_type(so, y2b, y2)}\n'
 print(results)
 
