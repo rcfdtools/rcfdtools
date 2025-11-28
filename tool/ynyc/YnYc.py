@@ -1,3 +1,6 @@
+# Libraries
+from datetime import datetime
+
 # Yn Yc: solved with Bisection Method
 
 # Main vars
@@ -14,7 +17,7 @@ rho = 1000 # ρ: fluid density
 y1 = 0.001 # Numerical method, low elevation seed
 y2 = 10 # Numerical method, high elevation seed
 steps = 32 # Numerical method, steps
-app_version = 'v20251128'
+app_version = 'v20251128' # Version control
 
 # Dictionary definitions
 dictionary = {
@@ -209,6 +212,7 @@ shape = f_shape_type(b, z1, z2)
 
 # Print input values
 results = f'App version: {app_version}\n'
+results += f'Run date: {datetime.now()}\n'
 results += f'\n{txt_separator(70)}\n{shape} SHAPE >>> Input values ({dictionary['UnitSys']}: {UnitSys})\n{txt_separator(70)}\n\n'
 results += f'General parameters\n\n'
 results += f'{dictionary['Q']}: {q} {c_unit_q}\n'
