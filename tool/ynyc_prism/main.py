@@ -16,7 +16,7 @@ def run(event):
     input_b = document.querySelector("#b")
     input_z1 = document.querySelector("#z1")
     input_z2 = document.querySelector("#z2")
-    input_so = document.querySelector("#z2")
+    input_so = document.querySelector("#so")
     input_n = document.querySelector("#n")
     input_alpha = document.querySelector("#alpha")
     input_rho = document.querySelector("#rho")
