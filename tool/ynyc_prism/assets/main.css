@@ -96,3 +96,7 @@ select {
   border-radius: 24px;       /* Rounded corners */
   transition-duration: 0.4s; /* Smooth transition for hover effects */
 }
+
+.disclaimer{
+    font-size: 11px;
+}
