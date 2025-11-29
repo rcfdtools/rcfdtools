@@ -1,3 +1,6 @@
+https://pyscript.net/
+https://pyscript.com/@examples/fractals-with-numpy-and-canvas/latest
+
 https://rcfdtools.github.io/rcfdtools/tool/basicsum
 https://rcfdtools.github.io/rcfdtools/tool/ynyc
 https://rcfdtools.github.io/R.HydroTools
@@ -15,3 +18,6 @@ Station - Elevation tables for HEC-RAS 1D.
 
 
 https://www.fsl.orst.edu/geowater/FX3/help/8_Hydraulic_Reference/Flow_Profiles.htm
+
+PyScript Tutorial - 005 | Using a local module
+https://www.youtube.com/watch?v=-7v9pKxYozk
