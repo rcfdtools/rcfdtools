@@ -1,6 +1,6 @@
 name = "YcYc for prismatic channels"
 description = "Calculates normal and critical depth in prismatic channels as trapezoids, rectangles, triangles and ditches."
-packages = ["numpy", "sympy"]
+packages = ["arrr"]
 
 [files]
 "./libraries.py" = ""
