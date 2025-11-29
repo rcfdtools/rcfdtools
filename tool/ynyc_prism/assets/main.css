@@ -37,7 +37,7 @@ nav {
 div {
     text-align: left;
     padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 15px;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -83,7 +83,7 @@ select {
 }
 
 .myButton {
-  background-color: #4CAF50; /* Green background */
+  background-color: #f0ab3c; /* Green background #f4CAF50*/
   border: none;              /* Remove default border */
   color: white;              /* White text color */
   padding: 10px 40px;        /* Some padding for size */
