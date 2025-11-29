@@ -18,15 +18,15 @@
         <b>z1</b>, left side slope<br><input type="number" id="z1" value="2" /><br>
         <b>z2</b>, right side slope<br><input type="number" id="z2" value="2" /><br>
         <b>So</b>, channel slope<br><input type="number" id="so" value="0.0008969" /><br>
-        <b>n</b>, <a href="https://www.hec.usace.army.mil/confluence/rasdocs/ras1dtechref/6.6/basic-data-requirements/geometric-data/energy-loss-coefficients">Energy Loss Coefficient</a><br><input type="number" id="n" value="0.035" /><br>
+        <b>n</b>, <a href="https://www.hec.usace.army.mil/confluence/rasdocs/ras1dtechref/6.6/basic-data-requirements/geometric-data/energy-loss-coefficients" target="_blank">energy loss coefficient</a><br><input type="number" id="n" value="0.035" /><br>
         <b>α</b>, kinetic energy correction factor, alpha<br><input type="number" id="alpha" value="1" /><br>
         <b>ρ</b>, fluid density, rho<br><input type="number" id="rho" value="1000" /><br>
         <b>y1</b>, min high channel to eval<br><input type="number" id="y1" value="0.0001" /><br>
         <b>y2</b>, max high channel to eval<br><input type="number" id="y2" value="10" /><br>
         <b>Steps</b>, iterations<br><input type="number" id="steps" value="64" /><br>
-        <button py-click="run">Run 6</button>
+        <button py-click="run">Run 7</button>
     </div>
     <div id="output"></div>
-    <script type="py" src="./main.py" config="./pyscript.json"></script>
+    <script type="py" src="./main.py" config="./pyscript.toml"></script>
   </body>
 </html>
