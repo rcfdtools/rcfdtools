@@ -11,19 +11,19 @@
     <div style="text-align: left; background-color: #f0f0f0; padding: 10px;">
         <h1>r.cfdtools | Yn & Yc</h1>
         <p>Geometries: Trapezoid, rectangle, triangle, ditch</p>
-        Unit system (SI or US):<br><input type="text" id="unit_sys" value="SI" /><br><br>
-        Q, flow:<br><input type="number" id="q" value="10" /><br><br>
-        g, gravity:<br><input type="number" id="g" value="9.806" /><br><br>
-        b, channel base:<br><input type="number" id="b" value="5" /><br><br>
-        z1, left side slope:<br><input type="number" id="z1" value="2" /><br><br>
-        z2, right side slope:<br><input type="number" id="z2" value="2" /><br><br>
-        So, channel slope:<br><input type="number" id="so" value="0.0008969" /><br><br>
+        Unit system (SI or US):<br><input type="text" id="unit_sys" value="SI" /><br>
+        Q, <sub>flow</sub>:<br><input type="number" id="q" value="10" /><br>
+        g, gravity:<br><input type="number" id="g" value="9.806" /><br>
+        b, channel base:<br><input type="number" id="b" value="5" /><br>
+        z1, left side slope:<br><input type="number" id="z1" value="2" /><br>
+        z2, right side slope:<br><input type="number" id="z2" value="2" /><br>
+        So, channel slope:<br><input type="number" id="so" value="0.0008969" /><br>
         n, <a href="https://www.hec.usace.army.mil/confluence/rasdocs/ras1dtechref/6.6/basic-data-requirements/geometric-data/energy-loss-coefficients">Energy Loss Coefficient</a>:<br><input type="number" id="n" value="0.035" /><br><br>
-        α, kinetic energy correction factor, alpha:<br><input type="number" id="alpha" value="1" /><br><br>
-        ρ, fluid density, rho:<br><input type="number" id="rho" value="1000" /><br><br>
-        y1, min high channel to eval:<br><input type="number" id="y1" value="0.0001" /><br><br>
-        y2, max high channel to eval:<br><input type="number" id="y2" value="10" /><br><br>
-        Steps, iterations:<br><input type="number" id="steps" value="64" /><br><br>
+        α, kinetic energy correction factor, alpha:<br><input type="number" id="alpha" value="1" /><br>
+        ρ, fluid density, rho:<br><input type="number" id="rho" value="1000" /><br>
+        y1, min high channel to eval:<br><input type="number" id="y1" value="0.0001" /><br>
+        y2, max high channel to eval:<br><input type="number" id="y2" value="10" /><br>
+        Steps, iterations:<br><input type="number" id="steps" value="64" /><br>
         <button py-click="run">Run 6</button>
     </div>
     <div id="output"></div>
