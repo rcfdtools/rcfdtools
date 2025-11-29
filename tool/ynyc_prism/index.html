@@ -23,21 +23,50 @@
     <div>
         <p><b>Geometries</b>: Trapezoid, rectangle, triangle, ditch</p>
         <p>An open channel flow is the movement of a liquid, like water, in a conduit that has a free surface exposed to the atmosphere. Unlike a pipe that is completely full, open channel flow is driven by gravity, and the top surface of the liquid is not under pressure. Common examples include rivers, streams, canals, and storm drains. </p>
-        <b>Unit system</b>, SI/US<br><input type="text" id="unit_sys" value="SI" /><br>
-        <b>Q</b>, flow<br><input type="number" id="q" value="10" /><br>
-        <b>g</b>, gravity<br><input type="number" id="g" value="9.806" /><br>
-        <b>b</b>, channel base<br><input type="number" id="b" value="5" /><br>
-        <b>z1</b>, left side slope<br><input type="number" id="z1" value="2" /><br>
-        <b>z2</b>, right side slope<br><input type="number" id="z2" value="2" /><br>
-        <b>So</b>, channel slope<br><input type="number" id="so" value="0.0008969" /><br>
-        <b>n</b>, <a href="https://www.hec.usace.army.mil/confluence/rasdocs/ras1dtechref/6.6/basic-data-requirements/geometric-data/energy-loss-coefficients" target="_blank">energy loss coefficient</a><br><input type="number" id="n" value="0.035" /><br>
-        <b>α</b>, kinetic energy correction factor, alpha<br><input type="number" id="alpha" value="1" /><br>
-        <b>ρ</b>, fluid density, rho<br><input type="number" id="rho" value="1000" /><br>
+
+
+
+        <table>
+          <tr>
+            <td>
+                <b>Unit system</b><br>
+                <select id="unit_sys" name="car">
+                    <option value="SI">SI - International system</option>
+                    <option value="US">US - Imperial system</option>
+                </select>
+            </td>
+            <td><b>Q</b>, flow<br><input type="number" id="q" value="10" /><br></td>
+          </tr>
+          <tr>
+            <td><b>g</b>, gravity<br><input type="number" id="g" value="9.806" /><br></td>
+            <td><b>b</b>, channel base<br><input type="number" id="b" value="5" /><br></td>
+          </tr>
+          <tr>
+            <td><b>z1</b>, left side slope<br><input type="number" id="z1" value="2" /><br></td>
+            <td><b>z2</b>, right side slope<br><input type="number" id="z2" value="2" /><br></td>
+          </tr>
+          <tr>
+            <td><b>So</b>, channel slope<br><input type="number" id="so" value="0.0008969" /><br></td>
+            <td><b>n</b>, <a href="https://www.hec.usace.army.mil/confluence/rasdocs/ras1dtechref/6.6/basic-data-requirements/geometric-data/energy-loss-coefficients" target="_blank">energy loss coefficient</a><br><input type="number" id="n" value="0.035" /><br></td>
+          </tr>
+          <tr>
+            <td><b>α</b>, kinetic energy<br>correction factor, alpha<br><input type="number" id="alpha" value="1" /><br></td>
+            <td><br><b>ρ</b>, fluid density, rho<br><input type="number" id="rho" value="1000" /><br></td>
+          </tr>
+        </table>
+
         <p>Numerical method parameters</p>
-        <b>y1</b>, min high channel to eval<br><input type="number" id="y1" value="0.0001" /><br>
-        <b>y2</b>, max high channel to eval<br><input type="number" id="y2" value="10" /><br>
-        <b>Steps</b>, iterations<br><input type="number" id="steps" value="64" /><br><br>
-        <button py-click="run" type="button" class="myButton">Calculate</button>
+        <table>
+          <tr>
+            <td><b>y1</b>, min high<br>channel to eval<br><input type="number" id="y1" value="0.0001" /><br></td>
+            <td><b>y2</b>, max high<br>channel to eval<br><input type="number" id="y2" value="10" /><br></td>
+          </tr>
+          <tr>
+            <td><b>Steps</b>, iterations<br><input type="number" id="steps" value="64" /><br><br></td>
+            <td><button py-click="run" type="button" class="myButton">Calculate</button></td>
+          </tr>
+        </table>
+
     </div>
     <div id="output" style="background-color: #faf0e6"></div>
     <script type="py" src="./main.py" config="./pyscript.toml"></script>
