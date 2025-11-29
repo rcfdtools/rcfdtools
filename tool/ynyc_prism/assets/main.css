@@ -44,8 +44,8 @@ div {
 
 .logo {
     padding-right: 10px;
-    font-size: 28px;
-    height: 40px;
+    font-size: 24px;
+    height: 30px;
     max-width: inherit;
 }
 
@@ -99,4 +99,8 @@ select {
 
 .disclaimer{
     font-size: 11px;
+}
+
+a {
+  text-decoration: none;
 }
