@@ -19,7 +19,7 @@
         </div>
     </nav>
 
-    <div style="text-align: left; background-color: #f0f0f0; padding: 10px;">
+    <div>
         <p>Geometries: Trapezoid, rectangle, triangle, ditch</p>
         <b>Unit system</b>, SI/US<br><input type="text" id="unit_sys" value="SI" /><br>
         <b>Q</b>, flow<br><input type="number" id="q" value="10" /><br>
@@ -31,12 +31,13 @@
         <b>n</b>, <a href="https://www.hec.usace.army.mil/confluence/rasdocs/ras1dtechref/6.6/basic-data-requirements/geometric-data/energy-loss-coefficients" target="_blank">energy loss coefficient</a><br><input type="number" id="n" value="0.035" /><br>
         <b>α</b>, kinetic energy correction factor, alpha<br><input type="number" id="alpha" value="1" /><br>
         <b>ρ</b>, fluid density, rho<br><input type="number" id="rho" value="1000" /><br>
+        <p>Numerical method parameters</p>
         <b>y1</b>, min high channel to eval<br><input type="number" id="y1" value="0.0001" /><br>
         <b>y2</b>, max high channel to eval<br><input type="number" id="y2" value="10" /><br>
         <b>Steps</b>, iterations<br><input type="number" id="steps" value="64" /><br><br>
-        <button py-click="run">Run</button>
+        <button py-click="run" type="button" class="myButton">Calculate</button>
     </div>
-    <div id="output" style="background-color: #f0f0f0; padding: 10px;"></div>
+    <div id="output" style="background-color: #faf0e6"></div>
     <script type="py" src="./main.py" config="./pyscript.toml"></script>
   </body>
 </html>

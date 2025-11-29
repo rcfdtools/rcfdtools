@@ -122,7 +122,7 @@ def yn(steps, q, b, z1, z2, y2b, y1a, so, n, c):
 # Results in console
 def results(app_version, now, q, g, b, z1, z2, so, n, alpha, rho, y1aux, y2aux, steps, y2b, y2, shape, unit_sys, dicts, units):
     # Input values
-    results = f'\nApp version: {dicts['app_version']}\n'
+    results = f'App version: {dicts['app_version']}\n'
     results += f'Runtime: {now}\n'
     results += f'\n{txt_separator(70)}\n{shape} SHAPE >>> Input values ({dicts['unit_sys']}: {unit_sys})\n{txt_separator(70)}\n\n'
     results += f'General parameters\n\n'

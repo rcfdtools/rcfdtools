@@ -1,5 +1,6 @@
 body {
-    margin: 0;
+  background-color: #f2f2f2; /* Use a color name, HEX, or RGB value */
+  margin: 0;
 }
 
 .pyscript {
@@ -31,6 +32,14 @@ nav {
     top: 0;
     left: 0;
     z-index: 9999;
+}
+
+div {
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .logo {
@@ -71,4 +80,19 @@ select {
     border-radius: 20px; /* Adjust the pixel value for desired roundness */
     border: 0px solid #ccc; /* Optional: Override default border for consistency */
     padding: 8px; /* Optional: Add padding for better appearance */
+}
+
+.myButton {
+  background-color: #4CAF50; /* Green background */
+  border: none;              /* Remove default border */
+  color: white;              /* White text color */
+  padding: 10px 40px;        /* Some padding for size */
+  text-align: center;        /* Center the text */
+  text-decoration: none;     /* Remove underlines (if using <a> tag as button) */
+  display: inline-block;     /* Proper display for applying padding/margin */
+  font-size: 16px;           /* Increase font size */
+  margin: 4px 2px;           /* Add some margin */
+  cursor: pointer;           /* Change mouse cursor to a pointer */
+  border-radius: 24px;       /* Rounded corners */
+  transition-duration: 0.4s; /* Smooth transition for hover effects */
 }
