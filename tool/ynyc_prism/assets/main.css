@@ -68,7 +68,7 @@ input[type="submit"],
 input[type="button"],
 textarea,
 select {
-    border-radius: 10px; /* Adjust the pixel value for desired roundness */
-    border: 1px solid #ccc; /* Optional: Override default border for consistency */
+    border-radius: 20px; /* Adjust the pixel value for desired roundness */
+    border: 0px solid #ccc; /* Optional: Override default border for consistency */
     padding: 8px; /* Optional: Add padding for better appearance */
 }
