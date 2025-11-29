@@ -1,5 +1,9 @@
 # Dictionary definitions
-dict = {
+
+# General
+dicts = {
+    'app_version': 'v20251129', # App control version
+
     'unit_sys': 'Units system',
 
     'c': 'c, units conversion factor',
@@ -51,4 +55,26 @@ dict = {
     'F': 'Hydraulic force (F)\n\nIn open channels, hydraulic force is the force exerted by the flowing water, which is driven primarily by gravity and influenced by pressure and shear stress. This force is essential for understanding and designing channels, as it can be used to measure discharge, control water levels, and dissipate energy through structures like hydraulic jumps.',
 
     'Sc': 'Critical slope (Sc)\n\nIn open channels is the specific bed slope at which the normal depth of flow Yn is equal to the critical depth Yc. At this slope, the flow is uniform and critical, with a Froude number of 1. It serves as a boundary to classify a channels slope as "mild" So<Sc, where normal depth is greater than critical depth Yn>Yc, or "steep" So>Sc, where normal depth is less than critical depth Yn<Yc.'
+}
+
+# Units in system international
+units_si = {
+    'c': 1,
+    'q': 'm³/s',
+    'length': 'm',
+    'rho': 'kg/m³',
+    'g': 'm/s²',
+    'tau': 'Pa, N/m²', # Shear stress
+    'f': 'N'# Hydraulic force, Newton
+}
+
+# Units in english or imperial system
+units_us = {
+    'c': 1.486,
+    'q': 'ft³/s',
+    'length': 'ft',
+    'rho': 'lb/ft³',
+    'g': 'ft/s²',
+    'tau': 'lbf/ft²', # Shear stress
+    'f': 'lbf'# Hydraulic force, Newton
 }
