@@ -106,3 +106,9 @@ select {
 a {
   text-decoration: none;
 }
+
+.output {
+    font-size: 14px;
+    color: #3D2B1F;
+    background-color: #faf0e6
+}
