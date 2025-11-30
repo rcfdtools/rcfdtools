@@ -1,5 +1,5 @@
 # Yn Yc: solved with Bisection Method
-# Developers: github.com/rcfdtools, github.com/frankv13, github.com/juanrodace
+# Author https://github.com/rcfdtools
 
 # Libraries
 from datetime import datetime

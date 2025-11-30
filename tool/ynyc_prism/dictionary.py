@@ -1,4 +1,5 @@
 # Dictionary definitions
+# Author https://github.com/rcfdtools
 
 # General
 dicts = {

@@ -1,4 +1,5 @@
 # Functions
+# Author https://github.com/rcfdtools
 
 # Prismatic geometric shape type
 def shape_type(b, z1, z2):
