@@ -38,8 +38,8 @@ div {
     text-align: left;
     padding-top: 5px;
     padding-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .logo {
@@ -80,14 +80,14 @@ select {
     background-color: #FFFFFF; /* Green background #f4CAF50*/
     border-radius: 10px; /* Adjust the pixel value for desired roundness */
     border: 0px solid #ccc; /* Optional: Override default border for consistency */
-    padding: 10px; /* Optional: Add padding for better appearance */
+    padding: 12px; /* Optional: Add padding for better appearance */
 }
 
 .myButton {
   background-color: #f0ab3c; /* Green background #f4CAF50*/
   border: none;              /* Remove default border */
   color: white;              /* White text color */
-  padding: 10px 55px;        /* Some padding for size */
+  padding: 12px 55px;        /* Some padding for size */
   text-align: center;        /* Center the text */
   text-decoration: none;     /* Remove underlines (if using <a> tag as button) */
   display: inline-block;     /* Proper display for applying padding/margin */
@@ -100,7 +100,7 @@ select {
 
 .disclaimer{
     font-size: 11px;
-    color: #606062;
+    color: #727376;
 }
 
 a {
