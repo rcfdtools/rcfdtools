@@ -26,20 +26,33 @@ def run(event):
 
     # read fields values
     unit_sys = input_unit_sys.value # SI - International, US - Imperial/US
-    q = float(input_q.value) # Flow
-    g = float(input_g.value) # Gravity acceleration
-    b = float(input_b.value) # Channel base
-    z1 = float(input_z1.value) # Left side slope
-    z2 = float(input_z2.value) # Right side slope
-    so = float(input_so.value) # Channel slope
-    n = float(input_n.value) # Channel roughness
-    alpha = float(input_alpha.value) # Kinetic correction factor
-    rho = float(input_rho.value) # ρ: fluid density
-    y1 = float(input_y1.value) # Numerical method, low elevation seed
-    y2 = float(input_y2.value) # Numerical method, high elevation seed
-    steps = int(input_steps.value) # Numerical method, steps
+    q = input_q.value # Flow
+    g = input_g.value # Gravity acceleration
+    b = input_b.value # Channel base
+    z1 = input_z1.value # Left side slope
+    z2 = input_z2.value # Right side slope
+    so = input_so.value # Channel slope
+    n = input_n.value # Channel roughness
+    alpha = input_alpha.value # Kinetic correction factor
+    rho = input_rho.value # ρ: fluid density
+    y1 = input_y1.value # Numerical method, low elevation seed
+    y2 = input_y2.value # Numerical method, high elevation seed
+    steps = input_steps.value # Numerical method, steps
 
     # Pre validations
+    dicts = dictionary.dicts
+    q = funcs.numeric_abs_none(q)
+    g = funcs.numeric_abs_none(g)
+    b = funcs.numeric_abs_none(b)
+    z1 = funcs.numeric_float_none(z1)
+    z2 = funcs.numeric_float_none(z2)
+    so = funcs.numeric_abs_none(so)
+    n = funcs.numeric_abs_none(n)
+    alpha = funcs.numeric_abs_none(alpha)
+    rho = funcs.numeric_abs_none(rho)
+    y1 = funcs.numeric_abs_none(y1)
+    y2 = funcs.numeric_abs_none(y2)
+    steps = int(funcs.numeric_abs_none(steps))
     dicts = dictionary.dicts
     if unit_sys.upper() == 'SI':  # Units system eval
         units = dictionary.units_si

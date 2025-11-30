@@ -120,6 +120,25 @@ def yn(steps, q, b, z1, z2, y2b, y1a, so, n, c):
         y2b = y2c
     return y2b
 
+# Numeric absolute and null validation
+def numeric_abs_none(number):
+    if number is None:
+        number = '0.00001'
+    if not number:
+        number = 0.00001
+    if float(number) < 0:
+        number *= -1
+    return float(number)
+
+# Numeric absolute and null validation
+def numeric_float_none(number):
+    if number is None:
+        number = '0.00001'
+    if not number:
+        number = 0.00001
+    return float(number)
+
+
 # Results in console
 def results(app_version, now, q, g, b, z1, z2, so, n, alpha, rho, y1aux, y2aux, steps, y2b, y2, shape, unit_sys, dicts, units):
     # Input values

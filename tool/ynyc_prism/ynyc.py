@@ -23,6 +23,18 @@ steps = 64 # Numerical method, steps
 
 # Pre validations
 dicts = dictionary.dicts
+q = funcs.numeric_abs_none(q)
+g = funcs.numeric_abs_none(g)
+b = funcs.numeric_abs_none(b)
+z1 = funcs.numeric_float_none(z1)
+z2 = funcs.numeric_float_none(z2)
+so = funcs.numeric_abs_none(so)
+n = funcs.numeric_abs_none(n)
+alpha = funcs.numeric_abs_none(alpha)
+rho = funcs.numeric_abs_none(rho)
+y1 = funcs.numeric_abs_none(y1)
+y2 = funcs.numeric_abs_none(y2)
+steps = int(funcs.numeric_abs_none(steps))
 if unit_sys.upper() == 'SI': # Units system eval
     units = dictionary.units_si
 else:
