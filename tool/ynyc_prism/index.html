@@ -34,33 +34,33 @@
                     <option value="US">US - Imperial system</option>
                 </select>
             </td>
-            <td><b>Q</b>, flow<br><input type="number" id="q" value="10" /><br></td>
+              <td><b>Q</b><span class="disclaimer"> flow</span><br><input type="number" id="q" value="10" /><br></td>
           </tr>
           <tr>
-            <td><b>g</b>, gravity<br><input type="number" id="g" value="9.806" /><br></td>
-            <td><b>b</b>, channel base<br><input type="number" id="b" value="5" /><br></td>
+            <td><b>g</b><span class="disclaimer"> gravity</span><br><input type="number" id="g" value="9.806" /><br></td>
+            <td><b>b</b><span class="disclaimer"> channel base</span><br><input type="number" id="b" value="5" /><br></td>
           </tr>
           <tr>
-            <td><b>z1</b>, left side slope<br><input type="number" id="z1" value="2" /><br></td>
-            <td><b>z2</b>, right side slope<br><input type="number" id="z2" value="2" /><br></td>
+            <td><b>z1</b><span class="disclaimer"> left side slope</span><br><input type="number" id="z1" value="2" /><br></td>
+            <td><b>z2</b><span class="disclaimer"> right side slope</span><br><input type="number" id="z2" value="2" /><br></td>
           </tr>
           <tr>
-            <td><b>So</b>, channel slope<br><input type="number" id="so" value="0.0008969" /><br></td>
-            <td><b>n</b>, <a href="https://www.hec.usace.army.mil/confluence/rasdocs/ras1dtechref/6.6/basic-data-requirements/geometric-data/energy-loss-coefficients" target="_blank">energy loss coefficient</a><br><input type="number" id="n" value="0.035" /><br></td>
+            <td><b>So</b><span class="disclaimer"> channel slope</span><br><input type="number" id="so" value="0.0008969" /><br></td>
+            <td><b>n</b><span class="disclaimer"> <a href="https://www.hec.usace.army.mil/confluence/rasdocs/ras1dtechref/6.6/basic-data-requirements/geometric-data/energy-loss-coefficients" target="_blank">energy loss coefficient</a></span><br><input type="number" id="n" value="0.035" /><br></td>
           </tr>
           <tr>
-            <td><b>α</b>, kinetic energy<br>correction factor, alpha<br><input type="number" id="alpha" value="1" /><br></td>
-            <td><br><b>ρ</b>, fluid density, rho<br><input type="number" id="rho" value="1000" /><br></td>
+            <td><b>α</b><span class="disclaimer"> kinetic energy correction factor</span><br><input type="number" id="alpha" value="1" /><br></td>
+            <td><b>ρ</b><span class="disclaimer"> fluid density, rho</span><br><input type="number" id="rho" value="1000" /><br></td>
           </tr>
         </table>
         <p>Numerical method parameters</p>
         <table>
           <tr>
-            <td><b>y1</b>, min high<br>channel to eval<br><input type="number" id="y1" value="0.0001" /><br></td>
-            <td><b>y2</b>, max high<br>channel to eval<br><input type="number" id="y2" value="10" /><br></td>
+            <td><b>y1</b><span class="disclaimer"> min high channel to eval</span><br><input type="number" id="y1" value="0.0001" /><br></td>
+            <td><b>y2</b><span class="disclaimer"> max high channel to eval</span><br><input type="number" id="y2" value="10" /><br></td>
           </tr>
           <tr>
-            <td><b>Steps</b>, iterations<br><input type="number" id="steps" value="64" /><br><br></td>
+            <td><b>Steps</b><span class="disclaimer"> iterations</span><br><input type="number" id="steps" value="64" /><br><br></td>
             <td><button py-click="run" type="button" class="myButton">Calculate</button></td>
           </tr>
         </table>
