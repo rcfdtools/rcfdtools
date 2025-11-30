@@ -131,7 +131,7 @@ def numeric_abs_none(number):
         number *= -1
     return number
 
-# Numeric absolute and null validation
+# Numeric float and null validation
 def numeric_float_none(number):
     if number is None:
         number = '0.00001'
