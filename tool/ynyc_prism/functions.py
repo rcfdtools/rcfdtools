@@ -126,8 +126,9 @@ def numeric_abs_none(number):
         number = '0.00001'
     if not number:
         number = 0.00001
-    if float(number) < 0:
-        float(number) *= -1
+    number = float(number)
+    if number < 0:
+        number *= -1
     return number
 
 # Numeric absolute and null validation
