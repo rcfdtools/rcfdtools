@@ -112,6 +112,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 .output {
     font-size: 14px;
     color: #3D2B1F;
