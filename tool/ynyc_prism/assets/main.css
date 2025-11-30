@@ -1,5 +1,5 @@
 body {
-  background-color: #f2f2f2; /* Use a color name, HEX, or RGB value */
+  background-color: #f8f8f8; /* Use a color name, HEX, or RGB value */
   margin: 0;
 }
 
@@ -37,8 +37,8 @@ nav {
 div {
     text-align: left;
     padding-top: 5px;
-    padding-bottom: 15px;
-    padding-left: 20px;
+    padding-bottom: 5px;
+    padding-left: 10px;
     padding-right: 20px;
 }
 
@@ -78,16 +78,16 @@ input[type="button"],
 textarea,
 select {
     background-color: #FFFFFF; /* Green background #f4CAF50*/
-    border-radius: 20px; /* Adjust the pixel value for desired roundness */
+    border-radius: 10px; /* Adjust the pixel value for desired roundness */
     border: 0px solid #ccc; /* Optional: Override default border for consistency */
-    padding: 8px; /* Optional: Add padding for better appearance */
+    padding: 10px; /* Optional: Add padding for better appearance */
 }
 
 .myButton {
   background-color: #f0ab3c; /* Green background #f4CAF50*/
   border: none;              /* Remove default border */
   color: white;              /* White text color */
-  padding: 10px 40px;        /* Some padding for size */
+  padding: 10px 55px;        /* Some padding for size */
   text-align: center;        /* Center the text */
   text-decoration: none;     /* Remove underlines (if using <a> tag as button) */
   display: inline-block;     /* Proper display for applying padding/margin */
@@ -100,6 +100,7 @@ select {
 
 .disclaimer{
     font-size: 11px;
+    color: #606062;
 }
 
 a {
