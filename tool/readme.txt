@@ -1,3 +1,5 @@
+# Developers: github.com/rcfdtools, github.com/frankv13, github.com/juanrodace
+
 Local contents
 ******************
 
@@ -15,8 +17,9 @@ Pending
 Station - Elevation tables for HEC-RAS 1D.
 
 
-References
+Related links
 ******************
+https://www.qrcode-monkey.com/
 https://pyscript.net/
 https://pyscript.com/@examples/fractals-with-numpy-and-canvas/latest
 https://www.fsl.orst.edu/geowater/FX3/help/8_Hydraulic_Reference/Flow_Profiles.htm

@@ -99,7 +99,12 @@ select {
 }
 
 .disclaimer{
-    font-size: 11px;
+    font-size: 12px;
+    color: #727376;
+}
+
+.buttonMenu{
+    font-size: 12px;
     color: #727376;
 }
 
@@ -111,4 +116,10 @@ a {
     font-size: 14px;
     color: #3D2B1F;
     background-color: #faf0e6
+}
+
+hr {
+  height: 1px; /* Sets the thickness of the line */
+  background-color: lightgray; /* Sets the color of the line */
+  border: none; /* Removes the default browser border */
 }
