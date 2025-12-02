@@ -111,21 +111,24 @@ def yc(steps, q, g, b, z1, z2, y2, y1, alpha):
 
 # Yn Calculation
 def yn(steps, q, b, z1, z2, y2b, y1a, so, n, c):
-    for i in range(steps):
-        y2c = (y2b + y1a) / 2
-        q1 = yn_calc(q, b, z1, z2, y2b, so, n, c)
-        q2 = yn_calc(q, b, z1, z2, y2c, so, n, c)
-        if (sgn(q2) + sgn(q1)) == 0:
-            y1a = y2b
-        y2b = y2c
+    if so != 0:
+        for i in range(steps):
+            y2c = (y2b + y1a) / 2
+            q1 = yn_calc(q, b, z1, z2, y2b, so, n, c)
+            q2 = yn_calc(q, b, z1, z2, y2c, so, n, c)
+            if (sgn(q2) + sgn(q1)) == 0:
+                y1a = y2b
+            y2b = y2c
+    else:
+        y2b = 999999
     return y2b
 
 # Numeric absolute and null validation
 def numeric_abs_none(number):
     if number is None:
-        number = '0.00001'
+        number = '0.0001'
     if not number:
-        number = 0.00001
+        number = 0.0001
     number = float(number)
     if number < 0:
         number *= -1
@@ -134,9 +137,9 @@ def numeric_abs_none(number):
 # Numeric float and null validation
 def numeric_float_none(number):
     if number is None:
-        number = '0.00001'
+        number = '0.0001'
     if not number:
-        number = 0.00001
+        number = 0.0001
     return float(number)
 
 

@@ -9,7 +9,7 @@ import functions as funcs
 # Main vars
 unit_sys = 'SI' # SI - International, US - Imperial/US
 q = 10 # Flow
-g = 9.806 # Gravity acceleration
+g = 0 # Gravity acceleration
 b = 5 # Channel base
 z1 = 2 # Left side slope
 z2 = 2 # Right side slope
