@@ -149,7 +149,7 @@ def results(app_version, now, q, g, b, z1, z2, so, n, alpha, rho, y1aux, y2aux, 
     results = f'App version: {dicts['app_version']}\n'
     results += f'Runtime: {now}\n'
     results += f'\n{txt_separator(70)}\n{shape} SHAPE >>> Input values ({dicts['unit_sys']}: {unit_sys})\n{txt_separator(70)}\n\n'
-    results += f'General parameters\n\n'
+    results += f'General parameters\n(input parameters can be adjusted during the validation process)\n\n'
     results += f'{dicts['Q']}: {q} {units['q']}\n'
     results += f'{dicts['g']}: {g} {units['g']}\n'
     results += f'{dicts['b']}: {b} {units['length']}\n'
