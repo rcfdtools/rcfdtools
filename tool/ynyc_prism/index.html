@@ -16,7 +16,7 @@
       <nav class="navbar" style="background-color: #3D2B1F">
         <div class="app-header">
             <a href="/">
-                <img src="./assets/logo.png" class="logo" />
+                <img src="./assets/logo.svg" class="logo" />
             </a>
             <a class="title" href="" style="color: #FFFFFF"> <b>Yn</b> & <b>Yc</b> in prismatic channels</a>
         </div>
@@ -26,7 +26,7 @@
         <p>An open channel flow is the movement of a liquid, like water, in a conduit that has a free surface exposed to the atmosphere. Unlike a pipe that is completely full, open channel flow is driven by gravity, and the top surface of the liquid is not under pressure. Common examples include rivers, streams, canals, and storm drains. </p>
 
         <p>Geometries</p>
-        <img alt="R.HydroTools" src="assets/prism.png" width="380px">
+        <img alt="R.HydroTools" src="assets/prism.svg" width="380px">
         <p>General parameters</p>
         <table>
           <tr>
@@ -67,18 +67,19 @@
             <td><button py-click="run" type="button" class="myButton">Calculate</button></td>
           </tr>
         </table>
-
-        <p>The Manning equation is an empirical formula used in fluid dynamics to calculate the flow rate (Q) and velocity (v) of water in an open channel. It is based on the channel's cross-sectional area (A), hydraulic radius (R), slope (S), and Manning's roughness coefficient (n). The equation can be written for flow rate as:</p>
-        <img alt="R.HydroTools" src="assets/manning_equation.png" width="140px">
-        <p>where <i>c</i> = 1 for the international system units or <i>c</i> = 1.49 for the imperial system.</p>
-
-        <p>The Froude number is a dimensionless quantity that compares the inertial force of a fluid to the gravitational force acting on it. It is calculated as the ratio of the flow velocity to the velocity of a gravity wave and is used to describe different flow regimes in open channels, such as rivers and canals. The number is categorized based on its value: supercritical (Fr > 1, fast and deep flow), critical (Fr = 1, where flow velocity equals wave velocity), and subcritical (Fr < 1, slow and shallow flow).</p>
-        <img alt="R.HydroTools" src="assets/froude_number.png" width="80px">
-        <p>where <i>v</i> is the flow velocity, <i>g</i> is the acceleration due to gravity, and <i>D</i> is the hydraulic depth.</p>
     </div>
 
     <div id="output" class="output"></div>
     <script type="py" src="./main.py" config="./pyscript.toml"></script>
+    <div>
+        <p>The Manning equation is an empirical formula used in fluid dynamics to calculate the flow rate (Q) and velocity (v) of water in an open channel. It is based on the channel's cross-sectional area (A), hydraulic radius (R), slope (S), and Manning's roughness coefficient (n). The equation can be written for flow rate as:</p>
+        <img alt="R.HydroTools" src="assets/manning_equation.svg" width="140px">
+        <p>where <i>c</i> = 1 for the international system units or <i>c</i> = 1.49 for the imperial system.</p>
+        <p>The Froude number is a dimensionless quantity that compares the inertial force of a fluid to the gravitational force acting on it. It is calculated as the ratio of the flow velocity to the velocity of a gravity wave and is used to describe different flow regimes in open channels, such as rivers and canals. The number is categorized based on its value: supercritical (Fr > 1, fast and deep flow), critical (Fr = 1, where flow velocity equals wave velocity), and subcritical (Fr < 1, slow and shallow flow).</p>
+        <img alt="R.HydroTools" src="assets/froude_number.svg" width="80px">
+        <p>where <i>v</i> is the flow velocity, <i>g</i> is the acceleration due to gravity, and <i>D</i> is the hydraulic depth.</p>
+    </div>
+
     <div>
         <p class="disclaimer">Share this App</p>
         <img alt="R.HydroTools" src="assets/qr_code.svg" width="340px">
