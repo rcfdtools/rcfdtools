@@ -4,22 +4,23 @@
 # Libraries
 from datetime import datetime
 import dictionary as dictionary
-import functions as funcs 
+import functions as funcs
+import matplotlib.pyplot as plt
 
 # Main vars
 unit_sys = 'SI' # SI - International, US - Imperial/US
 q = 10 # Flow
-g = 0 # Gravity acceleration
-b = 5 # Channel base
-z1 = 2 # Left side slope
-z2 = 2 # Right side slope
+g = 9.806 # Gravity acceleration
+b = 1 # Channel base
+z1 = 1 # Left side slope
+z2 = 1 # Right side slope
 so = 0.0008969 # Channel slope
 n = 0.035 # Channel roughness
 alpha = 1 # Kinetic correction factor
 rho = 1000 # ρ: fluid density
 y1 = 0.0001 # Numerical method, low elevation seed
-y2 = 10 # Numerical method, high elevation seed
-steps = 64 # Numerical method, steps
+y2 = 1000 # Numerical method, high elevation seed
+steps = 128 # Numerical method, steps
 
 # Pre validations
 dicts = dictionary.dicts
@@ -56,3 +57,36 @@ y2b = funcs.yn(steps, q, b, z1, z2, y2b, y1a, so, n, units['c'])
 # Print results in console
 results = funcs.results(dict['app_version'], datetime.now(), q, g, b, z1, z2, so, n, alpha, rho, y1aux, y2aux, steps, y2b, y2, funcs.shape_type(b, z1, z2), unit_sys, dicts, units)
 print(results)
+
+# Cross section, station vs elevation
+if y2 > y2b:
+    max_elevation = y2
+else:
+    max_elevation = y2b
+x_values = [0, max_elevation*z1, max_elevation*z1+b, max_elevation*z1+b+max_elevation*z2]
+ground_x_values = x_values
+ground_y_values = [max_elevation,0,0,max_elevation]
+yn_x_values = x_values
+yn_y_values = [y2b, y2b, y2b, y2b]
+yc_x_values = x_values
+yc_y_values = [y2, y2, y2, y2]
+plt.plot(ground_x_values, ground_y_values, color='#2B9D4D', label='Ground', linewidth=1.5, marker='o', markersize=4)
+plt.plot(yn_x_values, yn_y_values, color='#3A78E6', label='Yn', linewidth=1,  linestyle='--')
+plt.plot(yc_x_values, yc_y_values, color='#DD3C2A', label='Yc', linewidth=1,  linestyle='--')
+plt.text(max_elevation*z1+b/2, y2b, round(y2b, 6), color='#3A78E6', ha='center')
+plt.text(max_elevation*z1+b/2, y2, round(y2, 6), color='#DD3C2A', ha='center')
+plt.title(f'{funcs.shape_type(b, z1, z2)} cross section geometry')
+plt.xlabel(f'Station ({units['length']})')
+plt.ylabel(f'Elevation ({units['length']})')
+plt.legend(frameon=False)
+plt.fill_between(ground_x_values, ground_y_values, yn_y_values, color='lightblue', alpha=0.5, label='Filled Area')
+# plt.axis('off')
+plt.rcParams['axes.spines.left'] = True
+plt.rcParams['axes.spines.right'] = False
+plt.rcParams['axes.spines.top'] = False
+plt.rcParams['axes.spines.bottom'] = True
+plt.grid(True, linewidth=0.2, alpha=0.5)
+plt.show()
+
+
+

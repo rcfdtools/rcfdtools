@@ -3,7 +3,7 @@
 Local contents
 ******************
 
-✓Δ°Σβρσθαπ∑√±πØμx●•∫
+✓Δ°Σβρσθαπ∑√±πØμx●•∫→
 
 https://rcfdtools.github.io/rcfdtools/tool/basicsum
 https://rcfdtools.github.io/rcfdtools/tool/ynyc_prism

@@ -4,13 +4,13 @@
 # Prismatic geometric shape type
 def shape_type(b, z1, z2):
     if z1 == 0 and z2 == 0:
-        shape_type = "RECTANGULAR"
+        shape_type = "Rectangular"
     elif b == 0 and z1 > 0 and z2 > 0 and z1 == z2:
-        shape_type = "TRIANGULAR"
+        shape_type = "Triangular"
     elif b > 0 and z1 > 0 and z2 > 0:
-        shape_type = "TRAPEZOIDAL"
+        shape_type = "Trapezoidal"
     else:
-        shape_type = "DITCH"
+        shape_type = "Ditch"
     return shape_type
 
 # Section area
@@ -126,9 +126,9 @@ def yn(steps, q, b, z1, z2, y2b, y1a, so, n, c):
 # Numeric absolute and null validation
 def numeric_abs_none(number):
     if number is None:
-        number = '0.0001'
+        number = '0'
     if not number:
-        number = 0.0001
+        number = 0
     number = float(number)
     if number < 0:
         number *= -1
@@ -137,9 +137,9 @@ def numeric_abs_none(number):
 # Numeric float and null validation
 def numeric_float_none(number):
     if number is None:
-        number = '0.0001'
+        number = '0'
     if not number:
-        number = 0.0001
+        number = 0
     return float(number)
 
 
@@ -148,8 +148,9 @@ def results(app_version, now, q, g, b, z1, z2, so, n, alpha, rho, y1aux, y2aux, 
     # Input values
     results = f'App version: {dicts['app_version']}\n'
     results += f'Runtime: {now}\n'
-    results += f'\n{txt_separator(70)}\n{shape} SHAPE >>> Input values ({dicts['unit_sys']}: {unit_sys})\n{txt_separator(70)}\n\n'
+    results += f'\n{txt_separator(70)}\nInput values ({dicts['unit_sys']}: {unit_sys})\n{txt_separator(70)}\n\n'
     results += f'General parameters\n(input parameters can be adjusted during the validation process)\n\n'
+    results += f'Shape: {shape}\n'
     results += f'{dicts['Q']}: {q} {units['q']}\n'
     results += f'{dicts['g']}: {g} {units['g']}\n'
     results += f'{dicts['b']}: {b} {units['length']}\n'
