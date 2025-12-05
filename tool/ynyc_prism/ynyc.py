@@ -86,6 +86,7 @@ plt.rcParams['axes.spines.right'] = False
 plt.rcParams['axes.spines.top'] = False
 plt.rcParams['axes.spines.bottom'] = True
 plt.grid(True, linewidth=0.2, alpha=0.5)
+mpl = plt
 plt.show()
 
 
