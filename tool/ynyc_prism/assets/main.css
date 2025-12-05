@@ -84,7 +84,7 @@ select {
 }
 
 .myButton {
-  background-color: #f0ab3c; /* Green background #f4CAF50*/
+  background-color: #3D2B1F; /* Green background #f4CAF50*, #f0ab3c/
   border: none;              /* Remove default border */
   color: white;              /* White text color */
   padding: 12px 55px;        /* Some padding for size */
