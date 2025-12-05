@@ -157,7 +157,7 @@ def cross_section_plot(y2, y2b, b, z1, z2, units):
     yn_y_values = [y2b, y2b, y2b, y2b]
     yc_x_values = x_values
     yc_y_values = [y2, y2, y2, y2]
-    figure(figsize=(4.75, 3.75), dpi=90)
+    figure(figsize=(4.6, 3.75), dpi=80)
     plt.plot(ground_x_values, ground_y_values, color='black', label='Ground', linewidth=1.5, marker='o', markersize=4)
     plt.plot(yn_x_values, yn_y_values, color='#3A78E6', label='Yn', linewidth=1, linestyle='--')
     plt.plot(yc_x_values, yc_y_values, color='#DD3C2A', label='Yc', linewidth=1, linestyle='--')
@@ -179,8 +179,8 @@ def cross_section_plot(y2, y2b, b, z1, z2, units):
 def results(app_version, now, q, g, b, z1, z2, so, n, alpha, rho, y1aux, y2aux, steps, y2b, y2, shape, unit_sys, dicts, units):
     # Input values
     results = f'App version: {dicts['app_version']}\n'
-    results += f'Runtime: {now}\n'
-    results += f'\n{txt_separator(70)}\nInput values ({dicts['unit_sys']}: {unit_sys})\n{txt_separator(70)}\n\n'
+    results += f'Runtime: {now}\n\n'
+    results += f'{txt_separator(70)}\nInput values ({dicts['unit_sys']}: {unit_sys})\n{txt_separator(70)}\n\n'
     results += f'● General parameters\n(input parameters can be adjusted during the validation process)\n'
     results += f'Shape: {shape}\n'
     results += f'{dicts['Q']}: {q} {units['q']}\n'
