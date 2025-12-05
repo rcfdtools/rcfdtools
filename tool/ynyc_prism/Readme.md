@@ -23,16 +23,14 @@ The Froude number is a dimensionless quantity that compares the inertial force o
 where <i>v</i> is the flow velocity, <i>g</i> is the acceleration due to gravity, and <i>D</i> is the hydraulic depth.
 
 
+## Libraries used
+
+* [Matplotlib](https://matplotlib.org/)
+* [Pyscript](https://pyscript.net/)
+
 
 ## Developers
 
 * github.com/rcfdtools
 * github.com/frankv13
 * github.com/juanrodace
-
-
-## Libraries
-
-* [Matplotlib](https://matplotlib.org/)
-* [Pyscript](https://pyscript.net/)
-
