@@ -146,27 +146,28 @@ def numeric_float_none(number):
 
 # Cross-section plot
 def cross_section_plot(y2, y2b, b, z1, z2, units):
-    if y2 > y2b:
+    if y2b < y2: # Yn > Yc
         max_elevation = y2
     else:
         max_elevation = y2b
-    x_values = [0, max_elevation * z1, max_elevation * z1 + b, max_elevation * z1 + b + max_elevation * z2]
-    ground_x_values = x_values
+    ground_x_values = [0, max_elevation * z1, max_elevation * z1 + b, max_elevation * z1 + b + max_elevation * z2]
     ground_y_values = [max_elevation, 0, 0, max_elevation]
-    yn_x_values = x_values
     yn_y_values = [y2b, y2b, y2b, y2b]
-    yc_x_values = x_values
     yc_y_values = [y2, y2, y2, y2]
-    figure(figsize=(4.6, 3.75), dpi=80)
+    figure(figsize=(4.6, 3), dpi=80)
     plt.plot(ground_x_values, ground_y_values, color='black', label='Ground', linewidth=1.5, marker='o', markersize=4)
-    plt.plot(yn_x_values, yn_y_values, color='#3A78E6', label='Yn', linewidth=1, linestyle='--')
-    plt.plot(yc_x_values, yc_y_values, color='#DD3C2A', label='Yc', linewidth=1, linestyle='--')
+    plt.plot(ground_x_values, yn_y_values, color='#3A78E6', label='Yn', linewidth=1, linestyle='--')
+    plt.plot(ground_x_values, yc_y_values, color='#DD3C2A', label='Yc', linewidth=1, linestyle='--')
     plt.text(max_elevation * z1 + b / 2, y2b, round(y2b, 6), color='black', ha='center')
     plt.text(max_elevation * z1 + b / 2, y2, round(y2, 6), color='black', ha='center')
     plt.title(f'{shape_type(b, z1, z2)} cross-section')
     plt.xlabel(f'Station ({units['length']})')
     plt.ylabel(f'Elevation ({units['length']})')
     plt.legend(frameon=False)
+    # eval Yn > Yc for water fill
+    ground_y_values = [y2b, 0, 0, y2b]
+    if y2b < y2: # Yn > Yc
+        ground_x_values = [(y2-y2b)*z1, max_elevation * z1,  max_elevation * z1 + b, (max_elevation * z1 + b) + y2b*z2]
     plt.fill_between(ground_x_values, ground_y_values, yn_y_values, color='lightblue', alpha=0.5, label='Filled Area')
     plt.rcParams['axes.spines.left'] = True
     plt.rcParams['axes.spines.right'] = False
