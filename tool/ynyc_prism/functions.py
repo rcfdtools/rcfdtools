@@ -157,7 +157,7 @@ def cross_section_plot(y2, y2b, b, z1, z2, units):
     yn_y_values = [y2b, y2b, y2b, y2b]
     yc_x_values = x_values
     yc_y_values = [y2, y2, y2, y2]
-    figure(figsize=(5, 4), dpi=90)
+    figure(figsize=(4.75, 3.75), dpi=90)
     plt.plot(ground_x_values, ground_y_values, color='black', label='Ground', linewidth=1.5, marker='o', markersize=4)
     plt.plot(yn_x_values, yn_y_values, color='#3A78E6', label='Yn', linewidth=1, linestyle='--')
     plt.plot(yc_x_values, yc_y_values, color='#DD3C2A', label='Yc', linewidth=1, linestyle='--')
