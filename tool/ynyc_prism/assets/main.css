@@ -77,7 +77,7 @@ input[type="submit"],
 input[type="button"],
 textarea,
 select {
-    background-color: #FFFFFF; /* Green background #f4CAF50*/
+    background-color: #faf0e6; /* Green background #f4CAF50, White #FFFFFF*/
     border-radius: 10px; /* Adjust the pixel value for desired roundness */
     border: 0px solid #ccc; /* Optional: Override default border for consistency */
     padding: 12px; /* Optional: Add padding for better appearance */
