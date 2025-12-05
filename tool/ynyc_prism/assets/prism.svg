@@ -58,25 +58,25 @@ viewBox="0 0 2361.25 1411.05"
  <g id="Layer_x0020_1">
   <metadata id="CorelCorpID_0Corel-Layer"/>
   <polygon class="fil0" points="1558.44,1403.91 1305.59,980.63 2144.27,980.63 1558.44,1403.91 "/>
-  <g id="_2430951955552">
+  <g id="_2484480805744">
    <polygon class="fil1" points="1558.44,1403.91 1215.02,1403.91 1215.02,829.01 "/>
    <polygon class="fil1" points="1558.44,1403.91 2354.11,1403.91 2354.11,829.01 "/>
   </g>
   <polygon class="fil0" points="581.36,1403.91 157.35,980.63 996.03,980.63 576.69,1403.91 "/>
-  <g id="_2430951961888">
+  <g id="_2484480804304">
    <polygon class="fil1" points="576.69,1403.91 7.14,1403.91 7.14,829.01 "/>
    <polygon class="fil1" points="576.69,1403.91 1146.23,829.01 1146.23,1403.91 "/>
   </g>
-  <g id="_2430951960064">
+  <g id="_2484480806128">
    <polygon class="fil1" points="362.12,679.48 12.67,671.85 7.14,96.96 "/>
    <polygon class="fil1" points="802.82,671.85 1146.23,671.85 1146.23,96.96 "/>
   </g>
   <polygon class="fil0" points="1558.44,671.85 1558.44,248.57 2010.7,248.57 2010.7,671.85 "/>
-  <g id="_2430951963808">
+  <g id="_2484480803824">
    <polygon class="fil1" points="1215.02,671.85 1215.02,96.96 1558.44,96.96 1558.44,671.85 "/>
    <polygon class="fil1" points="2010.7,671.85 2010.7,96.96 2354.11,96.96 2354.11,671.85 "/>
   </g>
-  <g id="_2430951964192">
+  <g id="_2484480804064">
    <rect class="fil2 str0" x="1215.02" y="96.96" width="1139.09" height="574.89"/>
    <rect class="fil2 str0" x="1215.02" y="248.57" width="1139.09" height="423.28"/>
    <rect class="fil2 str0" x="1558.44" y="96.96" width="452.26" height="574.89"/>
@@ -84,7 +84,7 @@ viewBox="0 0 2361.25 1411.05"
   <polygon class="fil0" points="350.56,671.85 97.71,248.57 1055.66,248.57 802.82,671.85 "/>
   <polyline class="fil2 str1" points="7.14,829.01 576.69,1403.91 576.69,1403.91 1146.23,829.01 "/>
   <rect class="fil2 str0" x="7.14" y="980.63" width="1139.09" height="423.28"/>
-  <g id="_2430951970816">
+  <g id="_2484480808048">
    <rect class="fil2 str0" x="1215.02" y="829.01" width="1139.09" height="574.89"/>
    <rect class="fil2 str0" x="1215.02" y="980.63" width="1139.09" height="423.28"/>
    <rect class="fil2 str0" x="1558.44" y="829.01" width="452.26" height="574.89"/>
@@ -100,12 +100,11 @@ viewBox="0 0 2361.25 1411.05"
   <text x="124.98" y="595.12"  class="fil3 fnt0">z</text>
   <text x="162.77" y="595.12"  class="fil3 fnt0">1</text>
   <g transform="matrix(1.00155 0 0 1 -2733.92 -3616.3)">
-   <text x="3108.06" y="4149.06"  class="fil3 fnt0">z</text>
-   <text x="3145.84" y="4149.06"  class="fil3 fnt0">1 or z2 &gt; 0</text>
+   <text x="3109.39" y="4149.06"  class="fil3 fnt0">z1 or z2</text>
+   <text x="3378.22" y="4149.06"  class="fil3 fnt0"> ≠ 0</text>
   </g>
   <g transform="matrix(1.00155 0 0 1 -1526.04 -3616.3)">
-   <text x="3116.45" y="4149.06"  class="fil3 fnt0">z</text>
-   <text x="3154.24" y="4149.06"  class="fil3 fnt0">1 &amp; z2 = 0</text>
+   <text x="3116.45" y="4149.06"  class="fil3 fnt0">z1 &amp; z2 = 0</text>
   </g>
   <text x="63.13" y="453.77"  class="fil3 fnt0">1</text>
   <text x="1050.97" y="453.77"  class="fil3 fnt0">1</text>
@@ -131,7 +130,7 @@ viewBox="0 0 2361.25 1411.05"
   <text x="203.73" y="1327.18"  class="fil3 fnt0">z</text>
   <text x="241.52" y="1327.18"  class="fil3 fnt0">1</text>
   <text x="455.07" y="1178.5"  class="fil3 fnt0">z1 = z2</text>
-  <text x="1496.46" y="1168.62"  class="fil3 fnt0">z1 ≠ z2</text>
+  <text x="1496.55" y="1168.37"  class="fil3 fnt0">z1 ≠ z2</text>
   <text x="141.88" y="1185.83"  class="fil3 fnt0">1</text>
   <polyline class="fil2 str2" points="206.87,1031.55 206.87,1241.98 419.31,1241.98 "/>
   <text x="844.46" y="1332.02"  class="fil3 fnt0">z2</text>
