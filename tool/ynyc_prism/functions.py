@@ -163,7 +163,7 @@ def cross_section_plot(y2, y2b, b, z1, z2, units):
     plt.plot(yc_x_values, yc_y_values, color='#DD3C2A', label='Yc', linewidth=1, linestyle='--')
     plt.text(max_elevation * z1 + b / 2, y2b, round(y2b, 6), color='black', ha='center')
     plt.text(max_elevation * z1 + b / 2, y2, round(y2, 6), color='black', ha='center')
-    plt.title(f'{shape_type(b, z1, z2)} cross section geometry')
+    plt.title(f'{shape_type(b, z1, z2)} cross-section')
     plt.xlabel(f'Station ({units['length']})')
     plt.ylabel(f'Elevation ({units['length']})')
     plt.legend(frameon=False)
