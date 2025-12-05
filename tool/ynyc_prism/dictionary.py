@@ -3,58 +3,32 @@
 
 # General
 dicts = {
-    'app_version': 'v20251203', # App control version
-
+    'app_version': 'v20251205', # App control version
     'unit_sys': 'Units system',
-
     'c': 'c, units conversion factor',
-
     'Q': 'Q, flow',
-
     'g': 'g, gravity acceleration',
-
     'b': 'b, channel base',
-
     'z1': 'z1, left side slope',
-
     'z2': 'z2, right side slope',
-
     'So': 'So, channel slope',
-
     'n': 'n, channel roughness',
-
     'alpha': 'α, kinetic correction factor, alpha',
-
     'rho': 'ρ, fluid density, rho',
-
     'y1': 'y1, low elevation seed',
-
     'y2': 'y2, high elevation seed',
-
     'steps': 'Steps, step times',
-
     'D': 'Hydraulic depth (D)',
-
     'P': 'Wet perimeter (P)',
-
     'T': 'Top width (T)',
-
     'R': 'Hydraulic ratio (R)',
-
     'Yn': 'Normal depth (Yn)',
-
     'Yc': 'Critical depth (Yc)',
-
     'v': 'Velocity (v)',
-
     'Fr': 'Froude number (Fr)',
-
     'A': 'Geometric area (A)',
-
     'τօ': 'Shear stress (τօ), tau',
-
     'F': 'Hydraulic force (F)',
-
     'Sc': 'Critical slope (Sc)'
 }
 
