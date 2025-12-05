@@ -6,6 +6,7 @@ from datetime import datetime
 import dictionary as dictionary
 import functions as funcs
 from pyscript import document
+from pyscript import display
 
 def run(event):
 
@@ -78,3 +79,7 @@ def run(event):
     output_div = document.querySelector("#output")
     output_div.innerText = results
 
+    # Cross-section plot
+    plot = funcs.cross_section_plot(y2, y2b, b, z1, z2, units)
+    display(plot, target='plot1', append="False")
+    plot.close()

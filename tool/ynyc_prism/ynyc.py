@@ -6,14 +6,16 @@ from datetime import datetime
 import dictionary as dictionary
 import functions as funcs
 import matplotlib.pyplot as plt
+plt.rcParams['axes.spines.right'] = False
+plt.rcParams['axes.spines.top'] = False
 
 # Main vars
 unit_sys = 'SI' # SI - International, US - Imperial/US
-q = 10 # Flow
+q = 46 # Flow
 g = 9.806 # Gravity acceleration
-b = 1 # Channel base
-z1 = 1 # Left side slope
-z2 = 1 # Right side slope
+b = 30 # Channel base
+z1 = 5 # Left side slope
+z2 = 5 # Right side slope
 so = 0.0008969 # Channel slope
 n = 0.035 # Channel roughness
 alpha = 1 # Kinetic correction factor
@@ -58,37 +60,10 @@ y2b = funcs.yn(steps, q, b, z1, z2, y2b, y1a, so, n, units['c'])
 results = funcs.results(dict['app_version'], datetime.now(), q, g, b, z1, z2, so, n, alpha, rho, y1aux, y2aux, steps, y2b, y2, funcs.shape_type(b, z1, z2), unit_sys, dicts, units)
 print(results)
 
-# Cross section, station vs elevation
-if y2 > y2b:
-    max_elevation = y2
-else:
-    max_elevation = y2b
-x_values = [0, max_elevation*z1, max_elevation*z1+b, max_elevation*z1+b+max_elevation*z2]
-ground_x_values = x_values
-ground_y_values = [max_elevation,0,0,max_elevation]
-yn_x_values = x_values
-yn_y_values = [y2b, y2b, y2b, y2b]
-yc_x_values = x_values
-yc_y_values = [y2, y2, y2, y2]
-plt.plot(ground_x_values, ground_y_values, color='#2B9D4D', label='Ground', linewidth=1.5, marker='o', markersize=4)
-plt.plot(yn_x_values, yn_y_values, color='#3A78E6', label='Yn', linewidth=1,  linestyle='--')
-plt.plot(yc_x_values, yc_y_values, color='#DD3C2A', label='Yc', linewidth=1,  linestyle='--')
-plt.text(max_elevation*z1+b/2, y2b, round(y2b, 6), color='#3A78E6', ha='center')
-plt.text(max_elevation*z1+b/2, y2, round(y2, 6), color='#DD3C2A', ha='center')
-plt.title(f'{funcs.shape_type(b, z1, z2)} cross section geometry')
-plt.xlabel(f'Station ({units['length']})')
-plt.ylabel(f'Elevation ({units['length']})')
-plt.legend(frameon=False)
-plt.fill_between(ground_x_values, ground_y_values, yn_y_values, color='lightblue', alpha=0.5, label='Filled Area')
-# plt.axis('off')
-plt.rcParams['axes.spines.left'] = True
-plt.rcParams['axes.spines.right'] = False
-plt.rcParams['axes.spines.top'] = False
-plt.rcParams['axes.spines.bottom'] = True
-plt.grid(True, linewidth=0.2, alpha=0.5)
-mpl = plt
-plt.show()
-
+# Cross-section plot
+plot = funcs.cross_section_plot(y2, y2b, b, z1, z2, units)
+plot.show()
+plot.close()
 
 
 

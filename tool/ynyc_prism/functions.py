@@ -1,6 +1,12 @@
 # Functions
 # Author https://github.com/rcfdtools
 
+# Libraries
+import matplotlib.pyplot as plt
+from matplotlib.pyplot import figure
+plt.rcParams['axes.spines.right'] = False
+plt.rcParams['axes.spines.top'] = False
+
 # Prismatic geometric shape type
 def shape_type(b, z1, z2):
     if z1 == 0 and z2 == 0:
@@ -125,10 +131,8 @@ def yn(steps, q, b, z1, z2, y2b, y1a, so, n, c):
 
 # Numeric absolute and null validation
 def numeric_abs_none(number):
-    if number is None:
+    if number is None or not number:
         number = '0'
-    if not number:
-        number = 0
     number = float(number)
     if number < 0:
         number *= -1
@@ -136,12 +140,40 @@ def numeric_abs_none(number):
 
 # Numeric float and null validation
 def numeric_float_none(number):
-    if number is None:
+    if number is None or not number:
         number = '0'
-    if not number:
-        number = 0
     return float(number)
 
+# Cross-section plot
+def cross_section_plot(y2, y2b, b, z1, z2, units):
+    if y2 > y2b:
+        max_elevation = y2
+    else:
+        max_elevation = y2b
+    x_values = [0, max_elevation * z1, max_elevation * z1 + b, max_elevation * z1 + b + max_elevation * z2]
+    ground_x_values = x_values
+    ground_y_values = [max_elevation, 0, 0, max_elevation]
+    yn_x_values = x_values
+    yn_y_values = [y2b, y2b, y2b, y2b]
+    yc_x_values = x_values
+    yc_y_values = [y2, y2, y2, y2]
+    figure(figsize=(5, 4), dpi=100)
+    plt.plot(ground_x_values, ground_y_values, color='black', label='Ground', linewidth=1.5, marker='o', markersize=4)
+    plt.plot(yn_x_values, yn_y_values, color='#3A78E6', label='Yn', linewidth=1, linestyle='--')
+    plt.plot(yc_x_values, yc_y_values, color='#DD3C2A', label='Yc', linewidth=1, linestyle='--')
+    plt.text(max_elevation * z1 + b / 2, y2b, round(y2b, 6), color='black', ha='center')
+    plt.text(max_elevation * z1 + b / 2, y2, round(y2, 6), color='black', ha='center')
+    plt.title(f'{shape_type(b, z1, z2)} cross section geometry')
+    plt.xlabel(f'Station ({units['length']})')
+    plt.ylabel(f'Elevation ({units['length']})')
+    plt.legend(frameon=False)
+    plt.fill_between(ground_x_values, ground_y_values, yn_y_values, color='lightblue', alpha=0.5, label='Filled Area')
+    plt.rcParams['axes.spines.left'] = True
+    plt.rcParams['axes.spines.right'] = False
+    plt.rcParams['axes.spines.top'] = False
+    plt.rcParams['axes.spines.bottom'] = True
+    plt.grid(True, linewidth=0.2, alpha=0.5)
+    return plt
 
 # Results in console
 def results(app_version, now, q, g, b, z1, z2, so, n, alpha, rho, y1aux, y2aux, steps, y2b, y2, shape, unit_sys, dicts, units):
