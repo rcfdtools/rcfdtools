@@ -1,6 +1,6 @@
 # Yn & Yc - Normal and critical depth in prismatic channels
 
-An open channel flow is the movement of a liquid, like water, in a conduit that has a free surface exposed to the atmosphere. Unlike a pipe that is completely full, open channel flow is driven by gravity, and the top surface of the liquid is not under pressure. Common examples include rivers, streams, canals, and storm drains. 
+An open channel flow is the movement of a liquid, like water, in a conduit that has a free surface exposed to the atmosphere. Unlike a pipe that is completely full, open channel flow is driven by gravity, and the top surface of the liquid is not under pressure. Common examples include rivers, streams, canals, and storm drains. [RUN Tool.]() 
 
 <div align="center"><img alt="R.HydroTools" src="assets/prism.svg" width="500px"></div>
 
@@ -107,7 +107,6 @@ Samples exercises with different prismatic geometries.
 | **YnYcE0014** - Trapezoidal ditch channel with negative left side slope in subcritical regime.<br><br>Parameters: unit_sys = 'SI', q = 10, g = 9.806, b = 5, z1 = -5, z2 = 30, so = 0.0008969, n = 0.035, alpha = 1, rho = 1000, y1 = 0.0001, y2 = 10, steps = 64. | <img alt="R.HydroTools" src="assets/exercise/YnYcE0014.svg" width="600px"> |
 
 </div>
-
 
 
 ## Libraries used
