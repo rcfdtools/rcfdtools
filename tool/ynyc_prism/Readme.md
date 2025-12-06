@@ -81,6 +81,10 @@ In open channels is the specific bed slope at which the normal depth of flow Yn 
 
 ## 2. Sample exercises
 
+Samples exercises with different prismatic geometries. 
+
+> Channels with negative side slopes may require deep knowledge about the numerical method used and the approach of the correct geometric solution. 
+
 <div align="center">
 
 | Exercise                                                                      | Parameters                                                                                                                                                   | Cross-section                                                               |
