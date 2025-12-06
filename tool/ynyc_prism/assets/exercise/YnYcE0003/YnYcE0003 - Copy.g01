@@ -1,0 +1,45 @@
+Geom Title=Geometry
+Program Version=6.70
+Viewing Rectangle= 999999 , 1000101 , 1000005.54 , 999994.46 
+
+River Reach=River           ,Reach           
+Reach XY= 2 
+        1000100.        1000000.        1000000.        1000000.
+Rch Text X Y=1000075,1000000
+Reverse River Text=-1 
+
+Type RM Length L Ch R = 1 ,100     ,100,100,100
+Node Last Edited Time=Dec/06/2025 18:23:36
+#Sta/Elev= 4 
+       02601.4672.933337    26007.933337    260010.866672601.467
+#Mann= 3 ,0,0
+       0    .035       0       0    .035       010.86667    .035       0
+Bank Sta=0,10.86667
+XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=2600.15,0.07, 20 
+XS HTab Horizontal Distribution= 5 , 5 , 5 
+Exp/Cntr=0.3,0.1
+
+Type RM Length L Ch R = 1 ,0       ,100,100,100
+Node Last Edited Time=Dec/06/2025 18:23:39
+#Sta/Elev= 4 
+       02601.3772.933337 2599.917.933337 2599.9110.866672601.377
+#Mann= 3 ,0,0
+       0    .035       0       0    .035       010.86667    .035       0
+Bank Sta=0,10.86667
+XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=2600.06,0.07, 20 
+XS HTab Horizontal Distribution= 5 , 5 , 5 
+Exp/Cntr=0.3,0.1
+
+LCMann Time=Dec/30/1899 00:00:00
+LCMann Region Time=Dec/30/1899 00:00:00
+LCMann Table=0
+Chan Stop Cuts=-1 
+
+
+
+Use User Specified Reach Order=0
+GIS Ratio Cuts To Invert=-1
+GIS Limit At Bridges=0
+Composite Channel Slope=5
