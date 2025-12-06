@@ -87,7 +87,7 @@ In open channels is the specific bed slope at which the normal depth of flow Yn 
 
 | Parameters                                                                                                                                                    | Cross-section                                                              |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
-| Parameters: unit_sys = 'SI', q = 10, g = 9.806, b = 20, z1 = -4, z2 = -4, so = 0.0008969, n = 0.035, alpha = 1, rho = 1000, y1 = 0.0001, y2 = 2, steps = 128. | <img alt="R.HydroTools" src="assets/exercise/YnYcE0001.png" width="400px"> |
+| Parameters: unit_sys = 'SI', q = 10, g = 9.806, b = 20, z1 = -4, z2 = -4, so = 0.0008969, n = 0.035, alpha = 1, rho = 1000, y1 = 0.0001, y2 = 2, steps = 128. | <img alt="R.HydroTools" src="assets/exercise/YnYcE0001.png" width="600px"> |
 
 </div>
 
