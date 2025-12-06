@@ -3,7 +3,7 @@
 
 # General
 dicts = {
-    'app_version': 'v20251205', # App control version
+    'app_version': 'v20251206', # App control version
     'unit_sys': 'Units system',
     'c': 'c, units conversion factor',
     'Q': 'Q, flow',
