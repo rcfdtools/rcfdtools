@@ -3,7 +3,7 @@
 An open channel flow is the movement of a liquid, like water, in a conduit that has a free surface exposed to the atmosphere. Unlike a pipe that is completely full, open channel flow is driven by gravity, and the top surface of the liquid is not under pressure. Common examples include rivers, streams, canals, and storm drains. 
 
 
-## General concepts
+## 1. General concepts
 
 ### Manning Equation
 
@@ -79,15 +79,14 @@ In open channels, hydraulic force is the force exerted by the flowing water, whi
 In open channels is the specific bed slope at which the normal depth of flow Yn is equal to the critical depth Yc. At this slope, the flow is uniform and critical, with a Froude number of 1. It serves as a boundary to classify a channels slope as "mild" So<Sc, where normal depth is greater than critical depth Yn>Yc, or "steep" So>Sc, where normal depth is less than critical depth Yn<Yc.
 
 
-## Sample exercises
-
-### YnYcE0001 - Ditch channel with negative side slopes and subcritical regime.
+## 2. Sample exercises
 
 <div align="center">
 
-| Parameters                                                                                                                                                    | Cross-section                                                              |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
-| Parameters: unit_sys = 'SI', q = 10, g = 9.806, b = 20, z1 = -4, z2 = -4, so = 0.0008969, n = 0.035, alpha = 1, rho = 1000, y1 = 0.0001, y2 = 2, steps = 128. | <img alt="R.HydroTools" src="assets/exercise/YnYcE0001.png" width="600px"> |
+| Exercise                                                                      | Parameters                                                                                                                                                    | Cross-section                                                              |
+|-------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| YnYcE0001 - Ditch channel with negative side slopes and subcritical regime.   | Parameters: unit_sys = 'SI', q = 10, g = 9.806, b = 20, z1 = -4, z2 = -4, so = 0.0008969, n = 0.035, alpha = 1, rho = 1000, y1 = 0.0001, y2 = 2, steps = 128. | <img alt="R.HydroTools" src="assets/exercise/YnYcE0001.png" width="600px"> |
+| YnYcE0002 - Ditch channel with negative side slopes and supercritical regime. | Parameters: unit_sys = 'SI', q = 80, g = 9.806, b = 20, z1 = -4, z2 = -4, so = 0.1, n = 0.035, alpha = 1, rho = 1000, y1 = 0.0001, y2 = 2, steps = 128.       | <img alt="R.HydroTools" src="assets/exercise/YnYcE0002.png" width="600px"> |
 
 </div>
 
