@@ -101,6 +101,8 @@ Samples exercises with different prismatic geometries.
 | **YnYcE0008** - Triangular channel in supercritical regime.<br><br>Parameters: unit_sys = 'SI', q = 10, g = 9.806, b = 0, z1 = 3, z2 = 3, so = 0.1, n = 0.035, alpha = 1, rho = 1000, y1 = 0.0001, y2 = 10, steps = 64.                                         | <img alt="R.HydroTools" src="assets/exercise/YnYcE0008.svg" width="600px"> |
 | **YnYcE0009** - Triangular ditch channel in subcritical regime.<br><br>Parameters: unit_sys = 'SI', q = 10, g = 9.806, b = 0, z1 = 1, z2 = 30, so = 0.0008969, n = 0.035, alpha = 1, rho = 1000, y1 = 0.0001, y2 = 10, steps = 64.                              | <img alt="R.HydroTools" src="assets/exercise/YnYcE0009.svg" width="600px"> |
 | **YnYcE0010** - Triangular ditch channel in supercritical regime.<br><br>Parameters: unit_sys = 'SI', q = 10, g = 9.806, b = 0, z1 = 1, z2 = 30, so = 0.1, n = 0.035, alpha = 1, rho = 1000, y1 = 0.0001, y2 = 10, steps = 64.                                  | <img alt="R.HydroTools" src="assets/exercise/YnYcE0010.svg" width="600px"> |
+| **YnYcE0011** - Trapezoidal ditch channel in subcritical regime.<br><br>Parameters: unit_sys = 'SI', q = 10, g = 9.806, b = 5, z1 = 0, z2 = 30, so = 0.0008969, n = 0.035, alpha = 1, rho = 1000, y1 = 0.0001, y2 = 10, steps = 64.                            | <img alt="R.HydroTools" src="assets/exercise/YnYcE0011.svg" width="600px"> |
+| **YnYcE0012** - Trapezoidal ditch channel in supercritical regime.<br><br>Parameters: unit_sys = 'SI', q = 10, g = 9.806, b = 5, z1 = 0, z2 = 30, so = 0.1, n = 0.035, alpha = 1, rho = 1000, y1 = 0.0001, y2 = 10, steps = 64.                                 | <img alt="R.HydroTools" src="assets/exercise/YnYcE0012.svg" width="600px"> |
 
 </div>
 
