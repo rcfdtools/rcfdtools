@@ -43,7 +43,7 @@ def yc(steps, q, g, b, z1, z2, y2, y1, alpha):
         if (sgn(q1) + sgn(q2)) == 0:
             y1 = y2
         y2 = y2a
-        print(f'>>>> Step {i}: {y2}')
+        print(f'>>>> Step {i}, Yc: {y2}') # Explicit Test
     return y2
 
 # Yn Calculation
@@ -56,8 +56,10 @@ def yn(steps, q, b, z1, z2, y2b, y1a, so, n, c):
             if (sgn(q2) + sgn(q1)) == 0:
                 y1a = y2b
             y2b = y2c
+            print(f'>>>> Step {i}, Yn: {y2b}')  # Explicit Test
     else:
         y2b = 999999
+
     return y2b
 
 # Hydraulic ratio
