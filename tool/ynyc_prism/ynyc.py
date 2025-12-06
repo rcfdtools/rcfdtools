@@ -11,17 +11,17 @@ plt.rcParams['axes.spines.top'] = False
 
 # Main vars
 unit_sys = 'SI' # SI - International, US - Imperial/US
-q = 80 # Flow
+q = 10 # Flow
 g = 9.806 # Gravity acceleration
-b = 20 # Channel base
-z1 = -4 # Left side slope
-z2 = -4 # Right side slope
-so = 0.1 # Channel slope
+b = 5 # Channel base
+z1 = 2 # Left side slope
+z2 = 2 # Right side slope
+so = 0.0008969 # Channel slope
 n = 0.035 # Channel roughness
 alpha = 1 # Kinetic correction factor
 rho = 1000 # ρ: fluid density
 y1 = 0.0001 # Numerical method, low elevation seed
-y2 = 2 # Numerical method, high elevation seed
+y2 = 5 # Numerical method, high elevation seed
 steps = 128 # Numerical method, steps
 
 # Pre validations

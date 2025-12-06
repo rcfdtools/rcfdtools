@@ -10,7 +10,6 @@ https://github.com/rcfdtools/R.DAPC/blob/main/file/table/DAPC_Subestacion.csv
 python -m pip install pyscript
 
 
-
 Pending
 ******************
 
