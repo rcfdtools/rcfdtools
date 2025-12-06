@@ -43,7 +43,7 @@ def yc(steps, q, g, b, z1, z2, y2, y1, alpha):
         if (sgn(q1) + sgn(q2)) == 0:
             y1 = y2
         y2 = y2a
-        print(f'>>>> Step {i}, Yc: {y2}') # Explicit Test
+        #print(f'>>>> Step {i}, Yc: {y2}') # Explicit Test
     return y2
 
 # Yn Calculation
@@ -56,7 +56,7 @@ def yn(steps, q, b, z1, z2, y2b, y1a, so, n, c):
             if (sgn(q2) + sgn(q1)) == 0:
                 y1a = y2b
             y2b = y2c
-            print(f'>>>> Step {i}, Yn: {y2b}')  # Explicit Test
+            # print(f'>>>> Step {i}, Yn: {y2b}')  # Explicit Test
     else:
         y2b = 999999
 
@@ -157,7 +157,7 @@ def cross_section_plot(y2, y2b, b, z1, z2, units, z, l):
     ground_y_values = [z+max_elevation, z+0, z+0, z+max_elevation]
     yn_y_values = [z+y2b, z+y2b, z+y2b, z+y2b]
     yc_y_values = [z+y2, z+y2, z+y2, z+y2]
-    figure(figsize=(4.6, 3.75), dpi=80)
+    figure(figsize=(6, 4), dpi=70)
     plt.plot(ground_x_values, ground_y_values, color='black', label='Ground', linewidth=1.5, marker='o', markersize=4)
     plt.plot(ground_x_values, yn_y_values, color='#3A78E6', label='Yn', linewidth=1, linestyle='--')
     plt.plot(ground_x_values, yc_y_values, color='#DD3C2A', label='Yc', linewidth=1, linestyle='--')
@@ -213,6 +213,8 @@ def results(app_version, now, q, g, b, z1, z2, so, n, alpha, rho, y1aux, y2aux, 
     results += f'{dicts['n']}: {n}\n'
     results += f'{dicts['alpha']}: {alpha}\n'
     results += f'{dicts['rho']}: {rho} {units['rho']}\n'
+    results += f'{dicts['l']}: {l} {units['length']}\n'
+    results += f'{dicts['z']}: {z} {units['length']}\n'
     results += f'{dicts['c']}: {units['c']}\n\n'
     results += f'● Numerical method parameters\n'
     results += f'{dicts['y1']}: {y1aux} {units['length']}\n'
