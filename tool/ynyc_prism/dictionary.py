@@ -29,7 +29,9 @@ dicts = {
     'A': 'Geometric area (A)',
     'τօ': 'Shear stress (τօ), tau',
     'F': 'Hydraulic force (F)',
-    'Sc': 'Critical slope (Sc)'
+    'Sc': 'Critical slope (Sc)',
+    'l': 'Channel length (l)',
+    'z': 'Ground level (z)'
 }
 
 # Units in system international

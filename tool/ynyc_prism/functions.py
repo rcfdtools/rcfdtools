@@ -132,8 +132,6 @@ def sgn(num):
 def txt_separator(num):
   return '-' * num
 
-
-
 # Numeric absolute and null validation
 def numeric_abs_none(number):
     if number is None or not number:
@@ -150,27 +148,27 @@ def numeric_float_none(number):
     return float(number)
 
 # Cross-section plot
-def cross_section_plot(y2, y2b, b, z1, z2, units):
+def cross_section_plot(y2, y2b, b, z1, z2, units, z, l):
     if y2b < y2: # Yn > Yc
         max_elevation = y2
     else:
         max_elevation = y2b
     ground_x_values = [0, max_elevation * z1, max_elevation * z1 + b, max_elevation * z1 + b + max_elevation * z2]
-    ground_y_values = [max_elevation, 0, 0, max_elevation]
-    yn_y_values = [y2b, y2b, y2b, y2b]
-    yc_y_values = [y2, y2, y2, y2]
+    ground_y_values = [z+max_elevation, z+0, z+0, z+max_elevation]
+    yn_y_values = [z+y2b, z+y2b, z+y2b, z+y2b]
+    yc_y_values = [z+y2, z+y2, z+y2, z+y2]
     figure(figsize=(4.6, 3.75), dpi=80)
     plt.plot(ground_x_values, ground_y_values, color='black', label='Ground', linewidth=1.5, marker='o', markersize=4)
     plt.plot(ground_x_values, yn_y_values, color='#3A78E6', label='Yn', linewidth=1, linestyle='--')
     plt.plot(ground_x_values, yc_y_values, color='#DD3C2A', label='Yc', linewidth=1, linestyle='--')
-    plt.text(max_elevation * z1 + b / 2, y2b, round(y2b, 6), color='black', ha='center')
-    plt.text(max_elevation * z1 + b / 2, y2, round(y2, 6), color='black', ha='center')
+    plt.text((max_elevation * z1 + b / 2), z+y2b, round(y2b, 6), color='black', ha='center')
+    plt.text((max_elevation * z1 + b / 2), z+y2, round(y2, 6), color='black', ha='center')
     plt.title(f'{shape_type(b, z1, z2)} cross-section')
     plt.xlabel(f'Station ({units['length']})')
     plt.ylabel(f'Elevation ({units['length']})')
     plt.legend(frameon=False)
     # eval Yn > Yc for water fill
-    ground_y_values = [y2b, 0, 0, y2b]
+    ground_y_values = [z+y2b, z+0, z+0, z+y2b]
     if y2b < y2: # Yn > Yc
         ground_x_values = [(y2-y2b)*z1, max_elevation * z1,  max_elevation * z1 + b, (max_elevation * z1 + b) + y2b*z2]
     plt.fill_between(ground_x_values, ground_y_values, yn_y_values, color='lightblue', alpha=0.5, label='Filled Area')
@@ -181,8 +179,25 @@ def cross_section_plot(y2, y2b, b, z1, z2, units):
     plt.grid(True, linewidth=0.2, alpha=0.5)
     return plt
 
+# Cross-section table
+def cross_section_table(y2, y2b, b, z1, z2, units, z, l, so):
+    if y2b < y2: # Yn > Yc
+        max_elevation = y2
+    else:
+        max_elevation = y2b
+    ground_x_values = [0, max_elevation * z1, max_elevation * z1 + b, max_elevation * z1 + b + max_elevation * z2]
+    ground_y_values = [z + max_elevation, z + 0, z + 0, z + max_elevation]
+    xs_table = f'{txt_separator(70)}\nHEC-RAS cross-sections\n{txt_separator(70)}\n\n● Upstream values\n\nStation({units['length']}), Elevation({units['length']})\n'
+    for i in range(4):
+        xs_table += f'{ground_x_values[i]}, {ground_y_values[i]}\n'
+    xs_table += f'\n● Downstream values\n\nStation({units['length']}), Elevation({units['length']})\n'
+    z_less = l * so
+    for i in range(4):
+        xs_table += f'{ground_x_values[i]}, {ground_y_values[i]-z_less}\n'
+    return xs_table
+
 # Results in console
-def results(app_version, now, q, g, b, z1, z2, so, n, alpha, rho, y1aux, y2aux, steps, y2b, y2, shape, unit_sys, dicts, units):
+def results(app_version, now, q, g, b, z1, z2, so, n, alpha, rho, y1aux, y2aux, steps, y2b, y2, shape, unit_sys, dicts, units, z, l):
     # Input values
     results = f'App version: {dicts['app_version']}\n'
     results += f'Runtime: {now}\n\n'
@@ -241,4 +256,5 @@ def results(app_version, now, q, g, b, z1, z2, so, n, alpha, rho, y1aux, y2aux, 
     results += f'\n● {dicts['Sc']}\nSc = g * n ^ 2 * (Pc / Tc) / (c ^ 2 * Rc ^ (1 / 3))\n'
     results += f'Sc: {critic_slope(g, n, wet_perimeter(b, z1, z2, y2), top_width(b, z1, z2, y2), units['c'], hydraulic_ratio(b, z1, z2, y2))} {units['length']}/{units['length']}\n'
     results += f'Slope type: {profile_type(so, y2b, y2)}\n'
+    results += f'\n{cross_section_table(y2, y2b, b, z1, z2, units, z, l, so)}\n'
     return results

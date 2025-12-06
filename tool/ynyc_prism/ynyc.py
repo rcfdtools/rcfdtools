@@ -5,21 +5,21 @@
 from datetime import datetime
 import dictionary as dictionary
 import functions as funcs
-import matplotlib.pyplot as plt
-plt.rcParams['axes.spines.right'] = False
-plt.rcParams['axes.spines.top'] = False
+
 
 # Main vars
 unit_sys = 'SI' # SI - International, US - Imperial/US
 q = 10 # Flow
 g = 9.806 # Gravity acceleration
 b = 5 # Channel base
-z1 = -5 # Left side slope
-z2 = 30 # Right side slope
-so = 0.0008969 # Channel slope
+z1 = 2 # Left side slope
+z2 = 2 # Right side slope
+so = 0.01 # Channel slope
 n = 0.035 # Channel roughness
 alpha = 1 # Kinetic correction factor
 rho = 1000 # ρ: fluid density
+l = 100 # l: channel length for HEC-RAS
+z = 2600 # z: ground level for HEC-RAS
 y1 = 0.0001 # Numerical method, low elevation seed
 y2 = 5 # Numerical method, high elevation seed
 steps = 64 # Numerical method, steps
@@ -35,6 +35,8 @@ so = funcs.numeric_abs_none(so)
 n = funcs.numeric_abs_none(n)
 alpha = funcs.numeric_abs_none(alpha)
 rho = funcs.numeric_abs_none(rho)
+l = funcs.numeric_abs_none(l)
+z = funcs.numeric_abs_none(z)
 y1 = funcs.numeric_abs_none(y1)
 y2 = funcs.numeric_abs_none(y2)
 steps = int(funcs.numeric_abs_none(steps))
@@ -57,14 +59,11 @@ y2 = funcs.yc(steps, q, g, b, z1, z2, y2, y1, alpha)
 y2b = funcs.yn(steps, q, b, z1, z2, y2b, y1a, so, n, units['c'])
 
 # Print results in console
-results = funcs.results(dict['app_version'], datetime.now(), q, g, b, z1, z2, so, n, alpha, rho, y1aux, y2aux, steps, y2b, y2, funcs.shape_type(b, z1, z2), unit_sys, dicts, units)
+results = funcs.results(dict['app_version'], datetime.now(), q, g, b, z1, z2, so, n, alpha, rho, y1aux, y2aux, steps, y2b, y2, funcs.shape_type(b, z1, z2), unit_sys, dicts, units, z, l)
 print(results)
 
 # Cross-section plot
-plot = funcs.cross_section_plot(y2, y2b, b, z1, z2, units)
+plot = funcs.cross_section_plot(y2, y2b, b, z1, z2, units, z, l)
 plot.show()
 plot.close()
-
-
-
 
