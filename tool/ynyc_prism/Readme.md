@@ -79,6 +79,28 @@ In open channels, hydraulic force is the force exerted by the flowing water, whi
 In open channels is the specific bed slope at which the normal depth of flow Yn is equal to the critical depth Yc. At this slope, the flow is uniform and critical, with a Froude number of 1. It serves as a boundary to classify a channels slope as "mild" So<Sc, where normal depth is greater than critical depth Yn>Yc, or "steep" So>Sc, where normal depth is less than critical depth Yn<Yc.
 
 
+## Sample exercises
+
+### YnYcE0001 - Ditch channel with negative side slopes and subcritical regime.
+
+* unit_sys = 'SI'
+* q = 10
+* g = 9.806
+* b = 20
+* z1 = -4
+* z2 = -4
+* so = 0.0008969
+* n = 0.035
+* alpha = 1
+* rho = 1000
+* y1 = 0.0001
+* y2 = 2
+* steps = 128
+
+<div align="center"><img alt="R.HydroTools" src="assets/exercise/YnYcE0001.png" width="300px"></div>
+
+
+
 ## Libraries used
 
 * [Matplotlib](https://matplotlib.org/)

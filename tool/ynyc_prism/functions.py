@@ -34,6 +34,32 @@ def yn_calc(q, b, z1, z2, y, so, n, c):
     yn_calc = q - ((c / n) * (area(b, z1, z2, y)) * (hydraulic_ratio(b, z1, z2, y)) ** (2 / 3) * so ** 0.5)
     return yn_calc
 
+# Yc Calculation
+def yc(steps, q, g, b, z1, z2, y2, y1, alpha):
+    for i in range(steps):
+        y2a = (y2 + y1) / 2
+        q1 = yc_calc(q, g, b, z1, z2, y2, alpha)
+        q2 = yc_calc(q, g, b, z1, z2, y2a, alpha)
+        if (sgn(q1) + sgn(q2)) == 0:
+            y1 = y2
+        y2 = y2a
+        print(f'>>>> Step {i}: {y2}')
+    return y2
+
+# Yn Calculation
+def yn(steps, q, b, z1, z2, y2b, y1a, so, n, c):
+    if so != 0:
+        for i in range(steps):
+            y2c = (y2b + y1a) / 2
+            q1 = yn_calc(q, b, z1, z2, y2b, so, n, c)
+            q2 = yn_calc(q, b, z1, z2, y2c, so, n, c)
+            if (sgn(q2) + sgn(q1)) == 0:
+                y1a = y2b
+            y2b = y2c
+    else:
+        y2b = 999999
+    return y2b
+
 # Hydraulic ratio
 def hydraulic_ratio(b, z1, z2, y):
     hydraulic_ratio = area(b, z1, z2, y) / wet_perimeter(b, z1, z2, y)
@@ -104,30 +130,7 @@ def sgn(num):
 def txt_separator(num):
   return '-' * num
 
-# Yc Calculation
-def yc(steps, q, g, b, z1, z2, y2, y1, alpha):
-    for i in range(steps):
-        y2a = (y2 + y1) / 2
-        q1 = yc_calc(q, g, b, z1, z2, y2, alpha)
-        q2 = yc_calc(q, g, b, z1, z2, y2a, alpha)
-        if (sgn(q1) + sgn(q2)) == 0:
-            y1 = y2
-        y2 = y2a
-    return y2
 
-# Yn Calculation
-def yn(steps, q, b, z1, z2, y2b, y1a, so, n, c):
-    if so != 0:
-        for i in range(steps):
-            y2c = (y2b + y1a) / 2
-            q1 = yn_calc(q, b, z1, z2, y2b, so, n, c)
-            q2 = yn_calc(q, b, z1, z2, y2c, so, n, c)
-            if (sgn(q2) + sgn(q1)) == 0:
-                y1a = y2b
-            y2b = y2c
-    else:
-        y2b = 999999
-    return y2b
 
 # Numeric absolute and null validation
 def numeric_abs_none(number):
