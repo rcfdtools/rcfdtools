@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <!-- Creator: CorelDRAW -->
-<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="115.168mm" height="19.7991mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
-viewBox="0 0 7140.11 1227.49"
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="115.446mm" height="19.9378mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 7163.85 1237.22"
  xmlns:xlink="http://www.w3.org/1999/xlink"
  xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
  <defs>
@@ -43,101 +43,98 @@ viewBox="0 0 7140.11 1227.49"
   <style type="text/css">
    <![CDATA[
     @font-face { font-family:"Arial";font-variant:normal;font-style:normal;font-weight:normal;src:url("#FontID0") format(svg)}
-    .str2 {stroke:#373435;stroke-width:12.4;stroke-miterlimit:22.9256}
-    .str1 {stroke:#3D2B1F;stroke-width:24.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256}
-    .str0 {stroke:#848688;stroke-width:6.2;stroke-miterlimit:22.9256;stroke-dasharray:12.399450 30.998625}
+    .str2 {stroke:#373435;stroke-width:12.41;stroke-miterlimit:22.9256}
+    .str1 {stroke:#3D2B1F;stroke-width:42.03;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256}
+    .str0 {stroke:#848688;stroke-width:6.21;stroke-miterlimit:22.9256;stroke-dasharray:12.410783 31.026958}
     .fil1 {fill:none}
     .fil0 {fill:#D2D3D5}
     .fil3 {fill:#373435}
     .fil2 {fill:#E6E6E6}
-    .fnt1 {font-weight:normal;font-size:174.97px;font-family:'Arial'}
-    .fnt0 {font-weight:normal;font-size:218.71px;font-family:'Arial'}
+    .fnt1 {font-weight:normal;font-size:175.13px;font-family:'Arial'}
+    .fnt0 {font-weight:normal;font-size:218.91px;font-family:'Arial'}
    ]]>
   </style>
  </defs>
  <g id="Layer_x0020_1">
   <metadata id="CorelCorpID_0Corel-Layer"/>
-  <g id="_2874122325280">
-   <polygon class="fil0" points="5447.93,1212.85 5149.86,1215.09 5149.79,214.63 5237.65,216.87 "/>
-   <polygon class="fil0" points="5746.15,1215.09 7127.72,1215.09 7127.72,216.87 "/>
+  <g id="_2776696809776">
+   <polygon class="fil0" points="5461.52,1213.96 5163.18,1216.2 5163.1,214.83 5251.05,217.07 "/>
+   <polygon class="fil0" points="5760.01,1216.2 7142.84,1216.2 7142.84,217.07 "/>
   </g>
-  <g id="_2874122326624">
-   <polygon class="fil0" points="4161.89,1215.09 3172.96,1215.09 3172.96,216.87 "/>
-   <polygon class="fil0" points="4161.89,1215.09 5150.81,216.87 5150.81,1215.09 "/>
+  <g id="_2776696810688">
+   <polygon class="fil0" points="4174.3,1216.2 3184.46,1216.2 3184.46,217.07 "/>
+   <polygon class="fil0" points="4174.3,1216.2 5164.13,217.07 5164.13,1216.2 "/>
   </g>
-  <polygon class="fil0" points="2966.35,1213.55 2966.35,215.34 3188.2,215.34 3188.2,1213.55 "/>
-  <rect class="fil1 str0" x="12.4" y="215.33" width="1977.85" height="998.22"/>
-  <rect class="fil1 str0" x="12.4" y="478.59" width="1977.85" height="734.96"/>
-  <polygon class="fil0" points="1979.6,1213.55 1979.6,215.34 2181.06,215.34 2181.06,1213.55 "/>
-  <g id="_2874122327920">
-   <polygon class="fil0" points="628.76,1226.79 22,1213.55 12.4,215.34 "/>
-   <polygon class="fil0" points="1393.97,1213.55 1990.25,1213.55 1990.25,215.34 "/>
+  <polygon class="fil0" points="2977.66,1214.66 2977.66,215.53 3199.72,215.53 3199.72,1214.66 "/>
+  <rect class="fil1 str0" x="21.01" y="215.53" width="1979.66" height="999.13"/>
+  <rect class="fil1 str0" x="21.01" y="479.03" width="1979.66" height="735.63"/>
+  <polygon class="fil0" points="1990.01,1214.66 1990.01,215.53 2191.66,215.53 2191.66,1214.66 "/>
+  <g id="_2776696812896">
+   <polygon class="fil0" points="637.95,1227.91 30.63,1214.66 21.02,215.53 "/>
+   <polygon class="fil0" points="1403.85,1214.66 2000.68,1214.66 2000.68,215.53 "/>
   </g>
-  <polygon class="fil2" points="608.69,1213.55 169.66,478.59 1833,478.59 1393.97,1213.55 "/>
-  <polygon class="fil2" points="2182.27,1213.55 2182.27,478.59 2967.55,478.59 2967.55,1213.55 "/>
-  <polygon class="fil2" points="4170.01,1215.09 3433.77,480.13 4890.01,480.13 4161.89,1215.09 "/>
-  <polygon class="fil2" points="5746.15,1215.09 5448.01,1215.09 5293.13,480.13 6763.36,480.13 5746.15,1215.09 "/>
-  <line class="fil1 str0" x1="2573.7" y1="215.34" x2="2573.7" y2= "1213.55" />
-  <rect class="fil1 str0" x="2181.06" y="215.33" width="785.28" height="998.22"/>
-  <polyline class="fil1 str1" points="3172.96,216.87 4161.89,1215.09 4161.89,1215.09 5150.81,216.87 "/>
-  <rect class="fil1 str0" x="608.69" y="215.33" width="785.28" height="998.22"/>
-  <polyline class="fil1 str1" points="5237.65,216.87 5448.01,1215.09 5746.15,1215.09 7127.72,216.87 "/>
-  <rect class="fil1 str0" x="3769.25" y="216.87" width="785.28" height="998.22"/>
-  <polyline class="fil1 str1" points="2181.06,215.34 2181.06,1213.55 2966.35,1213.55 2966.35,215.34 "/>
-  <polyline class="fil1 str1" points="12.4,215.34 608.69,1213.55 1393.97,1213.55 1990.25,215.34 "/>
-  <g id="_2874122328928">
-   <rect class="fil1 str0" x="5149.86" y="216.87" width="1977.85" height="998.22"/>
-   <rect class="fil1 str0" x="5149.86" y="480.13" width="1977.85" height="734.96"/>
-   <rect class="fil1 str0" x="5746.15" y="216.87" width="785.28" height="998.22"/>
+  <polygon class="fil2" points="617.85,1214.66 178.42,479.03 1843.28,479.03 1403.85,1214.66 "/>
+  <polygon class="fil2" points="2192.87,1214.66 2192.87,479.03 2978.87,479.03 2978.87,1214.66 "/>
+  <polygon class="fil2" points="4182.43,1216.2 3445.51,480.57 4903.08,480.57 4174.3,1216.2 "/>
+  <polygon class="fil2" points="5760.01,1216.2 5461.59,1216.2 5306.58,480.57 6778.15,480.57 5760.01,1216.2 "/>
+  <line class="fil1 str0" x1="2584.66" y1="215.53" x2="2584.66" y2= "1214.66" />
+  <rect class="fil1 str0" x="2191.66" y="215.53" width="786" height="999.13"/>
+  <polyline class="fil1 str1" points="3184.46,217.07 4174.3,1216.2 4174.3,1216.2 5164.13,217.07 "/>
+  <rect class="fil1 str0" x="617.85" y="215.53" width="786" height="999.13"/>
+  <polyline class="fil1 str1" points="5251.05,217.07 5461.59,1216.2 5760.01,1216.2 7142.84,217.07 "/>
+  <rect class="fil1 str0" x="3781.3" y="217.07" width="786" height="999.13"/>
+  <polyline class="fil1 str1" points="2191.66,215.53 2191.66,1214.66 2977.66,1214.66 2977.66,215.53 "/>
+  <polyline class="fil1 str1" points="21.02,215.53 617.85,1214.66 1403.85,1214.66 2000.68,215.53 "/>
+  <rect class="fil1 str0" x="5163.17" y="217.07" width="1979.66" height="999.13"/>
+  <rect class="fil1 str0" x="5163.17" y="480.57" width="1979.66" height="735.63"/>
+  <rect class="fil1 str0" x="5760.01" y="217.07" width="786" height="999.13"/>
+  <rect class="fil1 str0" x="3184.46" y="480.57" width="1979.66" height="735.63"/>
+  <rect class="fil1 str0" x="3184.46" y="217.07" width="1979.66" height="999.13"/>
+  <rect class="fil1 str0" x="1990.01" y="479.03" width="1209.7" height="735.63"/>
+  <rect class="fil1 str0" x="1990.01" y="215.53" width="1209.7" height="999.13"/>
+  <text x="531.47" y="156.74"  class="fil3 fnt0">Trapezoid</text>
+  <text x="811.32" y="1122.67"  class="fil3 fnt1">b &gt; 0</text>
+  <g transform="matrix(1.00155 0 0 1 -4768.51 -2485.18)">
+   <text x="5315.38" y="3144.94"  class="fil3 fnt1">z1 or z2</text>
+   <text x="5938.34" y="3144.94"  class="fil3 fnt1"> ≠ 0</text>
   </g>
-  <rect class="fil1 str0" x="3172.95" y="480.13" width="1977.85" height="734.96"/>
-  <rect class="fil1 str0" x="3172.95" y="216.87" width="1977.85" height="998.22"/>
-  <rect class="fil1 str0" x="1979.6" y="478.59" width="1208.6" height="734.96"/>
-  <rect class="fil1 str0" x="1979.6" y="215.33" width="1208.6" height="998.22"/>
-  <text x="522.39" y="156.6"  class="fil3 fnt0">Trapezoid</text>
-  <text x="801.98" y="1121.64"  class="fil3 fnt1">b &gt; 0</text>
-  <g transform="matrix(1.00155 0 0 1 -4764.14 -2201.52)">
-   <text x="5301.93" y="3142.07"  class="fil3 fnt1">z1 or z2</text>
-   <text x="5924.32" y="3142.07"  class="fil3 fnt1"> ≠ 0</text>
+  <text x="202.7" y="1081.31"  class="fil3 fnt1">z</text>
+  <text x="290.26" y="1081.31"  class="fil3 fnt1">1</text>
+  <text x="106.16" y="835.65"  class="fil3 fnt1">1</text>
+  <polyline class="fil1 str2" points="231.28,567.52 231.28,933.25 455.07,933.25 "/>
+  <text x="1600.1" y="1089.72"  class="fil3 fnt1">z2</text>
+  <text x="1822.95" y="835.65"  class="fil3 fnt1">1</text>
+  <polyline class="fil1 str2" points="1801.97,567.52 1801.97,933.25 1578.18,933.25 "/>
+  <line class="fil1 str0" x1="1010.85" y1="215.53" x2="1010.85" y2= "1214.66" />
+  <text x="5903.11" y="185.08"  class="fil3 fnt0">Ditch</text>
+  <line class="fil1 str0" x1="6153.01" y1="217.07" x2="6153.01" y2= "1216.2" />
+  <text x="5228.42" y="1081.44"  class="fil3 fnt1">z</text>
+  <text x="5315.99" y="1081.44"  class="fil3 fnt1">1</text>
+  <text x="5215.93" y="835.77"  class="fil3 fnt1">1</text>
+  <polyline class="fil1 str2" points="5320.04,567.64 5320.04,933.37 5402.28,933.37 "/>
+  <text x="6329.82" y="1091.26"  class="fil3 fnt1">z2</text>
+  <text x="6676.77" y="837.19"  class="fil3 fnt1">1</text>
+  <polyline class="fil1 str2" points="6655.79,569.06 6655.79,934.79 6153.01,932.25 "/>
+  <text x="5490.88" y="975.16"  class="fil3 fnt1">b ≥ 0</text>
+  <text x="5487.49" y="659.76"  class="fil3 fnt1">z1 ≠ z2</text>
+  <text x="3780.49" y="185.08"  class="fil3 fnt0">Triangle</text>
+  <text x="3975.99" y="975.16"  class="fil3 fnt1">b = 0</text>
+  <text x="3503.01" y="1082.85"  class="fil3 fnt1">z</text>
+  <text x="3590.57" y="1082.85"  class="fil3 fnt1">1</text>
+  <text x="3891.75" y="659.59"  class="fil3 fnt1">z1 = z2</text>
+  <text x="3406.46" y="837.19"  class="fil3 fnt1">1</text>
+  <polyline class="fil1 str2" points="3531.59,569.06 3531.59,934.79 3900.8,934.79 "/>
+  <text x="4616.55" y="1091.26"  class="fil3 fnt1">z2</text>
+  <text x="4839.39" y="837.19"  class="fil3 fnt1">1</text>
+  <polyline class="fil1 str2" points="4818.41,569.06 4818.41,934.79 4460.22,934.79 "/>
+  <line class="fil1 str0" x1="4174.3" y1="217.07" x2="4174.3" y2= "1216.2" />
+  <text x="2089.36" y="156.74"  class="fil3 fnt0">Rectangle</text>
+  <g transform="matrix(1.00155 0 0 1 -3192.85 -2308.59)">
+   <text x="5531.3" y="3144.94"  class="fil3 fnt1">z2 = 0</text>
   </g>
-  <text x="193.91" y="1080.33"  class="fil3 fnt1">z</text>
-  <text x="281.4" y="1080.33"  class="fil3 fnt1">1</text>
-  <text x="97.46" y="834.89"  class="fil3 fnt1">1</text>
-  <polyline class="fil1 str2" points="222.47,567 222.47,932.4 446.05,932.4 "/>
-  <text x="1590.04" y="1088.73"  class="fil3 fnt1">z2</text>
-  <text x="1812.68" y="834.89"  class="fil3 fnt1">1</text>
-  <polyline class="fil1 str2" points="1791.72,567 1791.72,932.4 1568.14,932.4 "/>
-  <line class="fil1 str0" x1="1001.33" y1="215.34" x2="1001.33" y2= "1213.55" />
-  <text x="5889.13" y="184.91"  class="fil3 fnt0">Ditch</text>
-  <line class="fil1 str0" x1="6138.79" y1="216.87" x2="6138.79" y2= "1215.09" />
-  <text x="5215.05" y="1080.45"  class="fil3 fnt1">z</text>
-  <text x="5302.53" y="1080.45"  class="fil3 fnt1">1</text>
-  <text x="5202.57" y="835.01"  class="fil3 fnt1">1</text>
-  <polyline class="fil1 str2" points="5306.58,567.13 5306.58,932.52 5388.75,932.52 "/>
-  <text x="6315.44" y="1090.27"  class="fil3 fnt1">z2</text>
-  <text x="6662.08" y="836.42"  class="fil3 fnt1">1</text>
-  <polyline class="fil1 str2" points="6641.11,568.54 6641.11,933.93 6138.79,931.4 "/>
-  <text x="5550.74" y="974.27"  class="fil3 fnt1">b </text>
-  <text x="5696.66" y="974.27"  class="fil3 fnt1">≥ 0</text>
-  <text x="5473.88" y="774.62"  class="fil3 fnt1">z1 ≠ z2</text>
-  <text x="3768.44" y="184.91"  class="fil3 fnt0">Triangle</text>
-  <text x="3963.76" y="974.76"  class="fil3 fnt1">b = 0</text>
-  <text x="3491.21" y="1081.86"  class="fil3 fnt1">z</text>
-  <text x="3578.69" y="1081.86"  class="fil3 fnt1">1</text>
-  <text x="3879.6" y="792.22"  class="fil3 fnt1">z1 = z2</text>
-  <text x="3394.75" y="836.42"  class="fil3 fnt1">1</text>
-  <polyline class="fil1 str2" points="3519.76,568.54 3519.76,933.93 3888.63,933.93 "/>
-  <text x="4603.74" y="1090.27"  class="fil3 fnt1">z2</text>
-  <text x="4826.37" y="836.42"  class="fil3 fnt1">1</text>
-  <polyline class="fil1 str2" points="4805.41,568.54 4805.41,933.93 4447.55,933.93 "/>
-  <line class="fil1 str0" x1="4161.89" y1="216.87" x2="4161.89" y2= "1215.09" />
-  <text x="2078.85" y="156.6"  class="fil3 fnt0">Rectangle</text>
-  <g transform="matrix(1.00155 0 0 1 -3189.92 -2201.52)">
-   <text x="5517.65" y="3142.07"  class="fil3 fnt1">z2 = 0</text>
+  <g transform="matrix(1.00155 0 0 1 -3192.85 -2485.35)">
+   <text x="5531.3" y="3144.94"  class="fil3 fnt1">z1 = 0</text>
   </g>
-  <g transform="matrix(1.00155 0 0 1 -3189.92 -2385.55)">
-   <text x="5517.65" y="3142.07"  class="fil3 fnt1">z1 = 0</text>
-  </g>
-  <text x="2376.42" y="1122.53"  class="fil3 fnt1">b &gt; 0</text>
+  <text x="2387.2" y="1123.55"  class="fil3 fnt1">b &gt; 0</text>
  </g>
 </svg>

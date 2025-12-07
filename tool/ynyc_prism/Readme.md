@@ -81,6 +81,11 @@ In open channels, hydraulic force is the force exerted by the flowing water, whi
 In open channels is the specific bed slope at which the normal depth of flow Yn is equal to the critical depth Yc. At this slope, the flow is uniform and critical, with a Froude number of 1. It serves as a boundary to classify a channels slope as "mild" So<Sc, where normal depth is greater than critical depth Yn>Yc, or "steep" So>Sc, where normal depth is less than critical depth Yn<Yc.
 
 
+### Freeboard (Fb)
+
+Freeboard in water channels is the vertical distance between the normal water surface and the top of the channel bank, acting as a crucial safety margin to prevent overtopping from surges, waves, or unexpected flow increases, ensuring water stays within the channel and doesn't flood surrounding areas or cause structural damage, often a percentage of channel depth or a fixed height, varying by application like irrigation or flood control. It's a design element to manage uncertainties, from wind action to operational errors, keeping hydraulic structures like flumes and weirs functioning correctly. 
+
+
 ## 2. Sample exercises
 
 Samples exercises with different prismatic geometries. 
@@ -115,8 +120,13 @@ Samples exercises with different prismatic geometries.
 * [Pyscript](https://pyscript.net/)
 
 
+## References
+
+* https://www.hec.usace.army.mil/confluence/rasdocs/rasum/6.3/entering-and-editing-geometric-data/importing-geometric-data
+
+
 ## Developers
 
-* github.com/rcfdtools
-* github.com/frankv13
-* github.com/juanrodace
+* https://github.com/rcfdtools
+* https://github.com/frankv13
+* https://github.com/juanrodace
