@@ -148,30 +148,35 @@ def numeric_float_none(number):
     return float(number)
 
 # Cross-section plot
-def cross_section_plot(y2, y2b, b, z1, z2, units, z, l):
+def cross_section_plot(y2, y2b, b, z1, z2, units, z, l, fb):
     if y2b < y2: # Yn > Yc
         max_elevation = y2
     else:
         max_elevation = y2b
-    valley_side_length = 0.25 * (max_elevation * z1 + b + max_elevation * z2) # 20% side length
-    ground_x_values = [0, valley_side_length, valley_side_length+(max_elevation * z1), valley_side_length+(max_elevation * z1 + b), valley_side_length+(max_elevation * z1 + b + max_elevation * z2), (valley_side_length*2)+(max_elevation * z1 + b + max_elevation * z2)]
-    ground_y_values = [z+max_elevation, z+max_elevation, z, z, z+max_elevation, z+max_elevation]
+    valley_side_length = 0.3 * (max_elevation * z1 + b + max_elevation * z2) # 20% side length
+    ground_x_values = [0, valley_side_length-(fb*z1), valley_side_length+(max_elevation * z1), valley_side_length+(max_elevation * z1 + b), valley_side_length+(max_elevation * z1 + b + max_elevation * z2)+(fb*z2), (valley_side_length*2)+(max_elevation * z1 + b + max_elevation * z2)]
+    ground_y_values = [z+max_elevation+fb, z+max_elevation+fb, z, z, z+max_elevation+fb, z+max_elevation+fb]
     yn_y_values = [z+y2b, z+y2b, z+y2b, z+y2b, z+y2b, z+y2b]
     yc_y_values = [z+y2, z+y2, z+y2, z+y2, z+y2, z+y2]
-    figure(figsize=(6.25, 4), dpi=70)
+    figure(figsize=(6, 4), dpi=70)
     plt.plot(ground_x_values, ground_y_values, color='black', label='Ground', linewidth=1.5, marker='o', markersize=4)
     plt.plot(ground_x_values, yn_y_values, color='#3A78E6', label='Yn', linewidth=1, linestyle='--')
     plt.plot(ground_x_values, yc_y_values, color='#DD3C2A', label='Yc', linewidth=1, linestyle='--')
-    plt.text(0, z+y2b, round(y2b, 6), color='black', ha='left')
-    plt.text(0, z+y2, round(y2, 6), color='black', ha='left')
+    plt.text((max_elevation * z1 + b / 2), z+y2b, round(y2b, 6), color='black', ha='center')
+    plt.text((max_elevation * z1 + b / 2), z+y2, round(y2, 6), color='black', ha='center')
     plt.title(f'{shape_type(b, z1, z2)} cross-section')
     plt.xlabel(f'Station ({units['length']})')
     plt.ylabel(f'Elevation ({units['length']})')
     plt.legend(frameon=False)
     # eval Yn > Yc for water fill
-    ground_y_values = [z+y2b, z+y2b, z, z, z+y2b, z+y2b]
+    ground_y_values = [z+y2b+fb, z+y2b+fb, z, z, z+y2b+fb, z+y2b+fb]
     if y2b < y2: # Yn < Yc
         ground_x_values = [valley_side_length+(y2-y2b)*z1, valley_side_length++(y2-y2b)*z1, valley_side_length+(max_elevation * z1),  valley_side_length+(max_elevation * z1 + b), valley_side_length+(max_elevation * z1 + b) + y2b*z2, (valley_side_length*2)+(max_elevation * z1 + b) + y2b*z2]
+    else:
+        ground_x_values = [0, valley_side_length, valley_side_length + (max_elevation * z1),
+                           valley_side_length + (max_elevation * z1 + b),
+                           valley_side_length + (max_elevation * z1 + b + max_elevation * z2),
+                           (valley_side_length * 2) + (max_elevation * z1 + b + max_elevation * z2)]
     plt.fill_between(ground_x_values, ground_y_values, yn_y_values, color='lightblue', alpha=0.5, label='Filled Area')
     plt.rcParams['axes.spines.left'] = True
     plt.rcParams['axes.spines.right'] = False
@@ -180,28 +185,25 @@ def cross_section_plot(y2, y2b, b, z1, z2, units, z, l):
     plt.grid(True, linewidth=0.2, alpha=0.5)
     return plt
 
-# Cross-section table for HEC-RAS
+# Cross-section table
 def cross_section_table(y2, y2b, b, z1, z2, units, z, l, so):
-    river_name = 'River1'
-    reach_name = 'Reach1'
-    z_less = l * so
-    rounding = 6
     if y2b < y2: # Yn > Yc
         max_elevation = y2
     else:
         max_elevation = y2b
-    valley_side_length = 0.25 * (max_elevation * z1 + b + max_elevation * z2)  # 20% side length
-    ground_x_values = [0, valley_side_length, valley_side_length+max_elevation * z1, valley_side_length+max_elevation * z1 + b, valley_side_length+max_elevation * z1 + b + max_elevation * z2, (valley_side_length*2)+max_elevation * z1 + b + max_elevation * z2]
-    ground_y_values = [z + max_elevation, z + max_elevation, z, z, z + max_elevation, z + max_elevation]
-    xs_table = f'{txt_separator(70)}\nHEC-RAS 1D cross-sections\n{txt_separator(70)}\n\nSave the following table as a .txt or .csv file.\nFile / Import Geometry Data: CSV (Comma Separate Value) Format.\n\nRiver, Reach, RS, Station, Elevation\n'
-    for i in range(len(ground_x_values)):
-        xs_table += f'{river_name}, {reach_name}, 0, {round(ground_x_values[i],rounding)}, {round(ground_y_values[i], rounding)}\n'
-    for i in range(len(ground_x_values)):
-        xs_table += f'{river_name}, {reach_name}, {l}, {round(ground_x_values[i],rounding)}, {round(ground_y_values[i],rounding)+z_less}\n'
+    ground_x_values = [0, max_elevation * z1, max_elevation * z1 + b, max_elevation * z1 + b + max_elevation * z2]
+    ground_y_values = [z + max_elevation, z + 0, z + 0, z + max_elevation]
+    xs_table = f'{txt_separator(70)}\nHEC-RAS cross-sections\n{txt_separator(70)}\n\n● Downstream values\n\nStation({units['length']}), Elevation({units['length']})\n'
+    for i in range(4):
+        xs_table += f'{ground_x_values[i]}, {ground_y_values[i]}\n'
+    xs_table += f'\n● Upstream values\n\nStation({units['length']}), Elevation({units['length']})\n'
+    z_less = l * so
+    for i in range(4):
+        xs_table += f'{ground_x_values[i]}, {ground_y_values[i]+z_less}\n'
     return xs_table
 
 # Results in console
-def results(app_version, now, q, g, b, z1, z2, so, n, alpha, rho, y1aux, y2aux, steps, y2b, y2, shape, unit_sys, dicts, units, z, l):
+def results(app_version, now, q, g, b, z1, z2, so, n, alpha, rho, y1aux, y2aux, steps, y2b, y2, shape, unit_sys, dicts, units, z, l, fb):
     # Input values
     results = f'App version: {dicts['app_version']}\n'
     results += f'Runtime: {now}\n\n'
@@ -262,5 +264,5 @@ def results(app_version, now, q, g, b, z1, z2, so, n, alpha, rho, y1aux, y2aux, 
     results += f'\n● {dicts['Sc']}\nSc = g * n ^ 2 * (Pc / Tc) / (c ^ 2 * Rc ^ (1 / 3))\n'
     results += f'Sc: {critic_slope(g, n, wet_perimeter(b, z1, z2, y2), top_width(b, z1, z2, y2), units['c'], hydraulic_ratio(b, z1, z2, y2))} {units['length']}/{units['length']}\n'
     results += f'Slope type: {profile_type(so, y2b, y2)}\n'
-    results += f'\n{cross_section_table(y2, y2b, b, z1, z2, units, z, l, so)}'
+    results += f'\n{cross_section_table(y2, y2b, b, z1, z2, units, z, l, so)}\n'
     return results
