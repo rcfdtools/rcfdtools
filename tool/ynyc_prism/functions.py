@@ -158,7 +158,7 @@ def cross_section_plot(y2, y2b, b, z1, z2, units, z, l):
     ground_y_values = [z+max_elevation, z+max_elevation, z, z, z+max_elevation, z+max_elevation]
     yn_y_values = [z+y2b, z+y2b, z+y2b, z+y2b, z+y2b, z+y2b]
     yc_y_values = [z+y2, z+y2, z+y2, z+y2, z+y2, z+y2]
-    figure(figsize=(6.25, 4), dpi=70)
+    figure(figsize=(6.1, 4), dpi=65)
     plt.plot(ground_x_values, ground_y_values, color='black', label='Ground', linewidth=1.5, marker='o', markersize=4)
     plt.plot(ground_x_values, yn_y_values, color='#3A78E6', label='Yn', linewidth=1, linestyle='--')
     plt.plot(ground_x_values, yc_y_values, color='#DD3C2A', label='Yc', linewidth=1, linestyle='--')
@@ -181,7 +181,8 @@ def cross_section_plot(y2, y2b, b, z1, z2, units, z, l):
     return plt
 
 # Cross-section table for HEC-RAS
-def cross_section_table(y2, y2b, b, z1, z2, units, z, l, so):
+def cross_section_table(y2, y2b, b, z1, z2, units, z, l, so, rcx, rcy):
+    # coss-section
     river_name = 'River1'
     reach_name = 'Reach1'
     z_less = l * so
@@ -193,15 +194,21 @@ def cross_section_table(y2, y2b, b, z1, z2, units, z, l, so):
     valley_side_length = 0.25 * (max_elevation * z1 + b + max_elevation * z2)  # 20% side length
     ground_x_values = [0, valley_side_length, valley_side_length+max_elevation * z1, valley_side_length+max_elevation * z1 + b, valley_side_length+max_elevation * z1 + b + max_elevation * z2, (valley_side_length*2)+max_elevation * z1 + b + max_elevation * z2]
     ground_y_values = [z + max_elevation, z + max_elevation, z, z, z + max_elevation, z + max_elevation]
-    xs_table = f'{txt_separator(70)}\nHEC-RAS 1D cross-sections\n{txt_separator(70)}\n\nSave the following table as a .txt or .csv file.\nFile / Import Geometry Data: CSV (Comma Separate Value) Format.\n\nRiver, Reach, RS, Station, Elevation\n'
+    xs_table = f'{txt_separator(70)}\nHEC-RAS 1D cross-sections\n{txt_separator(70)}\n\n● Coss-section values\nSave the following table as a .txt or .csv file.\nFile / Import Geometry Data: CSV (Comma Separate Value) Format.\n\n'
+    xs_table += f'River, Reach, RS, Station, Elevation\n'
     for i in range(len(ground_x_values)):
         xs_table += f'{river_name}, {reach_name}, 0, {round(ground_x_values[i],rounding)}, {round(ground_y_values[i], rounding)}\n'
     for i in range(len(ground_x_values)):
         xs_table += f'{river_name}, {reach_name}, {l}, {round(ground_x_values[i],rounding)}, {round(ground_y_values[i],rounding)+z_less}\n'
+    # river axe
+    xs_table += f'\n● River coordinates\nCopy and paste the following values.\nGIS Tools / Reach Invert Lines Table...\n\n'
+    xs_table += f'Schematic X, Schematic Y\n'
+    xs_table += f'{rcx+l}, {rcy}\n'
+    xs_table += f'{rcx}, {rcy}\n'
     return xs_table
 
 # Results in console
-def results(app_version, now, q, g, b, z1, z2, so, n, alpha, rho, y1aux, y2aux, steps, y2b, y2, shape, unit_sys, dicts, units, z, l):
+def results(app_version, now, q, g, b, z1, z2, so, n, alpha, rho, y1aux, y2aux, steps, y2b, y2, shape, unit_sys, dicts, units, z, l, rcx, rcy):
     # Input values
     results = f'App version: {dicts['app_version']}\n'
     results += f'Runtime: {now}\n\n'
@@ -219,6 +226,8 @@ def results(app_version, now, q, g, b, z1, z2, so, n, alpha, rho, y1aux, y2aux, 
     results += f'{dicts['rho']}: {rho} {units['rho']}\n'
     results += f'{dicts['l']}: {l} {units['length']}\n'
     results += f'{dicts['z']}: {z} {units['length']}\n'
+    results += f'{dicts['rcx']}: {rcx} {units['length']}\n'
+    results += f'{dicts['rcy']}: {rcy} {units['length']}\n'
     results += f'{dicts['c']}: {units['c']}\n\n'
     results += f'● Numerical method parameters\n'
     results += f'{dicts['y1']}: {y1aux} {units['length']}\n'
@@ -262,5 +271,5 @@ def results(app_version, now, q, g, b, z1, z2, so, n, alpha, rho, y1aux, y2aux, 
     results += f'\n● {dicts['Sc']}\nSc = g * n ^ 2 * (Pc / Tc) / (c ^ 2 * Rc ^ (1 / 3))\n'
     results += f'Sc: {critic_slope(g, n, wet_perimeter(b, z1, z2, y2), top_width(b, z1, z2, y2), units['c'], hydraulic_ratio(b, z1, z2, y2))} {units['length']}/{units['length']}\n'
     results += f'Slope type: {profile_type(so, y2b, y2)}\n'
-    results += f'\n{cross_section_table(y2, y2b, b, z1, z2, units, z, l, so)}'
+    results += f'\n{cross_section_table(y2, y2b, b, z1, z2, units, z, l, so, rcx, rcy)}'
     return results

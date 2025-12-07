@@ -20,6 +20,8 @@ alpha = 1 # Kinetic correction factor
 rho = 1000 # ρ: fluid density
 l = 100 # l: channel length for HEC-RAS
 z = 2600 # z: ground level for HEC-RAS
+rcx = 5000000  # river start coordinate x for HEC-RAS
+rcy = 2000000  # river start coordinate y for HEC-RAS
 y1 = 0.0001 # Numerical method, low elevation seed
 y2 = 5 # Numerical method, high elevation seed
 steps = 64 # Numerical method, steps
@@ -37,6 +39,8 @@ alpha = funcs.numeric_abs_none(alpha)
 rho = funcs.numeric_abs_none(rho)
 l = funcs.numeric_abs_none(l)
 z = funcs.numeric_abs_none(z)
+rcx = funcs.numeric_abs_none(rcx)
+rcy = funcs.numeric_abs_none(rcy)
 y1 = funcs.numeric_abs_none(y1)
 y2 = funcs.numeric_abs_none(y2)
 steps = int(funcs.numeric_abs_none(steps))
@@ -59,7 +63,7 @@ y2 = funcs.yc(steps, q, g, b, z1, z2, y2, y1, alpha)
 y2b = funcs.yn(steps, q, b, z1, z2, y2b, y1a, so, n, units['c'])
 
 # Print results in console
-results = funcs.results(dict['app_version'], datetime.now(), q, g, b, z1, z2, so, n, alpha, rho, y1aux, y2aux, steps, y2b, y2, funcs.shape_type(b, z1, z2), unit_sys, dicts, units, z, l)
+results = funcs.results(dict['app_version'], datetime.now(), q, g, b, z1, z2, so, n, alpha, rho, y1aux, y2aux, steps, y2b, y2, funcs.shape_type(b, z1, z2), unit_sys, dicts, units, z, l, rcx, rcy)
 print(results)
 
 # Cross-section plot

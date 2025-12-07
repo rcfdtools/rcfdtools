@@ -17,6 +17,8 @@ dicts = {
     'rho': 'ρ, fluid density, rho',
     'l': 'l, channel length',
     'z': 'z, ground level',
+    'rcx': 'Rcx, river start x-coordinate',
+    'rcy': 'Rcy, river start y-coordinate',
     'y1': 'y1, low elevation seed',
     'y2': 'y2, high elevation seed',
     'steps': 'Steps, step times',
