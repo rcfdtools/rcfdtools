@@ -194,7 +194,7 @@ def cross_section_table(y2, y2b, b, z1, z2, units, z, l, so, rcx, rcy):
     valley_side_length = 0.25 * (max_elevation * z1 + b + max_elevation * z2)  # 20% side length
     ground_x_values = [0, valley_side_length, valley_side_length+max_elevation * z1, valley_side_length+max_elevation * z1 + b, valley_side_length+max_elevation * z1 + b + max_elevation * z2, (valley_side_length*2)+max_elevation * z1 + b + max_elevation * z2]
     ground_y_values = [z + max_elevation, z + max_elevation, z, z, z + max_elevation, z + max_elevation]
-    xs_table = f'{txt_separator(70)}\nHEC-RAS 1D cross-sections\n{txt_separator(70)}\n\n● Coss-section values\nSave the following table as a .txt or .csv file.\nFile / Import Geometry Data: CSV (Comma Separate Value) Format.\n\n'
+    xs_table = f'{txt_separator(70)}\nHEC-RAS 1D cross-sections & river\n{txt_separator(70)}\n\n● Coss-section values\nSave the following table as a .txt or .csv file.\nFile / Import Geometry Data: CSV (Comma Separate Value) Format.\n\n'
     xs_table += f'River, Reach, RS, Station, Elevation\n'
     for i in range(len(ground_x_values)):
         xs_table += f'{river_name}, {reach_name}, 0, {round(ground_x_values[i],rounding)}, {round(ground_y_values[i], rounding)}\n'
