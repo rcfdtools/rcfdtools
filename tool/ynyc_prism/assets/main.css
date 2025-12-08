@@ -44,8 +44,8 @@ div {
 
 .logo {
     padding-right: 10px;
-    font-size: 22px;
-    height: 42px;
+    font-size: 20px;
+    height: 40px;
     max-width: inherit;
 }
 
@@ -54,16 +54,16 @@ div {
     text-decoration-line: none;
     text-decoration-style: initial;
     text-decoration-color: initial;
-    font-weight: 400;
-    font-size: 1.25em;
-    line-height: 2em;
+    font-weight: 350;
+    font-size: 18px;
+    line-height: 18px;
     white-space: nowrap;
 }
 
 .app-header {
     display: flex;
     align-items: center;
-    padding: 0.5rem 1rem;
+    padding: 5px;
 }
 
 input[type="text"],
