@@ -207,13 +207,33 @@ def cross_section_table(y2, y2b, b, z1, z2, units, z, l, so, rcx, rcy):
     xs_table += f'{rcx}, {rcy}\n'
     return xs_table
 
+# Distributed flow with a triangular unitary hydrograph (UH) for HEC-RAS
+def distributed_flow(q, tb, ts, tpp, units):
+    rounding = 6
+    tp = tb*(tpp/100) # time to peak in hours
+    steps = int(tb/(ts/60)) # time steps
+    hydrograph_slope_left = q/tp
+    hydrograph_slope_right = q/(tb-tp)
+    hydrograph_table = f'\n● Distributed flow with a triangular unitary hydrograph (UH)\n'
+    hydrograph_table += f'Time to peak (hr): {tp}\n\n'
+    hydrograph_table += f'Step, Time (hr), Flow ({units['q']})\n'
+    for i in range (steps+1):
+        tsa = ts*i/60 # progressive time step
+        if tsa <= tp:
+            qt = ts*i/60 * hydrograph_slope_left
+        else:
+            qt = q - (tsa - tp) * hydrograph_slope_right
+        hydrograph_table += f'{i+1}, {round(tsa, rounding)}, {round(qt, rounding)}\n'
+    return  hydrograph_table
+
 # Results in console
-def results(app_version, now, q, g, b, z1, z2, so, n, alpha, rho, y1aux, y2aux, steps, y2b, y2, shape, unit_sys, dicts, units, z, l, rcx, rcy):
+def results(app_version, now, q, g, b, z1, z2, so, n, alpha, rho, y1aux, y2aux, steps, y2b, y2, shape, unit_sys, dicts, units, z, l, rcx, rcy, tb, ts, tpp):
     # Input values
     results = f'App version: {dicts['app_version']}\n'
     results += f'Runtime: {now}\n\n'
-    results += f'{txt_separator(70)}\nInput values ({dicts['unit_sys']}: {unit_sys})\n{txt_separator(70)}\n\n'
-    results += f'● General parameters\n(input parameters can be adjusted during the validation process)\n'
+    results += f'{txt_separator(70)}\nInput values ({dicts['unit_sys']}: {unit_sys})\n{txt_separator(70)}\n'
+    results += f'(input parameters can be adjusted during the validation process)\n\n'
+    results += f'● General parameters\n'
     results += f'Shape: {shape}\n'
     results += f'{dicts['Q']}: {q} {units['q']}\n'
     results += f'{dicts['g']}: {g} {units['g']}\n'
@@ -224,11 +244,15 @@ def results(app_version, now, q, g, b, z1, z2, so, n, alpha, rho, y1aux, y2aux, 
     results += f'{dicts['n']}: {n}\n'
     results += f'{dicts['alpha']}: {alpha}\n'
     results += f'{dicts['rho']}: {rho} {units['rho']}\n'
+    results += f'{dicts['c']}: {units['c']}\n\n'
+    results += f'● HEC-RAS parameters\n'
     results += f'{dicts['l']}: {l} {units['length']}\n'
     results += f'{dicts['z']}: {z} {units['length']}\n'
     results += f'{dicts['rcx']}: {rcx} {units['length']}\n'
     results += f'{dicts['rcy']}: {rcy} {units['length']}\n'
-    results += f'{dicts['c']}: {units['c']}\n\n'
+    results += f'{dicts['tb']}: {tb}\n'
+    results += f'{dicts['ts']}: {ts}\n'
+    results += f'{dicts['tpp']}: {tpp}\n\n'
     results += f'● Numerical method parameters\n'
     results += f'{dicts['y1']}: {y1aux} {units['length']}\n'
     results += f'{dicts['y2']}: {y2aux} {units['length']}\n'
@@ -272,4 +296,5 @@ def results(app_version, now, q, g, b, z1, z2, so, n, alpha, rho, y1aux, y2aux, 
     results += f'Sc: {critic_slope(g, n, wet_perimeter(b, z1, z2, y2), top_width(b, z1, z2, y2), units['c'], hydraulic_ratio(b, z1, z2, y2))} {units['length']}/{units['length']}\n'
     results += f'Slope type: {profile_type(so, y2b, y2)}\n'
     results += f'\n{cross_section_table(y2, y2b, b, z1, z2, units, z, l, so, rcx, rcy)}'
+    results += distributed_flow(q, tb, ts, tpp, units)
     return results

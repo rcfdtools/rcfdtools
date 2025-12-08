@@ -123,6 +123,9 @@ Samples exercises with different prismatic geometries.
 ## References
 
 * https://www.hec.usace.army.mil/confluence/rasdocs/rasum/6.3/entering-and-editing-geometric-data/importing-geometric-data
+* https://uomustansiriyah.edu.iq/media/lectures/5/5_2019_04_22!08_20_51_PM.pdf
+* https://www.hec.usace.army.mil/confluence/hmsdocs/hmstrm/transform/unit-hydrograph-basic-concepts
+* [bennyistanto / Unit Hydrographs](https://gist.github.com/bennyistanto/62a5427c2780c50d2b3dd69649e0a58f)
 
 
 ## Developers
