@@ -1,9 +1,8 @@
-Plan Title=Plan 01
+Plan Title=Steady
 Program Version=6.70
-Short Identifier=Plan 01                                                         
+Short Identifier=Steady                                                          
 Simulation Date=,,,
 Geom File=g01
-Flow File=f01
 Subcritical Flow
 K Sum by GR= 0 
 Std Step Tol= 0.003 
@@ -129,6 +128,7 @@ UNET D1D2 MaxIter= 0
 UNET D1D2 ZTol=0.003
 UNET D1D2 QTol=0.1
 UNET D1D2 MinQTol=0.03
+DSS File=dss
 Write IC File= 0 
 Write IC File at Fixed DateTime=0
 IC Time=,,
