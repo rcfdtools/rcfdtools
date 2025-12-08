@@ -125,7 +125,10 @@ a:hover {
 .output_plot {
     font-size: 14px;
     color: #3D2B1F;
-    padding: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
     background-color: #FFFFFF
 }
 
