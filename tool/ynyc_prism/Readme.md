@@ -94,7 +94,7 @@ In open channels is the specific bed slope at which the normal depth of flow Yn 
 
 In open channel flow (like rivers, canals), hydraulic force refers to the forces acting on the water and channel boundaries, primarily driven by gravity (weight component along slope) and balanced by friction/shear stress, with forces like pressure and momentum also influencing flow, especially at transitions where "specific force" helps analyze energy changes and obstacles like weirs or hydraulic jumps. It's about the interplay of pressure, gravity, inertia, and friction that shapes how water moves with a free surface. 
 
-<div align="center"><img alt="R.HydroTools" src="assets/hydraulic_force.svg" width="180px"></div>
+<div align="center"><img alt="R.HydroTools" src="assets/hydraulic_force.svg" width="200px"></div>
 
 
 ### Freeboard (Fb)
