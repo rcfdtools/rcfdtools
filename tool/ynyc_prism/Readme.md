@@ -170,7 +170,7 @@ From the main HEC-RAS window, set the Steady Flow Data and the Boundary Conditio
 
 <div align="center"><img alt="R.HydroTools" src="assets/HECRAS_SteadyFlowData.png" width="1000px"></div>
 
-From the main HEC-RAS window, create a Steady Flow Analysis plan and execute.
+From the main HEC-RAS window, create a Steady Flow Analysis plan and _Compute_.
 
 <div align="center"><img alt="R.HydroTools" src="assets/HECRAS_SteadyFlowAnalysis.png" width="1000px"></div>
 
@@ -184,7 +184,7 @@ To perform the unsteady flow simulation, use the time distributed flow with a tr
 
 <div align="center"><img alt="R.HydroTools" src="assets/HECRAS_UnsteadyFlowData.png" width="800px"></div>
 
-From the main HEC-RAS window, create an Unsteady Flow Analysis plan, set the _Advanced Time Step Control_ with _Adjust Time Step Based on Courant_ and execute.
+From the main HEC-RAS window, create an Unsteady Flow Analysis plan, set the _Advanced Time Step Control_ with _Adjust Time Step Based on Courant_ and _Compute_.
 
 <div align="center"><img alt="R.HydroTools" src="assets/HECRAS_UsteadyFlowAnalysis.png" width="1000px"></div>
 
