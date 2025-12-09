@@ -29,7 +29,7 @@ Is the flow depth in an open channel where specific energy is at a minimum for a
 
 The relationship between inertial and gravitational forces in open channel flow is quantified by the Froude number _Fr_, a dimensionless parameter.
 
-<div align="center"><img alt="R.HydroTools" src="assets/critical_depth_froude.svg" width="120px"></div>
+<div align="center"><img alt="R.HydroTools" src="assets/critical_depth_froude.svg" width="160px"></div>
 
 
 ### Geometric area (A)
