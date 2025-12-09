@@ -25,7 +25,11 @@ Is the constant depth of water in an open channel where the flow is steady and u
 
 ### Critical depth (Yc)
 
-Is the flow depth in an open channel where specific energy is at a minimum for a given discharge. It is the transition point between subcritical flow (where the depth is greater than critical depth) and supercritical flow (where the depth is less than critical depth). Understanding critical depth is vital for designing channels and predicting how water will flow through hydraulic structures.
+Is the flow depth in an open channel where specific energy is at a minimum for a given discharge. It is the transition point between subcritical flow (where the depth is greater than critical depth) and supercritical flow (where the depth is less than critical depth). Understanding critical depth is vital for designing channels and predicting how water will flow through hydraulic structures. Critical depth is the specific flow depth in an open channel where inertial forces and gravitational forces are in equilibrium. This condition represents the transition point between two different flow regimes (subcritical and supercritical) and corresponds to the minimum specific energy for a given flow rate.
+
+The relationship between inertial and gravitational forces in open channel flow is quantified by the Froude number _Fr_, a dimensionless parameter.
+
+<div align="center"><img alt="R.HydroTools" src="assets/critical_depth_froude.svg" width="120px"></div>
 
 
 ### Geometric area (A)
