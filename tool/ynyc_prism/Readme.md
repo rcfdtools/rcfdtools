@@ -133,23 +133,23 @@ Samples exercises with different prismatic geometries.
 
 Once you run the Yn & Yc tool, you retrieve the 1D cross-section values required to import and create geometry channel up and downstream. Save the values into a .txt or a .csv file and then from the geometry editor goto _File / Import Geometry Data: CSV (Comma Separate Value) Format_.
 
-<div align="center"><img alt="R.HydroTools" src="assets/HECRAS_ImportCSVDataFile.png" width="500px"></div>
+<div align="center"><img alt="R.HydroTools" src="assets/HECRAS_ImportCSVDataFile.png" width="600px"></div>
 
-<div align="center"><img alt="R.HydroTools" src="assets/HECRAS_ImportCSVDataFile1.png" width="500px"></div>
+<div align="center"><img alt="R.HydroTools" src="assets/HECRAS_ImportCSVDataFile1.png" width="600px"></div>
 
 The tool also provides the 1D river coordinates, copy and paste those values into _GIS Tools / Reach Invert Lines Table..._
 
-<div align="center"><img alt="R.HydroTools" src="assets/HECRAS_ReachInvertLinesTable.png" width="500px"></div>
+<div align="center"><img alt="R.HydroTools" src="assets/HECRAS_ReachInvertLinesTable.png" width="600px"></div>
 
 To set the correct view extent, goto _View / Set Schematic Plot Extents..._ and _Set to Computed Extents_.
 
-<div align="center"><img alt="R.HydroTools" src="assets/HECRAS_SetToComputedExtents.png" width="500px"></div>
+<div align="center"><img alt="R.HydroTools" src="assets/HECRAS_SetToComputedExtents.png" width="300px"></div>
 
 After the cross-section creation and the river definition, you must assign manually the reach lengths, Manning's values, and bank positions.
 
-<div align="center"><img alt="R.HydroTools" src="assets/HECRAS_CrossSectionDataUpstream.png" width="500px"></div>
+<div align="center"><img alt="R.HydroTools" src="assets/HECRAS_CrossSectionDataUpstream.png" width="600px"></div>
 
-<div align="center"><img alt="R.HydroTools" src="assets/HECRAS_CrossSectionDataDownstream.png" width="500px"></div>
+<div align="center"><img alt="R.HydroTools" src="assets/HECRAS_CrossSectionDataDownstream.png" width="600px"></div>
 
 The next step is interpolate sections between the up and down cross-sections, from _Tools / XS Interpolation / Between 2 XS's..._
 
