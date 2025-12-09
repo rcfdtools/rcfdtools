@@ -1,16 +1,16 @@
 HEC-RAS 6.7 Beta 5 Development
-       1       1       0       0
+       1       1       1       0
        0       0
        F
        1
 Initial Conditions Flow Information
        1        Initial Profile
-    .035       1
+    .004       1
 Flow and Seasonal Roughness Flag (plan)
        F       F
        2       0       0
-       3       0.0008969
-       1       1       0       0
+       3       0.0154174
+       1       1       1       0
        0       0
        F
 Project Title, Plan Title and Plan ShortID
@@ -18,7 +18,7 @@ YnYcE0003
 Unsteady1D
 Unsteady1D                                                      
 Job Control Information
-  Computation Interval  = 30SEC
+  Computation Interval  = 1MIN
   Warmup Interval       =  0 
   Instantaneous Profile = 1MIN
   Hydrograph Interval   = 1MIN
@@ -44,7 +44,7 @@ Job Control Information
 YnYcE0003.dss
 Computational Time Window
   Start Date/Time       = 07Dec2025 2400
-  End Date/Time         = 09Dec2025 2400
+  End Date/Time         = 08Dec2025 1300
 Initial Conditions (use restart file?)
        F
 Log File Information
@@ -61,31 +61,17 @@ Hydrograph Data
        1
        F       F       T       F       F.0008969       F
 Upstream Flow Hydrograph - River: River  Reach: Reach  RS: 100
-      97
+      27
        0       0      .558.86955       1117.7038     1.5176.5733       2235.4429
      2.5294.2771       3353.1467     3.5 317.832       4282.5173     4.5247.2027
        5 211.888     5.5176.5733       6141.2587     6.5 105.944       770.62933
      7.535.31467       8       0     8.5       0       9       0     9.5       0
       10       0    10.5       0      11       0    11.5       0      12       0
-    12.5       0      13       0    13.5       0      14       0    14.5       0
-      15       0    15.5       0      16       0    16.5       0      17       0
-    17.5       0      18       0    18.5       0      19       0    19.5       0
-      20       0    20.5       0      21       0    21.5       0      22       0
-    22.5       0      23       0    23.5       0      24       0    24.5       0
-      25       0    25.5       0      26       0    26.5       0      27       0
-    27.5       0      28       0    28.5       0      29       0    29.5       0
-      30       0    30.5       0      31       0    31.5       0      32       0
-    32.5       0      33       0    33.5       0      34       0    34.5       0
-      35       0    35.5       0      36       0    36.5       0      37       0
-    37.5       0      38       0    38.5       0      39       0    39.5       0
-      40       0    40.5       0      41       0    41.5       0      42       0
-    42.5       0      43       0    43.5       0      44       0    44.5       0
-      45       0    45.5       0      46       0    46.5       0      47       0
-    47.5       0      48       0
+    12.5       0      13       0
  3.4E+38
        F       F       F       T       F
 Downstream Normal Depth
-.0008969
+.0154174
 Internal Observed Stage/Flow Boundaries
        0
 Ground Water Interflows
@@ -100,7 +86,7 @@ Time Slicing Parameters
        F
 HYDROGRAPH LOCATIONS
  2 
-       1      11
+       1      21
 Rules (number of rule sets, number of lookbacks, number of tables)
        0       0       0
 Extra Commands

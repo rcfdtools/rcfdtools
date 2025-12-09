@@ -1,6 +1,7 @@
 Flow Title=Unsteady
 Program Version=6.70
 Use Restart= 0 
+Initial Flow Loc=River           ,Reach           ,100     ,0.0001
 Boundary Location=River           ,Reach           ,100     ,        ,                ,                ,                ,                                ,                                ,                                
 Interval=30MIN
 Flow Hydrograph= 100 
@@ -23,7 +24,24 @@ Fixed Start Date/Time=08DEC2025,0015
 Is Critical Boundary=False
 Critical Boundary Flow=
 Boundary Location=River           ,Reach           ,0       ,        ,                ,                ,                ,                                ,                                ,                                
-Friction Slope=0.0008969
+Interval=1HOUR
+Stage Hydrograph= 100 
+   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744
+   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744
+   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744
+   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744
+   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744
+   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744
+   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744
+   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744
+   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744
+   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744
+DSS Path=
+Use DSS=False
+Use Fixed Start Time=False
+Fixed Start Date/Time=,
+Is Critical Boundary=False
+Critical Boundary Flow=
 Boundary Location=                ,                ,        ,        ,                ,Perimeter 1     ,                ,BCUpStream                      ,                                ,                                
 Interval=30MIN
 Flow Hydrograph= 100 
@@ -114,17 +132,17 @@ Met BC=Air Pressure|Constant Units=mb
 Met BC=Air Pressure|Point Interpolation=
 Met BC=Air Pressure|Gridded Source=DSS
 Met BC=Air Pressure|Gridded Interpolation=
-Non-Newtonian Method= 0 ,    
+Non-Newtonian Method= 0 ,     
 Non-Newtonian Constant Vol Conc=0
-Non-Newtonian Yield Method= 0 ,    
+Non-Newtonian Yield Method= 0 ,     
 Non-Newtonian Yield Coef=0, 0
 User Yeild=   0
-Non-Newtonian Sed Visc= 0 ,    
+Non-Newtonian Sed Visc= 0 ,     
 Non-Newtonian Obrian B=0
 User Viscosity=0
 User Viscosity Ratio=0
 Herschel-Bulkley Coef=0, 0
-Clastic Method= 0 ,    
+Clastic Method= 0 ,     
 Coulomb Phi=0
 Voellmy X=0
 Non-Newtonian Hindered FV= 0 

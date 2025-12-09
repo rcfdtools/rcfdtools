@@ -1,7 +1,7 @@
 Plan Title=Unsteady1D
 Program Version=6.70
 Short Identifier=Unsteady1D                                                      
-Simulation Date=08DEC2025,0000,10DEC2025,0000
+Simulation Date=08DEC2025,0000,08DEC2025,1300
 Geom File=g01
 Flow File=u01
 Subcritical Flow
@@ -30,7 +30,7 @@ Flow Ratio Min Ratio=0.5
 Flow Ratio Max Ratio=4
 Flow Ratio Max Iterations= 10 
 Flow Ratio Reference=
-Computation Interval=30SEC
+Computation Interval=1MIN
 Output Interval=1MIN
 Instantaneous Interval=1MIN
 Mapping Interval=1MIN
@@ -97,7 +97,7 @@ Run UNet=-1
 Run Sediment= 0 
 Run PostProcess=-1 
 Run WQNet= 0 
-Run RASMapper=-1 
+Run RASMapper= 0 
 UNET Theta= 1 
 UNET Theta Warmup= 1 
 UNET ZTol= 0.006 
