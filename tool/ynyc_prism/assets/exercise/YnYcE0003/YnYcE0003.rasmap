@@ -143,19 +143,13 @@
       <Layer Type="RASStorageArea">
         <LabelFeatures Checked="True" PercentPosition="0" rows="1" cols="1" r0c0="Name" Position="3" Color="-16777216" FontSize="8.25" />
       </Layer>
-      <Layer Type="RASD2FlowArea" Checked="True">
-        <DataColumnGroupVisibilities>
-          <DataColumnGroupVisibility DisplayName="Feature Parameters" IsVisible="False" />
-        </DataColumnGroupVisibilities>
-      </Layer>
-      <Layer Type="MeshPerimeterLayer">
+      <Layer Type="RASD2FlowArea" Checked="True" />
+      <Layer Type="MeshPerimeterLayer" Checked="True">
         <LabelFeatures Checked="True" PercentPosition="0" rows="1" cols="1" r0c0="Name" Position="3" Color="-16777216" FontSize="8.25" />
-        <DataColumnGroupVisibilities>
-          <DataColumnGroupVisibility DisplayName="Feature Parameters" IsVisible="True" />
-        </DataColumnGroupVisibilities>
       </Layer>
       <Layer Type="MeshPointLayer" Checked="True" />
       <Layer Type="RASBreakLines" Checked="True" />
+      <Layer Type="MeshRegionLayer" Checked="True" />
       <Layer Name="Culvert Groups" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="" />
       <Layer Name="Culvert Barrels" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="Bridges/Culverts" />
       <Layer Name="Gate Groups" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="" />
@@ -764,16 +758,22 @@
         <Symbology>
           <SurfaceFill Colors="-16711681,-16777077" Values="0,15" Stretched="True" AlphaTag="191" UseDatasetMinMax="False" RegenerateForScreen="True" />
         </Symbology>
-        <MapParameters MapType="depth" ProfileIndex="294" ProfileName="08DEC2025 04:54:00" />
+        <MapParameters MapType="depth" ProfileIndex="379" ProfileName="08DEC2025 06:19:00" />
       </Layer>
       <Layer Name="Velocity" Type="RASResultsMap" Checked="True">
         <Symbology>
-          <SurfaceFill Colors="-16777077,-16777014,-15919371,-10709064,-5967498,-1967577,-6656,-19200,-32256,-45568,-3529216,-7667712" Values="0,0.14,0.27,0.41,0.55,0.68,0.82,0.95,1.09,1.23,1.36,1.5" Stretched="True" AlphaTag="178" UseDatasetMinMax="False" RegenerateForScreen="False" />
+          <SurfaceFill Colors="-16777077,-16777047,-16777017,-16381219,-15985423,-13874979,-11368768,-9062751,-6823551,-4721570,-2820040,-1444579,-529654,-9472,-15360,-21504,-27648,-34048,-40448,-374016,-2017536,-3726336,-5697024,-7667712" Values="0,0.07,0.13,0.2,0.26,0.33,0.39,0.46,0.52,0.59,0.65,0.72,0.78,0.85,0.91,0.98,1.04,1.11,1.17,1.24,1.3,1.37,1.43,1.5" Stretched="True" AlphaTag="178" UseDatasetMinMax="False" RegenerateForScreen="False" />
         </Symbology>
-        <MapParameters MapType="velocity" ProfileIndex="192" ProfileName="08DEC2025 03:12:00" />
+        <MapParameters MapType="velocity" ProfileIndex="210" ProfileName="08DEC2025 03:30:00" />
       </Layer>
       <Layer Name="WSE" Type="RASResultsMap">
         <MapParameters MapType="elevation" ProfileIndex="2147483647" ProfileName="Max" />
+      </Layer>
+      <Layer Name="Courant (Velocity/Length)" Type="RASResultsMap">
+        <Symbology>
+          <SurfaceFill Colors="-16744384,-9375880,-5708800,-1781248,-23040,-103936,-377600,-974336,-2686976" Values="0,0.25,0.5,0.75,1,1.25,1.5,1.75,2" Stretched="True" AlphaTag="255" UseDatasetMinMax="False" RegenerateForScreen="True" />
+        </Symbology>
+        <MapParameters MapType="courant" LayerName="Courant (Velocity/Length)" Terrain="Terrain" ProfileIndex="334" ProfileName="08DEC2025 05:34:00" ArrivalDepth="0" />
       </Layer>
     </Layer>
   </Results>
@@ -789,10 +789,10 @@
     </Layer>
   </Terrains>
   <CurrentView>
-    <MaxX>5000125.72495763</MaxX>
-    <MinX>5000014.61384641</MinX>
-    <MaxY>2000031.91248099</MaxY>
-    <MinY>1999962.72321291</MinY>
+    <MaxX>5000102.69047648</MaxX>
+    <MinX>5000075.75403738</MinX>
+    <MaxY>2000008.28205073</MaxY>
+    <MinY>1999992.45376546</MinY>
   </CurrentView>
   <VelocitySettings>
     <Density>1.5</Density>

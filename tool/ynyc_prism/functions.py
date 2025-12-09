@@ -159,7 +159,7 @@ def cross_section_plot(y2, y2b, b, z1, z2, units, z, l):
     ground_y_values = [z+max_elevation, z+max_elevation, z, z, z+max_elevation, z+max_elevation]
     yn_y_values = [z+y2b, z+y2b, z+y2b, z+y2b, z+y2b, z+y2b]
     yc_y_values = [z+y2, z+y2, z+y2, z+y2, z+y2, z+y2]
-    figure(figsize=(6, 5), dpi=70)
+    figure(figsize=(6.2, 4), dpi=70)
     plt.plot(ground_x_values, ground_y_values, color='black', label='Ground', linewidth=1.5, marker='o', markersize=4)
     plt.plot(ground_x_values, yn_y_values, color='#3A78E6', label='Yn', linewidth=1, linestyle='--')
     plt.plot(ground_x_values, yc_y_values, color='#DD3C2A', label='Yc', linewidth=1, linestyle='--')
@@ -182,7 +182,8 @@ def cross_section_plot(y2, y2b, b, z1, z2, units, z, l):
     return plt
 
 # Cross-section table for HEC-RAS
-def cross_section_table(y2, y2b, b, z1, z2, units, z, l, so, rcx, rcy):
+def cross_section_table(y2, y2b, b, z1, z2, units, z, l, so, rcx, rcy, cell_size):
+    cell_size_buffer = (cell_size**2 + cell_size**2)**0.5
     # coss-section
     river_name = 'River1'
     reach_name = 'Reach1'
@@ -195,17 +196,36 @@ def cross_section_table(y2, y2b, b, z1, z2, units, z, l, so, rcx, rcy):
     valley_side_length = 0.25 * (max_elevation * z1 + b + max_elevation * z2)  # 20% side length
     ground_x_values = [0, valley_side_length, valley_side_length+max_elevation * z1, valley_side_length+max_elevation * z1 + b, valley_side_length+max_elevation * z1 + b + max_elevation * z2, (valley_side_length*2)+max_elevation * z1 + b + max_elevation * z2]
     ground_y_values = [z + max_elevation, z + max_elevation, z, z, z + max_elevation, z + max_elevation]
-    xs_table = f'{txt_separator(70)}\nHEC-RAS 1D cross-sections & river\n{txt_separator(70)}\n\n● Coss-section values\nSave the following table as a .txt or .csv file.\nFile / Import Geometry Data: CSV (Comma Separate Value) Format.\n\n'
+    xs_table = f'{txt_separator(70)}\nHEC-RAS 1D/2D\n{txt_separator(70)}\n\n● 1D cross-section values\nSave the following table as a .txt or .csv file.\nHEC-RAS: File / Import Geometry Data: CSV (Comma Separate Value) Format.\n\n'
     xs_table += f'River, Reach, RS, Station, Elevation\n'
     for i in range(len(ground_x_values)):
         xs_table += f'{river_name}, {reach_name}, 0, {round(ground_x_values[i],rounding)}, {round(ground_y_values[i], rounding)}\n'
     for i in range(len(ground_x_values)):
         xs_table += f'{river_name}, {reach_name}, {l}, {round(ground_x_values[i],rounding)}, {round(ground_y_values[i],rounding)+z_less}\n'
     # river axe
-    xs_table += f'\n● River coordinates\nCopy and paste the following values.\nGIS Tools / Reach Invert Lines Table...\n\n'
+    xs_table += f'\n● 1D river coordinates\nCopy and paste the following values.\nHEC-RAS: GIS Tools / Reach Invert Lines Table...\n\n'
     xs_table += f'Schematic X, Schematic Y\n'
     xs_table += f'{rcx+l}, {rcy}\n'
     xs_table += f'{rcx}, {rcy}\n'
+    # 2D region
+    xs_table += f'\n● 2D perimeter coordinates\nSave the following table as a .txt or .csv file.\nQGIS: Layer / Add Layer / Add Delimited Text Layer..., Points to Path, Polygonize\n\n'
+    xs_table += f'Order, Cx, Cy\n'
+    xs_table += f'1, {rcx+cell_size_buffer}, {rcy-cell_size_buffer+((valley_side_length*2)+(max_elevation * z1 + b + max_elevation * z2))/2}\n'
+    xs_table += f'2, {rcx+l-cell_size_buffer}, {rcy-cell_size_buffer+((valley_side_length*2)+(max_elevation * z1 + b + max_elevation * z2))/2}\n'
+    xs_table += f'3, {rcx+l-cell_size_buffer}, {rcy+cell_size_buffer-((valley_side_length*2)+(max_elevation * z1 + b + max_elevation * z2))/2}\n'
+    xs_table += f'4, {rcx+cell_size_buffer}, {rcy+cell_size_buffer-((valley_side_length*2)+(max_elevation * z1 + b + max_elevation * z2))/2}\n'
+    xs_table += f'5, {rcx+cell_size_buffer}, {rcy-cell_size_buffer+((valley_side_length*2)+(max_elevation * z1 + b + max_elevation * z2))/2}\n'
+    # 2D breaklines
+    xs_table += f'\n● 2D breaklines coordinates\nSave the following table as a .txt or .csv file.\nQGIS: Layer / Add Layer / Add Delimited Text Layer..., Points to Path\n\n'
+    xs_table += f'Path, Order, Cx, Cy\n'
+    xs_table += f'1, 1, {rcx}, {rcy+b/2}\n'
+    xs_table += f'1, 2, {rcx+l}, {rcy+b/2}\n'
+    xs_table += f'2, 1, {rcx}, {rcy-b/2}\n'
+    xs_table += f'2, 2, {rcx+l}, {rcy-b/2}\n'
+    xs_table += f'3, 1, {rcx}, {rcy+b/2+max_elevation*z2}\n'
+    xs_table += f'3, 2, {rcx+l}, {rcy+b/2+max_elevation*z2}\n'
+    xs_table += f'4, 1, {rcx}, {rcy-b/2-max_elevation*z1}\n'
+    xs_table += f'4, 2, {rcx+l}, {rcy-b/2-max_elevation*z1}\n'
     return xs_table
 
 # Distributed flow with a triangular unitary hydrograph (UH) for HEC-RAS
@@ -215,7 +235,7 @@ def distributed_flow(q, tb, ts, tpp, units):
     steps = int(tb/(ts/60)) # time steps
     hydrograph_slope_left = q/tp
     hydrograph_slope_right = q/(tb-tp)
-    hydrograph_table = f'\n● Distributed flow with a triangular unitary hydrograph (UH)\n'
+    hydrograph_table = f'● Distributed flow with a triangular unitary hydrograph (UH)\n'
     hydrograph_table += f'Time to peak (hr): {tp}\n\n'
     hydrograph_table += f'Step, Time (hr), Flow ({units['q']})\n'
     for i in range (steps+1):
@@ -224,11 +244,11 @@ def distributed_flow(q, tb, ts, tpp, units):
             qt = ts*i/60 * hydrograph_slope_left
         else:
             qt = q - (tsa - tp) * hydrograph_slope_right
-        hydrograph_table += f'{i+1}, {round(tsa, rounding)}, {round(qt, rounding)}\n'
+        hydrograph_table += f'{i}, {round(tsa, rounding)}, {round(qt, rounding)}\n'
     return  hydrograph_table
 
 # Results in console
-def results(app_version, now, q, g, b, z1, z2, so, n, alpha, rho, y1aux, y2aux, steps, y2b, y2, shape, unit_sys, dicts, units, z, l, rcx, rcy, tb, ts, tpp):
+def results(app_version, now, q, g, b, z1, z2, so, n, alpha, rho, y1aux, y2aux, steps, y2b, y2, shape, unit_sys, dicts, units, z, l, rcx, rcy, tb, ts, tpp, cell_size):
     # Input values
     results = f'App version: {dicts['app_version']}\n'
     results += f'Runtime: {now}\n\n'
@@ -253,8 +273,9 @@ def results(app_version, now, q, g, b, z1, z2, so, n, alpha, rho, y1aux, y2aux, 
     results += f'{dicts['rcy']}: {rcy} {units['length']}\n'
     results += f'{dicts['tb']}: {tb}\n'
     results += f'{dicts['ts']}: {ts}\n'
-    results += f'{dicts['tpp']}: {tpp}\n\n'
-    results += f'● Numerical method parameters\n'
+    results += f'{dicts['tpp']}: {tpp}\n'
+    results += f'{dicts['cell_size']}: {cell_size} {units['length']}\n\n'
+    results += f'● Numerical method parameters\nBisection method\n'
     results += f'{dicts['y1']}: {y1aux} {units['length']}\n'
     results += f'{dicts['y2']}: {y2aux} {units['length']}\n'
     results += f'{dicts['steps']}: {steps}\n'
@@ -296,6 +317,6 @@ def results(app_version, now, q, g, b, z1, z2, so, n, alpha, rho, y1aux, y2aux, 
     results += f'\n● {dicts['Sc']}\nSc = g * n ^ 2 * (Pc / Tc) / (c ^ 2 * Rc ^ (1 / 3))\n'
     results += f'Sc: {critic_slope(g, n, wet_perimeter(b, z1, z2, y2), top_width(b, z1, z2, y2), units['c'], hydraulic_ratio(b, z1, z2, y2))} {units['length']}/{units['length']}\n'
     results += f'Slope type: {profile_type(so, y2b, y2)}\n'
-    results += f'\n{cross_section_table(y2, y2b, b, z1, z2, units, z, l, so, rcx, rcy)}'
+    results += f'\n{cross_section_table(y2, y2b, b, z1, z2, units, z, l, so, rcx, rcy, cell_size)}\n'
     results += distributed_flow(q, tb, ts, tpp, units)
     return results

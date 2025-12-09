@@ -1,7 +1,6 @@
 Flow Title=Unsteady
 Program Version=6.70
 Use Restart= 0 
-Initial Storage Elev=Perimeter 1     ,0.001,0
 Boundary Location=River           ,Reach           ,100     ,        ,                ,                ,                ,                                ,                                ,                                
 Interval=30MIN
 Flow Hydrograph= 100 
@@ -47,7 +46,15 @@ Fixed Start Date/Time=,
 Is Critical Boundary=False
 Critical Boundary Flow=
 Boundary Location=                ,                ,        ,        ,                ,Perimeter 1     ,                ,BCDownStream                    ,                                ,                                
-Friction Slope=0.0008969
+Interval=1HOUR
+Rating Curve= 2 
+       0       0.6744169      10
+DSS Path=
+Use DSS=False
+Use Fixed Start Time=False
+Fixed Start Date/Time=,
+Is Critical Boundary=False
+Critical Boundary Flow=
 Met Point Raster Parameters=,,,,
 Precipitation Mode=Disable
 Wind Mode=No Wind Forces
@@ -107,17 +114,17 @@ Met BC=Air Pressure|Constant Units=mb
 Met BC=Air Pressure|Point Interpolation=
 Met BC=Air Pressure|Gridded Source=DSS
 Met BC=Air Pressure|Gridded Interpolation=
-Non-Newtonian Method= 0 ,   
+Non-Newtonian Method= 0 ,    
 Non-Newtonian Constant Vol Conc=0
-Non-Newtonian Yield Method= 0 ,   
+Non-Newtonian Yield Method= 0 ,    
 Non-Newtonian Yield Coef=0, 0
 User Yeild=   0
-Non-Newtonian Sed Visc= 0 ,   
+Non-Newtonian Sed Visc= 0 ,    
 Non-Newtonian Obrian B=0
 User Viscosity=0
 User Viscosity Ratio=0
 Herschel-Bulkley Coef=0, 0
-Clastic Method= 0 ,   
+Clastic Method= 0 ,    
 Coulomb Phi=0
 Voellmy X=0
 Non-Newtonian Hindered FV= 0 

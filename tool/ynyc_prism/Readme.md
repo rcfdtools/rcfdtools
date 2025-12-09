@@ -30,6 +30,8 @@ where <i>v</i> is the flow velocity, <i>g</i> is the acceleration due to gravity
 
 Is the ratio of the cross-sectional area of flow A to the top width T of the water surface, expressed as D=A/T. It is a key parameter in open channel hydraulics, particularly useful for calculating things like the Froude number and energy relationships, while hydraulic radius is used for frictional losses. In a rectangular channel, the hydraulic depth is simply equal to the vertical depth of the flow.',
 
+<div align="center"><img alt="R.HydroTools" src="assets/hydraulic_depth.svg" width="50px"></div>
+
 
 ### Wet perimeter (P)
 
@@ -44,6 +46,8 @@ Is the horizontal width at the waters surface. It is a critical measurement used
 ### Hydraulic ratio (R)
 
 Is the ratio of the cross-sectional area of the flow to the wetted perimeter. It is calculated as R=A/P, where A is the flow area and P is the wetted perimeter. This value indicates the efficiency of a channel in transporting water, with a higher hydraulic radius leading to increased flow velocity and capacity.
+
+<div align="center"><img alt="R.HydroTools" src="assets/hydraulic_ratio.svg" width="50px"></div>
 
 
 ### Normal depth (Yn)
@@ -60,6 +64,8 @@ Is the flow depth in an open channel where specific energy is at a minimum for a
 
 Is the speed of the fluid, which varies across the cross-section, being zero at the boundaries and increasing towards the free surface. It is calculated using formulas like the Manning's equation, which considers the channels hydraulic radius, slope, and roughness. The mean velocity is often used for design and can be estimated by averaging velocities at specific depths, such as 0.2 and 0.8 of the total depth, or by taking the velocity at 0.6 of the depth from the surface.
 
+<div align="center"><img alt="R.HydroTools" src="assets/velocity.svg" width="50px"></div>
+
 
 ### Geometric area (A)
 
@@ -70,6 +76,8 @@ In a channel is the cross-sectional area of the flow, which represents the space
 
 In channels is the force exerted by a fluid flowing over a surface, acting parallel to that surface and causing a drag or friction force. It is calculated as the force per unit area and is a measure of the fluids resistance to flow, which can erode the channel bed or be a factor in sediment transport. The stress is also present between layers of the fluid itself and is influenced by factors like fluid viscosity, flow depth, channel slope, and turbulence.
 
+<div align="center"><img alt="R.HydroTools" src="assets/shear_stress.svg" width="80px"></div>
+
 
 ### Hydraulic force (F)
 
@@ -79,6 +87,14 @@ In open channels, hydraulic force is the force exerted by the flowing water, whi
 ### Critical slope (Sc)
 
 In open channels is the specific bed slope at which the normal depth of flow Yn is equal to the critical depth Yc. At this slope, the flow is uniform and critical, with a Froude number of 1. It serves as a boundary to classify a channels slope as "mild" So<Sc, where normal depth is greater than critical depth Yn>Yc, or "steep" So>Sc, where normal depth is less than critical depth Yn<Yc.
+
+<div align="center"><img alt="R.HydroTools" src="assets/critical_slope.svg" width="80px"></div>
+
+
+### Hydraulic force
+
+<div align="center"><img alt="R.HydroTools" src="assets/hydraulic_force.svg" width="80px"></div>
+
 
 
 ### Freeboard (Fb)

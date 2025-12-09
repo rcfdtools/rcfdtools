@@ -29,6 +29,7 @@ def run(event):
     input_tb = document.querySelector("#tb")
     input_ts = document.querySelector("#ts")
     input_tpp = document.querySelector("#tpp")
+    input_cell_size = document.querySelector("#cell_size")
     input_y1 = document.querySelector("#y1")
     input_y2 = document.querySelector("#y2")
     input_steps = document.querySelector("#steps")
@@ -51,6 +52,7 @@ def run(event):
     tb = input_tb.value  # flow duration in hours for HEC-RAS
     ts = input_ts.value  # flow time step (minutes) for HEC-RAS
     tpp = input_tpp.value  # % time to peak flow discharge for HEC-RAS
+    cell_size = input_cell_size.value  # DEM resolution for 2D perimeter internal buffer
     y1 = input_y1.value # Numerical method, low elevation seed
     y2 = input_y2.value # Numerical method, high elevation seed
     steps = input_steps.value # Numerical method, steps
@@ -73,6 +75,7 @@ def run(event):
     tb = funcs.numeric_abs_none(tb)
     ts = funcs.numeric_abs_none(ts)
     tpp = funcs.numeric_abs_none(tpp)
+    cell_size = funcs.numeric_abs_none(cell_size)
     y1 = funcs.numeric_abs_none(y1)
     y2 = funcs.numeric_abs_none(y2)
     steps = int(funcs.numeric_abs_none(steps))
@@ -97,7 +100,7 @@ def run(event):
 
     # Print results in console
     results = funcs.results(dict['app_version'], datetime.now(), q, g, b, z1, z2, so, n, alpha, rho, y1aux, y2aux,
-                            steps, y2b, y2, funcs.shape_type(b, z1, z2), unit_sys, dicts, units, z , l, rcx, rcy, tb, ts, tpp)
+                            steps, y2b, y2, funcs.shape_type(b, z1, z2), unit_sys, dicts, units, z , l, rcx, rcy, tb, ts, tpp, cell_size)
     output_div = document.querySelector("#output")
     output_div.innerText = results
 

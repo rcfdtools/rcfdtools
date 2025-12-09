@@ -25,6 +25,7 @@ rcy = 2000000  # river start coordinate y for HEC-RAS
 tb = 8 # flow duration in hours for HEC-RAS
 ts = 30 # flow time step (minutes) for HEC-RAS
 tpp = 37.5 # % time to peak flow discharge for HEC-RAS
+cell_size = 0.1 # DEM resolution for 2D perimeter internal buffer
 y1 = 0.0001 # Numerical method, low elevation seed
 y2 = 5 # Numerical method, high elevation seed
 steps = 64 # Numerical method, steps
@@ -69,7 +70,7 @@ y2 = funcs.yc(steps, q, g, b, z1, z2, y2, y1, alpha)
 y2b = funcs.yn(steps, q, b, z1, z2, y2b, y1a, so, n, units['c'])
 
 # Print results in console
-results = funcs.results(dict['app_version'], datetime.now(), q, g, b, z1, z2, so, n, alpha, rho, y1aux, y2aux, steps, y2b, y2, funcs.shape_type(b, z1, z2), unit_sys, dicts, units, z, l, rcx, rcy, tb, ts, tpp)
+results = funcs.results(dict['app_version'], datetime.now(), q, g, b, z1, z2, so, n, alpha, rho, y1aux, y2aux, steps, y2b, y2, funcs.shape_type(b, z1, z2), unit_sys, dicts, units, z, l, rcx, rcy, tb, ts, tpp, cell_size)
 print(results)
 
 # Cross-section plot

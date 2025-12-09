@@ -3,6 +3,9 @@ Local contents
 
 ✓Δ°Σβρσθαπ∑√±πØμx●•∫→≤≥≈
 
+cell_size: used for 2D perimeter internal buffer
+
+
 https://rcfdtools.github.io/rcfdtools/tool/basicsum
 https://rcfdtools.github.io/rcfdtools/tool/ynyc_prism
 https://raw.githubusercontent.com/rcfdtools/R.DAPC/refs/heads/main/file/table/DAPC_Subestacion.csv
