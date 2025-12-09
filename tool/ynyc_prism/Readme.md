@@ -82,19 +82,14 @@ In channels is the force exerted by a fluid flowing over a surface, acting paral
 
 In open channels, hydraulic force is the force exerted by the flowing water, which is driven primarily by gravity and influenced by pressure and shear stress. This force is essential for understanding and designing channels, as it can be used to measure discharge, control water levels, and dissipate energy through structures like hydraulic jumps.
 
+<div align="center"><img alt="R.HydroTools" src="assets/hydraulic_force.svg" width="200px"></div>
+
 
 ### Critical slope (Sc)
 
 In open channels is the specific bed slope at which the normal depth of flow Yn is equal to the critical depth Yc. At this slope, the flow is uniform and critical, with a Froude number of 1. It serves as a boundary to classify a channels slope as "mild" So<Sc, where normal depth is greater than critical depth Yn>Yc, or "steep" So>Sc, where normal depth is less than critical depth Yn<Yc.
 
 <div align="center"><img alt="R.HydroTools" src="assets/critical_slope.svg" width="190px"></div>
-
-
-### Hydraulic force
-
-In open channel flow (like rivers, canals), hydraulic force refers to the forces acting on the water and channel boundaries, primarily driven by gravity (weight component along slope) and balanced by friction/shear stress, with forces like pressure and momentum also influencing flow, especially at transitions where "specific force" helps analyze energy changes and obstacles like weirs or hydraulic jumps. It's about the interplay of pressure, gravity, inertia, and friction that shapes how water moves with a free surface. 
-
-<div align="center"><img alt="R.HydroTools" src="assets/hydraulic_force.svg" width="200px"></div>
 
 
 ### Freeboard (Fb)
