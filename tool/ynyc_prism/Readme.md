@@ -129,6 +129,9 @@ Samples exercises with different prismatic geometries.
 
 ## 3. HEC-RAS modeling
 
+The sample exercise _YnYcE0003_, correspond to a trapezoidal channel in subcritical regime with the parameters: unit_sys = 'SI', q = 10, g = 9.806, b = 5, z1 = 2, z2 = 2, so = 0.0008969, n = 0.035, alpha = 1, rho = 1000, y1 = 0.0001, y2 = 5, steps = 64.
+
+
 ### 1D models
 
 Once you run the Yn & Yc tool, you retrieve the 1D cross-section values required to import and create geometry channel up and downstream. Save the values into a .txt or a .csv file and then from the geometry editor goto _File / Import Geometry Data: CSV (Comma Separate Value) Format_.
