@@ -75,7 +75,7 @@ where <i>v</i> is the flow velocity, <i>g</i> is the acceleration due to gravity
 
 In channels is the force exerted by a fluid flowing over a surface, acting parallel to that surface and causing a drag or friction force. It is calculated as the force per unit area and is a measure of the fluids resistance to flow, which can erode the channel bed or be a factor in sediment transport. The stress is also present between layers of the fluid itself and is influenced by factors like fluid viscosity, flow depth, channel slope, and turbulence.
 
-<div align="center"><img alt="R.HydroTools" src="assets/shear_stress.svg" width="80px"></div>
+<div align="center"><img alt="R.HydroTools" src="assets/shear_stress.svg" width="180px"></div>
 
 
 ### Hydraulic force (F)
@@ -87,14 +87,14 @@ In open channels, hydraulic force is the force exerted by the flowing water, whi
 
 In open channels is the specific bed slope at which the normal depth of flow Yn is equal to the critical depth Yc. At this slope, the flow is uniform and critical, with a Froude number of 1. It serves as a boundary to classify a channels slope as "mild" So<Sc, where normal depth is greater than critical depth Yn>Yc, or "steep" So>Sc, where normal depth is less than critical depth Yn<Yc.
 
-<div align="center"><img alt="R.HydroTools" src="assets/critical_slope.svg" width="80px"></div>
+<div align="center"><img alt="R.HydroTools" src="assets/critical_slope.svg" width="180px"></div>
 
 
 ### Hydraulic force
 
 In open channel flow (like rivers, canals), hydraulic force refers to the forces acting on the water and channel boundaries, primarily driven by gravity (weight component along slope) and balanced by friction/shear stress, with forces like pressure and momentum also influencing flow, especially at transitions where "specific force" helps analyze energy changes and obstacles like weirs or hydraulic jumps. It's about the interplay of pressure, gravity, inertia, and friction that shapes how water moves with a free surface. 
 
-<div align="center"><img alt="R.HydroTools" src="assets/hydraulic_force.svg" width="80px"></div>
+<div align="center"><img alt="R.HydroTools" src="assets/hydraulic_force.svg" width="180px"></div>
 
 
 ### Freeboard (Fb)
