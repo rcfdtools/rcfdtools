@@ -132,7 +132,7 @@ Samples exercises with different prismatic geometries.
 The exercise _YnYcE0003_ used as a sample in this section , correspond to a trapezoidal channel in subcritical regime with the parameters: unit_sys = 'SI', q = 10, g = 9.806, b = 5, z1 = 2, z2 = 2, so = 0.0008969, n = 0.035, alpha = 1, rho = 1000, y1 = 0.0001, y2 = 5, steps = 64.
 
 
-### 1D models
+### 1D modeling
 
 Once you run the Yn & Yc tool, you retrieve the 1D cross-section values required to import and create geometry channel up and downstream. Save the values into a .txt or a .csv file and then from the geometry editor goto _File / Import Geometry Data: CSV (Comma Separate Value) Format_.
 
@@ -170,7 +170,7 @@ From the main HEC-RAS window, create a Steady Flow Analysis plan and execute.
 
 <div align="center"><img alt="R.HydroTools" src="assets/HECRAS_SteadyFlowAnalysis.png" width="1000px"></div>
 
-Check the profile results.
+Check the steady profile results.
 
 <div align="center"><img alt="R.HydroTools" src="assets/HECRAS_SteadyProfilePlotAnalysis.png" width="1000px"></div>
 
@@ -184,7 +184,7 @@ From the main HEC-RAS window, create an Unsteady Flow Analysis plan, set the _Ad
 
 <div align="center"><img alt="R.HydroTools" src="assets/HECRAS_UsteadyFlowAnalysis.png" width="1000px"></div>
 
-Check the profile results.
+Check the unsteady profile results.
 
 <div align="center"><img alt="R.HydroTools" src="assets/HECRAS_UnsteadyProfilePlotAnalysis.png" width="1000px"></div>
 
@@ -192,7 +192,7 @@ Check the profile results.
 
 
 
-### 2D models
+### 2D modeling
 
 
 
