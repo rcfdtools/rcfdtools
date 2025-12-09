@@ -4,7 +4,7 @@
 
 An open channel flow is the movement of a liquid, like water, in a conduit that has a free surface exposed to the atmosphere. Unlike a pipe that is completely full, open channel flow is driven by gravity, and the top surface of the liquid is not under pressure. Common examples include rivers, streams, canals, and storm drains. [:pineapple:**RUN** Tool.](https://rcfdtools.github.io/rcfdtools/tool/ynyc_prism/) 
 
-<div align="center"><img alt="R.HydroTools" src="assets/prism.svg" width="500px"></div>
+<div align="center"><img alt="R.HydroTools" src="assets/prism.svg" width="400px"></div>
 
 
 ## 1. General concepts
