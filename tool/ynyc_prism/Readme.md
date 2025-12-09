@@ -202,6 +202,11 @@ Check the unsteady profile results.
 
 <div align="center"><img alt="R.HydroTools" src="assets/HECRAS_UnsteadyProfilePlotAnalysis1.png" width="1000px"></div>
 
+Now, the results mapping can be performed directly by RAS Mapper, first you need to set up a Coordinates Reference System - CRS from _Project / Set Projection..._. In this example, we are going to use the file [MAGNA_OrigenNacional.prj](assets/projectionfile/) from South América - Colombia. 
+
+<div align="center"><img alt="R.HydroTools" src="assets/HECRAS_RASMapperSetProjection.png" width="500px"></div>
+
+
 
 
 ### 2D modeling

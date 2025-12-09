@@ -3,7 +3,6 @@ Current Plan=p03
 Default Exp/Contr=0.3,0.1
 SI Units
 Geom File=g01
-Geom File=g02
 Flow File=f01
 Unsteady File=u01
 Plan File=p01
