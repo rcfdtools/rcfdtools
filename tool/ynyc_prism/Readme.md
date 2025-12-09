@@ -155,6 +155,23 @@ The next step is interpolate sections between the up and down cross-sections, fr
 
 <div align="center"><img alt="R.HydroTools" src="assets/HECRAS_XSInterpolation.png" width="1000px"></div>
 
+Check the river profile.
+
+<div align="center"><img alt="R.HydroTools" src="assets/HECRAS_ProfilePlot.png" width="1000px"></div>
+
+From the main HEC-RAS window, set the Steady Flow Data and the Boundary Conditions.
+
+<div align="center"><img alt="R.HydroTools" src="assets/HECRAS_SteadyFlowData.png" width="1000px"></div>
+
+From the main HEC-RAS window, create a Steady Flow Analysis plan and execute.
+
+<div align="center"><img alt="R.HydroTools" src="assets/HECRAS_SteadyFlowAnalysis.png" width="1000px"></div>
+
+Check the profile results.
+
+<div align="center"><img alt="R.HydroTools" src="assets/HECRAS_ProfilePlotAnalysis.png" width="1000px"></div>
+
+
 
 ### 2D models
 
