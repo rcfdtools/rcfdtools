@@ -206,9 +206,9 @@ Now, the results mapping can be performed directly by RAS Mapper, first you need
 
 <div align="center"><img alt="R.HydroTools" src="assets/HECRAS_RASMapperSetProjection.png" width="600px"></div>
 
-From Geometries / Geometry1D / Export Layer / Create Terrain GeoTiff from XS's (Overbanks and Channel), generate a 0.1 meters resolution terrain as _/dem/dem.tif_. Once the terrain is generated, from the Terrains / Create a New RAS Terrain, set the new DTM. 
+From Geometries / Geometry1D / Export Layer / Create Terrain GeoTiff from XS's (Overbanks and Channel), generate a 0.1 meters resolution terrain as _/dem/dem.tif_. Once the terrain is generated, from the Terrains / Create a New RAS Terrain, set the new DTM. Adjust the surface fill style to grayscale.
 
-<div align="center"><img alt="R.HydroTools" src="assets/HECRAS_RASMapperCreateANewRASTerrain.png" width="600px"></div>
+<div align="center"><img alt="R.HydroTools" src="assets/HECRAS_RASMapperCreateANewRASTerrain.png" width="1000px"></div>
 
 
 
