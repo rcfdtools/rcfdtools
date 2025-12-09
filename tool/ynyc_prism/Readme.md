@@ -171,6 +171,8 @@ Check the profile results.
 
 <div align="center"><img alt="R.HydroTools" src="assets/HECRAS_ProfilePlotAnalysis.png" width="1000px"></div>
 
+<div align="center"><img alt="R.HydroTools" src="assets/HECRAS_ProfilePlotAnalysis1.png" width="1000px"></div>
+
 
 
 ### 2D models
