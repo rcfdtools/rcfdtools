@@ -1,7 +1,7 @@
 Plan Title=Unsteady2D
 Program Version=6.70
 Short Identifier=Unsteady2D                                                      
-Simulation Date=08DEC2025,0000,08DEC2025,2400
+Simulation Date=08DEC2025,0000,08DEC2025,1200
 Geom File=g02
 Flow File=u01
 Subcritical Flow
@@ -30,14 +30,14 @@ Flow Ratio Min Ratio=0.5
 Flow Ratio Max Ratio=4
 Flow Ratio Max Iterations= 10 
 Flow Ratio Reference=
-Computation Interval=5MIN
+Computation Interval=1MIN
 Output Interval=5MIN
 Instantaneous Interval=5MIN
 Mapping Interval=5MIN
 Computation Time Step Use Courant=        -1
 Computation Time Step Use Time Series=    0
-Computation Time Step Max Courant=5
-Computation Time Step Min Courant=0.01
+Computation Time Step Max Courant=3
+Computation Time Step Min Courant=0.001
 Computation Time Step Count To Double=0
 Computation Time Step Max Doubling=0
 Computation Time Step Max Halving=0
