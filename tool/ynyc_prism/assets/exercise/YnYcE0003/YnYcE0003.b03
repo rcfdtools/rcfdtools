@@ -10,7 +10,7 @@ Flow and Seasonal Roughness Flag (plan)
        F       F
        2       0       0
        3       0    .001
- 3.1E+38
+    .003
        1       1       0       0
        0       0
        F
@@ -19,10 +19,10 @@ YnYcE0003
 Unsteady2D
 Unsteady2D                                                      
 Job Control Information
-  Computation Interval  = 30SEC
+  Computation Interval  = 5MIN
   Warmup Interval       =  0 
-  Instantaneous Profile = 1MIN
-  Hydrograph Interval   = 1MIN
+  Instantaneous Profile = 5MIN
+  Hydrograph Interval   = 5MIN
   Theta Simulation      =        1
   Theta Warmup          =        1
   Friction Slope Method =        2
@@ -45,13 +45,13 @@ Job Control Information
 YnYcE0003.dss
 Computational Time Window
   Start Date/Time       = 07Dec2025 2400
-  End Date/Time         = 08Dec2025 1200
+  End Date/Time         = 08Dec2025 2400
 Initial Conditions (use restart file?)
        F
 Log File Information
        F       0       0
 Computation Level Output
-       F-3.4E+38 3.4E+38       F       F       F       F       F       F       F       F       F    1MIN
+       F-3.4E+38 3.4E+38       F       F       F       F       F       F       F       F       F    5MIN
 Mixed Flow - Acceleration term reduction based on Froude number
        F       4      .8       1
 Number of Gate Groups and Internal Boundaries with Gates

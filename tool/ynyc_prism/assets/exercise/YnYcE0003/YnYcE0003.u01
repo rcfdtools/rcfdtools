@@ -1,7 +1,7 @@
 Flow Title=Unsteady
 Program Version=6.70
 Use Restart= 0 
-Initial Flow Loc=River           ,Reach           ,100     ,0.0001
+Initial Storage Elev=Perimeter 1     ,0.001,0
 Boundary Location=River           ,Reach           ,100     ,        ,                ,                ,                ,                                ,                                ,                                
 Interval=30MIN
 Flow Hydrograph= 100 
@@ -24,24 +24,7 @@ Fixed Start Date/Time=08DEC2025,0015
 Is Critical Boundary=False
 Critical Boundary Flow=
 Boundary Location=River           ,Reach           ,0       ,        ,                ,                ,                ,                                ,                                ,                                
-Interval=1HOUR
-Stage Hydrograph= 100 
-   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744
-   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744
-   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744
-   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744
-   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744
-   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744
-   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744
-   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744
-   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744
-   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744   .6744
-DSS Path=
-Use DSS=False
-Use Fixed Start Time=False
-Fixed Start Date/Time=,
-Is Critical Boundary=False
-Critical Boundary Flow=
+Friction Slope=0.0154174
 Boundary Location=                ,                ,        ,        ,                ,Perimeter 1     ,                ,BCUpStream                      ,                                ,                                
 Interval=30MIN
 Flow Hydrograph= 100 
@@ -64,15 +47,7 @@ Fixed Start Date/Time=,
 Is Critical Boundary=False
 Critical Boundary Flow=
 Boundary Location=                ,                ,        ,        ,                ,Perimeter 1     ,                ,BCDownStream                    ,                                ,                                
-Interval=1HOUR
-Rating Curve= 2 
-       0       0.6744169      10
-DSS Path=
-Use DSS=False
-Use Fixed Start Time=False
-Fixed Start Date/Time=,
-Is Critical Boundary=False
-Critical Boundary Flow=
+Friction Slope=0.0008969
 Met Point Raster Parameters=,,,,
 Precipitation Mode=Disable
 Wind Mode=No Wind Forces

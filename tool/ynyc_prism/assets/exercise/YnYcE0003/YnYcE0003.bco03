@@ -14,7 +14,7 @@ Short ID:      Unsteady2D
 
 Starting Time:   07Dec2025 2400
 
-Ending Time:     08Dec2025 1200
+Ending Time:     08Dec2025 2400
 
 
                 ################################################
@@ -25,7 +25,7 @@ Ending Time:     08Dec2025 1200
                 #                                              #
                 #          HEC-RAS 6.7 Beta 5 October 2025     #
                 #                                              #
-                #             09DEC25 at 08:01:58              #
+                #             09DEC25 at 11:10:36              #
                 #                                              #
                 ################################################
                 
@@ -49,22 +49,22 @@ Ending Time:     08Dec2025 1200
            *******    ************      **********      **********     ***********           *****   *************
  
  
-       Perimeter 1                        0.000250           144.0           174.1           30.09           20.89
+       Perimeter 1                                           144.0           1550.           1406.           976.2
 
 
 
                  ***  Total Volume Accounting (for the entire model) in 1000 m^3   ***
 
 Total Boundary Flux of Water In            144.0
-Total Boundary Flux of Water Out           174.1
+Total Boundary Flux of Water Out           1550.
 
 Starting Volume                     0.0000000000
-Ending Volume                           0.000250
+Ending Volume                       0.0000000000
 
 
                              Error   Percent Error
                              *****   *************
-                             30.09           20.89
+                             1406.           976.2
 
 
 
