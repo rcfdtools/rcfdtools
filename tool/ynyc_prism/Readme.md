@@ -11,26 +11,24 @@ An open channel flow is the movement of a liquid, like water, in a conduit that 
 
 The Manning equation is an empirical formula used in fluid dynamics to calculate the flow rate (Q) and velocity (v) of water in an open channel. It is based on the channel's cross-sectional area (A), hydraulic radius (R), slope (S), and Manning's roughness coefficient (n). The equation can be written for flow rate as:
 
-
-<div align="center"><img alt="R.HydroTools" src="assets/manning_equation.svg" width="140px"></div>
+<div align="center"><img alt="R.HydroTools" src="assets/manning_equation.svg" width="180px"></div>
 
 where <i>c</i> = 1 for the international system units or <i>c</i> = 1.49 for the imperial system.
 
 
-### Froude Number
+### Normal depth (Yn)
 
-The Froude number is a dimensionless quantity that compares the inertial force of a fluid to the gravitational force acting on it. It is calculated as the ratio of the flow velocity to the velocity of a gravity wave and is used to describe different flow regimes in open channels, such as rivers and canals. The number is categorized based on its value: supercritical (Fr > 1, fast and deep flow), critical (Fr = 1, where flow velocity equals wave velocity), and subcritical (Fr < 1, slow and shallow flow).
-
-<div align="center"><img alt="R.HydroTools" src="assets/froude_number.svg" width="80px"></div>
-
-where <i>v</i> is the flow velocity, <i>g</i> is the acceleration due to gravity, and <i>D</i> is the hydraulic depth.
+Is the constant depth of water in an open channel where the flow is steady and uniform, meaning the water surface slope, channel bottom slope, and energy grade line slope are all equal. This occurs when the forces of gravity and friction are balanced, and the flow velocity is not accelerating or decelerating. It is a crucial concept for engineers designing drainage systems and other hydraulic structures, and it is typically calculated using Manning's equation.
 
 
-### Hydraulic depth (D)
+### Critical depth (Yc)
 
-Is the ratio of the cross-sectional area of flow A to the top width T of the water surface, expressed as D=A/T. It is a key parameter in open channel hydraulics, particularly useful for calculating things like the Froude number and energy relationships, while hydraulic radius is used for frictional losses. In a rectangular channel, the hydraulic depth is simply equal to the vertical depth of the flow.',
+Is the flow depth in an open channel where specific energy is at a minimum for a given discharge. It is the transition point between subcritical flow (where the depth is greater than critical depth) and supercritical flow (where the depth is less than critical depth). Understanding critical depth is vital for designing channels and predicting how water will flow through hydraulic structures.
 
-<div align="center"><img alt="R.HydroTools" src="assets/hydraulic_depth.svg" width="50px"></div>
+
+### Geometric area (A)
+
+In a channel is the cross-sectional area of the flow, which represents the space occupied by the fluid as it moves through the channel. It is a crucial parameter for understanding how much water can pass through a channel at any given time.
 
 
 ### Wet perimeter (P)
@@ -50,14 +48,11 @@ Is the ratio of the cross-sectional area of the flow to the wetted perimeter. It
 <div align="center"><img alt="R.HydroTools" src="assets/hydraulic_ratio.svg" width="50px"></div>
 
 
-### Normal depth (Yn)
+### Hydraulic depth (D)
 
-Is the constant depth of water in an open channel where the flow is steady and uniform, meaning the water surface slope, channel bottom slope, and energy grade line slope are all equal. This occurs when the forces of gravity and friction are balanced, and the flow velocity is not accelerating or decelerating. It is a crucial concept for engineers designing drainage systems and other hydraulic structures, and it is typically calculated using Manning's equation.
+Is the ratio of the cross-sectional area of flow A to the top width T of the water surface, expressed as D=A/T. It is a key parameter in open channel hydraulics, particularly useful for calculating things like the Froude number and energy relationships, while hydraulic radius is used for frictional losses. In a rectangular channel, the hydraulic depth is simply equal to the vertical depth of the flow.',
 
-
-### Critical depth (Yc)
-
-Is the flow depth in an open channel where specific energy is at a minimum for a given discharge. It is the transition point between subcritical flow (where the depth is greater than critical depth) and supercritical flow (where the depth is less than critical depth). Understanding critical depth is vital for designing channels and predicting how water will flow through hydraulic structures.
+<div align="center"><img alt="R.HydroTools" src="assets/hydraulic_depth.svg" width="50px"></div>
 
 
 ### Velocity (v)
@@ -67,9 +62,13 @@ Is the speed of the fluid, which varies across the cross-section, being zero at 
 <div align="center"><img alt="R.HydroTools" src="assets/velocity.svg" width="50px"></div>
 
 
-### Geometric area (A)
+### Froude Number
 
-In a channel is the cross-sectional area of the flow, which represents the space occupied by the fluid as it moves through the channel. It is a crucial parameter for understanding how much water can pass through a channel at any given time.
+The Froude number is a dimensionless quantity that compares the inertial force of a fluid to the gravitational force acting on it. It is calculated as the ratio of the flow velocity to the velocity of a gravity wave and is used to describe different flow regimes in open channels, such as rivers and canals. The number is categorized based on its value: supercritical (Fr > 1, fast and deep flow), critical (Fr = 1, where flow velocity equals wave velocity), and subcritical (Fr < 1, slow and shallow flow).
+
+<div align="center"><img alt="R.HydroTools" src="assets/froude_number.svg" width="100px"></div>
+
+where <i>v</i> is the flow velocity, <i>g</i> is the acceleration due to gravity, and <i>D</i> is the hydraulic depth.
 
 
 ### Shear stress (τօ), tau
@@ -96,7 +95,6 @@ In open channels is the specific bed slope at which the normal depth of flow Yn 
 In open channel flow (like rivers, canals), hydraulic force refers to the forces acting on the water and channel boundaries, primarily driven by gravity (weight component along slope) and balanced by friction/shear stress, with forces like pressure and momentum also influencing flow, especially at transitions where "specific force" helps analyze energy changes and obstacles like weirs or hydraulic jumps. It's about the interplay of pressure, gravity, inertia, and friction that shapes how water moves with a free surface. 
 
 <div align="center"><img alt="R.HydroTools" src="assets/hydraulic_force.svg" width="80px"></div>
-
 
 
 ### Freeboard (Fb)
