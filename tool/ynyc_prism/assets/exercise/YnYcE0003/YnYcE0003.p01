@@ -3,6 +3,7 @@ Program Version=6.70
 Short Identifier=Steady                                                          
 Simulation Date=,,,
 Geom File=g01
+Flow File=f01
 Subcritical Flow
 K Sum by GR= 0 
 Std Step Tol= 0.003 
