@@ -40,8 +40,6 @@ The critical depth serves as a boundary for classifying flow types based on whic
 | Supercritical | _Fr>1_                          | Inertial forces                             | Rapid, shallow, and often unstable flow, influenced by upstream conditions (disturbances cannot travel upstream). |
 
 
-
-
 ### Geometric area (A)
 
 In a channel is the cross-sectional area of the flow, which represents the space occupied by the fluid as it moves through the channel. It is a crucial parameter for understanding how much water can pass through a channel at any given time.
