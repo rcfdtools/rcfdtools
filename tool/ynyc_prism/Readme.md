@@ -31,6 +31,16 @@ The relationship between inertial and gravitational forces in open channel flow 
 
 <div align="center"><img alt="R.HydroTools" src="assets/critical_depth_froude.svg" width="200px"></div>
 
+The critical depth serves as a boundary for classifying flow types based on which forces dominate: 
+
+| Flow Regime   | Froude Number (\(\text{Fr}\))  | Dominant Forces                             | Flow Characteristics                                                                                              |
+|---------------|--------------------------------|---------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
+| Subcritical   | Fr<1)                          | Gravitational forces                        | Slow, deep, and stable flow, influenced by downstream conditions (e.g., backwater effects).                       |
+| Critical      | Fr=1                           | Inertial and gravitational forces are equal | Unstable transition point with minimum specific energy.                                                           |
+| Supercritical | Fr>1                           | Inertial forces                             | Rapid, shallow, and often unstable flow, influenced by upstream conditions (disturbances cannot travel upstream). |
+
+
+
 
 ### Geometric area (A)
 

@@ -10,7 +10,7 @@ Flow and Seasonal Roughness Flag (plan)
        F       F
        2       0       0
        3       0    .001
-    .003
+ 3.1E+38
        1       1       0       0
        0       0
        F
@@ -19,7 +19,7 @@ YnYcE0003
 Unsteady2D
 Unsteady2D                                                      
 Job Control Information
-  Computation Interval  = 5MIN
+  Computation Interval  = 1MIN
   Warmup Interval       =  0 
   Instantaneous Profile = 5MIN
   Hydrograph Interval   = 5MIN
@@ -45,7 +45,7 @@ Job Control Information
 YnYcE0003.dss
 Computational Time Window
   Start Date/Time       = 07Dec2025 2400
-  End Date/Time         = 08Dec2025 2400
+  End Date/Time         = 08Dec2025 1200
 Initial Conditions (use restart file?)
        F
 Log File Information
