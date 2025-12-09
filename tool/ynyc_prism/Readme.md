@@ -172,9 +172,23 @@ From the main HEC-RAS window, create a Steady Flow Analysis plan and execute.
 
 Check the profile results.
 
-<div align="center"><img alt="R.HydroTools" src="assets/HECRAS_ProfilePlotAnalysis.png" width="1000px"></div>
+<div align="center"><img alt="R.HydroTools" src="assets/HECRAS_SteadyProfilePlotAnalysis.png" width="1000px"></div>
 
-<div align="center"><img alt="R.HydroTools" src="assets/HECRAS_ProfilePlotAnalysis1.png" width="1000px"></div>
+<div align="center"><img alt="R.HydroTools" src="assets/HECRAS_SteadyProfilePlotAnalysis1.png" width="1000px"></div>
+
+To perform the unsteady flow simulation, use the distributed flow with a triangular unitary hydrograph (UH) or your own hydrograph. For the unsteady flow data, set upstream the Flow Hydrograph with an EG Slope for distribution flow along BC Line = 0.0008969 m/m and downstream the Normal Depth assigning the calculates critical slope Sc = 0.015417396313628427 m/m.
+
+<div align="center"><img alt="R.HydroTools" src="assets/HECRAS_UnsteadyFlowData.png" width="800px"></div>
+
+From the main HEC-RAS window, create an Unsteady Flow Analysis plan, set the _Advanced Time Step Control_ with _Adjust Time Step Based on Courant_ and execute.
+
+<div align="center"><img alt="R.HydroTools" src="assets/HECRAS_UsteadyFlowAnalysis.png" width="1000px"></div>
+
+Check the profile results.
+
+<div align="center"><img alt="R.HydroTools" src="assets/HECRAS_UnsteadyProfilePlotAnalysis.png" width="1000px"></div>
+
+<div align="center"><img alt="R.HydroTools" src="assets/HECRAS_UnsteadyProfilePlotAnalysis1.png" width="1000px"></div>
 
 
 

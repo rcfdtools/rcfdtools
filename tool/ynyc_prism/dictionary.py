@@ -22,7 +22,7 @@ dicts = {
     'tb': 'Tb, flow duration (hours)',
     'ts': 'Ts, flow time step (minutes)',
     'tpp': 'Tpp, % time to peak flow discharge',
-    'cell_size': 'Cell-size, DEM resolution for 2D perimeter internal buffer',
+    'cell_size': 'Cell-size, DEM resolution (for 2D perimeter buffer)',
     'y1': 'y1, low elevation seed',
     'y2': 'y2, high elevation seed',
     'steps': 'Steps, step times',

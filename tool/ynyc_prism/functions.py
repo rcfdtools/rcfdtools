@@ -275,7 +275,7 @@ def results(app_version, now, q, g, b, z1, z2, so, n, alpha, rho, y1aux, y2aux, 
     results += f'{dicts['ts']}: {ts}\n'
     results += f'{dicts['tpp']}: {tpp}\n'
     results += f'{dicts['cell_size']}: {cell_size} {units['length']}\n\n'
-    results += f'● Numerical method parameters\nBisection method\n'
+    results += f'● Numerical method parameters\n(Bisection method)\n'
     results += f'{dicts['y1']}: {y1aux} {units['length']}\n'
     results += f'{dicts['y2']}: {y2aux} {units['length']}\n'
     results += f'{dicts['steps']}: {steps}\n'

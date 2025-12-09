@@ -25,7 +25,7 @@ Ending Time:     08Dec2025 2400
                 #                                              #
                 #          HEC-RAS 6.7 Beta 5 October 2025     #
                 #                                              #
-                #             09DEC25 at 11:10:36              #
+                #             09DEC25 at 13:17:28              #
                 #                                              #
                 ################################################
                 
@@ -49,14 +49,14 @@ Ending Time:     08Dec2025 2400
            *******    ************      **********      **********     ***********           *****   *************
  
  
-       Perimeter 1                                           144.0           1550.           1406.           976.2
+       Perimeter 1                                           144.0           2005.           1861.           1292.
 
 
 
                  ***  Total Volume Accounting (for the entire model) in 1000 m^3   ***
 
 Total Boundary Flux of Water In            144.0
-Total Boundary Flux of Water Out           1550.
+Total Boundary Flux of Water Out           2005.
 
 Starting Volume                     0.0000000000
 Ending Volume                       0.0000000000
@@ -64,7 +64,7 @@ Ending Volume                       0.0000000000
 
                              Error   Percent Error
                              *****   *************
-                             1406.           976.2
+                             1861.           1292.
 
 
 

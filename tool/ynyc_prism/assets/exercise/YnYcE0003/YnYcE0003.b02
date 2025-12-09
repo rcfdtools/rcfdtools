@@ -1,16 +1,16 @@
 HEC-RAS 6.7 Beta 5 Development
-       1       1       1       0
+       1       1       0       0
        0       0
        F
        1
 Initial Conditions Flow Information
        1        Initial Profile
-    .004       1
+ 3.1E+38       1
 Flow and Seasonal Roughness Flag (plan)
        F       F
        2       0       0
        3       0.0154174
-       1       1       1       0
+       1       1       0       0
        0       0
        F
 Project Title, Plan Title and Plan ShortID
