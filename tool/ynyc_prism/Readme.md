@@ -210,7 +210,7 @@ From Geometries / Geometry1D / Export Layer / Create Terrain GeoTiff from XS's (
 
 <div align="center"><img alt="R.HydroTools" src="assets/HECRAS_RASMapperCreateANewRASTerrain.png" width="1000px"></div>
 
-Execute the Steady and Unsteady plans checking the Flood Mapping option and check the results in RAS Mapper.
+Execute the Steady and Unsteady plans checking the _Flood Mapping_ option and check the results in RAS Mapper.
 
 <div align="center"><img alt="R.HydroTools" src="assets/HECRAS_RASMapperSteadyVelocity.png" width="1000px"></div>
 <div align="center"><img alt="R.HydroTools" src="assets/HECRAS_RASMapperSteadyVelocity1.png" width="1000px"></div>
