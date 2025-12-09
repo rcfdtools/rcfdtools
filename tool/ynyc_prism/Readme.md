@@ -217,6 +217,8 @@ Execute the Steady and Unsteady plans checking the _Flood Mapping_ option and ch
 <div align="center"><img alt="R.HydroTools" src="assets/HECRAS_RASMapperUnsteadyVelocity.png" width="1000px"></div>
 <div align="center"><img alt="R.HydroTools" src="assets/HECRAS_RASMapperUnsteadyVelocity1.png" width="1000px"></div>
 <div align="center"><img alt="R.HydroTools" src="assets/HECRAS_RASMapperUnsteadyVelocity2.png" width="1000px"></div>
+<div align="center"><img alt="R.HydroTools" src="assets/HECRAS_RASMapperUnsteadyCourant.png" width="1000px"></div>
+<div align="center"><img alt="R.HydroTools" src="assets/HECRAS_RASMapperUnsteadyFroude.png" width="1000px"></div>
 
 
 ### 2D modeling
