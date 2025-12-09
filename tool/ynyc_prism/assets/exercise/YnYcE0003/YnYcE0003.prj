@@ -1,7 +1,5 @@
 Proj Title=YnYcE0003
-Current Geom=g01
-Current Flow=f01
-Current Unsteady=u01
+Current Plan=p01
 Default Exp/Contr=0.3,0.1
 SI Units
 Geom File=g01
