@@ -33,11 +33,11 @@ The relationship between inertial and gravitational forces in open channel flow 
 
 The critical depth serves as a boundary for classifying flow types based on which forces dominate: 
 
-| Flow Regime   | Froude Number _Fr_  | Dominant Forces                             | Flow Characteristics                                                                                              |
-|---------------|-------------------------------|---------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| Subcritical   | _Fr<1_                          | Gravitational forces                        | Slow, deep, and stable flow, influenced by downstream conditions (e.g., backwater effects).                       |
-| Critical      | _Fr=1_                          | Inertial and gravitational forces are equal | Unstable transition point with minimum specific energy.                                                           |
-| Supercritical | _Fr>1_                          | Inertial forces                             | Rapid, shallow, and often unstable flow, influenced by upstream conditions (disturbances cannot travel upstream). |
+| Flow Regime   |       Froude Number _Fr_        | Dominant Forces                             | Flow Characteristics                                                                                              |
+|---------------|:-------------------------------:|---------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
+| Subcritical   |             _Fr<1_              | Gravitational forces                        | Slow, deep, and stable flow, influenced by downstream conditions (e.g., backwater effects).                       |
+| Critical      |             _Fr=1_              | Inertial and gravitational forces are equal | Unstable transition point with minimum specific energy.                                                           |
+| Supercritical |             _Fr>1_              | Inertial forces                             | Rapid, shallow, and often unstable flow, influenced by upstream conditions (disturbances cannot travel upstream). |
 
 
 ### Geometric area (A)
