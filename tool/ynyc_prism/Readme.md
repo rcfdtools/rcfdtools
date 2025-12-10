@@ -238,6 +238,7 @@ Execute the Steady and Unsteady plans checking the _Flood Mapping_ option and ch
 * https://www.hec.usace.army.mil/confluence/hmsdocs/hmstrm/transform/unit-hydrograph-basic-concepts
 * [bennyistanto / Unit Hydrographs](https://gist.github.com/bennyistanto/62a5427c2780c50d2b3dd69649e0a58f)
 * https://www.hec.usace.army.mil/confluence/rasdocs/rasum/6.1/performing-a-1d-unsteady-flow-analysis/entering-and-editing-unsteady-flow-data/boundary-conditions
+* https://www.fsl.orst.edu/geowater/FX3/help/8_Hydraulic_Reference/Mannings_n_Tables.htm
 
 
 ## Developers
