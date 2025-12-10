@@ -282,9 +282,9 @@ def results(app_version, now, q, g, b, z1, z2, so, n, alpha, rho, y1aux, y2aux, 
     # Results
     results += f'\n{txt_separator(70)}\nResults for Normal (n) an Critical (c) flow\n{txt_separator(70)}\n'
     results += f'\n● {dicts['Yn']}\n'
-    results += f'Yn: {y2b} {units['length']}\n'
     if y2b == 999999:
-        results += f'Due to negative or zero channel slope, Yn trend to infinite ꝏ.\n'
+        results += f'(Due to negative or zero channel slope, Yn trend to infinite ꝏ).\n'
+    results += f'Yn: {y2b} {units['length']}\n'
     results += f'\n● {dicts['Yc']}\n'
     results += f'Yc: {y2} {units['length']}\n'
     results += f'\n● {dicts['A']}\n'
