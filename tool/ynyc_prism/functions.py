@@ -302,7 +302,7 @@ def results(app_version, now, q, g, b, z1, z2, so, n, alpha, rho, y1aux, y2aux, 
     results += f'\n● {dicts['D']}\n'
     results += f'Dn: {round(hydraulic_depth(b, z1, z2, y2b), dp)} {units['length']}\n'
     results += f'Dc: {round(hydraulic_depth(b, z1, z2, y2), dp)} {units['length']}\n'
-    results += f'\n● {dicts['v']}\n'
+    results += f'\n● {dicts['V']}\n'
     results += f'Vn: {round(q / area(b, z1, z2, y2b), dp)} {units['length']}/s\n'
     results += f'Vc: {round(q / area(b, z1, z2, y2), dp)} {units['length']}/s\n'
     results += f'\n● {dicts['Fr']}\n'
