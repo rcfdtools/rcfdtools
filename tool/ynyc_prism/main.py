@@ -33,6 +33,7 @@ def run(event):
     input_y1 = document.querySelector("#y1")
     input_y2 = document.querySelector("#y2")
     input_steps = document.querySelector("#steps")
+    input_dp = document.querySelector("#dp")
 
     # read fields values
     unit_sys = input_unit_sys.value # SI - International, US - Imperial/US
@@ -56,6 +57,7 @@ def run(event):
     y1 = input_y1.value # Numerical method, low elevation seed
     y2 = input_y2.value # Numerical method, high elevation seed
     steps = input_steps.value # Numerical method, steps
+    dp = input_dp.value # Numerical method, steps
 
     # Pre validations
     dicts = dictionary.dicts
@@ -79,6 +81,7 @@ def run(event):
     y1 = funcs.numeric_abs_none(y1)
     y2 = funcs.numeric_abs_none(y2)
     steps = int(funcs.numeric_abs_none(steps))
+    dp = int(funcs.numeric_abs_none(dp))
     dicts = dictionary.dicts
     if unit_sys.upper() == 'SI':  # Units system eval
         units = dictionary.units_si
@@ -100,7 +103,7 @@ def run(event):
 
     # Print results in console
     results = funcs.results(dict['app_version'], datetime.now(), q, g, b, z1, z2, so, n, alpha, rho, y1aux, y2aux,
-                            steps, y2b, y2, funcs.shape_type(b, z1, z2), unit_sys, dicts, units, z , l, rcx, rcy, tb, ts, tpp, cell_size)
+                            steps, y2b, y2, funcs.shape_type(b, z1, z2), unit_sys, dicts, units, z , l, rcx, rcy, tb, ts, tpp, cell_size, dp)
     output_div = document.querySelector("#output")
     output_div.innerText = results
 
