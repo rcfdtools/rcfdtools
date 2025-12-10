@@ -64,7 +64,7 @@ def run(event):
     b = funcs.numeric_abs_none(b)
     z1 = funcs.numeric_float_none(z1)
     z2 = funcs.numeric_float_none(z2)
-    so = funcs.numeric_abs_none(so)
+    so = funcs.numeric_float_none(so)
     n = funcs.numeric_abs_none(n)
     alpha = funcs.numeric_abs_none(alpha)
     rho = funcs.numeric_abs_none(rho)
