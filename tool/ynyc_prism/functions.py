@@ -49,7 +49,7 @@ def yc(steps, q, g, b, z1, z2, y2, y1, alpha):
 
 # Yn Calculation
 def yn(steps, q, b, z1, z2, y2b, y1a, so, n, c):
-    if so != 0:
+    if so > 0:
         for i in range(steps):
             y2c = (y2b + y1a) / 2
             q1 = yn_calc(q, b, z1, z2, y2b, so, n, c)
@@ -283,6 +283,8 @@ def results(app_version, now, q, g, b, z1, z2, so, n, alpha, rho, y1aux, y2aux, 
     results += f'\n{txt_separator(70)}\nResults for Normal (n) an Critical (c) flow\n{txt_separator(70)}\n'
     results += f'\n● {dicts['Yn']}\n'
     results += f'Yn: {y2b} {units['length']}\n'
+    if y2b == 999999:
+        results += f'Due to negative or zero channel slope, Yn trend to infinite ꝏ.\n'
     results += f'\n● {dicts['Yc']}\n'
     results += f'Yc: {y2} {units['length']}\n'
     results += f'\n● {dicts['A']}\n'
