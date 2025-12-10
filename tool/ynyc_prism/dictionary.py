@@ -32,7 +32,7 @@ dicts = {
     'R': 'R, hydraulic ratio',
     'Yn': 'Yn, normal depth',
     'Yc': 'Yc, critical depth',
-    'v': 'v, velocity',
+    'v': 'V, velocity',
     'Fr': 'Fr, Froude number',
     'A': 'A, geometric area',
     'τօ': 'τօ, shear stress, tau',
