@@ -26,6 +26,7 @@ dicts = {
     'y1': 'y1, low elevation seed',
     'y2': 'y2, high elevation seed',
     'steps': 'Steps, step times',
+    'Dp': 'Dp, decimal places for reporting',
     'D': 'D, hydraulic depth',
     'P': 'P, wet perimeter',
     'T': 'T, top width',
