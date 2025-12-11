@@ -265,7 +265,7 @@ The exercise _YnYcE0003_ used as a sample in this section , correspond to a trap
 
 11. Compute the model and check the results Log.
 
-<div align="center"><img alt="R.HydroTools" src="assets/HECRAS_UnsteadyFlowAnalysis3.png" width="600px"></div>
+<div align="center"><img alt="R.HydroTools" src="assets/HECRAS_UnsteadyFlowAnalysis3.png" width="800px"></div>
 
 12. Check the depth results and the profile over the Thalweg.
 
