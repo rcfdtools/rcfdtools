@@ -217,14 +217,14 @@ def cross_section_table(y2, y2b, b, z1, z2, units, z, l, so, rcx, rcy, cell_size
     # 2D breaklines
     xs_table += f'\n● 2D breaklines coordinates\nSave the following table as a .txt or .csv file.\nQGIS: Layer / Add Layer / Add Delimited Text Layer..., Points to Path\n\n'
     xs_table += f'Path, Order, Cx, Cy\n'
-    xs_table += f'1, 1, {rcx}, {round(rcy+b/2, dp)}\n'
-    xs_table += f'1, 2, {rcx+l}, {round(rcy+b/2, dp)}\n'
-    xs_table += f'2, 1, {rcx}, {round(rcy-b/2, dp)}\n'
-    xs_table += f'2, 2, {rcx+l}, {round(rcy-b/2, dp)}\n'
-    xs_table += f'3, 1, {rcx}, {round(rcy+b/2+max_elevation*z2, dp)}\n'
-    xs_table += f'3, 2, {rcx+l}, {round(rcy+b/2+max_elevation*z2, dp)}\n'
-    xs_table += f'4, 1, {rcx}, {round(rcy-b/2-max_elevation*z1, dp)}\n'
-    xs_table += f'4, 2, {rcx+l}, {round(rcy-b/2-max_elevation*z1, dp)}\n'
+    xs_table += f'1, 1, {rcx+cell_size_buffer}, {round(rcy+b/2, dp)}\n'
+    xs_table += f'1, 2, {rcx+l-cell_size_buffer}, {round(rcy+b/2, dp)}\n'
+    xs_table += f'2, 1, {rcx+cell_size_buffer}, {round(rcy-b/2, dp)}\n'
+    xs_table += f'2, 2, {rcx+l-cell_size_buffer}, {round(rcy-b/2, dp)}\n'
+    xs_table += f'3, 1, {rcx+cell_size_buffer}, {round(rcy+b/2+max_elevation*z2, dp)}\n'
+    xs_table += f'3, 2, {rcx+l-cell_size_buffer}, {round(rcy+b/2+max_elevation*z2, dp)}\n'
+    xs_table += f'4, 1, {rcx+cell_size_buffer}, {round(rcy-b/2-max_elevation*z1, dp)}\n'
+    xs_table += f'4, 2, {rcx+l-cell_size_buffer}, {round(rcy-b/2-max_elevation*z1, dp)}\n'
     return xs_table
 
 # Distributed flow with a triangular unitary hydrograph (UH) for HEC-RAS

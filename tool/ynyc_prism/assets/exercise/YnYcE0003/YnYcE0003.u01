@@ -1,6 +1,7 @@
 Flow Title=Unsteady
 Program Version=6.70
 Use Restart= 0 
+Initial Storage Elev=Perimeter 1     ,0.001,0
 Boundary Location=River           ,Reach           ,100     ,        ,                ,                ,                ,                                ,                                ,                                
 Interval=30MIN
 Flow Hydrograph= 100 
@@ -25,28 +26,7 @@ Critical Boundary Flow=
 Boundary Location=River           ,Reach           ,0       ,        ,                ,                ,                ,                                ,                                ,                                
 Friction Slope=0.0154174
 Boundary Location=                ,                ,        ,        ,                ,Perimeter 1     ,                ,BCUpStream                      ,                                ,                                
-Interval=30MIN
-Flow Hydrograph= 100 
-       0   1.667   3.333       5   6.667   8.333       9       9       8       7
-       6       5       4       3       2       1       0       0       0       0
-       0       0       0       0       0       0       0       0       0       0
-       0       0       0       0       0       0       0       0       0       0
-       0       0       0       0       0       0       0       0       0       0
-       0       0       0       0       0       0       0       0       0       0
-       0       0       0       0       0       0       0       0       0       0
-       0       0       0       0       0       0       0       0       0       0
-       0       0       0       0       0       0       0       0       0       0
-       0       0       0       0       0       0       0       0       0       0
-Stage Hydrograph TW Check=0
-Flow Hydrograph Slope= 0.0154174 
-DSS Path=
-Use DSS=False
-Use Fixed Start Time=False
-Fixed Start Date/Time=,
-Is Critical Boundary=False
-Critical Boundary Flow=
 Boundary Location=                ,                ,        ,        ,                ,Perimeter 1     ,                ,BCDownStream                    ,                                ,                                
-Friction Slope=0.0154174
 Met Point Raster Parameters=,,,,
 Precipitation Mode=Disable
 Wind Mode=No Wind Forces
@@ -106,17 +86,17 @@ Met BC=Air Pressure|Constant Units=mb
 Met BC=Air Pressure|Point Interpolation=
 Met BC=Air Pressure|Gridded Source=DSS
 Met BC=Air Pressure|Gridded Interpolation=
-Non-Newtonian Method= 0 ,      
+Non-Newtonian Method= 0 ,        
 Non-Newtonian Constant Vol Conc=0
-Non-Newtonian Yield Method= 0 ,      
+Non-Newtonian Yield Method= 0 ,        
 Non-Newtonian Yield Coef=0, 0
 User Yeild=   0
-Non-Newtonian Sed Visc= 0 ,      
+Non-Newtonian Sed Visc= 0 ,        
 Non-Newtonian Obrian B=0
 User Viscosity=0
 User Viscosity Ratio=0
 Herschel-Bulkley Coef=0, 0
-Clastic Method= 0 ,      
+Clastic Method= 0 ,        
 Coulomb Phi=0
 Voellmy X=0
 Non-Newtonian Hindered FV= 0 
