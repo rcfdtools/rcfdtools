@@ -243,6 +243,42 @@ The exercise _YnYcE0003_ used as a sample in this section , correspond to a trap
 
 <div align="center"><img alt="R.HydroTools" src="assets/QGIS_PointsToPath1.png" width="1000px"></div>
 
+6. In HEC-RAS, create a new project and set the Coordinates Reference System - CRS from _Project / Set Projection..._. In this example, we are going to use the file [MAGNA_OrigenNacional.prj](assets/projectionfile/) from South América - Colombia. From the Terrains / Create a New RAS Terrain, set the new DTM. Adjust the surface fill style to grayscale. 
+
+<div align="center"><img alt="R.HydroTools" src="assets/HECRAS_RASMapperCreateANewRASTerrain1.png" width="1000px"></div>
+
+7. From Geometries, creates a New Geometry as _Geometry2D_ and create a perimeter importing the PerimeterPolygon.shp, then the Breaklines and draw manually the Boundary Condition Lines. Set the cell size in 0.5 x 0.5 meters and the break lines enforcement also un 0.5 meters.
+
+<div align="center"><img alt="R.HydroTools" src="assets/HECRAS_Geometry2Da.png" width="1000px"></div>
+<div align="center"><img alt="R.HydroTools" src="assets/HECRAS_Geometry2Db.png" width="1000px"></div>
+<div align="center"><img alt="R.HydroTools" src="assets/HECRAS_Geometry2Dc.png" width="1000px"></div>
+
+8. In the Unsteady Flow Data, set the boundary condition. BCUpstream has to contain the Flow Hydrograph with the EG Slope for distributing flow along BC Line as So = 0.0008969 m/m and BCDownStream with the Sc = 
+
+9. In the Unsteady Flow Analysis, set the Computation Interval in 5 seconds and Adjust the Time Step Based on Courant from 0.1 to 3.1. Mapping, Hydrograph Output Interval and Detailed Ouput Interval, must be set in 1 Minute.
+
+<div align="center"><img alt="R.HydroTools" src="assets/HECRAS_UnsteadyFlowAnalysis1.png" width="1000px"></div>
+
+10. In the Unsteady Computation Options and Tolerances, select the Equation Set with Diffusion Wave or SWW-ELM depending on if you want to include the local and convective acceleration.
+
+<div align="center"><img alt="R.HydroTools" src="assets/HECRAS_UnsteadyFlowAnalysis2.png" width="600px"></div>
+
+11. Compute the model and check the results Log.
+
+<div align="center"><img alt="R.HydroTools" src="assets/HECRAS_UnsteadyFlowAnalysis3.png" width="1000px"></div>
+
+12. Check the depth results and the profile over the Thalweg.
+
+<div align="center"><img alt="R.HydroTools" src="assets/HECRAS_SteadyProfilePlotAnalysis2.png" width="1000px"></div>
+
+13. Check the velocity profile.
+
+<div align="center"><img alt="R.HydroTools" src="assets/HECRAS_RASMapperUnsteadyVelocity3.png" width="1000px"></div>
+
+14. Check the Courant and Froude Number map.
+
+<div align="center"><img alt="R.HydroTools" src="assets/HECRAS_RASMapperUnsteadyCourant1.png" width="1000px"></div>
+<div align="center"><img alt="R.HydroTools" src="assets/HECRAS_RASMapperUnsteadyFroude1.png" width="1000px"></div>
 
 
 ## Libraries used

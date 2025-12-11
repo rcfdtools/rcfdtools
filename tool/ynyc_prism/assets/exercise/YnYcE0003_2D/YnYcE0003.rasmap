@@ -1,10 +1,10 @@
 <RASMapper>
   <Version>2.0.0</Version>
   <RASProjectionFilename Filename="..\..\projectionfile\MAGNA_OrigenNacional.prj" />
-  <Features Checked="True" Expanded="True">
+  <Features>
     <Layer Name="Profile Lines" Type="PolylineFeatureLayer" Checked="True" Filename=".\Features\Profile Lines.shp" />
   </Features>
-  <Geometries Expanded="True">
+  <Geometries Checked="True" Expanded="True">
     <Layer Name="Geometry2D" Type="RASGeometry" Checked="True" Expanded="True" Filename=".\YnYcE0003.g01.hdf">
       <Layer Type="RASRiver">
         <LabelFeatures Checked="True" PercentPosition="0" rows="1" cols="2" r0c0="River" r0c1="Reach" Position="3" Color="-16777216" FontSize="8.25" />
@@ -18,18 +18,20 @@
       <Layer Type="RASStorageArea">
         <LabelFeatures Checked="True" PercentPosition="0" rows="1" cols="1" r0c0="Name" Position="3" Color="-16777216" FontSize="8.25" />
       </Layer>
-      <Layer Type="RASD2FlowArea" Checked="True">
+      <Layer Type="RASD2FlowArea" Checked="True" Expanded="True">
         <DataColumnGroupVisibilities>
           <DataColumnGroupVisibility DisplayName="Feature Parameters" IsVisible="False" />
         </DataColumnGroupVisibilities>
       </Layer>
-      <Layer Type="MeshPerimeterLayer">
+      <Layer Type="MeshPerimeterLayer" Checked="True">
         <LabelFeatures Checked="True" PercentPosition="0" rows="1" cols="1" r0c0="Name" Position="3" Color="-16777216" FontSize="8.25" />
         <DataColumnGroupVisibilities>
           <DataColumnGroupVisibility DisplayName="Feature Parameters" IsVisible="True" />
         </DataColumnGroupVisibilities>
       </Layer>
+      <Layer Type="MeshPointLayer" Checked="True" />
       <Layer Type="RASBreakLines" Checked="True" />
+      <Layer Type="MeshRegionLayer" Checked="True" />
       <Layer Name="Culvert Groups" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="" />
       <Layer Name="Culvert Barrels" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="Bridges/Culverts" />
       <Layer Name="Gate Groups" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="" />
@@ -169,7 +171,7 @@
   <EventConditions>
     <Layer Name="Unsteady2D" Type="RASEventConditions" Filename=".\YnYcE0003.u01.hdf" />
   </EventConditions>
-  <Results Checked="True" Expanded="True">
+  <Results>
     <Layer Name="Unstready2D" Type="RASResults" Checked="True" Expanded="True" Filename=".\YnYcE0003.p01.hdf">
       <Layer Name="Event Conditions" Type="RASEventConditions" Filename=".\YnYcE0003.p01.hdf" />
       <Layer Type="RASGeometry" Filename=".\YnYcE0003.p01.hdf">
@@ -344,10 +346,10 @@
     </Layer>
   </Terrains>
   <CurrentView>
-    <MaxX>5000108.41433962</MaxX>
-    <MinX>5000072.34474384</MinX>
-    <MaxY>2000010.2843042</MaxY>
-    <MinY>1999989.11544434</MinY>
+    <MaxX>5000058.09646377</MaxX>
+    <MinX>4999988.66035739</MinX>
+    <MaxY>2000018.27856498</MaxY>
+    <MinY>1999976.01117245</MinY>
   </CurrentView>
   <VelocitySettings>
     <Density>0.5</Density>
