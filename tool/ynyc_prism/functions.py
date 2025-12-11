@@ -200,7 +200,7 @@ def cross_section_table(y2, y2b, b, z1, z2, units, z, l, so, rcx, rcy, cell_size
     for i in range(len(ground_x_values)):
         xs_table += f'{river_name}, {reach_name}, 0, {round(ground_x_values[i],dp)}, {round(ground_y_values[i], dp)}\n'
     for i in range(len(ground_x_values)):
-        xs_table += f'{river_name}, {reach_name}, {l}, {round(ground_x_values[i],dp)}, {round(ground_y_values[i],dp)+z_less}\n'
+        xs_table += f'{river_name}, {reach_name}, {l}, {round(ground_x_values[i],dp)}, {round(ground_y_values[i]+z_less,dp)}\n'
     # river axe
     xs_table += f'\n● 1D river coordinates\nCopy and paste the following values.\nHEC-RAS: GIS Tools / Reach Invert Lines Table...\n\n'
     xs_table += f'Schematic X, Schematic Y\n'
@@ -229,20 +229,27 @@ def cross_section_table(y2, y2b, b, z1, z2, units, z, l, so, rcx, rcy, cell_size
 
 # Distributed flow with a triangular unitary hydrograph (UH) for HEC-RAS
 def distributed_flow(q, tb, ts, tpp, units, dp):
-    tp = tb*(tpp/100) # time to peak in hours
+    tp = tb*tpp/100 # time to peak in hours
     steps = int(tb/(ts/60)) # time steps
+    steps_left = round(steps*tpp/100,0)
+    steps_right = steps-steps_left
+    time_increment_left = (tb*tpp/100)/steps_left
+    time_increment_right = (tb*(1-tpp/100))/steps_right
     hydrograph_slope_left = q/tp
     hydrograph_slope_right = q/(tb-tp)
     hydrograph_table = f'● Distributed flow with a triangular unitary hydrograph (UH)\n'
-    hydrograph_table += f'Time to peak (hr): {tp}\n\n'
+    hydrograph_table += f'Time to peak: {tp} hr\n\n'
     hydrograph_table += f'Step, Time (hr), Flow ({units['q']})\n'
-    for i in range (steps+1):
-        tsa = ts*i/60 # progressive time step
-        if tsa <= tp:
-            qt = ts*i/60 * hydrograph_slope_left
+    hydrograph_table += f'0, 0, 0\n'
+    tsa = 0  # progressive time step
+    for i in range (steps):
+        if i+1 <= steps_left:
+            tsa += time_increment_left
+            qt = tsa * hydrograph_slope_left
         else:
+            tsa += time_increment_right
             qt = q - (tsa - tp) * hydrograph_slope_right
-        hydrograph_table += f'{i}, {round(tsa, dp)}, {round(qt, dp)}\n'
+        hydrograph_table += f'{i+1}, {round(tsa, dp)}, {round(qt, dp)}\n'
     return  hydrograph_table
 
 # Results in console
