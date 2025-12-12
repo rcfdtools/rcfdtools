@@ -26,3 +26,9 @@ https://www.qrcode-monkey.com/
 https://pyscript.net/
 https://pyscript.com/@examples/fractals-with-numpy-and-canvas/latest
 https://www.fsl.orst.edu/geowater/FX3/help/8_Hydraulic_Reference/Flow_Profiles.htm
+
+
+
+### Freeboard (Fb)
+
+Freeboard in water channels is the vertical distance between the normal water surface and the top of the channel bank, acting as a crucial safety margin to prevent overtopping from surges, waves, or unexpected flow increases, ensuring water stays within the channel and doesn't flood surrounding areas or cause structural damage, often a percentage of channel depth or a fixed height, varying by application like irrigation or flood control. It's a design element to manage uncertainties, from wind action to operational errors, keeping hydraulic structures like flumes and weirs functioning correctly. 
