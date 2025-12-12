@@ -44,7 +44,7 @@ dicts = {
 # Units in system international
 units_si = {
     'c': 1,
-    'q': 'm³/s',
+    'q': 'm³/s, cms',
     'length': 'm',
     'rho': 'kg/m³',
     'g': 'm/s²',
@@ -55,7 +55,7 @@ units_si = {
 # Units in english or imperial system
 units_us = {
     'c': 1.486,
-    'q': 'ft³/s',
+    'q': 'ft³/s, cfs',
     'length': 'ft',
     'rho': 'lb/ft³',
     'g': 'ft/s²',

@@ -284,6 +284,7 @@ def results(app_version, now, q, g, b, z1, z2, so, n, alpha, rho, y1aux, y2aux, 
     results += f'{dicts['y1']}: {y1aux} {units['length']}\n'
     results += f'{dicts['y2']}: {y2aux} {units['length']}\n'
     results += f'{dicts['steps']}: {steps}\n'
+    results += f'{dicts['Dp']}: {dp}\n'
     # Results
     results += f'\n{txt_separator(70)}\nResults for Normal (n) an Critical (c) flow\n{txt_separator(70)}\n'
     results += f'\n● {dicts['Yn']}\n'
