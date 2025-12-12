@@ -24,7 +24,7 @@ The Froude number is a dimensionless quantity that compares the inertial force o
 
 <div align="center"><img alt="R.HydroTools" src="assets/froude_number.svg" width="100px"></div>
 
-where <i>v</i> is the flow velocity, <i>g</i> is the acceleration due to gravity, and <i>D</i> is the hydraulic depth.
+where <i>V/i> is the average flow velocity, <i>g</i> is the acceleration due to gravity, and <i>D</i> is the hydraulic depth.
 
 The critical depth serves as a boundary for classifying flow types based on which forces dominate: 
 
@@ -268,6 +268,7 @@ The exercise _YnYcE0003_ used as a sample in this section , correspond to a trap
 * https://www.hec.usace.army.mil/confluence/rasdocs/rasum/6.1/performing-a-1d-unsteady-flow-analysis/entering-and-editing-unsteady-flow-data/boundary-conditions
 * https://www.fsl.orst.edu/geowater/FX3/help/8_Hydraulic_Reference/Mannings_n_Tables.htm
 * https://uomustansiriyah.edu.iq/media/lectures/5/5_2021_02_10!04_29_36_PM.pdf
+* https://learn.hydrologystudio.com/hydrology-studio/knowledge-base/nrcs-unit-hydrograph-peak-factors/
 
 ## Developers
 
