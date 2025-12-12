@@ -101,7 +101,7 @@ Samples exercises with different prismatic geometries.
 | **YnYcE0011** - Trapezoidal ditch channel in subcritical regime.<br><br>Parameters: unit_sys = 'SI', q = 10, g = 9.806, b = 5, z1 = 0, z2 = 30, so = 0.0008969, n = 0.035, alpha = 1, rho = 1000, y1 = 0.0001, y2 = 10, steps = 64.                                 | <img alt="R.HydroTools" src="assets/exercise/YnYcE0011.svg" width="600px"> |
 | **YnYcE0012** - Trapezoidal ditch channel in supercritical regime.<br><br>Parameters: unit_sys = 'SI', q = 10, g = 9.806, b = 5, z1 = 0, z2 = 30, so = 0.1, n = 0.035, alpha = 1, rho = 1000, y1 = 0.0001, y2 = 10, steps = 64.                                     | <img alt="R.HydroTools" src="assets/exercise/YnYcE0012.svg" width="600px"> |
 | **YnYcE0013** - Trapezoidal ditch channel with negative left side slope in subcritical regime.<br><br>Parameters: unit_sys = 'SI', q = 10, g = 9.806, b = 5, z1 = -5, z2 = 30, so = 0.0008969, n = 0.035, alpha = 1, rho = 1000, y1 = 0.0001, y2 = 10, steps = 64.  | <img alt="R.HydroTools" src="assets/exercise/YnYcE0013.svg" width="600px"> |
-| **YnYcE0014** - Trapezoidal ditch channel with negative left side slope in subcritical regime.<br><br>Parameters: unit_sys = 'SI', q = 10, g = 9.806, b = 5, z1 = -5, z2 = 30, so = 0.0008969, n = 0.035, alpha = 1, rho = 1000, y1 = 0.0001, y2 = 10, steps = 64. | <img alt="R.HydroTools" src="assets/exercise/YnYcE0014.svg" width="600px"> |
+| **YnYcE0014** - Trapezoidal ditch channel with negative left side slope in supercritical regime.<br><br>Parameters: unit_sys = 'SI', q = 10, g = 9.806, b = 5, z1 = -5, z2 = 30, so = 0.0008969, n = 0.035, alpha = 1, rho = 1000, y1 = 0.0001, y2 = 10, steps = 64. | <img alt="R.HydroTools" src="assets/exercise/YnYcE0014.svg" width="600px"> |
 
 </div>
 
