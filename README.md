@@ -5,7 +5,7 @@
 - 💞️ I'm looking to collaborate on engineering research projects.
 - 📫 Reach me sending me a message through our [Discussion Forum](https://github.com/rcfdtools/rcfdtools/discussions/1).
 
-## Tools
+## WebApp Tools
 
 * [Normal and critical depth in prismatic channels](https://rcfdtools.github.io/rcfdtools/tool/ynyc_prism/)
 
