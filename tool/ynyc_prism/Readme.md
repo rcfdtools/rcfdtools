@@ -24,7 +24,7 @@ The Froude number is a dimensionless quantity that compares the inertial force o
 
 <div align="center"><img alt="R.HydroTools" src="assets/froude_number.svg" width="100px"></div>
 
-where <i>V/i> is the average flow velocity, <i>g</i> is the acceleration due to gravity, and <i>D</i> is the hydraulic depth.
+where <i>V</i> is the average flow velocity, <i>g</i> is the acceleration due to gravity, and <i>D</i> is the hydraulic depth.
 
 The critical depth serves as a boundary for classifying flow types based on which forces dominate: 
 
