@@ -13,6 +13,15 @@ Hi and welcome to @rcfdtools, check all my projects here in https://github.com/r
 * [Guide to collaborative teaching and research with GitHub - TeachingResearchGuide](https://github.com/rcfdtools/R.TeachingResearchGuide)
 
 
+## Research
+
+* [Study of hydraulic hazards in the floodplain of the Bogotá River basin - Cundinamarca - Colombia - South America - HydroBogota](https://github.com/rcfdtools/R.HydroBogota)
+* [Surface Water Balance (SWB), Atmospheric Water Balance (AWB) and Standardized Precipitation Index (SPI) in Colombia - SAWB](https://github.com/rcfdtools/R.SAWB)
+* [Colombian high plains research - Altillanura](https://github.com/rcfdtools/R.Altillanura)
+* [Relationship between the variation in the surface area of the Amazon Rainforest and the water supply of the Chingaza System - Colombia - South America - AmazonChingaza](https://github.com/rcfdtools/R.AmazonChingaza)
+* [Study and analysis of the Probable Maximum Precipitation (PMP) in the network of automatic climatological stations of Colombia - South America and estimation of extreme values for different return periods from multiple probability distributions.](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/PMP/dataset/pmax24h_out/paper)
+
+
 ## WebApp Tools
 
 * [Normal and critical depth in prismatic channels](https://rcfdtools.github.io/rcfdtools/tool/ynyc_prism/)
