@@ -22,6 +22,12 @@ Hi and welcome to @rcfdtools, check all my projects here in https://github.com/r
 * [Study and analysis of the Probable Maximum Precipitation (PMP) in the network of automatic climatological stations of Colombia - South America and estimation of extreme values for different return periods from multiple probability distributions.](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/PMP/dataset/pmax24h_out/paper)
 
 
+## Standalone Tools
+
+* [Computational engineering tools for GIS, hydrology and hydraulic analysis - HydroTools](https://github.com/rcfdtools/R.HydroTools)
+
+
+
 ## WebApp Tools
 
 * [Normal and critical depth in prismatic channels](https://rcfdtools.github.io/rcfdtools/tool/ynyc_prism/)
