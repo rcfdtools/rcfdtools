@@ -26,7 +26,6 @@ Hi and welcome to @rcfdtools, check all my projects here in https://github.com/r
 
 * [Computational engineering tools for GIS, hydrology and hydraulic analysis - HydroTools](https://github.com/rcfdtools/R.HydroTools)
 * [Mobile geographic information systems over QFIELD that do not require an Internet connection for navigation - GISMobile](https://github.com/rcfdtools/R.GISMobile)
-* [R.Weather CDMS - Climate Data Management System](https://github.com/rcfdtools/R.Weather)
 
 
 ## WebApp Tools
