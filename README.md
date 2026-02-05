@@ -2,7 +2,6 @@
  
 Hi and welcome to @rcfdtools, check all my projects here in https://github.com/rcfdtools. We are interested in Geographical Information Systems - GIS, Hydrology, Hydraulics, Civil Engineering and urban developing projects. We are currently learning and improving computational numeric methods and CFD in my GitHub projects, and we are looking to collaborate on engineering research projects. Reach me sending us a message through our [Discussion Forum](https://github.com/rcfdtools/rcfdtools/discussions/1).
 
-<div align="center">
 
 ### A. Courses
 
@@ -41,7 +40,7 @@ Hi and welcome to @rcfdtools, check all my projects here in https://github.com/r
 |:--------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------|
 | [YnYc](https://rcfdtools.github.io/rcfdtools/tool/ynyc_prism/)                  | Normal and critical depth in prismatic channels.                                       |
 
-</div>
+
 
 <!---
 rcfdtools/rcfdtools is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
