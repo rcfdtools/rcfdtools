@@ -4,7 +4,7 @@ Hi and welcome to @rcfdtools, check all my projects here in https://github.com/r
 
 <div align="center">
 
-## Courses
+## A. Courses
 
 | Resource                                                                      | Description                                                                          |
 |-------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
@@ -16,7 +16,7 @@ Hi and welcome to @rcfdtools, check all my projects here in https://github.com/r
 | [TeachingResearchGuide](https://github.com/rcfdtools/R.TeachingResearchGuide) | Guide to collaborative teaching and research with GitHub.                            |
 
 
-**Research**
+## B. Researches
 
 | Resource                                                                                      | Description                                                                                                                                                                                                                                           |
 |-----------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -27,7 +27,7 @@ Hi and welcome to @rcfdtools, check all my projects here in https://github.com/r
 | [PMP](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/PMP/dataset/pmax24h_out/paper) | Study and analysis of the Probable Maximum Precipitation (PMP) in the network of automatic climatological stations of Colombia - South America and estimation of extreme values for different return periods from multiple probability distributions. |
 
 
-**Standalone Tools**
+## C. Standalone Tools
 
 | Resource                                                | Description                                                                                                                         |
 |---------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
@@ -35,7 +35,7 @@ Hi and welcome to @rcfdtools, check all my projects here in https://github.com/r
 | [GISMobile](https://github.com/rcfdtools/R.GISMobile)   | Mobile geographic information systems over [QField](https://qfield.org/) that do not require an Internet connection for navigation. |
 
 
-**WebApp Tools**
+## D. WebApp Tools
 
 | Resource                                                       | Description                                      |
 |----------------------------------------------------------------|--------------------------------------------------|
