@@ -4,7 +4,7 @@ Hi and welcome to @rcfdtools, check all my projects here in https://github.com/r
 
 <div align="center">
 
-**Courses**
+## Courses
 
 | Resource                                                                      | Description                                                                          |
 |-------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
