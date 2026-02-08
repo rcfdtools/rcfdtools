@@ -1,0 +1,147 @@
+body {
+  background-color: #F4F4F4; /* Use a color name, HEX, or RGB value #f8f8f8*/
+  margin: 0;
+}
+
+.pyscript {
+    margin: 0.5rem;
+}
+
+html {
+    font-family:
+        ui-sans-serif,
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        "Helvetica Neue",
+        Arial,
+        "Noto Sans",
+        sans-serif,
+        "Apple Color Emoji",
+        "Segoe UI Emoji",
+        "Segoe UI Symbol",
+        "Noto Color Emoji";
+    line-height: 1.5;
+}
+
+nav {
+    position: sticky;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    margin: 0px 0px;
+    padding-bottom: 0px;
+    opacity: 0.9;
+}
+
+.app-header {
+    display: flex;
+    align-items: center;
+    margin: 0px 0px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
+
+.logo {
+    padding-right: 10px;
+    font-size: 5px;
+    height: 36px;
+    max-width: inherit;
+}
+
+.title {
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    font-weight: 340;
+    font-size: 18px;
+    line-height: 16px;
+    white-space: nowrap;
+}
+
+div {
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+input[type="tel"],
+input[type="url"],
+input[type="search"],
+input[type="submit"],
+input[type="button"],
+textarea,
+select {
+    background-color: #FFFFFF; /* Green background #f4CAF50, White #FFFFFF*/
+    border-radius: 10px; /* Adjust the pixel value for desired roundness */
+    border: 0px solid #ccc; /* Optional: Override default border for consistency */
+    padding: 12px; /* Optional: Add padding for better appearance */
+}
+
+.myButton {
+  background-color: #3D2B1F; /* Green background #f4CAF50*, #f0ab3c/
+  border: none;              /* Remove default border */
+  color: white;              /* White text color */
+  padding: 12px 55px;        /* Some padding for size */
+  text-align: center;        /* Center the text */
+  text-decoration: none;     /* Remove underlines (if using <a> tag as button) */
+  display: inline-block;     /* Proper display for applying padding/margin */
+  font-size: 16px;           /* Increase font size */
+  margin: 4px 2px;           /* Add some margin */
+  cursor: pointer;           /* Change mouse cursor to a pointer */
+  border-radius: 24px;       /* Rounded corners */
+  transition-duration: 0.4s; /* Smooth transition for hover effects */
+}
+
+.disclaimer{
+    font-size: 12px;
+    color: #727376;
+}
+
+.buttonMenu{
+    font-size: 12px;
+    color: #727376;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.output {
+    font-size: 14px;
+    color: #3D2B1F;
+    background-color: #faf0e6
+}
+
+.output_plot {
+    width: 400px;
+    font-size: 14px;
+    color: #3D2B1F;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    overflow: hidden;
+    background-color: #F4F4F4;
+    margin: 0;
+}
+
+hr {
+  height: 1px; /* Sets the thickness of the line */
+  background-color: lightgray; /* Sets the color of the line */
+  border: none; /* Removes the default browser border */
+}
