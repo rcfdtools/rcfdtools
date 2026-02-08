@@ -1,4 +1,4 @@
-<div align="center"><img alt="R.HydroTools" src="assets/logo.svg" width="100px"></div>
+<div align="center"><a href="https://github.com/rcfdtools" target="_blank"><img src="https://github.com/rcfdtools/rcfdtools/blob/main/graph/rcfdtools_banner.png" alt="R.LTWB" width="100%" border="0" /></a></div>
 
 # Yn & Yc - Normal and critical depth
 
@@ -10,6 +10,7 @@ An open channel flow is the movement of a liquid, like water, in a conduit that 
 
 
 ## 1. General concepts
+
 
 ### Manning Equation
 
@@ -277,3 +278,5 @@ The exercise _YnYcE0003_ used as a sample in this section , correspond to a trap
 * https://github.com/rcfdtools
 * https://github.com/frankv13
 * https://github.com/juanrodace
+
+<div align="center"><img alt="R.HydroTools" src="assets/logo.svg" width="100px"></div>

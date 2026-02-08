@@ -38,9 +38,9 @@ Hi and welcome to @rcfdtools, check all my projects here in https://github.com/r
 
 ### :large_blue_circle:Engineering WebApp Tools
 
-| Resource                                                 | Description                                      |
-|:---------------------------------------------------------|:-------------------------------------------------|
-| [YnYc](https://rcfdtools.github.io/rcfdtools/tool/ynyc/) | Normal and critical depth in prismatic channels. |
+| Resource                                                       | Description                                      |
+|:---------------------------------------------------------------|:-------------------------------------------------|
+| [YnYc](https://rcfdtools.github.io/rcfdtools/tool/ynyc_prism/) | Normal and critical depth in prismatic channels. |
 
 
 ##
