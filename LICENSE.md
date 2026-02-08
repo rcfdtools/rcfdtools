@@ -1,7 +1,7 @@
 <div align="center"><a href="https://github.com/rcfdtools" target="_blank"><img src="https://github.com/rcfdtools/rcfdtools/blob/main/graph/rcfdtools_banner.png" alt="R.LTWB" width="100%" border="0" /></a></div>
 
 
-# Cláusulas de autor
+# Cláusulas y Licencia Global de Uso rcfdtools
 
 Al consultar, descargar, descomprimir, instalar, usar o explorar las herramientas, scripts y guías de desarrollo contenidas en este repositorio, sus archivos y documentación, usted como empresa, individuo, investigador, estudiante, profesional, empleado o persona, acepta los siguientes términos de uso:
 
