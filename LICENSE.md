@@ -1,0 +1,31 @@
+<div align="center"><a href="https://github.com/rcfdtools" target="_blank"><img src="https://github.com/rcfdtools/rcfdtools/blob/main/graph/rcfdtools_banner.png" alt="R.LTWB" width="100%" border="0" /></a></div>
+
+
+# Cláusulas de autor
+
+Al consultar, descargar, descomprimir, instalar, usar o explorar las herramientas, scripts y guías de desarrollo contenidas en este repositorio, sus archivos y documentación, usted como empresa, individuo, investigador, estudiante, profesional, empleado o persona, acepta los siguientes términos de uso:
+
+* _rcfdtools_ le concede una licencia de uso global, no exclusiva, de libre uso y revocable en cualquier momento, siempre y cuando sea única y exclusivamente para su uso personal o privado y no tenga como fin un uso comercial.
+
+* Cláusula de exención de responsabilidad: _rcfdtools_, No se responsabiliza de la aplicación y uso de los resultados obtenidos a través de sus modelos y herramientas. Es responsabilidad de los usuarios: verificar, comparar, evaluar y analizar Sí los scripts, algoritmos, funciones, objetos aplicados y los resultados obtenidos, cumplen con las metodologías y estándares de análisis aplicables en ingeniería, estadística, hidrología e hidráulica.
+
+* Se permite la reproducción digital de los documentos electrónicos sin autorización expresa del autor, No se permite su reproducción impresa en medios físicos.
+
+* Se acoge a todas las leyes de propiedad intelectual o de derechos de autor, bien sean locales, de su país de procedencia o globales internacionales. 
+
+* No se permite la eliminación, alteración, modificación o cambio de logos embebidos dentro de este repositorio, proyecto o software, ni de su iconografía. Capturas de pantalla deben mostrar el logo embebido, siempre y cuando se trate de formularios, reportes o gráficas.
+
+* Los contenidos, materiales, datos producidos a partir de datos base, son de uso libre y estrictamente para uso académico; no publique o distribuya estos datos ni los archivos producidos, sin la autorización expresa del autor. Los datos utilizados para el desarrollo, implementación y realización de pruebas funcionales fueron obtenidos de diferentes fuentes de información (por ejemplo, Instituto de Hidrología, Meteorología y Estudios Ambientales - IDEAM, National Oceanic and Atmospheric Administration - NOAA U.S. Department of Commerce, National Aeronautics and Space Administration, U.S.A. - NASA, Instituto Geográfico Agustín Codazzi - IGAC y otras fuentes). Se aclara que los datos o información registrada en los repositorios, en su mayoría tiene el carácter de pública y puede ser objeto de modificación y/o actualización permanente; así mismo, la utilización, reproducción, modificación o distribución de los manuales, guías y datos, impone la obligación de reconocer la autoría de estos mismos y citar la fuente de referencia. Tenga en cuenta que esta información puede contener imprecisiones debidas a la escala de digitalización y solo es utilizada para esquematizar los ejemplos presentados en este software y guías de desarrollo. Para el desarrollo de trabajos de ingeniería utilizando este software, se requiere de una licencia comercial, además se recomienda consultar las distintas fuentes de datos citadas y verificar el estado de actualización, los derechos de uso y restricción de estos mismos. Los datos base incluidos en este Software y provenientes de diferentes fuentes públicas se acogen a La Ley de Transparencia y Acceso a la Información Pública Nacional de Colombia (Ley 1712 de 2014), que establece procedimientos para garantizar el derecho de acceso a la información pública, y el Decreto de Gobierno en Línea (Incluido en el Decreto único Reglamentario del sector TIC - 1078 de 2015). Para los datos base que han sido incluidos como ejemplo en este repositorio, proyecto o software y provenientes del Instituto de Hidrología, Meteorología y Estudios Ambientales - IDEAM, se debe citar la fuente original como "IDEAM", recuerde que la propiedad intelectual e industrial de estos datos pertenece al IDEAM. 
+
+* El autor no se hace responsable por el uso inadecuado de las herramientas computacionales que hacen parte de este repositorio, software o del proyecto _rcfdtools_, ni del uso inadecuado de los algoritmos, memorias de cálculo, guías de desarrollo y herramientas disponibles.
+
+* Se permite la modificación y mejora de los manuales, memorias de cálculo, guías de desarrollo, libros de cálculo electrónicos, scripts, algoritmos y demás herramientas propias incluidas en este repositorio, software o del proyecto _rcfdtools_, siempre y cuando se preserven las mismas libertades de distribución y copia de las modificaciones realizadas. Al realizar modificaciones, se compromete y obliga a publicarlas y a notificar al autor original a través de https://github.com/rcfdtools/rcfdtools/discussions o a través de los mecanismos disponibles en GitHub (_Pull requests_), quién podrá incorporarlas a la versión oficial para su posterior distribución.
+
+* No se permite la privatización, acaparamiento, venta o distribución comercial de este repositorio, software o del proyecto _R.HydroTools_, ni ninguno de sus componentes, herramientas, memorias de cálculo, scripts, algoritmos y demás herramientas complementarias que se encuentran aquí publicadas o dentro de paquetes de instalación o liberaciones.
+
+
+##
+
+<sub>**APPS & TOOLS & CONTENT DISCLAIMER**: • NO WARRANTY - This content and software is provided by <a href="https://github.com/rcfdtools" target="_blank">github.com/rcfdtools</a> "as is", without any express or implied warranty, including warranties of merchantability, fitness for a particular purpose, or non-infringement. There is no guarantee that the software will be error-free or operate without interruption. • LIMITATION OF LIABILITY - Neither the authors nor copyright holders will be liable for claims or damages arising from the software or its use. You are responsible for determining if the software is appropriate for your use and assume all associated risks, including errors, legal compliance, and data loss. • NO PROFESSIONAL ADVICE - The software provides general information and does not offer professional advice. It should not replace consultation with professional advisors.</sub>
+
+
