@@ -1,8 +1,10 @@
 <div align="center"><img alt="R.HydroTools" src="assets/logo.svg" width="100px"></div>
 
-# Yn & Yc - Normal and critical depth in prismatic channels
+# Yn & Yc - Normal and critical depth
 
-An open channel flow is the movement of a liquid, like water, in a conduit that has a free surface exposed to the atmosphere. Unlike a pipe that is completely full, open channel flow is driven by gravity, and the top surface of the liquid is not under pressure. Common examples include rivers, streams, canals, and storm drains. [:pineapple:**RUN** Tool.](https://rcfdtools.github.io/rcfdtools/tool/ynyc/) 
+An open channel flow is the movement of a liquid, like water, in a conduit that has a free surface exposed to the atmosphere. Unlike a pipe that is completely full, open channel flow is driven by gravity, and the top surface of the liquid is not under pressure. Common examples include rivers, streams, canals, and storm drains.
+
+* [:pineapple:**Prismatic Channel** Tool.](https://rcfdtools.github.io/rcfdtools/tool/ynyc/) 
 
 <div align="center"><img alt="R.HydroTools" src="assets/prism.svg" width="400px"></div>
 
