@@ -7,33 +7,33 @@ Hi and welcome to @rcfdtools, check all my projects here in https://github.com/r
 
 | Resource                                                     | Description                                                                          | Q-Level |
 |:-------------------------------------------------------------|:-------------------------------------------------------------------------------------|:-------:|
-| [TSIG](https://github.com/rcfdtools/R.TSIG)                  | Geographic information systems applied in engineering.                               |  B,M,D  |
-| [DAPC](https://github.com/rcfdtools/R.DAPC)                  | Computer aided drawing in engineering.                                               |    B    |
-| [HCMC](https://github.com/rcfdtools/R.HCMC)                  | Computational tools for the 1D/2D design and modeling of winding channels.           |  B,M,D  |
-| [SIGE](https://github.com/rcfdtools/R.SIGE)                  | Geographic information systems applied to development and territorial planning (TP). |  B,M,D  |
-| [LTWB](https://github.com/rcfdtools/R.LTWB)                  | Long-term hydrological balance for estimating average flows using GIS.               |  B,M,D  |
-| [CTRG](https://github.com/rcfdtools/R.TeachingResearchGuide) | Collaborative teaching and research guide with GitHub (TeachingResearchGuide).       |   B,M   |
+| [TSIG](https://github.com/rcfdtools/R.TSIG/README.md)                  | Geographic information systems applied in engineering.                               |  B,M,D  |
+| [DAPC](https://github.com/rcfdtools/R.DAPC/README.md)                  | Computer aided drawing in engineering.                                               |    B    |
+| [HCMC](https://github.com/rcfdtools/R.HCMC/README.md)                  | Computational tools for the 1D/2D design and modeling of winding channels.           |  B,M,D  |
+| [SIGE](https://github.com/rcfdtools/R.SIGE/README.md)                  | Geographic information systems applied to development and territorial planning (TP). |  B,M,D  |
+| [LTWB](https://github.com/rcfdtools/R.LTWB/README.md)                  | Long-term hydrological balance for estimating average flows using GIS.               |  B,M,D  |
+| [CTRG](https://github.com/rcfdtools/R.TeachingResearchGuide/README.md) | Collaborative teaching and research guide with GitHub (TeachingResearchGuide).       |   B,M   |
 
 > Applied levels of university qualification: B-Bachelor’s, M-Master’s, D-Doctorate
 
 
 ### :large_blue_circle: Engineering Researches
 
-| Resource                                                                                      | Description                                                                                                                                                                                                                                           |
-|:----------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [HydroBogota](https://github.com/rcfdtools/R.HydroBogota)                                     | Study of hydraulic hazards in the floodplain of the Bogotá River basin - Cundinamarca - Colombia - South America.                                                                                                                                     |
-| [SAWB](https://github.com/rcfdtools/R.SAWB)                                                   | Surface Water Balance (SWB), Atmospheric Water Balance (AWB) and Standardized Precipitation Index (SPI) in Colombia.                                                                                                                                  |
-| [Altillanura](https://github.com/rcfdtools/R.Altillanura)                                     | Colombian high plains research.                                                                                                                                                                                                                       |
-| [AmazonChingaza](https://github.com/rcfdtools/R.AmazonChingaza)                               | Relationship between the variation in the surface area of the Amazon Rainforest and the water supply of the Chingaza System - Colombia - South America.                                                                                               |
-| [PMP](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/PMP/dataset/pmax24h_out/paper) | Study and analysis of the Probable Maximum Precipitation (PMP) in the network of automatic climatological stations of Colombia - South America and estimation of extreme values for different return periods from multiple probability distributions. |
+| Resource                                                                                                | Description                                                                                                                                                                                                                                           |
+|:--------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [HydroBogota](https://github.com/rcfdtools/R.HydroBogota/README.md)                                     | Study of hydraulic hazards in the floodplain of the Bogotá River basin - Cundinamarca - Colombia - South America.                                                                                                                                     |
+| [SAWB](https://github.com/rcfdtools/R.SAWB/README.md)                                                   | Surface Water Balance (SWB), Atmospheric Water Balance (AWB) and Standardized Precipitation Index (SPI) in Colombia.                                                                                                                                  |
+| [Altillanura](https://github.com/rcfdtools/R.Altillanura/README.md)                                     | Colombian high plains research.                                                                                                                                                                                                                       |
+| [AmazonChingaza](https://github.com/rcfdtools/R.AmazonChingaza/README.md)                               | Relationship between the variation in the surface area of the Amazon Rainforest and the water supply of the Chingaza System - Colombia - South America.                                                                                               |
+| [PMP](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/PMP/dataset/pmax24h_out/paper/Readme.md) | Study and analysis of the Probable Maximum Precipitation (PMP) in the network of automatic climatological stations of Colombia - South America and estimation of extreme values for different return periods from multiple probability distributions. |
 
 
 ### :large_blue_circle: Standalone Tools for Hydraulic Engineers
 
-| Resource                                                                        | Description                                                                                                                         |
-|:--------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------|
-| [HydroTools](https://github.com/rcfdtools/R.HydroTools)                         | Computational engineering tools for GIS, hydrology and hydraulic analysis.                                                          |
-| [GISMobile](https://github.com/rcfdtools/R.GISMobile)                           | Mobile geographic information systems over [QField](https://qfield.org/) that do not require an Internet connection for navigation. |
+| Resource                                                          | Description                                                                                                                         |
+|:------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------|
+| [HydroTools](https://github.com/rcfdtools/R.HydroTools/README.md) | Computational engineering tools for GIS, hydrology and hydraulic analysis.                                                          |
+| [GISMobile](https://github.com/rcfdtools/R.GISMobile/README.md)             | Mobile geographic information systems over [QField](https://qfield.org/) that do not require an Internet connection for navigation. |
 
 
 ### :large_blue_circle: Engineering WebApp Tools
