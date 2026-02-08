@@ -21,7 +21,7 @@ Hi and welcome to @rcfdtools, check all my projects here in https://github.com/r
 
 | Resource                                                                                      | Description                                                                                                                                                                                                                                           |
 |:----------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [HydroBogota](https://github.com/rcfdtools/R.HydroBogota)                                     | Study of hydraulic hazards in the floodplain of the Bogotá River basin - Cundinamarca - Colombia - South America.                                                                                                                                     |
+| [HydroBogota](https://github.com/rcfdtools/R.HydroBogota)                                    | Study of hydraulic hazards in the floodplain of the Bogotá River basin - Cundinamarca - Colombia - South America.                                                                                                                                     |
 | [SAWB](https://github.com/rcfdtools/R.SAWB)                                                   | Surface Water Balance (SWB), Atmospheric Water Balance (AWB) and Standardized Precipitation Index (SPI) in Colombia.                                                                                                                                  |
 | [Altillanura](https://github.com/rcfdtools/R.Altillanura)                                     | Colombian high plains research.                                                                                                                                                                                                                       |
 | [AmazonChingaza](https://github.com/rcfdtools/R.AmazonChingaza)                               | Relationship between the variation in the surface area of the Amazon Rainforest and the water supply of the Chingaza System - Colombia - South America.                                                                                               |
@@ -45,10 +45,4 @@ Hi and welcome to @rcfdtools, check all my projects here in https://github.com/r
 
 
 <sub>**APPS & TOOLS DISCLAIMER**: • NO WARRANTY - This software is provided by <a href="https://github.com/rcfdtools" target="_blank">github.com/rcfdtools</a> "as is", without any express or implied warranty, including warranties of merchantability, fitness for a particular purpose, or non-infringement. There is no guarantee that the software will be error-free or operate without interruption. • LIMITATION OF LIABILITY - Neither the authors nor copyright holders will be liable for claims or damages arising from the software or its use. You are responsible for determining if the software is appropriate for your use and assume all associated risks, including errors, legal compliance, and data loss. • NO PROFESSIONAL ADVICE - The software provides general information and does not offer professional advice. It should not replace consultation with professional advisors.</sub>
-
-<!---
-rcfdtools/rcfdtools is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
-
 
