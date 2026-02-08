@@ -17,7 +17,7 @@ Hi and welcome to @rcfdtools, check all my projects here in https://github.com/r
 > Applied levels of university qualification: B-Bachelor’s, M-Master’s, D-Doctorate
 
 
-### :large_blue_circle:Engineering Researches
+### :large_blue_circle: Engineering Researches
 
 | Resource                                                                                      | Description                                                                                                                                                                                                                                           |
 |:----------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -28,7 +28,7 @@ Hi and welcome to @rcfdtools, check all my projects here in https://github.com/r
 | [PMP](https://github.com/rcfdtools/R.HydroTools/tree/main/tool/PMP/dataset/pmax24h_out/paper) | Study and analysis of the Probable Maximum Precipitation (PMP) in the network of automatic climatological stations of Colombia - South America and estimation of extreme values for different return periods from multiple probability distributions. |
 
 
-### :large_blue_circle:Standalone Tools for Hydraulic Engineers
+### :large_blue_circle: Standalone Tools for Hydraulic Engineers
 
 | Resource                                                                        | Description                                                                                                                         |
 |:--------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------|
@@ -36,14 +36,13 @@ Hi and welcome to @rcfdtools, check all my projects here in https://github.com/r
 | [GISMobile](https://github.com/rcfdtools/R.GISMobile)                           | Mobile geographic information systems over [QField](https://qfield.org/) that do not require an Internet connection for navigation. |
 
 
-### :large_blue_circle:Engineering WebApp Tools
+### :large_blue_circle: Engineering WebApp Tools
 
 | Resource                                                       | Description                                      |
 |:---------------------------------------------------------------|:-------------------------------------------------|
 | [YnYc](https://rcfdtools.github.io/rcfdtools/tool/ynyc/) | Normal and critical depth in prismatic channels. |
 
 
-##
 
 <sub>**APPS & TOOLS DISCLAIMER**: • NO WARRANTY - This software is provided by <a href="https://github.com/rcfdtools" target="_blank">github.com/rcfdtools</a> "as is", without any express or implied warranty, including warranties of merchantability, fitness for a particular purpose, or non-infringement. There is no guarantee that the software will be error-free or operate without interruption. • LIMITATION OF LIABILITY - Neither the authors nor copyright holders will be liable for claims or damages arising from the software or its use. You are responsible for determining if the software is appropriate for your use and assume all associated risks, including errors, legal compliance, and data loss. • NO PROFESSIONAL ADVICE - The software provides general information and does not offer professional advice. It should not replace consultation with professional advisors.</sub>
 
