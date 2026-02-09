@@ -1,0 +1,18 @@
+Flow Title=Steady
+Program Version=6.70
+Number of Profiles= 1 
+Profile Names=PF 1
+River Rch & RM=River,Reach           ,100     
+      10
+Boundary for River Rch & Prof#=River,Reach           , 1 
+Up Type= 3 
+Up Slope=0.0008969
+Dn Type= 2 
+DSS Import StartDate=
+DSS Import StartTime=
+DSS Import EndDate=
+DSS Import EndTime=
+DSS Import GetInterval= 0 
+DSS Import Interval=
+DSS Import GetPeak= 0 
+DSS Import FillOption= 0 

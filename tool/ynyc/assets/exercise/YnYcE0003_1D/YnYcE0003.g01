@@ -1,0 +1,294 @@
+Geom Title=Geometry1D
+Program Version=6.70
+Viewing Rectangle= 4999999 , 5000101 , 2000008.31 , 1999991.59 
+
+River Reach=River           ,Reach           
+Reach XY= 2 
+        5000100.        2000000.        5000000.        2000000.
+Rch Text X Y=5000075,2000000
+Reverse River Text=-1 
+
+Type RM Length L Ch R = 1 ,100     ,5,5,5
+Node Last Edited Time=Dec/07/2025 10:50:47
+#Sta/Elev= 6 
+       02601.5562.7166682601.5565.650005 2600.0910.65001 2600.0913.583342601.556
+16.300012601.556
+#Mann= 3 ,0,0
+       0    .035       02.716668    .035       013.58334    .035       0
+Bank Sta=2.716668,13.58334
+XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=2600.15,0.07, 20 
+XS HTab Horizontal Distribution= 5 , 5 , 5 
+Exp/Cntr=0.3,0.1
+
+Type RM Length L Ch R = 1 ,95.000* ,5,5,5
+Node Last Edited Time=Dec/09/2025 09:59:37
+#Sta/Elev= 6 
+       02601.552   2.7172601.552    5.652600.086   10.652600.086  13.5832601.552
+    16.32601.552
+#Mann= 3 ,0,0
+       0    .035       0   2.717    .035       0  13.583    .035       0
+Bank Sta=2.717,13.583
+XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=2600.15,0.07, 20 
+XS HTab Horizontal Distribution= 5 , 5 , 5 
+Exp/Cntr=0.3,0.1
+
+Type RM Length L Ch R = 1 ,90.000* ,5,5,5
+Node Last Edited Time=Dec/09/2025 09:59:37
+#Sta/Elev= 6 
+       02601.547   2.7172601.547    5.652600.081   10.652600.081  13.5832601.547
+    16.32601.547
+#Mann= 3 ,0,0
+       0    .035       0   2.717    .035       0  13.583    .035       0
+Bank Sta=2.717,13.583
+XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=2600.14,0.07, 20 
+XS HTab Horizontal Distribution= 5 , 5 , 5 
+Exp/Cntr=0.3,0.1
+
+Type RM Length L Ch R = 1 ,85.000* ,5,5,5
+Node Last Edited Time=Dec/09/2025 09:59:37
+#Sta/Elev= 6 
+       02601.542   2.7172601.542    5.652600.077   10.652600.077  13.5832601.542
+    16.32601.542
+#Mann= 3 ,0,0
+       0    .035       0   2.717    .035       0  13.583    .035       0
+Bank Sta=2.717,13.583
+XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=2600.14,0.07, 20 
+XS HTab Horizontal Distribution= 5 , 5 , 5 
+Exp/Cntr=0.3,0.1
+
+Type RM Length L Ch R = 1 ,80.000* ,5,5,5
+Node Last Edited Time=Dec/09/2025 09:59:37
+#Sta/Elev= 6 
+       02601.538   2.7172601.538    5.652600.072   10.652600.072  13.5832601.538
+    16.32601.538
+#Mann= 3 ,0,0
+       0    .035       0   2.717    .035       0  13.583    .035       0
+Bank Sta=2.717,13.583
+XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=2600.13,0.07, 20 
+XS HTab Horizontal Distribution= 5 , 5 , 5 
+Exp/Cntr=0.3,0.1
+
+Type RM Length L Ch R = 1 ,75.000* ,5,5,5
+Node Last Edited Time=Dec/09/2025 09:59:37
+#Sta/Elev= 6 
+       02601.534   2.7172601.534    5.652600.068   10.652600.068  13.5832601.534
+    16.32601.534
+#Mann= 3 ,0,0
+       0    .035       0   2.717    .035       0  13.583    .035       0
+Bank Sta=2.717,13.583
+XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=2600.13,0.07, 20 
+XS HTab Horizontal Distribution= 5 , 5 , 5 
+Exp/Cntr=0.3,0.1
+
+Type RM Length L Ch R = 1 ,70.000* ,5,5,5
+Node Last Edited Time=Dec/09/2025 09:59:37
+#Sta/Elev= 6 
+       02601.529   2.7172601.529    5.652600.063   10.652600.063  13.5832601.529
+    16.32601.529
+#Mann= 3 ,0,0
+       0    .035       0   2.717    .035       0  13.583    .035       0
+Bank Sta=2.717,13.583
+XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=2600.12,0.07, 20 
+XS HTab Horizontal Distribution= 5 , 5 , 5 
+Exp/Cntr=0.3,0.1
+
+Type RM Length L Ch R = 1 ,65.000* ,5,5,5
+Node Last Edited Time=Dec/09/2025 09:59:37
+#Sta/Elev= 6 
+       02601.525   2.7172601.525    5.652600.059   10.652600.059  13.5832601.525
+    16.32601.525
+#Mann= 3 ,0,0
+       0    .035       0   2.717    .035       0  13.583    .035       0
+Bank Sta=2.717,13.583
+XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=2600.12,0.07, 20 
+XS HTab Horizontal Distribution= 5 , 5 , 5 
+Exp/Cntr=0.3,0.1
+
+Type RM Length L Ch R = 1 ,60.000* ,5,5,5
+Node Last Edited Time=Dec/09/2025 09:59:37
+#Sta/Elev= 6 
+       0 2601.52   2.717 2601.52    5.652600.054   10.652600.054  13.583 2601.52
+    16.3 2601.52
+#Mann= 3 ,0,0
+       0    .035       0   2.717    .035       0  13.583    .035       0
+Bank Sta=2.717,13.583
+XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=2600.11,0.07, 20 
+XS HTab Horizontal Distribution= 5 , 5 , 5 
+Exp/Cntr=0.3,0.1
+
+Type RM Length L Ch R = 1 ,55.000* ,5,5,5
+Node Last Edited Time=Dec/09/2025 09:59:37
+#Sta/Elev= 6 
+       02601.516   2.7172601.516    5.65 2600.05   10.65 2600.05  13.5832601.516
+    16.32601.516
+#Mann= 3 ,0,0
+       0    .035       0   2.717    .035       0  13.583    .035       0
+Bank Sta=2.717,13.583
+XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=2600.11,0.07, 20 
+XS HTab Horizontal Distribution= 5 , 5 , 5 
+Exp/Cntr=0.3,0.1
+
+Type RM Length L Ch R = 1 ,50.000* ,5,5,5
+Node Last Edited Time=Dec/09/2025 09:59:37
+#Sta/Elev= 6 
+       02601.511   2.7172601.511    5.652600.045   10.652600.045  13.5832601.511
+    16.32601.511
+#Mann= 3 ,0,0
+       0    .035       0   2.717    .035       0  13.583    .035       0
+Bank Sta=2.717,13.583
+XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=2600.1,0.07, 20 
+XS HTab Horizontal Distribution= 5 , 5 , 5 
+Exp/Cntr=0.3,0.1
+
+Type RM Length L Ch R = 1 ,45.000* ,5,5,5
+Node Last Edited Time=Dec/09/2025 09:59:37
+#Sta/Elev= 6 
+       02601.507   2.7172601.507    5.652600.041   10.652600.041  13.5832601.507
+    16.32601.507
+#Mann= 3 ,0,0
+       0    .035       0   2.717    .035       0  13.583    .035       0
+Bank Sta=2.717,13.583
+XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=2600.1,0.07, 20 
+XS HTab Horizontal Distribution= 5 , 5 , 5 
+Exp/Cntr=0.3,0.1
+
+Type RM Length L Ch R = 1 ,40.000* ,5,5,5
+Node Last Edited Time=Dec/09/2025 09:59:37
+#Sta/Elev= 6 
+       02601.503   2.7172601.503    5.652600.036   10.652600.036  13.5832601.503
+    16.32601.503
+#Mann= 3 ,0,0
+       0    .035       0   2.717    .035       0  13.583    .035       0
+Bank Sta=2.717,13.583
+XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=2600.1,0.07, 20 
+XS HTab Horizontal Distribution= 5 , 5 , 5 
+Exp/Cntr=0.3,0.1
+
+Type RM Length L Ch R = 1 ,35.000* ,5,5,5
+Node Last Edited Time=Dec/09/2025 09:59:37
+#Sta/Elev= 6 
+       02601.498   2.7172601.498    5.652600.031   10.652600.031  13.5832601.498
+    16.32601.498
+#Mann= 3 ,0,0
+       0    .035       0   2.717    .035       0  13.583    .035       0
+Bank Sta=2.717,13.583
+XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=2600.09,0.07, 20 
+XS HTab Horizontal Distribution= 5 , 5 , 5 
+Exp/Cntr=0.3,0.1
+
+Type RM Length L Ch R = 1 ,30.000* ,5,5,5
+Node Last Edited Time=Dec/09/2025 09:59:37
+#Sta/Elev= 6 
+       02601.494   2.7172601.494    5.652600.027   10.652600.027  13.5832601.494
+    16.32601.494
+#Mann= 3 ,0,0
+       0    .035       0   2.717    .035       0  13.583    .035       0
+Bank Sta=2.717,13.583
+XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=2600.09,0.07, 20 
+XS HTab Horizontal Distribution= 5 , 5 , 5 
+Exp/Cntr=0.3,0.1
+
+Type RM Length L Ch R = 1 ,25.000* ,5,5,5
+Node Last Edited Time=Dec/09/2025 09:59:37
+#Sta/Elev= 6 
+       02601.489   2.7172601.489    5.652600.022   10.652600.022  13.5832601.489
+    16.32601.489
+#Mann= 3 ,0,0
+       0    .035       0   2.717    .035       0  13.583    .035       0
+Bank Sta=2.717,13.583
+XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=2600.08,0.07, 20 
+XS HTab Horizontal Distribution= 5 , 5 , 5 
+Exp/Cntr=0.3,0.1
+
+Type RM Length L Ch R = 1 ,20.000* ,5,5,5
+Node Last Edited Time=Dec/09/2025 09:59:37
+#Sta/Elev= 6 
+       02601.485   2.7172601.485    5.652600.018   10.652600.018  13.5832601.485
+    16.32601.485
+#Mann= 3 ,0,0
+       0    .035       0   2.717    .035       0  13.583    .035       0
+Bank Sta=2.717,13.583
+XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=2600.08,0.07, 20 
+XS HTab Horizontal Distribution= 5 , 5 , 5 
+Exp/Cntr=0.3,0.1
+
+Type RM Length L Ch R = 1 ,15.000* ,5,5,5
+Node Last Edited Time=Dec/09/2025 09:59:37
+#Sta/Elev= 6 
+       0 2601.48   2.717 2601.48    5.652600.013   10.652600.013  13.583 2601.48
+    16.3 2601.48
+#Mann= 3 ,0,0
+       0    .035       0   2.717    .035       0  13.583    .035       0
+Bank Sta=2.717,13.583
+XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=2600.07,0.07, 20 
+XS HTab Horizontal Distribution= 5 , 5 , 5 
+Exp/Cntr=0.3,0.1
+
+Type RM Length L Ch R = 1 ,10.000* ,5,5,5
+Node Last Edited Time=Dec/09/2025 09:59:37
+#Sta/Elev= 6 
+       02601.476   2.7172601.476    5.652600.009   10.652600.009  13.5832601.476
+    16.32601.476
+#Mann= 3 ,0,0
+       0    .035       0   2.717    .035       0  13.583    .035       0
+Bank Sta=2.717,13.583
+XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=2600.07,0.07, 20 
+XS HTab Horizontal Distribution= 5 , 5 , 5 
+Exp/Cntr=0.3,0.1
+
+Type RM Length L Ch R = 1 ,5.000*  ,5,5,5
+Node Last Edited Time=Dec/09/2025 09:59:37
+#Sta/Elev= 6 
+       02601.471   2.7172601.471    5.652600.004   10.652600.004  13.5832601.471
+    16.32601.471
+#Mann= 3 ,0,0
+       0    .035       0   2.717    .035       0  13.583    .035       0
+Bank Sta=2.717,13.583
+XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=2600.06,0.07, 20 
+XS HTab Horizontal Distribution= 5 , 5 , 5 
+Exp/Cntr=0.3,0.1
+
+Type RM Length L Ch R = 1 ,0       ,100,100,100
+Node Last Edited Time=Dec/07/2025 10:51:41
+#Sta/Elev= 6 
+       02601.4672.7166682601.4675.650005    260010.65001    260013.583342601.467
+16.300012601.467
+#Mann= 3 ,0,0
+       0    .035       02.716668    .035       013.58334    .035       0
+Bank Sta=2.716668,13.58334
+XS Rating Curve= 0 ,0
+XS HTab Starting El and Incr=2600.06,0.07, 20 
+XS HTab Horizontal Distribution= 5 , 5 , 5 
+Exp/Cntr=0.3,0.1
+
+LCMann Time=Dec/30/1899 00:00:00
+LCMann Region Time=Dec/30/1899 00:00:00
+LCMann Table=0
+Chan Stop Cuts=-1 
+
+
+
+Use User Specified Reach Order=0
+GIS Ratio Cuts To Invert=-1
+GIS Limit At Bridges=0
+Composite Channel Slope=5

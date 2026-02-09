@@ -1,9 +1,0 @@
-# Author https://github.com/rcfdtools
-
-name = "YcYc for prismatic channels"
-description = "Calculates normal and critical depth in prismatic channels as trapezoids, rectangles, triangles and ditches."
- packages = ["matplotlib"]
-
-[files]
-"./functions.py" = ""
-"./dictionary.py" = ""

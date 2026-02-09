@@ -4,7 +4,8 @@ Local contents
 ✓Δ°Σβρσθαπ∑√±πØμx●•∫→≤≥≈ꝏ
 
 cell_size: used for 2D perimeter internal buffer
-
+PyScript
+Result videos as Hydro-Bogota
 
 https://rcfdtools.github.io/rcfdtools/tool/basicsum
 https://rcfdtools.github.io/rcfdtools/tool/ynyc_prism
