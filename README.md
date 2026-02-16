@@ -7,12 +7,12 @@ Hi and welcome to @rcfdtools, check all my projects here in https://github.com/r
 
 | Resource                                                     | Description                                                                          | Q-Level |
 |:-------------------------------------------------------------|:-------------------------------------------------------------------------------------|:-------:|
-| [TSIG](https://github.com/rcfdtools/R.TSIG)                  | Geographic information systems applied in engineering.                               |  B,M,D  |
-| [DAPC](https://github.com/rcfdtools/R.DAPC)                  | Computer aided drawing in engineering.                                               |    B    |
-| [HCMC](https://github.com/rcfdtools/R.HCMC)                  | Computational tools for the 1D/2D design and modeling of winding channels.           |  B,M,D  |
-| [SIGE](https://github.com/rcfdtools/R.SIGE)                  | Geographic information systems applied to development and territorial planning (TP). |  B,M,D  |
-| [LTWB](https://github.com/rcfdtools/R.LTWB)                  | Long-term hydrological balance for estimating average flows using GIS.               |  B,M,D  |
-| [CTRG](https://github.com/rcfdtools/R.TeachingResearchGuide) | Collaborative teaching and research guide with GitHub (TeachingResearchGuide).       |   B,M   |
+| [TSIG](https://github.com/rcfdtools/R.TSIG/blob/main/README.md)                  | Geographic information systems applied in engineering.                               |  B,M,D  |
+| [DAPC](https://github.com/rcfdtools/R.DAPC/blob/main/README.md)                  | Computer aided drawing in engineering.                                               |    B    |
+| [HCMC](https://github.com/rcfdtools/R.HCMC/blob/main/README.md)                  | Computational tools for the 1D/2D design and modeling of winding channels.           |  B,M,D  |
+| [SIGE](https://github.com/rcfdtools/R.SIGE/blob/main/README.md)                  | Geographic information systems applied to development and territorial planning (TP). |  B,M,D  |
+| [LTWB](https://github.com/rcfdtools/R.LTWB/blob/main/README.md)                  | Long-term hydrological balance for estimating average flows using GIS.               |  B,M,D  |
+| [CTRG](https://github.com/rcfdtools/R.TeachingResearchGuide/blob/main/README.md) | Collaborative teaching and research guide with GitHub (TeachingResearchGuide).       |   B,M   |
 
 > Applied levels of university qualification: B-Bachelor’s, M-Master’s, D-Doctorate
 
@@ -21,10 +21,10 @@ Hi and welcome to @rcfdtools, check all my projects here in https://github.com/r
 
 | Resource                                                                                                | Description                                                                                                                                                                                                                                           |
 |:--------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [HydroBogota](https://github.com/rcfdtools/R.HydroBogota)                                               | Study of hydraulic hazards in the floodplain of the Bogotá River basin - Cundinamarca - Colombia - South America.                                                                                                                                     |
-| [SAWB](https://github.com/rcfdtools/R.SAWB)                                                             | Surface Water Balance (SWB), Atmospheric Water Balance (AWB) and Standardized Precipitation Index (SPI) in Colombia.                                                                                                                                  |
-| [Altillanura](https://github.com/rcfdtools/R.Altillanura)                                               | Colombian high plains research.                                                                                                                                                                                                                       |
-| [AmazonChingaza](https://github.com/rcfdtools/R.AmazonChingaza/Readme.md)                                         | Relationship between the variation in the surface area of the Amazon Rainforest and the water supply of the Chingaza System - Colombia - South America.                                                                                               |
+| [HydroBogota](https://github.com/rcfdtools/R.HydroBogota/blob/main/README.md)                                               | Study of hydraulic hazards in the floodplain of the Bogotá River basin - Cundinamarca - Colombia - South America.                                                                                                                                     |
+| [SAWB](https://github.com/rcfdtools/R.SAWB/blob/main/README.md)                                                             | Surface Water Balance (SWB), Atmospheric Water Balance (AWB) and Standardized Precipitation Index (SPI) in Colombia.                                                                                                                                  |
+| [Altillanura](https://github.com/rcfdtools/R.Altillanura/blob/main/README.md)                                               | Colombian high plains research.                                                                                                                                                                                                                       |
+| [AmazonChingaza](https://github.com/rcfdtools/R.AmazonChingaza/blob/main/README.md)                                         | Relationship between the variation in the surface area of the Amazon Rainforest and the water supply of the Chingaza System - Colombia - South America.                                                                                               |
 | [PMP](https://github.com/rcfdtools/R.HydroTools/blob/main/tool/PMP/dataset/pmax24h_out/paper/Readme.md) | Study and analysis of the Probable Maximum Precipitation (PMP) in the network of automatic climatological stations of Colombia - South America and estimation of extreme values for different return periods from multiple probability distributions. |
 
 
