@@ -30,10 +30,10 @@ Hi and welcome to @rcfdtools, check all my projects here in https://github.com/r
 
 ### ● Standalone Tools for Hydraulic Engineers
 
-| Resource                                                                        | Description                                                                                                                         |
-|:--------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------|
-| [HydroTools](https://github.com/rcfdtools/R.HydroTools)                         | Computational engineering tools for GIS, hydrology and hydraulic analysis.                                                          |
-| [GISMobile](https://github.com/rcfdtools/R.GISMobile)                           | Mobile geographic information systems over [QField](https://qfield.org/) that do not require an Internet connection for navigation. |
+| Resource                                                    | Description                                                                                                                                                  |
+|:------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [HydroTools](https://github.com/rcfdtools/R.HydroTools)     | Computational engineering tools for GIS, hydrology and hydraulic analysis.                                                                                   |
+| [GISMobile & POI](https://github.com/rcfdtools/R.GISMobile) | Mobile geographic information systems over [QField](https://qfield.org/) that do not require an Internet connection for navigation. Point of interest - POI. |
 
 
 ### ● Engineering WebApp Tools
