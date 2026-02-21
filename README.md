@@ -3,7 +3,7 @@
 Hi and welcome to @rcfdtools, check all my projects here in https://github.com/rcfdtools. We are interested in Geographical Information Systems - GIS, Hydrology, Hydraulics, Civil Engineering and urban developing projects. We are currently learning and improving computational numeric methods and CFD in my GitHub projects, and we are looking to collaborate on engineering research projects. Reach me sending us a message through our [Discussion Forum](https://github.com/rcfdtools/rcfdtools/discussions/1).
 
 
-### ● Professional Technical Courses
+### Professional Technical Courses
 
 | Resource                                                     | Description                                                                          | Q-Level |
 |:-------------------------------------------------------------|:-------------------------------------------------------------------------------------|:-------:|
@@ -17,7 +17,7 @@ Hi and welcome to @rcfdtools, check all my projects here in https://github.com/r
 > Applied levels of university qualification: B-Bachelor’s, M-Master’s, D-Doctorate
 
 
-### ● Engineering Researches
+### Engineering Researches
 
 | Resource                                                                                                | Description                                                                                                                                                                                                                                           |
 |:--------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -28,7 +28,7 @@ Hi and welcome to @rcfdtools, check all my projects here in https://github.com/r
 | [PMP](https://github.com/rcfdtools/R.HydroTools/blob/main/tool/PMP/dataset/pmax24h_out/paper/Readme.md) | Study and analysis of the Probable Maximum Precipitation (PMP) in the network of automatic climatological stations of Colombia - South America and estimation of extreme values for different return periods from multiple probability distributions. |
 
 
-### ● Standalone Tools for Hydraulic Engineers
+### Standalone Tools for Hydraulic Engineers
 
 | Resource                                                                        | Description                                                                                                                                                  |
 |:--------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -36,17 +36,17 @@ Hi and welcome to @rcfdtools, check all my projects here in https://github.com/r
 | [GISMobile & POI](https://github.com/rcfdtools/R.GISMobile/blob/main/README.md) | Mobile geographic information systems over [QField](https://qfield.org/) that do not require an Internet connection for navigation. Point of interest - POI. |
 
 
-### ● Engineering WebApp Tools
+### Engineering WebApp Tools
 
 | Resource                                                       | Description                                      |
 |:---------------------------------------------------------------|:-------------------------------------------------|
 | [YnYc](https://rcfdtools.github.io/rcfdtools/tool/ynyc/) | Normal and critical depth in prismatic channels. |
 
 
-### ● Professional levels in academic and/or research content development  
+### Professional levels in academic and/or research content development  
 <sub>Niveles profesionales en desarrollo de contenidos académicos y/o de investigación</sub>
 
-A course, research project, section, or activity can be classified into different levels based on the complexity of its content, prerequisites, or the level of expertise and/or skill required to be acquired or developed. The criteria presented here were developed by [rcfdtools](https://github.com/rcfdtools) based on their own professional and academic experience. <sub>Un curso o una investigación, una sección o una actividad puede ser clasificada en diferentes niveles en función de la complejidad de los contenidos, de los requisitos previos o del grado de experticia y/o habilidad requerido, a obtener o desarrollar. Los criterios aquí expuestos han sido desarrollados por [rcfdtools](https://github.com/rcfdtools) de acuerdo a su propia experiencia profesional y académica.</sub>
+A course, research project, section, or activity can be classified into different levels based on the complexity of its content, prerequisites, or the level of expertise and/or skill required to be acquired or developed. The criteria presented here were developed by [rcfdtools](https://github.com/rcfdtools) based on their own professional and academic experience. <sub>Un curso o una investigación, una sección o una actividad puede ser clasificada en diferentes niveles en función de la complejidad de los contenidos, de los requisitos previos o del grado de experticia y/o habilidad requerido, a obtener o desarrollar. Los criterios aquí expuestos han sido desarrollados por _rcfdtools_ de acuerdo a su propia experiencia profesional y académica.</sub>
 
 | Level<br/><sub>Nivel</sub>         | Scope<br/><sub>Alcance</sub>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Dedication<br/><sub>Dedicación</sub> |
 |:-----------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------:|
