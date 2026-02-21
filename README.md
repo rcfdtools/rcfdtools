@@ -43,8 +43,8 @@ Hi and welcome to @rcfdtools, check all my projects here in https://github.com/r
 | [YnYc](https://rcfdtools.github.io/rcfdtools/tool/ynyc/) | Normal and critical depth in prismatic channels. |
 
 
-### ● Levels of depth in academic and/or research content  
-<sub>Niveles de profundización en contenidos académicos y/o de investigación</sub>
+### ● Professional levels in academic and/or research content development  
+<sub>Niveles profesionales en desarrollo de contenidos académicos y/o de investigación</sub>
 
 A course, research project, section, or activity can be classified into different levels based on the complexity of its content, prerequisites, or the level of expertise and/or skill required to be acquired or developed. The criteria presented here were developed by [rcfdtools](https://github.com/rcfdtools) based on their professional and academic experience.  
 <sub>Un curso o una investigación, una sección o una actividad puede ser clasificada en diferentes niveles en función de la complejidad de los contenidos, de los requisitos previos o del grado de experticia y/o habilidad requerido, a obtener o desarrollar. Los criterios aquí expuestos han sido desarrollados por [rcfdtools](https://github.com/rcfdtools) de acuerdo a su experiencia profesional y académica.</sub>
