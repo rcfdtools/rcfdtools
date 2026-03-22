@@ -13,6 +13,7 @@ Hi and welcome to @rcfdtools, check all my projects here in https://github.com/r
 | [SIGE](https://github.com/rcfdtools/R.SIGE/blob/main/README.md)                  | Geographic information systems applied to development and territorial planning (TP). |  B,M,D  |
 | [LTWB](https://github.com/rcfdtools/R.LTWB/blob/main/README.md)                  | Long-term hydrological balance for estimating average flows using GIS.               |  B,M,D  |
 | [CTRG](https://github.com/rcfdtools/R.TeachingResearchGuide/blob/main/README.md) | Collaborative teaching and research guide with GitHub (TeachingResearchGuide).       |   B,M   |
+| [IAMB](https://github.com/rcfdtools/R.IAMB/blob/main/README.md)                  | Geographic Information Systems applied to Environmental Studies.                     | B,M,D   |
 
 > Applied levels of university qualification: B-Bachelor’s, M-Master’s, D-Doctorate
 
