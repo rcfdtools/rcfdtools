@@ -7,10 +7,10 @@ Hi and welcome to @rcfdtools, check all my projects here in https://github.com/r
 
 | Resource                                                                         | Description                                                                          | Q-Level |
 |:---------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------|:-------:|
-| [TSIG](https://github.com/rcfdtools/R.TSIG/blob/main/README.md)                  | Geographic information systems applied in engineering.                               |  B,M,D  |
+| [TSIG](https://github.com/rcfdtools/R.TSIG/blob/main/README.md)                  | Geographic information systems applied in engineering (TSIG / PYAS).                 |  B,M,D  |
 | [HCMC](https://github.com/rcfdtools/R.HCMC/blob/main/README.md)                  | Computational tools for the 1D/2D design and modeling of winding channels.           |  B,M,D  |
 | [DAPC](https://github.com/rcfdtools/R.DAPC/blob/main/README.md)                  | Computer aided drawing in engineering.                                               |    B    |
-| [IAMB](https://github.com/rcfdtools/R.IAMB/blob/main/README.md)                  | Geographic information systems applied to environmental studies.                    | B,M,D   |
+| [IAMB](https://github.com/rcfdtools/R.IAMB/blob/main/README.md)                  | Geographic information systems applied to environmental studies.                     |  B,M,D  |
 | [SIGE](https://github.com/rcfdtools/R.SIGE/blob/main/README.md)                  | Geographic information systems applied to development and territorial planning (TP). |  B,M,D  |
 | [LTWB](https://github.com/rcfdtools/R.LTWB/blob/main/README.md)                  | Long-term hydrological balance for estimating average flows using GIS.               |  B,M,D  |
 | [CTRG](https://github.com/rcfdtools/R.TeachingResearchGuide/blob/main/README.md) | Collaborative teaching and research guide with GitHub (TeachingResearchGuide).       |   B,M   |
