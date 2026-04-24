@@ -1,8 +1,6 @@
-<div align="center"><img alt="R.HydroBogota" src="graph/rcfdtools.svg" width="260px"><br><i>Courses, researches and computational engineering tools for GIS, hydrology and  hydraulic analysis</i></div><br>
+<div align="center"><img alt="R.HydroBogota" src="graph/rcfdtools.svg" width="260px"><br><i>Theoretical and applied practical engineering courses, researches and computational engineering tools for GIS, hydrology and  hydraulic analysis</i></div><br>
  
 Hi and welcome to @rcfdtools, check all my projects here in https://github.com/rcfdtools. We are interested in Geographical Information Systems - GIS, Hydrology, Hydraulics, Civil Engineering and urban developing projects. We are currently learning and improving computational numeric methods, CFD and AI in my GitHub projects, and we are looking to collaborate on engineering research projects. Reach me sending us a message through our [Discussion Forum](https://github.com/rcfdtools/rcfdtools/discussions/1).
-
-<div align="center">**Theoretical and applied practical engineering**</div>
 
 ### Professional Courses
 
