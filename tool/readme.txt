@@ -27,6 +27,7 @@ https://www.qrcode-monkey.com/
 https://pyscript.net/
 https://pyscript.com/@examples/fractals-with-numpy-and-canvas/latest
 https://www.fsl.orst.edu/geowater/FX3/help/8_Hydraulic_Reference/Flow_Profiles.htm
+Calculador de flujo en tuberías circulares https://deep-pulse-flow.base44.app/hydraulic
 
 
 
