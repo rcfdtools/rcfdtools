@@ -30,10 +30,10 @@ Hi and welcome to @rcfdtools, check all my projects here in https://github.com/r
 
 ### Standalone Tools
 
-| Resource                                                                        | Description                                                                                                                                                  |
-|:--------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [HydroTools](https://github.com/rcfdtools/R.HydroTools/blob/main/README.md)     | Computational engineering tools for GIS, hydrology and hydraulic analysis.                                                                                   |
-| [GISMobile & POI](https://github.com/rcfdtools/R.GISMobile/blob/main/README.md) | Mobile geographic information systems over [QField](https://qfield.org/) that do not require an Internet connection for navigation. Point of interest - POI. |
+| Resource                                                                                                                                                    | Description                                                                                                                                                  |
+|:------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [HydroTools](https://github.com/rcfdtools/R.HydroTools/blob/main/README.md)                                                                                 | Computational engineering tools for GIS, hydrology and hydraulic analysis.                                                                                   |
+| [GISMobile](https://github.com/rcfdtools/R.GISMobile/blob/main/README.md) & [POI](https://github.com/rcfdtools/R.GISMobile/blob/main/.poi/Readme.md) | Mobile geographic information systems over [QField](https://qfield.org/) that do not require an Internet connection for navigation. Point of interest - POI. |
 
 
 ### WebApp Tools
