@@ -1,4 +1,4 @@
-# :mortar_board::construction_worker: Professional expertise levels in academic and/or research content development - PEL 
+# :mortar_board:Professional expertise levels in academic and/or research content development - PEL 
 <sub>Niveles profesionales en desarrollo de contenidos académicos y/o de investigación</sub>
 
 A course, research project, section, or activity can be classified into different levels based on the complexity of its content, prerequisites, or the level of expertise and/or skill required to be acquired or developed. The criteria presented here were developed by [rcfdtools](https://github.com/rcfdtools) based on their own professional and academic experience. <sub>Un curso o una investigación, una sección o una actividad puede ser clasificada en diferentes niveles en función de la complejidad de los contenidos, de los requisitos previos o del grado de experticia y/o habilidad requerido, a obtener o desarrollar. Los criterios aquí expuestos han sido desarrollados por _rcfdtools_ de acuerdo a su propia experiencia profesional y académica.</sub>
