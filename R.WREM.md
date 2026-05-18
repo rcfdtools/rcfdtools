@@ -16,7 +16,7 @@ Water Resources Engineering and Management is a specialized field that blends ci
 * To create computational hydrological and hydraulic models.
 
 
-## Participants and Evaluation
+## Participants
 
 The content presented in this workshop is aimed at students and professionals from different disciplines who need to learn and/or strengthen their knowledge in the use of software tools, such as:
 
@@ -30,7 +30,7 @@ The content presented in this workshop is aimed at students and professionals fr
 > As a prerequisite, students require basic knowledge of computer programming.
 
 
-### Academic Methodology
+## Academic Methodology
 
 * Through practical workshops, participants will be introduced to different concepts and applications of Geographic Information Systems in the development of applied engineering studies.
 * At the beginning of each class, the instructor will give a general presentation and demonstration of the concepts and computer tools to be used, and then the students will complete the content of each workshop, activity, or exercise.
