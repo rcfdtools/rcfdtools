@@ -17,7 +17,6 @@ The following tools and directory structure are required for the development of 
 | [:toolbox:Tool](https://www.office.com/)                                                      | Microsoft 365 (Word, Excel, OneDrive, Teams).                                              |
 | [:toolbox:Tool](https://notepad-plus-plus.org/)                                               | Notepad++ (text editor).                                                                   |
 | [:toolbox:Tool](https://qgis.org/)                                                            | QGIS 3.44.10, 4.0.2 or newer.                                                              |
-| [:toolbox:Tool](https://www.hec.usace.army.mil/software/hec-hms/)                             | HEC-HMS 4.13 or newer.                                                                     |
 | [:toolbox:Tool](https://www.7-zip.org/)                                                       | 7-Zip File Manager (file compressor).                                                    |
 | [:toolbox:Tool](https://www.hec.usace.army.mil/software/hec-hms/)                             | HEC-HMS 4.13 or newer.                                                                     |
 | [:toolbox:Tool](https://www.hec.usace.army.mil/software/hec-dssvue/)                          | HEC-DSSVue 3.2.3 (functional version for massive hyetograph load).                         |
