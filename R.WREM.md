@@ -18,11 +18,10 @@ Water Resources Engineering and Management is a specialized field that blends ci
 
 ## Participants
 
-The content presented in this workshop is aimed at students and professionals from different disciplines who need to learn and/or strengthen their knowledge in the use of software tools, such as:
+The content presented in this course is aimed at students and professionals from different disciplines who need to learn and/or strengthen their knowledge in the use of software tools, such as:
 
-* Engineers.
-* Specialists.
-* Public officials.
+* Engineers
+* Specialists
 * Territorial managers.
 
 > A basic level of English is required because we will be using the user interfaces in this language.
