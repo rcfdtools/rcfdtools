@@ -6,7 +6,7 @@ Keywords: `hydrology` `hydraulics` `geographic-information-systems` `hec-ras` `h
 Water Resources Engineering and Management is a specialized field that blends civil engineering, hydrology, hydraulics and environmental science to sustainably supply, distribute, and protect the world's freshwater resources. It focuses on balancing human demands—such as drinking water, agriculture, and industry—with ecological preservation while mitigating water-related hazards like floods and droughts. The combination of hydrology and hydraulics allow engineers to calculate how much water is coming and design systems to safely manage, transport, or utilize it.
 
 
-## Module 1: Geographic information systems - GIS
+## :large_blue_circle:Module 1: Geographic information systems - GIS
 
 A Geographic Information System (GIS) is a digital framework used to capture, store, analyze, and visualize spatial data. In hydrology and hydraulics, GIS acts as the spatial engine of water management. It maps terrain and landscape characteristics to calculate how water moves across a landscape.
 
@@ -21,7 +21,7 @@ A Geographic Information System (GIS) is a digital framework used to capture, st
 | Hydrometeorological stations                                        | A hydrometeorological station is a specialized facility equipped with instruments to measure and record both atmospheric weather conditions and water-related (hydrological) parameters. They bridge the gap between meteorology and hydrology by tracking how weather events impact water resources, such as river levels, rainfall, and soil moisture.<br/><br/>https://github.com/rcfdtools/R.IAMB/blob/main/activity/CNEStation/Readme.md                                                                                                 |      1.5      |
 
 
-## Module 2: Hydrology
+## :large_blue_circle:Module 2: Hydrology
 
 Hydrology focuses on the Earth's water cycle. It deals with the occurrence, distribution, and movement of water across the globe, including rainfall, evaporation, and groundwater flow. 
 
@@ -36,7 +36,7 @@ Hydrology focuses on the Earth's water cycle. It deals with the occurrence, dist
 | ERA5-Land analysis                                                                   | ERA5-Land is a high-resolution global climate reanalysis dataset that provides hourly estimates of the water and energy cycles over land. Produced by the European Centre for Medium-Range Weather Forecasts (ECMWF), it offers data from 1950 to the present, featuring an enhanced spatial resolution of about 9 km.<br/><br/>https://github.com/rcfdtools/R.SIGE/blob/main/activity/RemoteSensingERA5/Readme.md<br/>https://github.com/rcfdtools/R.TSIG/blob/main/activity/ERA5/Readme.md                                                                                                                                                                                                                   |      1.5      |
 
 
-## Module 3: Hydraulics
+## :large_blue_circle:Module 3: Hydraulics
 
 Hydraulics focuses on the mechanical properties and physical flow of water. It applies fluid mechanics to engineer practical systems like pipes, pumps, river channels, dams, and stormwater networks. 
 
