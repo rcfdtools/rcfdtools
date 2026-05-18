@@ -108,7 +108,13 @@ Hydraulics focuses on the mechanical properties and physical flow of water. It a
 | Open channel flow simulation 1D / 2D                 | Open channel flow simulation analyzes the movement of fluids (like water) with a free surface exposed to the air. 1D (One-Dimensional) models calculate flow along a single longitudinal path. 2D (Two-Dimensional) models map flow across an area, tracking depth and velocity vectors in multiple directions.<br/><br/>https://github.com/rcfdtools/R.HCMC/blob/main/README.md                                                       |        3        |
 
 
-## References
+##
 
-* https://www.researchgate.net/publication/315484240_HYDROLOGY_AND_ITS_BRANCHES
-* https://www.earthdata.nasa.gov/data/catalog/asf-nisar-dem-1
+_R.WREM is free to use for academic purposes; learn about our license, clauses, conditions of use, and how to reference the content published in this repository, giving a [click here](LICENSE.md)._
+
+_¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [rcfdtools](https://github.com/rcfdtools) en GitHub._
+
+ [:infinity: More course and tools](https://github.com/rcfdtools) | [:beginner: Help / Collaborate](https://github.com/rcfdtools/R.TSIG/discussions/1) | [:notebook: References](file/ref/Readme.md) | [:label: Abbreviations and definitions](file/ref/Definitions.md) |
+|------------------------------------------------------------------|----------------------------------------------------------------------------------|------------------------------------------------|----------------------------------------------------------------|
+
+<div align="center"><img alt="rcfdtools" src="file/graph/R.WREM.svg" height="46px"></div>
