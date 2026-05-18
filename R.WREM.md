@@ -6,6 +6,37 @@ Keywords: `hydrology` `hydraulics` `geographic-information-systems` `hec-ras` `h
 Water Resources Engineering and Management is a specialized field that blends civil engineering, hydrology, hydraulics and environmental science to sustainably supply, distribute, and protect the world's freshwater resources. It focuses on balancing human demands (such as drinking water, agriculture, and industry) with ecological preservation while mitigating water-related hazards like floods and droughts. The combination of hydrology and hydraulics allow engineers to calculate how much water is coming and design systems to safely manage, transport, or utilize it.
 
 
+## Course Objectives
+
+* To provide participants with detailed knowledge of the use of GIS applied to Civil Engineering, through the use of publicly available software tools.
+* To develop skills in the graphic representation of geographic elements.
+* To easily and accurately search, select, and filter spatial entities and attributes.
+* To acquire the necessary knowledge for information analysis through simple and complex searches, proximity, overlay, and data merging.
+* To download, process, and analyze terrain models, raster images, and satellite information from remote sensors.
+* To create computational hydrological and hydraulic models.
+
+
+## Participants and Evaluation
+
+The content presented in this workshop is aimed at students and professionals from different disciplines who need to learn and/or strengthen their knowledge in the use of software tools, such as:
+
+* Engineers.
+* Specialists.
+* Public officials.
+* Territorial managers.
+
+> A basic level of English is required because we will be using the user interfaces in this language.
+> 
+> As a prerequisite, students require basic knowledge of computer programming.
+
+
+### Academic Methodology
+
+* Through practical workshops, participants will be introduced to different concepts and applications of Geographic Information Systems in the development of applied engineering studies.
+* At the beginning of each class, the instructor will give a general presentation and demonstration of the concepts and computer tools to be used, and then the students will complete the content of each workshop, activity, or exercise.
+* Before each class, it is recommended that participants read the class guides to better understand the explanations received in class.
+
+
 ## Requirements and folder structure
 
 The following tools and directory structure are required for the development of the course and research activities:
