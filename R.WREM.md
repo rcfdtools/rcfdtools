@@ -6,6 +6,41 @@ Keywords: `hydrology` `hydraulics` `geographic-information-systems` `hec-ras` `h
 Water Resources Engineering and Management is a specialized field that blends civil engineering, hydrology, hydraulics and environmental science to sustainably supply, distribute, and protect the world's freshwater resources. It focuses on balancing human demands (such as drinking water, agriculture, and industry) with ecological preservation while mitigating water-related hazards like floods and droughts. The combination of hydrology and hydraulics allow engineers to calculate how much water is coming and design systems to safely manage, transport, or utilize it.
 
 
+## Required software tools and folder structure
+
+Para el desarrollo del curso y las actividades del proyecto final, son requeridas las siguientes herramientas y estructura de directorios:
+
+<div align="center">
+
+| Requirement                                                                                   | Description                                                                                |
+|:----------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------|
+| [:toolbox:Tool](https://www.office.com/)                                                      | Microsoft 365 (Word, Excel, OneDrive, Teams).                                              |
+| [:toolbox:Tool](https://notepad-plus-plus.org/)                                               | Notepad++ (text editor).                                                                   |
+| [:toolbox:Tool](https://qgis.org/)                                                            | QGIS 3.44.10, 4.0.2 or newer.                                                              |
+| [:toolbox:Tool](https://www.hec.usace.army.mil/software/hec-hms/)                             | HEC-HMS 4.13 or newer.                                                                     |
+| [:toolbox:Tool](https://www.7-zip.org/)                                                       | 7-Zip File Manager (descompresor de archivos).                                             |
+| [:toolbox:Tool](https://www.hec.usace.army.mil/software/hec-hms/)                             | HEC-HMS 4.13 or newer.                                                                     |
+| [:toolbox:Tool](https://www.hec.usace.army.mil/software/hec-dssvue/)                          | HEC-DSSVue 3.2.3 (functional version for massive hyetograph load).                         |
+| [:toolbox:Tool](https://www.hec.usace.army.mil/software/hec-ras/)                             | HEC-RAS 7.0 or newer.                                                                      |
+| [:construction_worker:GitHub user account](https://github.com/)                               | Course resourcess access and upgrading notificacions.                                      |
+| [:construction_worker:USGS user account](https://ers.cr.usgs.gov/register/contact)            | USGS - United States Geological Survey account (satellital images).                        |
+| [:construction_worker:Copernicus user account](https://dataspace.copernicus.eu/)              | European Union's Earth observation program account (ERA5 data).                            |
+| [:construction_worker:OpenTopography user account](https://portal.opentopography.org/newUser) | OpenTopography account (high-resolution topographic data as LiDAR, radar, photogrammetry). |
+| [:package:Folder structure](file/Readme.md)                                                   | Required folder structure.                                                                 |
+| [:memo:Technical report layout](file/report/)                                                 | Report layout for students technical reports.                                              |
+
+</div>
+
+
+### Configuración regional en ingeniería
+
+* **Sistema operativo**: en _Microsoft Windows / Panel de control / Region / Formats / Additional settings..._, establezca símbolo decimal (decimal symbol) como punto ` . `, símbolo de agrupación de miles (digit grouping symbol) como coma ` , ` y separador de listas (list separator) como coma ` , `.
+* **Microsoft Excel**: en el menú _Archivo / Opciones / Avanzado / Opciones de Edición_, desmarque la casilla de _Uso de Separadores del Sistema_ y establezca punto ` . ` como separador decimal y coma ` , ` como separador de miles. 
+* **QGIS**, desde el menú _Settings / General / Override System Locale_, establezca _User interface translation_ como _American English_ y _Locale (number, date and currency formats)_ como _English United States (en_US)_.
+
+
+
+
 ## :large_blue_circle:Module 1: Geographic information systems - GIS
 
 A Geographic Information System (GIS) is a digital framework used to capture, store, analyze, and visualize spatial data. In hydrology and hydraulics, GIS acts as the spatial engine of water management. It maps terrain and landscape characteristics to calculate how water moves across a landscape.
