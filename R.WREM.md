@@ -1,12 +1,12 @@
 <div align="center"><a href="https://github.com/rcfdtools" target="_blank"><img src="https://github.com/rcfdtools/rcfdtools/blob/main/graph/rcfdtools_banner.png" alt="R.LTWB" width="100%" border="0" /></a></div>
 
-# COURSE: _“Water Resources Engineering and management - WREM”_
+# COURSE: _“Water Resources Engineering and Management - WREM”_
 Keywords: `hydrology` `hydraulics` `geographic-information-systems` `hec-ras` `hec-hms` `qgis` `river-design` `river-modeling` `river-profile` `river-slope` `manning-roughness` 
 
 Water Resources Engineering and Management is a specialized field that blends civil engineering, hydrology, hydraulics and environmental science to sustainably supply, distribute, and protect the world's freshwater resources. It focuses on balancing human demands (such as drinking water, agriculture, and industry) with ecological preservation while mitigating water-related hazards like floods and droughts. The combination of hydrology and hydraulics allow engineers to calculate how much water is coming and design systems to safely manage, transport, or utilize it.
 
 
-## Course goals
+## Course Goals
 
 * To provide participants with detailed knowledge of the use of GIS applied to Civil Engineering, through the use of publicly available software tools.
 * To develop skills in the graphic representation of geographic elements.
@@ -36,7 +36,7 @@ The content presented in this course is aimed at students and professionals from
 * Before each class, it is recommended that participants read the class guides to better understand the explanations received in class.
 
 
-## Requirements and folder structure
+## Requirements and Folder Structure
 
 The following tools and directory structure are required for the development of the course and research activities:
 
@@ -61,14 +61,14 @@ The following tools and directory structure are required for the development of 
 </div>
 
 
-### Engineering regional settings
+### Engineering Regional Settings
 
 * **Operational system**: in _Microsoft Windows / Control Panel / Region / Formats / Additional settings..._, set _Decimal symbol_ as point ` . `, _Digit grouping symbol_ as comma ` , ` and _List separator_ as coma ` , `.
 * **Microsoft Excel**: from the menu _File / Options / Advanced / Editing Options_, uncheck the box _Use system separators_ and set point ` . ` as _Decimal separator_ and comma ` , ` as _Thousands separator_. 
 * **QGIS**, from the menu _Settings / General / Override System Locale_, set _User interface translation_ as _American English_ and _Locale (number, date and currency formats)_ as _English United States (en_US)_.
 
 
-## :large_blue_circle:Module 1: Geographic information systems - GIS
+## :large_blue_circle:Module 1: Geographic Information Systems - GIS
 
 A Geographic Information System (GIS) is a digital framework used to capture, store, analyze, and visualize spatial data. In hydrology and hydraulics, GIS acts as the spatial engine of water management. It maps terrain and landscape characteristics to calculate how water moves across a landscape.
 
