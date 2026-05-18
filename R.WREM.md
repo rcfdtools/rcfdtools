@@ -11,9 +11,12 @@ https://github.com/rcfdtools/R.IAMB/blob/main/activity/CaseStudy/Readme.md
 Satellite imagery: Landsat & Sentinel-2
 https://github.com/rcfdtools/R.IAMB/blob/main/activity/RemoteSensingDL/Readme.md
 
-Digital elevation models - DEM: COP30, Slope, Lidar
+Digital elevation models - DEM: COP30, Slope, Thermic level, Lidar
 https://github.com/rcfdtools/R.IAMB/blob/main/activity/RemoteSensingDL/Readme.md
 https://github.com/rcfdtools/R.HydroBogota/blob/main/file/data/Readme.md
+
+Geology map
+https://github.com/rcfdtools/R.IAMB/blob/main/activity/Geology/Readme.md
 
 Land soil and Land use: A land soil study is a detailed analysis of a plot of land's physical, chemical, and biological properties. It determines the soil's load-bearing capacity for construction or its nutrient composition for agriculture, ensuring safe development and optimal land management.
 https://github.com/rcfdtools/R.IAMB/blob/main/activity/LandSoil/Readme.md
@@ -30,7 +33,7 @@ https://github.com/rcfdtools/R.IAMB/blob/main/activity/CNEStation/Readme.md
 
 Hydrology: Focuses on the Earth's water cycle. It deals with the occurrence, distribution, and movement of water across the globe, including rainfall, evaporation, and groundwater flow. 
 
-Maximum probable precipitacion in 24 hours: PDF selection and interpolation maps
+Maximum probable precipitacion in 24 hours: PDF selection and Tr interpolation maps
 https://github.com/rcfdtools/R.HydroTools/blob/main/tool/PMP
 
 Curve Number map - CN
@@ -50,12 +53,21 @@ https://github.com/rcfdtools/R.LTWB/blob/main/README.md
 Elevation area & Elevation volume curves
 https://github.com/rcfdtools/R.SIGE/blob/main/activity/Reservoir/Readme.md
 
-
+ERA5-Land analysis
+https://github.com/rcfdtools/R.SIGE/blob/main/activity/RemoteSensingERA5/Readme.md
+https://github.com/rcfdtools/R.TSIG/blob/main/activity/ERA5/Readme.md
 
 
 ## Module 3: Hydraulics
 
 Hydraulics: Focuses on the mechanical properties and physical flow of water. It applies fluid mechanics to engineer practical systems like pipes, pumps, river channels, dams, and stormwater networks. 
+
+Prismatic channel design and flow simulation 1D / 2D: Prismatic channel design involves engineering artificial waterways (e.g., canals, spillways, or sewers) with a constant cross-sectional shape, size, and bottom slope over their entire length. 1D/2D flow simulation uses computational hydraulics to calculate water flow velocities and depths, either in a single direction (1D) or across an entire spatial plane (2D).
+https://rcfdtools.github.io/rcfdtools/tool/ynyc/
+
+Open channel flow simulation 1D / 2D: Open channel flow simulation analyzes the movement of fluids (like water) with a free surface exposed to the air. 1D (One-Dimensional) models calculate flow along a single longitudinal path. 2D (Two-Dimensional) models map flow across an area, tracking depth and velocity vectors in multiple directions.
+https://github.com/rcfdtools/R.HCMC/blob/main/README.md
+
 
 
 ## References
