@@ -112,9 +112,9 @@ Hydraulics focuses on the mechanical properties and physical flow of water. It a
 
 _R.WREM is free to use for academic purposes; learn about our license, clauses, conditions of use, and how to reference the content published in this repository, giving a [click here](LICENSE.md)._
 
-_¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [rcfdtools](https://github.com/rcfdtools) en GitHub._
+Did you find this repository useful? Support its distribution by marking it with a ⭐ or follow us by clicking the Follow button [rcfdtools](https://github.com/rcfdtools) in GitHub._
 
- [:infinity: More course and tools](https://github.com/rcfdtools) | [:beginner: Help / Collaborate](https://github.com/rcfdtools/R.TSIG/discussions/1) | [:notebook: References](file/ref/Readme.md) | [:label: Abbreviations and definitions](file/ref/Definitions.md) |
-|------------------------------------------------------------------|----------------------------------------------------------------------------------|------------------------------------------------|----------------------------------------------------------------|
+ [:infinity: + Courses and Tools](https://github.com/rcfdtools) | [:beginner: Help / Collaborate](https://github.com/rcfdtools/R.TSIG/discussions/1) | [:notebook: References](file/ref/Readme.md) | [:label: Abbreviations and Definitions](file/ref/Definitions.md) |
+|------------------------------------------------------------------|----------------------------------------------------------------------------------|------------------------------------------------|-------------------------------------------------------------------|
 
 <div align="center"><img alt="rcfdtools" src="file/graph/R.WREM.svg" height="46px"></div>
