@@ -8,7 +8,7 @@ Water Resources Engineering and Management is a specialized field that blends ci
 
 ## Required software tools and folder structure
 
-Para el desarrollo del curso y las actividades del proyecto final, son requeridas las siguientes herramientas y estructura de directorios:
+The following tools and directory structure are required for the development of the course and research activities:
 
 <div align="center">
 
