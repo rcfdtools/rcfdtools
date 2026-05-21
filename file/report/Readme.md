@@ -1,6 +1,6 @@
 <div align="center"><a href="https://github.com/rcfdtools" target="_blank"><img src="https://github.com/rcfdtools/rcfdtools/blob/main/file/graph/rcfdtools_banner.png" alt="rcfdtools" width="100%" border="0" /></a></div>
 
-# :paper: Investigaciones, artículos y publicaciones
+# :scroll: Investigaciones, artículos y publicaciones
 
 **● Paper**: Estudio y análisis de la Precipitación Máxima en 24 horas (pmax24h) en la red de estaciones climatológicas automáticas de Colombia – Suramérica (XXVI Seminario Nacional de Hidráulica e Hidrología, Bogotá D.C., mayo 13 al 15 de 2026).
 https://github.com/rcfdtools/rcfdtools/blob/main/file/report/Paper_SCI_XXVI_SNHH26_PMax24HAutomColombia_2026.pdf
