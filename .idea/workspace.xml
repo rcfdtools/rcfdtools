@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d9445cb-b793-45cb-8b3d-5131205cebdf" name="Changes" comment="General update.">
-      <change beforePath="$PROJECT_DIR$/../R.HydroTools/tool/CN/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../R.HydroTools/tool/CN/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R.HydroTools/tool/CN/file/gdb/CN.gpkg-shm" beforeDir="false" afterPath="$PROJECT_DIR$/../R.HydroTools/tool/CN/file/gdb/CN.gpkg-shm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R.HydroTools/tool/CN/file/gdb/CN.gpkg-wal" beforeDir="false" afterPath="$PROJECT_DIR$/../R.HydroTools/tool/CN/file/gdb/CN.gpkg-wal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R.HydroTools/tool/CN/file/map/CN.qgz" beforeDir="false" afterPath="$PROJECT_DIR$/../R.HydroTools/tool/CN/file/map/CN.qgz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R.HydroTools/tool/CN/file/table/CN_LandUse_v0.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../R.HydroTools/tool/CN/file/table/CN_LandUse_v0.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R.HydroTools/tool/CN/file/table/CN_LandUse_v0a.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8d9445cb-b793-45cb-8b3d-5131205cebdf" name="Changes" comment="General update." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,22 +93,6 @@
       <workItem from="1770654951367" duration="350000" />
       <workItem from="1770738138109" duration="76000" />
       <workItem from="1771258416196" duration="23000" />
-    </task>
-    <task id="LOCAL-00017" summary="General update.">
-      <option name="closed" value="true" />
-      <created>1770653825797</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1770653825797</updated>
-    </task>
-    <task id="LOCAL-00018" summary="General update.">
-      <option name="closed" value="true" />
-      <created>1770654462896</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1770654462896</updated>
     </task>
     <task id="LOCAL-00019" summary="General update.">
       <option name="closed" value="true" />
@@ -494,7 +470,23 @@
       <option name="project" value="LOCAL" />
       <updated>1780146191698</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="General update.">
+      <option name="closed" value="true" />
+      <created>1780149987211</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1780149987211</updated>
+    </task>
+    <task id="LOCAL-00067" summary="General update.">
+      <option name="closed" value="true" />
+      <created>1780150124324</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1780150124324</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
