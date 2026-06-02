@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d9445cb-b793-45cb-8b3d-5131205cebdf" name="Changes" comment="General update.">
-      <change beforePath="$PROJECT_DIR$/../R.HydroTools/tool/CN/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../R.HydroTools/tool/CN/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R.HydroTools/tool/CN/file/graph/Depto_v0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../R.HydroTools/tool/CN/file/graph/Depto_v0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R.HydroTools/tool/CN/file/map/CN.qgz" beforeDir="false" afterPath="$PROJECT_DIR$/../R.HydroTools/tool/CN/file/map/CN.qgz" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,14 +105,6 @@
       <workItem from="1770654951367" duration="350000" />
       <workItem from="1770738138109" duration="76000" />
       <workItem from="1771258416196" duration="23000" />
-    </task>
-    <task id="LOCAL-00075" summary="General update.">
-      <option name="closed" value="true" />
-      <created>1780231759463</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1780231759463</updated>
     </task>
     <task id="LOCAL-00076" summary="General update.">
       <option name="closed" value="true" />
@@ -499,7 +490,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780404381085</updated>
     </task>
-    <option name="localTasksCounter" value="124" />
+    <task id="LOCAL-00124" summary="General update.">
+      <option name="closed" value="true" />
+      <created>1780405021264</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1780405021264</updated>
+    </task>
+    <option name="localTasksCounter" value="125" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
