@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8d9445cb-b793-45cb-8b3d-5131205cebdf" name="Changes" comment="General update.">
       <change beforePath="$PROJECT_DIR$/../R.HydroTools/tool/CN/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../R.HydroTools/tool/CN/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R.HydroTools/tool/CN/file/map/CN.qgz" beforeDir="false" afterPath="$PROJECT_DIR$/../R.HydroTools/tool/CN/file/map/CN.qgz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R.HydroTools/tool/CN/file/graph/Depto_v0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../R.HydroTools/tool/CN/file/graph/Depto_v0.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,22 +106,6 @@
       <workItem from="1770654951367" duration="350000" />
       <workItem from="1770738138109" duration="76000" />
       <workItem from="1771258416196" duration="23000" />
-    </task>
-    <task id="LOCAL-00073" summary="General update.">
-      <option name="closed" value="true" />
-      <created>1780154105631</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1780154105631</updated>
-    </task>
-    <task id="LOCAL-00074" summary="General update.">
-      <option name="closed" value="true" />
-      <created>1780154123351</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1780154123351</updated>
     </task>
     <task id="LOCAL-00075" summary="General update.">
       <option name="closed" value="true" />
@@ -500,7 +483,23 @@
       <option name="project" value="LOCAL" />
       <updated>1780345573286</updated>
     </task>
-    <option name="localTasksCounter" value="122" />
+    <task id="LOCAL-00122" summary="General update.">
+      <option name="closed" value="true" />
+      <created>1780404339234</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1780404339235</updated>
+    </task>
+    <task id="LOCAL-00123" summary="General update.">
+      <option name="closed" value="true" />
+      <created>1780404381085</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1780404381085</updated>
+    </task>
+    <option name="localTasksCounter" value="124" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
