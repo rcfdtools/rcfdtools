@@ -8,5 +8,6 @@
     <orderEntry type="module" module-name="R.TSIG" />
     <orderEntry type="module" module-name="R.HydroTools" />
     <orderEntry type="module" module-name="R.WREM" />
+    <orderEntry type="module" module-name="R.HCMC" />
   </component>
 </module>

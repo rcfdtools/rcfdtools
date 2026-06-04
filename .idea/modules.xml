@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../R.DAPC/.idea/R.DAPC.iml" filepath="$PROJECT_DIR$/../R.DAPC/.idea/R.DAPC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../R.HCMC/.idea/R.HCMC.iml" filepath="$PROJECT_DIR$/../R.HCMC/.idea/R.HCMC.iml" />
       <module fileurl="file://$PROJECT_DIR$/../R.HydroTools/.idea/R.HydroTools.iml" filepath="$PROJECT_DIR$/../R.HydroTools/.idea/R.HydroTools.iml" />
       <module fileurl="file://$PROJECT_DIR$/../R.TSIG/.idea/R.TSIG.iml" filepath="$PROJECT_DIR$/../R.TSIG/.idea/R.TSIG.iml" />
       <module fileurl="file://$PROJECT_DIR$/../R.WREM/.idea/R.WREM.iml" filepath="$PROJECT_DIR$/../R.WREM/.idea/R.WREM.iml" />
