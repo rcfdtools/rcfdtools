@@ -5,6 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d9445cb-b793-45cb-8b3d-5131205cebdf" name="Changes" comment="General update.">
+      <change beforePath="$PROJECT_DIR$/../R.HCMC/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../R.HCMC/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R.HCMC/activity/M01A00/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../R.HCMC/activity/M01A00/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/rcfdtools.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rcfdtools.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +25,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../R.HydroTools" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../R.HCMC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
