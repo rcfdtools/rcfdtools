@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d9445cb-b793-45cb-8b3d-5131205cebdf" name="Changes" comment="General update.">
-      <change beforePath="$PROJECT_DIR$/../R.WREM/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../R.WREM/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R.HCMC/activity/M01A01/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../R.HCMC/activity/M01A01/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +21,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../R.WREM" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../R.HCMC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -114,30 +115,6 @@
       <workItem from="1770654951367" duration="350000" />
       <workItem from="1770738138109" duration="76000" />
       <workItem from="1771258416196" duration="23000" />
-    </task>
-    <task id="LOCAL-00165" summary="General update.">
-      <option name="closed" value="true" />
-      <created>1780594206887</created>
-      <option name="number" value="00165" />
-      <option name="presentableId" value="LOCAL-00165" />
-      <option name="project" value="LOCAL" />
-      <updated>1780594206888</updated>
-    </task>
-    <task id="LOCAL-00166" summary="General update.">
-      <option name="closed" value="true" />
-      <created>1780594239128</created>
-      <option name="number" value="00166" />
-      <option name="presentableId" value="LOCAL-00166" />
-      <option name="project" value="LOCAL" />
-      <updated>1780594239128</updated>
-    </task>
-    <task id="LOCAL-00167" summary="General update.">
-      <option name="closed" value="true" />
-      <created>1780594432854</created>
-      <option name="number" value="00167" />
-      <option name="presentableId" value="LOCAL-00167" />
-      <option name="project" value="LOCAL" />
-      <updated>1780594432854</updated>
     </task>
     <task id="LOCAL-00168" summary="General update.">
       <option name="closed" value="true" />
@@ -507,7 +484,31 @@
       <option name="project" value="LOCAL" />
       <updated>1780675876021</updated>
     </task>
-    <option name="localTasksCounter" value="214" />
+    <task id="LOCAL-00214" summary="General update.">
+      <option name="closed" value="true" />
+      <created>1780677245453</created>
+      <option name="number" value="00214" />
+      <option name="presentableId" value="LOCAL-00214" />
+      <option name="project" value="LOCAL" />
+      <updated>1780677245453</updated>
+    </task>
+    <task id="LOCAL-00215" summary="General update.">
+      <option name="closed" value="true" />
+      <created>1780677304587</created>
+      <option name="number" value="00215" />
+      <option name="presentableId" value="LOCAL-00215" />
+      <option name="project" value="LOCAL" />
+      <updated>1780677304587</updated>
+    </task>
+    <task id="LOCAL-00216" summary="General update.">
+      <option name="closed" value="true" />
+      <created>1780677718296</created>
+      <option name="number" value="00216" />
+      <option name="presentableId" value="LOCAL-00216" />
+      <option name="project" value="LOCAL" />
+      <updated>1780677718296</updated>
+    </task>
+    <option name="localTasksCounter" value="217" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
