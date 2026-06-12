@@ -6,7 +6,7 @@ An open channel flow is the movement of a liquid, like water, in a conduit that 
 
 <div align="center">
 
-‍🧑‍💻Tool: [ YnYc / Prismatic Channel.](https://rcfdtools.github.io/rcfdtools/tool/ynyc/) 
+‍🧑‍💻Tool: [ YnYc / Prismatic Channel](https://rcfdtools.github.io/rcfdtools/tool/ynyc/) 
 
 </div>
 
@@ -282,5 +282,7 @@ The exercise _YnYcE0003_ used as a sample in this section , correspond to a trap
 * https://github.com/rcfdtools
 * https://github.com/frankv13
 * https://github.com/juanrodace
+
+<sub>**APPS & TOOLS & CONTENT DISCLAIMER**: • NO WARRANTY - This content and software is provided by <a href="https://github.com/rcfdtools" target="_blank">github.com/rcfdtools</a> "as is", without any express or implied warranty, including warranties of merchantability, fitness for a particular purpose, or non-infringement. There is no guarantee that the software will be error-free or operate without interruption. • LIMITATION OF LIABILITY - Neither the authors nor copyright holders will be liable for claims or damages arising from the software or its use. You are responsible for determining if the software is appropriate for your use and assume all associated risks, including errors, legal compliance, and data loss. • NO PROFESSIONAL ADVICE - The software provides general information and does not offer professional advice. It should not replace consultation with professional advisors. [Clauses and global license for rcfdtools use.](https://github.com/R.HydroTools/rcfdtools/blob/main/LICENSE.md)</sub>
 
 <div align="center"><img alt="R.HydroTools" src="assets/logo.svg" width="100px"></div>
