@@ -1,6 +1,31 @@
 rcfdtools
 
-✓Δ°Σβρσθαπ∑√±πØμx●•∫≠≈≤≥´◄ ►'“”²³💙🌸🔵📜📝✏️📐👤👥
+Symbols: ✓Δ°Σβρσθαπ∑√±πØμx●•∫≠≈≤≥´◄ ►'“”²³
+
+🎓️ Course
+🏠 Start
+🔰 Help / Collaborate
+◄ Previous
+► Next
+🛠️ Standalone Tools
+🧑‍💻 WebApp Tools
+💙 Attention
+🌸 YouTube channel
+🔵 Section
+📜 Paper
+📚 Slides
+🗺️ Grid & Geopackage
+📝 Technical report
+✏️ Excercise
+📐 Project activitie
+👤 Individual ativitie
+👥 Grupal activitie
+
+Pending task
+	HCMC quizzes.
+	Final exam for degree students.
+	DAPC check clausules in quizzes.
+	Water and power bills.
 
 Mac Keyboard Windows + shift + S for print screen
 select * from UCAreaProyectoDissolve4686 order by Aha desc
@@ -10,7 +35,4 @@ dir /b >sss.txt
 <kbd>ctrl</kbd>
 <kbd>ctrl</kbd>+<kbd>i</kbd>
 
-HCMC quizzes.
-Final exam for degree students.
-DAPC check clausules in quizzes.
-Water and power bills.
+
