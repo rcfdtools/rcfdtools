@@ -36,7 +36,7 @@ Pending task
 	HCMC quizzes.
 	Final exam for degree students.
 	DAPC check clausules in quizzes.
-	Water and power bills.
+	Water, power, gas bills July.
 
 Mac Keyboard Windows + shift + S for print screen
 select * from UCAreaProyectoDissolve4686 order by Aha desc
