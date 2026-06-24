@@ -36,6 +36,7 @@ Icons
 👤 Individual ativitie
 👥 Grupal activitie
 ⚙️ Settings
+🔥 
 
 Mac Keyboard Windows + shift + S for print screen
 select * from UCAreaProyectoDissolve4686 order by Aha desc
