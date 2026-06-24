@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8d9445cb-b793-45cb-8b3d-5131205cebdf" name="Changes" comment="General update.">
       <change beforePath="$PROJECT_DIR$/../R.HCMC/activity/M02A02/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../R.HCMC/activity/M02A02/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R.WREM/file/temp/R.WREM.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../R.WREM/file/temp/R.WREM.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file/temp/rcfdtools.txt" beforeDir="false" afterPath="$PROJECT_DIR$/file/temp/rcfdtools.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +85,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-c59985aa861c-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.24374.152" />
+        <option value="bundled-python-sdk-245168a56dbd-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.25134.203" />
       </set>
     </attachedChunks>
   </component>
@@ -117,22 +115,6 @@
       <workItem from="1770654951367" duration="350000" />
       <workItem from="1770738138109" duration="76000" />
       <workItem from="1771258416196" duration="23000" />
-    </task>
-    <task id="LOCAL-00336" summary="General update.">
-      <option name="closed" value="true" />
-      <created>1781699618546</created>
-      <option name="number" value="00336" />
-      <option name="presentableId" value="LOCAL-00336" />
-      <option name="project" value="LOCAL" />
-      <updated>1781699618546</updated>
-    </task>
-    <task id="LOCAL-00337" summary="General update.">
-      <option name="closed" value="true" />
-      <created>1781712898756</created>
-      <option name="number" value="00337" />
-      <option name="presentableId" value="LOCAL-00337" />
-      <option name="project" value="LOCAL" />
-      <updated>1781712898756</updated>
     </task>
     <task id="LOCAL-00338" summary="General update.">
       <option name="closed" value="true" />
@@ -510,7 +492,23 @@
       <option name="project" value="LOCAL" />
       <updated>1782248094102</updated>
     </task>
-    <option name="localTasksCounter" value="385" />
+    <task id="LOCAL-00385" summary="General update.">
+      <option name="closed" value="true" />
+      <created>1782316523001</created>
+      <option name="number" value="00385" />
+      <option name="presentableId" value="LOCAL-00385" />
+      <option name="project" value="LOCAL" />
+      <updated>1782316523001</updated>
+    </task>
+    <task id="LOCAL-00386" summary="General update.">
+      <option name="closed" value="true" />
+      <created>1782316724334</created>
+      <option name="number" value="00386" />
+      <option name="presentableId" value="LOCAL-00386" />
+      <option name="project" value="LOCAL" />
+      <updated>1782316724334</updated>
+    </task>
+    <option name="localTasksCounter" value="387" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
