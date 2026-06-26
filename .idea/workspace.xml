@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d9445cb-b793-45cb-8b3d-5131205cebdf" name="Changes" comment="General update.">
+      <change beforePath="$PROJECT_DIR$/../R.HCMC/activity/M02A02/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../R.HCMC/activity/M02A02/Readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../R.HCMC/activity/M02A03/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../R.HCMC/activity/M02A03/Readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -115,14 +116,6 @@
       <workItem from="1770654951367" duration="350000" />
       <workItem from="1770738138109" duration="76000" />
       <workItem from="1771258416196" duration="23000" />
-    </task>
-    <task id="LOCAL-00356" summary="General update.">
-      <option name="closed" value="true" />
-      <created>1781887229269</created>
-      <option name="number" value="00356" />
-      <option name="presentableId" value="LOCAL-00356" />
-      <option name="project" value="LOCAL" />
-      <updated>1781887229269</updated>
     </task>
     <task id="LOCAL-00357" summary="General update.">
       <option name="closed" value="true" />
@@ -508,7 +501,15 @@
       <option name="project" value="LOCAL" />
       <updated>1782508056948</updated>
     </task>
-    <option name="localTasksCounter" value="405" />
+    <task id="LOCAL-00405" summary="General update.">
+      <option name="closed" value="true" />
+      <created>1782509436484</created>
+      <option name="number" value="00405" />
+      <option name="presentableId" value="LOCAL-00405" />
+      <option name="project" value="LOCAL" />
+      <updated>1782509436484</updated>
+    </task>
+    <option name="localTasksCounter" value="406" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
