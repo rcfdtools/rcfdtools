@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d9445cb-b793-45cb-8b3d-5131205cebdf" name="Changes" comment="General update." />
+    <list default="true" id="8d9445cb-b793-45cb-8b3d-5131205cebdf" name="Changes" comment="General update.">
+      <change beforePath="$PROJECT_DIR$/../R.HCMC/activity/M02A03/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../R.HCMC/activity/M02A03/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R.HCMC/file/cad/civil/Civil3D_EjeValle_v0.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R.HCMC/file/cad/civil/Civil3D_Ejes_v0.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R.TSIG/file/src/qgis_hechms_parameter.py" beforeDir="false" afterPath="$PROJECT_DIR$/../R.TSIG/file/src/qgis_hechms_parameter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R.WREM/file/temp/R.WREM.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../R.WREM/file/temp/R.WREM.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -112,14 +119,6 @@
       <workItem from="1770654951367" duration="350000" />
       <workItem from="1770738138109" duration="76000" />
       <workItem from="1771258416196" duration="23000" />
-    </task>
-    <task id="LOCAL-00352" summary="General update.">
-      <option name="closed" value="true" />
-      <created>1781803159830</created>
-      <option name="number" value="00352" />
-      <option name="presentableId" value="LOCAL-00352" />
-      <option name="project" value="LOCAL" />
-      <updated>1781803159831</updated>
     </task>
     <task id="LOCAL-00353" summary="General update.">
       <option name="closed" value="true" />
@@ -505,7 +504,15 @@
       <option name="project" value="LOCAL" />
       <updated>1782406821475</updated>
     </task>
-    <option name="localTasksCounter" value="401" />
+    <task id="LOCAL-00401" summary="General update.">
+      <option name="closed" value="true" />
+      <created>1782408002380</created>
+      <option name="number" value="00401" />
+      <option name="presentableId" value="LOCAL-00401" />
+      <option name="project" value="LOCAL" />
+      <updated>1782408002380</updated>
+    </task>
+    <option name="localTasksCounter" value="402" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
