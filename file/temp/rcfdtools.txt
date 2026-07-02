@@ -3,8 +3,11 @@ rcfdtools
 Symbols: ✓Δ°Σβρσθαπ∑√±πØμx●•∫≠≈≤≥´◄ ►'“”²³
 
 Pending task
+	TSIG - Move quizzes to Google Forms (reports by student repositorie link)
+	DAPC - Move quizzes to Google Forms (files and reports by e-mail)
 	DAPC - Check clausules in quizzes.
 	Water, power, gas bills July.
+	gastric bypass cookbook for free
 
 Icons
 🎓️ Course
