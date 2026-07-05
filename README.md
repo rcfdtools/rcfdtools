@@ -12,7 +12,7 @@ Hi and welcome to @rcfdtools, check all my projects here in https://github.com/r
 | [:mortar_board:️DAPC](https://github.com/rcfdtools/R.DAPC/blob/main/README.md)                  | Computer aided drawing in engineering (CAD, GIS, BIM).                               |    B    |
 | [:mortar_board:️IAMB](https://github.com/rcfdtools/R.IAMB/blob/main/README.md)                  | Geographic information systems applied to environmental studies.                     |   B,M   |
 | [:mortar_board:️SIGE](https://github.com/rcfdtools/R.SIGE/blob/main/README.md)                  | Geographic information systems applied to development and territorial planning (TP). |  B,M    |
-| [:mortar_board:️LTWB](https://github.com/rcfdtools/R.LTWB/blob/main/README.md)                  | Long-term hydrological balance for estimating average flows using GIS.               |  B,M,D  |
+| [:mortar_board:️LTWB](https://github.com/rcfdtools/R.LTWB/blob/main/README.md)                  | Long-term hydrological water balance for estimating average flows using GIS.         |  B,M,D  |
 | [:mortar_board:️WREM](https://github.com/rcfdtools/R.WREM/blob/main/README.md)                  | Water Resources Engineering and Management.                                          |   B,M   |
 | [:mortar_board:️CTRG](https://github.com/rcfdtools/R.TeachingResearchGuide/blob/main/README.md) | Collaborative teaching and research guide with GitHub (TeachingResearchGuide).       |   B,M   |
 
