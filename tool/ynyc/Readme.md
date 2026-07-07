@@ -225,7 +225,7 @@ The exercise _YnYcE0003_ used as a sample in this section , correspond to a trap
 
 <div align="center"><img alt="R.HydroTools" src="assets/HECRAS_RASMapperCreateANewRASTerrain1.png" width="1000px"></div>
 
-7. From Geometries, creates a New Geometry as _Geometry2D_ and create a perimeter importing the PerimeterPolygon.shp, then the Breaklines and draw manually the Boundary Condition Lines. Set the cell size in 0.5 x 0.5 meters and the break lines enforcement also un 0.5 meters.
+7. From Geometries, creates a New Geometry as _Geometry2D_ and create a perimeter importing the PerimeterPolygon.shp, then the Breaklines and draw manually the Boundary Condition Lines. Set the cell size in 0.5 x 0.5 meters and the break lines enforcement also in 0.5 meters.
 
 <div align="center"><img alt="R.HydroTools" src="assets/HECRAS_Geometry2Da.png" width="1000px"></div>
 <div align="center"><img alt="R.HydroTools" src="assets/HECRAS_Geometry2Db.png" width="1000px"></div>
