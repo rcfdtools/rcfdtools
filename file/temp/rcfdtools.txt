@@ -20,6 +20,7 @@ Icons
 📓 References
 🏷️ Abbreviatures and definitions
 🧰 Tool
+📍 GIS file (shapefile, nc)
 👷 User account
 📦 Folder structure
 ☁️ Cloud repository
@@ -28,10 +29,11 @@ Icons
 💙 Attention
 🌸 YouTube channel
 🔵 Section
-📜 Paper
+🔥 Alert
 📚 Slides
 🗺️ Grid & Geopackage
 🚀 :rocket: Digital prototype
+📜 Paper
 📝 Technical report
 ✏️ Excercise
 ✒️ :black_nib: Quiz
@@ -39,7 +41,7 @@ Icons
 👤 Individual ativitie
 👥 Grupal activitie
 ⚙️ Settings
-🔥 
+⚡ :zap: Code or script
 
 Mac Keyboard Windows + shift + S for print screen
 select * from UCAreaProyectoDissolve4686 order by Aha desc

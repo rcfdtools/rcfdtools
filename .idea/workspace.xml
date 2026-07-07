@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d9445cb-b793-45cb-8b3d-5131205cebdf" name="Changes" comment="General update.">
-      <change beforePath="$PROJECT_DIR$/../R.HydroTools/tool/PMP/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../R.HydroTools/tool/PMP/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R.WREM/file/temp/R.WREM.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../R.WREM/file/temp/R.WREM.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file/temp/rcfdtools.txt" beforeDir="false" afterPath="$PROJECT_DIR$/file/temp/rcfdtools.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +20,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../R.WREM" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../R.TSIG" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -117,30 +115,6 @@
       <workItem from="1770654951367" duration="350000" />
       <workItem from="1770738138109" duration="76000" />
       <workItem from="1771258416196" duration="23000" />
-    </task>
-    <task id="LOCAL-00431" summary="General update.">
-      <option name="closed" value="true" />
-      <created>1783043447103</created>
-      <option name="number" value="00431" />
-      <option name="presentableId" value="LOCAL-00431" />
-      <option name="project" value="LOCAL" />
-      <updated>1783043447103</updated>
-    </task>
-    <task id="LOCAL-00432" summary="General update.">
-      <option name="closed" value="true" />
-      <created>1783043507920</created>
-      <option name="number" value="00432" />
-      <option name="presentableId" value="LOCAL-00432" />
-      <option name="project" value="LOCAL" />
-      <updated>1783043507920</updated>
-    </task>
-    <task id="LOCAL-00433" summary="General update.">
-      <option name="closed" value="true" />
-      <created>1783043558198</created>
-      <option name="number" value="00433" />
-      <option name="presentableId" value="LOCAL-00433" />
-      <option name="project" value="LOCAL" />
-      <updated>1783043558198</updated>
     </task>
     <task id="LOCAL-00434" summary="General update.">
       <option name="closed" value="true" />
@@ -510,7 +484,31 @@
       <option name="project" value="LOCAL" />
       <updated>1783376878864</updated>
     </task>
-    <option name="localTasksCounter" value="480" />
+    <task id="LOCAL-00480" summary="General update.">
+      <option name="closed" value="true" />
+      <created>1783427142200</created>
+      <option name="number" value="00480" />
+      <option name="presentableId" value="LOCAL-00480" />
+      <option name="project" value="LOCAL" />
+      <updated>1783427142200</updated>
+    </task>
+    <task id="LOCAL-00481" summary="General update.">
+      <option name="closed" value="true" />
+      <created>1783427189466</created>
+      <option name="number" value="00481" />
+      <option name="presentableId" value="LOCAL-00481" />
+      <option name="project" value="LOCAL" />
+      <updated>1783427189467</updated>
+    </task>
+    <task id="LOCAL-00482" summary="General update.">
+      <option name="closed" value="true" />
+      <created>1783427200233</created>
+      <option name="number" value="00482" />
+      <option name="presentableId" value="LOCAL-00482" />
+      <option name="project" value="LOCAL" />
+      <updated>1783427200233</updated>
+    </task>
+    <option name="localTasksCounter" value="483" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
