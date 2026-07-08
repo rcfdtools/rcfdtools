@@ -231,9 +231,9 @@ The exercise _YnYcE0003_ used as a sample in this section , correspond to a trap
 <div align="center"><img alt="R.HydroTools" src="assets/HECRAS_Geometry2Db.png" width="1000px"></div>
 <div align="center"><img alt="R.HydroTools" src="assets/HECRAS_Geometry2Dc.png" width="1000px"></div>
 
-8. In the Unsteady Flow Data, set the boundary condition. BCUpstream has to contain the Flow Hydrograph with the EG Slope for distributing flow along BC Line as So = 0.0008969 m/m and BCDownStream with the Sc = 
+8. In the Unsteady Flow Data, set the boundary condition. BCUpstream has to contain the Flow Hydrograph with the EG Slope for distributing flow along BC Line as So = 0.0008969 m/m and BCDownStream with Normal Depth and the Sc = 0.015417396313628427 m/m.
 
-9. In the Unsteady Flow Analysis, set the Computation Interval in 5 seconds and Adjust the Time Step Based on Courant from 0.1 to 3.1. Mapping, Hydrograph Output Interval and Detailed Ouput Interval, must be set in 1 Minute.
+9. In the Unsteady Flow Analysis, set the Computation Interval in 5 seconds and adjust the Time Step Based on Courant from 0.1 to 3.1. Mapping, Hydrograph Output Interval and Detailed Output Interval must be set in 1 Minute.
 
 <div align="center"><img alt="R.HydroTools" src="assets/HECRAS_UnsteadyFlowAnalysis1.png" width="1000px"></div>
 
