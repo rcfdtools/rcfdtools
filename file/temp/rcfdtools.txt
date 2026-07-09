@@ -19,6 +19,7 @@ Icons
 ♾️ More courses and tools
 📓 References
 🏷️ Abbreviatures and definitions
+🔵 Section
 🧰 Tool
 📍 GIS file (shapefile, nc)
 👷 User account
@@ -26,10 +27,10 @@ Icons
 ☁️ Cloud repository
 🛠️ Standalone Tools
 🧑‍💻 WebApp Tools
-💙 Attention
+💙 Advice
 🌸 YouTube channel
-🔵 Section
 🔥 Alert
+🐞 Attention
 📚 Slides
 🗺️ Grid & Geopackage
 🚀 :rocket: Digital prototype
