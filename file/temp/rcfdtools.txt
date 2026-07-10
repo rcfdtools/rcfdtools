@@ -9,7 +9,7 @@ Pending task
 	Water, power, gas bills July.
 	gastric bypass cookbook for free
 
-Icons
+Markdown icons
 🎓️ Course
 🏠 Start
 🔰 Help / Collaborate
@@ -26,7 +26,7 @@ Icons
 📦 Folder structure
 ☁️ Cloud repository
 🛠️ Standalone Tools
-🧑‍💻 WebApp Tools
+🧑‍💻 WebApp Tool
 💙 Advice
 🌸 YouTube channel
 🔥 Alert
@@ -51,5 +51,7 @@ dir /b >sss.txt
 <kbd>enter</kbd>
 <kbd>ctrl</kbd>
 <kbd>ctrl</kbd>+<kbd>i</kbd>
+W11: https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewiso
+Check windows native language installation: CMD / dism /online /get-intl
 
 
