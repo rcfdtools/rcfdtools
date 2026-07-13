@@ -2,9 +2,11 @@
 
 # 🏷️Icons, abbreviations, file types, and commands
 
-**Symbols**: ✓Δ°Σβρσθαπ∑√±πØμx●•∫≠≈≤≥´◄ ►'“”²³
 
-## Iconography
+
+## Iconography & Symbols
+
+**Symbols**: ✓Δ°Σβρσθαπ∑√±πØμx●•∫≠≈≤≥´◄ ►'“”²³
 
 Global icons used in the repositories.
 
