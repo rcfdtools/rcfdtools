@@ -8,55 +8,53 @@ Iconografía general utilizada en los repositorios.
 * https://gist.github.com/rxaviers/7360908
 * https://github.com/ikatyang/emoji-cheat-sheet
 
-| Icon  | Markdown                   | Description                                             | 
-|:-----:|:---------------------------|:--------------------------------------------------------|
-|  🏠   | `:house:`                  | Home                                                    |
-|  🌞   | `:sun_with_face:`          | Start Course                                            |
-|  ♾️   | `:infinity:`               | More courses and tools                                  |
-|  🔰   | `:beginner:`               | Help / Collaborate                                      |
-|  📓   | `:notebook:`               | References and readings                                 |
-|  🏷️  | `:label:`                  | Dictionary: icons, abbreviatures, definitions, commands |
-|   ⭐   | `:star:`                   | Follow this repository                                  |
-|  🎓   | `:mortar_board:`           | Course or referenced activitie                          |
-|  🔵   | `:large_blue_circle:`      | Module, section or topic                                |
-|  📂   | `:open_file_folder:`       | Downloadable elements                                   |
-|  🆕   | `:new:`                    | Recent element                                          |
-|  🧰   | `:toolbox:`                | Tool                                                    |
-|  📍   | `:round_pushpin:`          | GIS file (shapefile, nc)                                |
-|  🧭   | `:compass:`                | Digital printed map                                     |
-|  🌐   | `:globe_with_meridians:`   | Geographic location                                     |
-|  🗺️  | `:world_map:`              | Grid & Geopackage                                       |
-|  👷   | `:construction_worker:`    | User account                                            |
-|  📦   | `:package:`                | Folder structure                                        |
-|  🌩️  | `:cloud_with_lightning:`   | Cloud repository                                        |
-|  🛠️  | `:hammer_and_wrench:`      | Standalone tool                                         |
-| 👨‍💻 | `:man_technologist:`       | WebApp Tool                                             |
-|  💙   | `:blue_heart:`             | Advise or good practice                                 |
-|  🌸   | `:cherry_blossom:`         | YouTube channel or list                                 |
-|  🔥   | `:fire:`                   | Alert                                                   |
-|  🐞   | `:lady_beetle:`            | Bug / Attention                                         |
-|  📚   | `:books:`                  | Slides                                                  |
-|  🚀   | `:rocket:`                 | Digital prototype                                       |
-|  📜   | `:scroll:`                 | Research paper                                          |
-|  📝   | `:memo:`                   | Technical report                                        |
-|  ✏️   | `:pencil2:`                | Excercise                                               |
-|  ✒️️  | `:black_nib:`              | Quiz                                                    |
-|  📐   | `:triangular_ruler:`       | Project activitie                                       |
-|  👥   | `:bust_in_silhouette:`     | Individual ativitie                                     |
-|  👥   | `:busts_in_silhouette:`    | Grupal activitie                                        |
-|  ⚙️   | `:gear:`                   | Settings                                                |
-|   ⚡   | `:zap:`                    | Code or script                                          |
-|  📅   | `:date:`                   | Table                                                   |
-|  🪝   | `:hook:`                   | Hyperkink                                               |
-|  🔍   | `:mag:`                    | Case Study                                              |
-|  💡   | `:bulb:`                   | Idea                                                    |
-|  🥇   | `:1st_place_medal:`        | Required activitieto get a certificate                  |
-|  📕   | `:closed_book:`            | Adobe Acrobat file                                      |
-|  🔍   | `:mag:`                    | Case Study                                              |
-|  🚦   | `:vertical_traffic_light:` | Network Analyst                                         |
-|  📍   | `:round_pushpin:`          | Geographic layer (point, line, polygon)                 |
-|   ◄   |                            | Previous activitie                                      |
-|   ►   |                            | Next activitie                                          |
+| Icon  | Markdown                       | Description                                             | 
+|:-----:|:-------------------------------|:--------------------------------------------------------|
+|  🏠   | `:house:`                      | Home                                                    |
+|  🌞   | `:sun_with_face:`              | Start Course                                            |
+|  ♾️   | `:infinity:`                   | More courses and tools                                  |
+|  🔰   | `:beginner:`                   | Help / Collaborate                                      |
+|  📓   | `:notebook:`                   | References and readings                                 |
+|  🏷️  | `:label:`                      | Dictionary: icons, abbreviatures, definitions, commands |
+|   ⭐   | `:star:`                       | Follow this repository                                  |
+|  🎓   | `:mortar_board:`               | Course or referenced activitie                          |
+|  🔵   | `:large_blue_circle:`          | Module, section or topic                                |
+|  🔍   | `:mag:`                        | Case Study                                              |
+|  📂   | `:open_file_folder:`           | Downloadable elements                                   |
+|  🆕   | `:new:`                        | Recent element                                          |
+|  🧰   | `:toolbox:`                    | Tool                                                    |
+| 📍📌  | `:round_pushpin:` `:pushpin:`  | GIS file (shapefile, nc)                                |
+|  🧭   | `:compass:`                    | Digital printed map                                     |
+|  🌐   | `:globe_with_meridians:`       | Geographic location                                     |
+|  🗺️  | `:world_map:`                  | Grid & Geopackage                                       |
+|  👷   | `:construction_worker:`        | User account                                            |
+|  📦   | `:package:`                    | Folder structure                                        |
+|  🌩️  | `:cloud_with_lightning:`       | Cloud repository                                        |
+|  🛠️  | `:hammer_and_wrench:`          | Standalone tool                                         |
+| 👨‍💻 | `:man_technologist:`           | WebApp Tool                                             |
+|  🌸   | `:cherry_blossom:`             | YouTube channel or list                                 |
+|  💙   | `:blue_heart:`                 | Advise or good practice                                 |
+|  🔥   | `:fire:`                       | Alert                                                   |
+|  🐞   | `:lady_beetle:`                | Bug / Attention                                         |
+|  🚀   | `:rocket:`                     | Digital prototype                                       |
+|  📚   | `:books:`                      | Slides                                                  |
+|  📕   | `:closed_book:`                | Adobe Acrobat file                                      |
+|  📜   | `:scroll:`                     | Research paper                                          |
+|  📝   | `:memo:`                       | Technical report                                        |
+|  ✏️   | `:pencil2:`                    | Excercise                                               |
+|  ✒️️  | `:black_nib:`                  | Quiz                                                    |
+|  📐   | `:triangular_ruler:`           | Project activitie                                       |
+|  👥   | `:bust_in_silhouette:`         | Individual ativitie                                     |
+|  👥   | `:busts_in_silhouette:`        | Grupal activitie                                        |
+|  ⚙️   | `:gear:`                       | Settings                                                |
+|   ⚡   | `:zap:`                        | Code or script                                          |
+|  📅   | `:date:`                       | Table                                                   |
+|  🪝   | `:hook:`                       | Hyperkink                                               |
+|  💡   | `:bulb:`                       | Idea                                                    |
+|  🥇   | `:1st_place_medal:`            | Required activitieto get a certificate                  |
+|  🚦   | `:vertical_traffic_light:`     | Network Analyst                                         |
+|   ◄   |                                | Previous activitie                                      |
+|   ►   |                                | Next activitie                                          |
 
 
 ## Abreviaturas y glosario
