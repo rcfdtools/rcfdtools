@@ -1,4 +1,4 @@
-<div align="center"><img alt="rcdftools" src="../file/graph/rcfdtools.svg" width="260px"></div>
+<div align="center"><img alt="rcdftools" src="../graph/rcfdtools.svg" width="260px"></div>
 
 # Iconografía, abreviaturas, tipos de archivo y comandos
 
