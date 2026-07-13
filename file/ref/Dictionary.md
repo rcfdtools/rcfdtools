@@ -1,6 +1,6 @@
 <div align="center"><img alt="rcdftools" src="../graph/rcfdtools.svg" width="200px"></div>
 
-# Iconografía, abreviaturas, tipos de archivo y comandos
+# 🏷️Icons, abbreviations, file types, and commands
 
 **Symbols**: ✓Δ°Σβρσθαπ∑√±πØμx●•∫≠≈≤≥´◄ ►'“”²³
 
