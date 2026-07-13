@@ -1,11 +1,14 @@
 # Comandos, iconografía, abreviaturas, definiciones y tipos de archivo
 
 
-## 1. Iconografía [^1]
+## 1. Iconografía
 
-Iconografía utilizada en este repositorio.
+Iconografía utilizada en repositorios [rcfdtools](https://github.com/rcfdtools)
 
-|            IcoN            | Markdown                     | :es:                                                                     | :us:              |
+* https://gist.github.com/rxaviers/7360908
+* https://github.com/ikatyang/emoji-cheat-sheet
+
+|            Icon            | Markdown                     | :es:                                                                     | :us:              |
 |:--------------------------:|:-----------------------------|:-------------------------------------------------------------------------|:------------------|
 |          :house:           | `:house:`                    | Inicio                                                                   | Start             |
 |         :beginner:         | `:beginner:`                 | Ayuda y soporte                                                          | Help and support  |
@@ -38,7 +41,7 @@ Iconografía utilizada en este repositorio.
 | :chart_with_upwards_trend: | `:chart_with_upwards_trend:` | Gráfica o chart                                                          |                   |
 |           :date:           | `:date:`                     | Libro de Microsoft Excel                                                 |                   |
 
-Markdown emojis: https://gist.github.com/rxaviers/7360908
+
 
 
 ## 2. Abreviaturas y glosario
@@ -172,4 +175,4 @@ _¡Encontraste útil este repositorio!, apoya su difusión marcando este reposit
 | [:house: Inicio](../../README.md) |
 |-----------------------------------|
 
-[^1]: https://github.com/ikatyang/emoji-cheat-sheet
+[^1]: 
