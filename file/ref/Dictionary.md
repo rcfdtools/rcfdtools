@@ -5,38 +5,38 @@
 
 Iconografía utilizada en este repositorio.
 
-|            IcoN            | Markdown                     | :es:                                                                      | :us:             |
-|:--------------------------:|:-----------------------------|:--------------------------------------------------------------------------|------------------|
-|          :house:           | `:house:`                    | Inicio                                                                    | Start            |
-|         :beginner:         | `:beginner:`                 | Ayuda y soporte                                                           | Help and support |
-|       :mortar_board:       | `:mortar_board:`             | Referenciar otra actividad previa o indicar como aprender.                |                  |
-|     :open_file_folder:     | `:open_file_folder:`         | Elemento descargable mediante uno o varios enlaces.                       |                  |
-|           :new:            | `:new:`                      | Elemento nuevo en cualquier sección, actividad o en documentación.        |                  |
-|       :lady_beetle:        | `:lady_beetle:`              | Solución de errores o bugs.                                               |                  |
-|         :pencil2:          | `:pencil2:`                  | Actividades complementarias a desarrollar por el estudiante.              |                  |
-|           :bulb:           | `:bulb:`                     | Idea o forma alternativa de realizar un procedimiento o una subactividad. |                  |
-|           :hook:           | `:hook:`                     | Hiperenlace directo a otra actividad o sección.                           |                  |
-|     :1st_place_medal:      | `:1st_place_medal:`          | Actividad requerida para obtener la certificación.                        |                  |
-|      :sun_with_face:       | `:sun_with_face:`            | Iniciar el curso.                                                         |                  |
-|         :infinity:         | `:infinity:`                 | Ver otros cursos.                                                         |                  |
-|         :notebook:         | `:notebook:`                 | Referencias generales.                                                    |                  |
-|          :label:           | `:label:`                    | Abreviaturas o definiciones generales.                                    |                  |
-|           :star:           | `:star:`                     | Seguir este repositorio.                                                  |                  |
-|        :blue_heart:        | `:blue_heart:`               | Consejo o buena práctica.                                                 |                  |
-|   :globe_with_meridians:   | `:globe_with_meridians:`     | Localización geográfica.                                                  |                  |
-|         :compass:          | `:compass:`                  | Mapa digital impreso requerido.                                           |                  |
-|     :triangular_ruler:     | `:triangular_ruler:`         | Actividad de proyecto                                                     |                  |
-|       :closed_book:        | `:closed_book:`              | Documento digital en Adobe Acrobat.                                       |                  |
-|   :busts_in_silhouette:    | `:busts_in_silhouette:`      | Grupo de proyecto                                                         |                  |
-|     :man_technologist:     | `:man_technologist:`         | Usuario                                                                   |                  |
-|           :mag:            | `:mag:`                      | Caso de estudio / Case Study                                              |                  |
-|           :fire:           | `:fire:`                     | Riesgo natural / Alerta                                                   |                  |
-|  :vertical_traffic_light:  | `:vertical_traffic_light:`   | Network Analyst                                                           |                  |
-|          :rocket:          | `:rocket:`                   | Fotogrametría                                                             |                  |
-|      :round_pushpin:       | `:round_pushpin:`            | Capa geográfica vectorial (punto, línea, polígono)                        |                  |
-|        :satellite:         | `:satellite:`                | Ráster o imagen                                                           |                  |
-| :chart_with_upwards_trend: | `:chart_with_upwards_trend:` | Gráfica o chart                                                           |                  |
-|           :date:           | `:date:`                     | Libro de Microsoft Excel                                                  |                  |
+|            IcoN            | Markdown                     | :es:                                                                     | :us:             |
+|:--------------------------:|:-----------------------------|:-------------------------------------------------------------------------|------------------|
+|          :house:           | `:house:`                    | Inicio                                                                   | Start            |
+|         :beginner:         | `:beginner:`                 | Ayuda y soporte                                                          | Help and support |
+|       :mortar_board:       | `:mortar_board:`             | Referenciar otra actividad previa o indicar como aprender                |                  |
+|     :open_file_folder:     | `:open_file_folder:`         | Elemento descargable mediante uno o varios enlaces                       |                  |
+|           :new:            | `:new:`                      | Elemento nuevo en cualquier sección, actividad o en documentación        |                  |
+|       :lady_beetle:        | `:lady_beetle:`              | Bugs and solución de errores                                             |                  |
+|         :pencil2:          | `:pencil2:`                  | Actividades complementarias a desarrollar por el estudiante              |                  |
+|           :bulb:           | `:bulb:`                     | Idea o forma alternativa de realizar un procedimiento o una subactividad |                  |
+|           :hook:           | `:hook:`                     | Hiperenlace directo a otra actividad o sección                           |                  |
+|     :1st_place_medal:      | `:1st_place_medal:`          | Actividad requerida para obtener la certificación                        |                  |
+|      :sun_with_face:       | `:sun_with_face:`            | Iniciar el curso                                                         |                  |
+|         :infinity:         | `:infinity:`                 | Ver otros cursos                                                         |                  |
+|         :notebook:         | `:notebook:`                 | Referencias generales                                                    |                  |
+|          :label:           | `:label:`                    | Abreviaturas o definiciones generales                                    |                  |
+|           :star:           | `:star:`                     | Seguir este repositorio                                                  |                  |
+|        :blue_heart:        | `:blue_heart:`               | Consejo o buena práctica                                                 |                  |
+|   :globe_with_meridians:   | `:globe_with_meridians:`     | Localización geográfica                                                  |                  |
+|         :compass:          | `:compass:`                  | Mapa digital impreso requerido                                           |                  |
+|     :triangular_ruler:     | `:triangular_ruler:`         | Actividad de proyecto                                                    |                  |
+|       :closed_book:        | `:closed_book:`              | Documento digital en Adobe Acrobat                                       |                  |
+|   :busts_in_silhouette:    | `:busts_in_silhouette:`      | Grupo de proyecto                                                        |                  |
+|     :man_technologist:     | `:man_technologist:`         | Usuario                                                                  |                  |
+|           :mag:            | `:mag:`                      | Caso de estudio / Case Study                                             |                  |
+|           :fire:           | `:fire:`                     | Riesgo natural / Alerta                                                  |                  |
+|  :vertical_traffic_light:  | `:vertical_traffic_light:`   | Network Analyst                                                          |                  |
+|          :rocket:          | `:rocket:`                   | Fotogrametría                                                            |                  |
+|      :round_pushpin:       | `:round_pushpin:`            | Capa geográfica vectorial (punto, línea, polígono)                       |                  |
+|        :satellite:         | `:satellite:`                | Ráster o imagen                                                          |                  |
+| :chart_with_upwards_trend: | `:chart_with_upwards_trend:` | Gráfica o chart                                                          |                  |
+|           :date:           | `:date:`                     | Libro de Microsoft Excel                                                 |                  |
 
 Markdown emojis: https://gist.github.com/rxaviers/7360908
 
