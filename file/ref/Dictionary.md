@@ -115,33 +115,33 @@ Related abbreviations within the official repository documentation.
 
 Extensions used for the files in the repositories.
 
-| Extension                                      | Description                                                                      |
-|:-----------------------------------------------|----------------------------------------------------------------------------------|
-| [.dwg](https://fileinfo.com/extension/dwg)     | AutoCAD Drawing                                                                  |
-| [.dxf](https://fileinfo.com/extension/dxf)     | Drawing Exchange Format File                                                     |
-| [.lsp](https://fileinfo.com/extension/lsp)     | Lisp Program Source Code File                                                    |
-| [.md](https://fileinfo.com/extension/md)       | Markdown file                                                                    |
-| [.shp](https://fileinfo.com/extension/shp)     | Esri Shapefile vector                                                            |
-| [.shx](https://fileinfo.com/extension/shx)     | Esri Shapefile vector index                                                      |
-| [.dbf](https://fileinfo.com/extension/dbf)     | DBase file                                                                       |
-| .prj                                           | File coordinates projection system in GIS systems<br>HEC-RAS projec file         |
-| [.sh](https://fileinfo.com/extension/sh)       | Bash shell script for Linux                                                      |
-| [.hgt](https://fileinfo.com/extension/hgt)     | Shuttle Radar Topography Mission (SRTM) file                                     |
-| [.mxd](https://fileinfo.com/extension/mxd)     | Esri map document ArcGIS for Desktop                                             |
-| [.sxd](https://fileinfo.com/extension/sxd)     | Esri scene ArcGIS for Desktop                                                    |
-| [.qgz](https://fileinfo.com/extension/qgz)     | QGIS map                                                                         |
-| .gdb                                           | Esri geodatabase                                                                 |
-| .aprx                                          | Esri ArcGIS Pro map project                                                      |
-| [.tif](https://fileinfo.com/extension/tif)     | GeoTIFF raster file                                                              |
-| .ovr                                           | Raster pyramid format for raster files in a GIS                                  |
-| [.xml](https://fileinfo.com/extension/xml)     | Extensible Markup Language for Application programming interface                 |
-| .vrt                                           | [Format driver for GDAL -  XML schema](https://gdal.org/drivers/raster/vrt.html) |
-| [.py](https://fileinfo.com/extension/py)       | Python script files                                                              |
-| [.pyc](https://fileinfo.com/extension/pyc)     | Compiled Python Files                                                            |
-| [.tfw](https://fileinfo.com/extension/tfw)     | TIFF world file                                                                  |
-| [.csv](https://fileinfo.com/extension/csv)     | Comma separated values file                                                      |
-| [.gpkg](https://fileinfo.com/extension/gpkg)   | Geopackage                                                                       |
-| [.ipynb](https://fileinfo.com/extension/ipynb) | Interactive Python Notebook                                                      |
+| Extension                                        | Description                                                              |
+|:-------------------------------------------------|--------------------------------------------------------------------------|
+| [.dwg](https://fileinfo.com/extension/dwg)       | AutoCAD Drawing                                                          |
+| [.dxf](https://fileinfo.com/extension/dxf)       | Drawing Exchange Format File                                             |
+| [.lsp](https://fileinfo.com/extension/lsp)       | Lisp Program Source Code File                                            |
+| [.md](https://fileinfo.com/extension/md)         | Markdown file                                                            |
+| [.shp](https://fileinfo.com/extension/shp)       | Esri Shapefile vector                                                    |
+| [.shx](https://fileinfo.com/extension/shx)       | Esri Shapefile vector index                                              |
+| [.dbf](https://fileinfo.com/extension/dbf)       | DBase file                                                               |
+| .prj                                             | File coordinates projection system in GIS systems<br>HEC-RAS projec file |
+| [.sh](https://fileinfo.com/extension/sh)         | Bash shell script for Linux                                              |
+| [.hgt](https://fileinfo.com/extension/hgt)       | Shuttle Radar Topography Mission (SRTM) file                             |
+| [.mxd](https://fileinfo.com/extension/mxd)       | Esri map document ArcGIS for Desktop                                     |
+| [.sxd](https://fileinfo.com/extension/sxd)       | Esri scene ArcGIS for Desktop                                            |
+| [.qgz](https://fileinfo.com/extension/qgz)       | QGIS map                                                                 |
+| .gdb                                             | Esri geodatabase                                                         |
+| .aprx                                            | Esri ArcGIS Pro map project                                              |
+| [.tif](https://fileinfo.com/extension/tif)       | GeoTIFF raster file                                                      |
+| .ovr                                             | Raster pyramid format for raster files in a GIS                          |
+| [.xml](https://fileinfo.com/extension/xml)       | Extensible Markup Language for Application programming interface         |
+| [.vrt](https://gdal.org/drivers/raster/vrt.html) | Format driver for GDAL -  XML schema                                     |
+| [.py](https://fileinfo.com/extension/py)         | Python script files                                                      |
+| [.pyc](https://fileinfo.com/extension/pyc)       | Compiled Python Files                                                    |
+| [.tfw](https://fileinfo.com/extension/tfw)       | TIFF world file                                                          |
+| [.csv](https://fileinfo.com/extension/csv)       | Comma separated values file                                              |
+| [.gpkg](https://fileinfo.com/extension/gpkg)     | Geopackage                                                               |
+| [.ipynb](https://fileinfo.com/extension/ipynb)   | Interactive Python Notebook                                              |
 
 
 ## QGIS processing tools
