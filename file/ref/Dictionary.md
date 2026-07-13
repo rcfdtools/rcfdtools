@@ -1,3 +1,5 @@
+<div align="center"><img alt="R.HydroBogota" src="file/graph/rcfdtools.svg" width="260px"></div>
+
 # Iconografía, abreviaturas, tipos de archivo y comandos
 
 **Symbols**: ✓Δ°Σβρσθαπ∑√±πØμx●•∫≠≈≤≥´◄ ►'“”²³
