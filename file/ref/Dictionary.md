@@ -12,7 +12,7 @@ Iconografía general utilizada en los repositorios.
 | Icon  | Markdown                       | Description                                             | 
 |:-----:|:-------------------------------|:--------------------------------------------------------|
 |  🏠   | `:house:`                      | Home                                                    |
-|  🌞   | `:sun_with_face:`              | Start Course                                            |
+|  🌞   | `:sun_with_face:`              | Start course                                            |
 |  ♾️   | `:infinity:`                   | More courses and tools                                  |
 |  🔰   | `:beginner:`                   | Help / Collaborate                                      |
 |  📓   | `:notebook:`                   | References and readings                                 |
@@ -21,22 +21,24 @@ Iconografía general utilizada en los repositorios.
 |  🎓   | `:mortar_board:`               | Course or referenced activitie                          |
 |  🔵   | `:large_blue_circle:`          | Module, section or topic                                |
 |  🔍   | `:mag:`                        | Case Study                                              |
-|  📂   | `:open_file_folder:`           | Downloadable elements                                   |
+|  📂   | `:open_file_folder:`           | Downloadable element                                    |
 |  🆕   | `:new:`                        | Recent element                                          |
+|  🌩️  | `:cloud_with_lightning:`       | Cloud repository                                        |
 |  🧰   | `:toolbox:`                    | Tool                                                    |
 | 📍📌  | `:round_pushpin:` `:pushpin:`  | GIS file (shapefile, nc)                                |
+|  📅   | `:date:`                       | Table                                                   |
 |  🧭   | `:compass:`                    | Digital printed map                                     |
 |  🌐   | `:globe_with_meridians:`       | Geographic location                                     |
 |  🗺️  | `:world_map:`                  | Grid & Geopackage                                       |
 |  👷   | `:construction_worker:`        | User account                                            |
 |  📦   | `:package:`                    | Folder structure                                        |
-|  🌩️  | `:cloud_with_lightning:`       | Cloud repository                                        |
 |  🛠️  | `:hammer_and_wrench:`          | Standalone tool                                         |
 | 👨‍💻 | `:man_technologist:`           | WebApp Tool                                             |
 |  🌸   | `:cherry_blossom:`             | YouTube channel or list                                 |
-|  💙   | `:blue_heart:`                 | Advise or good practice                                 |
 |  🔥   | `:fire:`                       | Alert                                                   |
 |  🐞   | `:lady_beetle:`                | Bug / Attention                                         |
+|  💙   | `:blue_heart:`                 | Advise or good practice                                 |
+|  💡   | `:bulb:`                       | Idea                                                    |
 |  🚀   | `:rocket:`                     | Digital prototype                                       |
 |  📚   | `:books:`                      | Slides                                                  |
 |  📕   | `:closed_book:`                | Adobe Acrobat file                                      |
@@ -47,13 +49,11 @@ Iconografía general utilizada en los repositorios.
 |  📐   | `:triangular_ruler:`           | Project activitie                                       |
 |  👥   | `:bust_in_silhouette:`         | Individual ativitie                                     |
 |  👥   | `:busts_in_silhouette:`        | Grupal activitie                                        |
-|  ⚙️   | `:gear:`                       | Settings                                                |
 |   ⚡   | `:zap:`                        | Code or script                                          |
-|  📅   | `:date:`                       | Table                                                   |
 |  🪝   | `:hook:`                       | Hyperkink                                               |
-|  💡   | `:bulb:`                       | Idea                                                    |
-|  🥇   | `:1st_place_medal:`            | Required activitieto get a certificate                  |
+|  🥇   | `:1st_place_medal:`            | Required activitie to get certificate                   |
 |  🚦   | `:vertical_traffic_light:`     | Network Analyst                                         |
+|  ⚙️   | `:gear:`                       | Settings                                                |
 |   ◄   |                                | Previous activitie                                      |
 |   ►   |                                | Next activitie                                          |
 
