@@ -1,5 +1,6 @@
 # Iconografía, abreviaturas, tipos de archivo y comandos
 
+**Symbols**: ✓Δ°Σβρσθαπ∑√±πØμx●•∫≠≈≤≥´◄ ►'“”²³
 
 ## Iconografía
 
