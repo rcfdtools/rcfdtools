@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d9445cb-b793-45cb-8b3d-5131205cebdf" name="Changes" comment="General update.">
-      <change beforePath="$PROJECT_DIR$/../R.TSIG/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../R.TSIG/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/file/ref/Dictionary.md" beforeDir="false" afterPath="$PROJECT_DIR$/file/ref/Dictionary.md" afterDir="false" />
     </list>
@@ -117,38 +116,6 @@
       <workItem from="1770654951367" duration="350000" />
       <workItem from="1770738138109" duration="76000" />
       <workItem from="1771258416196" duration="23000" />
-    </task>
-    <task id="LOCAL-00467" summary="General update.">
-      <option name="closed" value="true" />
-      <created>1783192924736</created>
-      <option name="number" value="00467" />
-      <option name="presentableId" value="LOCAL-00467" />
-      <option name="project" value="LOCAL" />
-      <updated>1783192924736</updated>
-    </task>
-    <task id="LOCAL-00468" summary="General update.">
-      <option name="closed" value="true" />
-      <created>1783195593113</created>
-      <option name="number" value="00468" />
-      <option name="presentableId" value="LOCAL-00468" />
-      <option name="project" value="LOCAL" />
-      <updated>1783195593113</updated>
-    </task>
-    <task id="LOCAL-00469" summary="General update.">
-      <option name="closed" value="true" />
-      <created>1783195857336</created>
-      <option name="number" value="00469" />
-      <option name="presentableId" value="LOCAL-00469" />
-      <option name="project" value="LOCAL" />
-      <updated>1783195857336</updated>
-    </task>
-    <task id="LOCAL-00470" summary="General update.">
-      <option name="closed" value="true" />
-      <created>1783257972613</created>
-      <option name="number" value="00470" />
-      <option name="presentableId" value="LOCAL-00470" />
-      <option name="project" value="LOCAL" />
-      <updated>1783257972614</updated>
     </task>
     <task id="LOCAL-00471" summary="General update.">
       <option name="closed" value="true" />
@@ -510,7 +477,39 @@
       <option name="project" value="LOCAL" />
       <updated>1783960580193</updated>
     </task>
-    <option name="localTasksCounter" value="516" />
+    <task id="LOCAL-00516" summary="General update.">
+      <option name="closed" value="true" />
+      <created>1783961221011</created>
+      <option name="number" value="00516" />
+      <option name="presentableId" value="LOCAL-00516" />
+      <option name="project" value="LOCAL" />
+      <updated>1783961221012</updated>
+    </task>
+    <task id="LOCAL-00517" summary="General update.">
+      <option name="closed" value="true" />
+      <created>1783961299393</created>
+      <option name="number" value="00517" />
+      <option name="presentableId" value="LOCAL-00517" />
+      <option name="project" value="LOCAL" />
+      <updated>1783961299394</updated>
+    </task>
+    <task id="LOCAL-00518" summary="General update.">
+      <option name="closed" value="true" />
+      <created>1783961310707</created>
+      <option name="number" value="00518" />
+      <option name="presentableId" value="LOCAL-00518" />
+      <option name="project" value="LOCAL" />
+      <updated>1783961310707</updated>
+    </task>
+    <task id="LOCAL-00519" summary="General update.">
+      <option name="closed" value="true" />
+      <created>1783961431056</created>
+      <option name="number" value="00519" />
+      <option name="presentableId" value="LOCAL-00519" />
+      <option name="project" value="LOCAL" />
+      <updated>1783961431056</updated>
+    </task>
+    <option name="localTasksCounter" value="520" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

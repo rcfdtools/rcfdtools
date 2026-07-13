@@ -1,50 +1,46 @@
 # Comandos, iconografía, abreviaturas, definiciones y tipos de archivo
 
 
-## 1. Iconografía
-
-Iconografía utilizada en repositorios [rcfdtools](https://github.com/rcfdtools)
+## Iconografía
 
 * https://gist.github.com/rxaviers/7360908
 * https://github.com/ikatyang/emoji-cheat-sheet
 
-|            Icon            | Markdown                     | :es:                                                                     | :us:              |
-|:--------------------------:|:-----------------------------|:-------------------------------------------------------------------------|:------------------|
-|          :house:           | `:house:`                    | Inicio                                                                   | Start             |
-|         :beginner:         | `:beginner:`                 | Ayuda y soporte                                                          | Help and support  |
-|       :mortar_board:       | `:mortar_board:`             | Referenciar otra actividad previa o indicar como aprender                |                   |
-|     :open_file_folder:     | `:open_file_folder:`         | Elemento descargable mediante uno o varios enlaces                       |                   |
-|           :new:            | `:new:`                      | Elemento nuevo en cualquier sección, actividad o en documentación        |                   |
-|       :lady_beetle:        | `:lady_beetle:`              | Bugs and solución de errores                                             |                   |
-|         :pencil2:          | `:pencil2:`                  | Actividades complementarias a desarrollar por el estudiante              |                   |
-|           :bulb:           | `:bulb:`                     | Idea o forma alternativa de realizar un procedimiento o una subactividad |                   |
-|           :hook:           | `:hook:`                     | Hiperenlace directo a otra actividad o sección                           |                   |
-|     :1st_place_medal:      | `:1st_place_medal:`          | Actividad requerida para obtener la certificación                        |                   |
-|      :sun_with_face:       | `:sun_with_face:`            | Iniciar el curso                                                         |                   |
-|         :infinity:         | `:infinity:`                 | Ver otros cursos                                                         |                   |
-|         :notebook:         | `:notebook:`                 | Referencias generales                                                    |                   |
-|          :label:           | `:label:`                    | Abreviaturas o definiciones generales                                    |                   |
-|           :star:           | `:star:`                     | Seguir este repositorio                                                  |                   |
-|        :blue_heart:        | `:blue_heart:`               | Consejo o buena práctica                                                 |                   |
-|   :globe_with_meridians:   | `:globe_with_meridians:`     | Localización geográfica                                                  |                   |
-|         :compass:          | `:compass:`                  | Mapa digital impreso requerido                                           |                   |
-|     :triangular_ruler:     | `:triangular_ruler:`         | Actividad de proyecto                                                    |                   |
-|       :closed_book:        | `:closed_book:`              | Documento digital en Adobe Acrobat                                       |                   |
-|   :busts_in_silhouette:    | `:busts_in_silhouette:`      | Grupo de proyecto                                                        |                   |
-|     :man_technologist:     | `:man_technologist:`         | Usuario                                                                  |                   |
-|           :mag:            | `:mag:`                      | Caso de estudio / Case Study                                             |                   |
-|           :fire:           | `:fire:`                     | Riesgo natural / Alerta                                                  |                   |
-|  :vertical_traffic_light:  | `:vertical_traffic_light:`   | Network Analyst                                                          |                   |
-|          :rocket:          | `:rocket:`                   | Fotogrametría                                                            |                   |
-|      :round_pushpin:       | `:round_pushpin:`            | Capa geográfica vectorial (punto, línea, polígono)                       |                   |
-|        :satellite:         | `:satellite:`                | Ráster o imagen                                                          |                   |
-| :chart_with_upwards_trend: | `:chart_with_upwards_trend:` | Gráfica o chart                                                          |                   |
-|           :date:           | `:date:`                     | Libro de Microsoft Excel                                                 |                   |
+|  Icon  | Markdown                     | Descripción                                                              | 
+|:------:|:-----------------------------|:-------------------------------------------------------------------------|
+|   🏠   | `:house:`                    | Inicio                                                                   |
+|   🔰   | `:beginner:`                 | Ayuda y soporte                                                          |
+|   🎓   | `:mortar_board:`             | Curso o actividad referenciada                                           |
+|   📂   | `:open_file_folder:`         | Elemento descargable mediante uno o varios enlaces                       |
+|   🆕   | `:new:`                      | Elemento nuevo en cualquier sección, actividad o en documentación        |
+|   🐞   | `:lady_beetle:`              | Bugs and solución de errores                                             |
+|   ✏️   | `:pencil2:`                  | Actividades complementarias a desarrollar por el estudiante              |
+|   💡   | `:bulb:`                     | Idea o forma alternativa de realizar un procedimiento o una subactividad |
+|   🪝   | `:hook:`                     | Hiperenlace directo a otra actividad o sección                           |
+|   🥇   | `:1st_place_medal:`          | Actividad requerida para obtener la certificación                        |
+|   🌞   | `:sun_with_face:`            | Iniciar el curso                                                         |
+|   ♾️   | `:infinity:`                 | Ver otros cursos                                                         |
+|   📓   | `:notebook:`                 | Referencias generales                                                    |
+|  🏷️   | `:label:`                    | Dictionario: ícnografía, abreviaturas, definiciones generales, comandos  |
+|   ⭐    | `:star:`                     | Seguir este repositorio                                                  |
+|   💙   | `:blue_heart:`               | Consejo o buena práctica                                                 |
+|   🌐   | `:globe_with_meridians:`     | Localización geográfica                                                  |
+|   🧭   | `:compass:`                  | Mapa digital impreso requerido                                           |
+|   📐   | `:triangular_ruler:`         | Actividad de proyecto                                                    |
+|   📕   | `:closed_book:`              | Documento digital en Adobe Acrobat                                       |
+|   👥   | `:busts_in_silhouette:`      | Grupo de proyecto                                                        |
+| 👨‍💻  | `:man_technologist:`         | WebApp Tool                                                              |
+|   🔍   | `:mag:`                      | Caso de estudio / Case Study                                             |
+|   🔥   | `:fire:`                     | Alerta                                                                   |
+|   🚦   | `:vertical_traffic_light:`   | Network Analyst                                                          |
+|   🚀   | `:rocket:`                   | Fotogrametría                                                            |
+|   📍   | `:round_pushpin:`            | Capa geográfica vectorial (punto, línea, polígono)                       |
+|  🗺️   | `:world_map:`                | Ráster, imagen o geopaquete                                              |
+|   📈   | `:chart_with_upwards_trend:` | Gráfica o chart                                                          |
+|   📅   | `:date:`                     | Tabla                                                                    |
 
 
-
-
-## 2. Abreviaturas y glosario
+## Abreviaturas y glosario
 
 [Autodesk AutoCAD / Glossary of AutoCAD Terms.](https://help.autodesk.com/view/ACD/2026/ENU/?guid=GUID-C4325DCB-3648-4463-8135-629EA7F72AB0)
 
@@ -83,64 +79,48 @@ Abreviaturas relacionadas dentro de la documentación oficial de este repositori
 | QZSS                                                                                          | El Sistema por Satélite Cuasicenital (Quasi-Zenith Satellite System), es un sistema de corrección de señales de navegación global por satélite o SBAS, propuesto para uso complementario del GPS estadounidense en Japón                                                                                                                                                                                                                                                                   |
 | BeiDou                                                                                        | El sistema de navegación por satélite BeiDou  es un sistema de navegación por satélite chino                                                                                                                                                                                                                                                                                                                                                                                               |
 | NavIC                                                                                         | El sistema de navegación regional por satélite (IRNSS), cuyo nombre operacional es NavIC (acrónimo de Navegación con Constelaciones de la India), es un sistema autónomo de navegación por satélite que provee posicionamiento preciso en tiempo real y servicios horarios                                                                                                                                                                                                                 |
+| SGR                                                                                           | Sistema general de regalías                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | [CRS](https://en.wikipedia.org/wiki/Spatial_reference_system)                                 | Coordinate reference system                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | [SRS](https://en.wikipedia.org/wiki/Spatial_reference_system)                                 | Spatial reference system                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | [EPSG](https://en.wikipedia.org/wiki/EPSG_Geodetic_Parameter_Dataset)                         | Geodetic Parameter Dataset (also EPSG registry) is a public registry of geodetic datums, spatial reference systems, Earth ellipsoids, coordinate transformations and related units of measurement, originated by a member of the European Petroleum Survey Group (EPSG) in 1985.                                                                                                                                                                                                           |
 | [ITRF](https://en.wikipedia.org/wiki/International_Terrestrial_Reference_System_and_Frame)    | The International Terrestrial Reference System (ITRS) describes procedures for creating reference frames suitable for use with measurements on or near the Earth's surface.                                                                                                                                                                                                                                                                                                                |
 | [UTM](https://es.wikipedia.org/wiki/Sistema_de_coordenadas_universal_transversal_de_Mercator) | El sistema de coordenadas universal transversal de Mercator (en inglés Universal Transverse Mercator, UTM) es un sistema de coordenadas basado en la proyección cartográfica transversa de Mercator, que se construye como la proyección de Mercator normal, pero en vez de hacerla tangente al Ecuador, se la hace secante a un meridiano. A diferencia del sistema de coordenadas geográficas, expresadas en longitud y latitud, las magnitudes en el sistema UTM se expresan en metros. |
-| SGR                                                                                           | Sistema general de regalías                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 
 
-## 3. Definiciones
-
-Definiciones generales utilizadas en este repositorio.
-
-| Definición                                                                                                                             | Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-|:---------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Standalone](https://en.wikipedia.org/wiki/Standalone_software)                                                                        | Instalación independiente                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| [Datum](https://en.wikipedia.org/wiki/Geodetic_datum)                                                                                  | Un sistema de referencia geodésico es un recurso matemático que permite asignar coordenadas a puntos sobre la superficie terrestre                                                                                                                                                                                                                                                                                                                                                     |
-| [Dispositivo (ubicación)](https://pro.arcgis.com/es/pro-app/latest/help/mapping/device-location/gnss-and-location-devices.htm)         | Equipo, ya sea móvil o de escritorio, que se utiliza para rastrear la posición global                                                                                                                                                                                                                                                                                                                                                                                                  |
-| [Zona de influencia de precisión](https://pro.arcgis.com/es/pro-app/latest/help/mapping/device-location/gnss-and-location-devices.htm) | Contorno circular que rodea la ubicación del dispositivo. La zona de influencia representa la probabilidad de que, si el dispositivo no está exactamente en la ubicación especificada, esté dentro de esta área                                                                                                                                                                                                                                                                        |
-| [Seguimiento](https://pro.arcgis.com/es/pro-app/latest/help/mapping/device-location/gnss-and-location-devices.htm)                     | Término utilizado en la navegación global que se refiere a cuando la dirección hacia la que se dirige en un mapa siempre se encuentra en la parte superior de la pantalla. Lo contrario es Norte hacia arriba o el ángulo de rotación establecido del mapa                                                                                                                                                                                                                             |
-| [Cartografía](https://support.esri.com/es-es/gis-dictionary/surveying)                                                                 | Registro y mediciones del terreno, relieve y formas del terreno de la superficie de la tierra, los planetas y las lunas                                                                                                                                                                                                                                                                                                                                                                |
-| [Reseña](https://definicion.com/resena-historica/)                                                                                     | Se denomina así al escrito que se usa para informar sobre algo al mismo tiempo que lo valora. Una de sus características principales es que, una reseña, describe y emite un juicio sobre una obra, un fenómeno o una situación; ya sea a favor o en contra de la misma. Como valoración de algo, la reseña es puramente descriptiva y siempre está acompañada de argumentos sólidos. En este sentido, es un modo de presentar o evaluar un objeto o una situación, de manera crítica. |
-| [Histórica](https://definicion.com/resena-historica/)                                                                                  | Palabra relativa a historia, por tanto, refiere a algo que ha tenido existencia en el pasado reciente o lejano y que, además, se caracteriza por haber sido algo real y comprobado. Generalmente, abarca un periodo de tiempo, el cual se describe y se analiza.                                                                                                                                                                                                                       |
-|                                                                                                                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-
-
-## 4. Extensiones y tipos de archivos
+## Extensiones y tipos de archivos
 
 Extensiones usadas en los archivos utilizados en este repositorio.
 
-| Extensión                                  | Descripción                                                                      |
-|:-------------------------------------------|----------------------------------------------------------------------------------|
-| [.dwg](https://fileinfo.com/extension/dwg) | AutoCAD Drawing                                                                  |
-| [.dxf](https://fileinfo.com/extension/dxf) | Drawing Exchange Format File                                                     |
-| [.lsp](https://fileinfo.com/extension/lsp) | Lisp Program Source Code File                                                    |
-| [.md](https://fileinfo.com/extension/md)   | Markdown file                                                                    |
-| [.shp](https://fileinfo.com/extension/shp) | Esri Shapefile vector                                                            |
-| [.shx](https://fileinfo.com/extension/shx) | Esri Shapefile vector index                                                      |
-| [.dbf](https://fileinfo.com/extension/dbf) | DBase file                                                                       |
-| .prj                                       | File coordinates projection system in GIS systems<br>HEC-RAS projec file         |
-| [.sh](https://fileinfo.com/extension/sh)   | Bash shell script for Linux                                                      |
-| [.hgt](https://fileinfo.com/extension/hgt) | Shuttle Radar Topography Mission (SRTM) file                                     |
-| [.mxd](https://fileinfo.com/extension/mxd) | Esri map document ArcGIS for Desktop                                             |
-| [.sxd](https://fileinfo.com/extension/sxd) | Esri scene ArcGIS for Desktop                                                    |
-| [.qgz](https://fileinfo.com/extension/qgz) | QGIS map                                                                         |
-| .gdb                                       | Esri geodatabase                                                                 |
-| .aprx                                      | Esri ArcGIS Pro map project                                                      |
-| [.tif](https://fileinfo.com/extension/tif) | GeoTIFF raster file                                                              |
-| .ovr                                       | Raster pyramid format for raster files in a GIS                                  |
-| [.xml](https://fileinfo.com/extension/xml) | Extensible Markup Language for Application programming interface                 |
-| .vrt                                       | [Format driver for GDAL -  XML schema](https://gdal.org/drivers/raster/vrt.html) |
-| [.py](https://fileinfo.com/extension/py)   | Python script files                                                              |
-| [.pyc](https://fileinfo.com/extension/pyc) | Compiled Python Files                                                            |
-| [.tfw](https://fileinfo.com/extension/tfw) | TIFF world file                                                                  |
-| [.csv](https://fileinfo.com/extension/csv) | Comma separated values file                                                      |
+| Extensión                                   | Descripción                                                                      |
+|:--------------------------------------------|----------------------------------------------------------------------------------|
+| [.dwg](https://fileinfo.com/extension/dwg)  | AutoCAD Drawing                                                                  |
+| [.dxf](https://fileinfo.com/extension/dxf)  | Drawing Exchange Format File                                                     |
+| [.lsp](https://fileinfo.com/extension/lsp)  | Lisp Program Source Code File                                                    |
+| [.md](https://fileinfo.com/extension/md)    | Markdown file                                                                    |
+| [.shp](https://fileinfo.com/extension/shp)  | Esri Shapefile vector                                                            |
+| [.shx](https://fileinfo.com/extension/shx)  | Esri Shapefile vector index                                                      |
+| [.dbf](https://fileinfo.com/extension/dbf)  | DBase file                                                                       |
+| .prj                                        | File coordinates projection system in GIS systems<br>HEC-RAS projec file         |
+| [.sh](https://fileinfo.com/extension/sh)    | Bash shell script for Linux                                                      |
+| [.hgt](https://fileinfo.com/extension/hgt)  | Shuttle Radar Topography Mission (SRTM) file                                     |
+| [.mxd](https://fileinfo.com/extension/mxd)  | Esri map document ArcGIS for Desktop                                             |
+| [.sxd](https://fileinfo.com/extension/sxd)  | Esri scene ArcGIS for Desktop                                                    |
+| [.qgz](https://fileinfo.com/extension/qgz)  | QGIS map                                                                         |
+| .gdb                                        | Esri geodatabase                                                                 |
+| .aprx                                       | Esri ArcGIS Pro map project                                                      |
+| [.tif](https://fileinfo.com/extension/tif)  | GeoTIFF raster file                                                              |
+| .ovr                                        | Raster pyramid format for raster files in a GIS                                  |
+| [.xml](https://fileinfo.com/extension/xml)  | Extensible Markup Language for Application programming interface                 |
+| .vrt                                        | [Format driver for GDAL -  XML schema](https://gdal.org/drivers/raster/vrt.html) |
+| [.py](https://fileinfo.com/extension/py)    | Python script files                                                              |
+| [.pyc](https://fileinfo.com/extension/pyc)  | Compiled Python Files                                                            |
+| [.tfw](https://fileinfo.com/extension/tfw)  | TIFF world file                                                                  |
+| [.csv](https://fileinfo.com/extension/csv)  | Comma separated values file                                                      |
+| [.gpkg](https://fileinfo.com/extension/gpkg) | Geopackage                                                                       |
 
 
-## 5. QGIS
+## QGIS
 
 Cálculo de propiedades geométricas
 
@@ -168,7 +148,7 @@ Cálculo de propiedades geométricas
 
 ##
 
-_R.TSIG es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](../../LICENSE.md)._
+_rcfdtools es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](../../LICENSE.md)._
 
 _¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [rcfdtools](https://github.com/rcfdtools) en GitHub._
 
