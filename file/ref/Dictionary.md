@@ -143,28 +143,22 @@ Extensiones usadas en los archivos utilizados en los repositorios.
 
 ## QGIS
 
-Cálculo de propiedades geométricas
-
 > Para cálculos geodésicos de longitud, área o perímetro, agregar el símbolo `$` al inicio de la expresión.
 
-* Longitud de una poli-línea: `length(@geometry)`
-* Perimetro de un polígono: `perimeter(@geometry)`
-* Área planar de un polígono: `area(@geometry)`
-* Área planar de un polígono con transformación de coordenadas: `area(transform($geometry, layer_property(@layer, 'crs'),'EPSG:9377'))`
-* Área planar de un polígono con transformación de coordenadas: `area(transform($geometry, 'EPSG:4686', 'EPSG:9377'))`
-* Área geodésica de un polígono: `$area`
-* Coordenada x inicio: `x(start_point(@geometry))`
-* Coordenada y inicio: `y(start_point(@geometry))`
-* Coordenada x fin: `x(end_point(@geometry))`
-* Coordenada y fin: `y(end_point(@geometry))`
-* Centroide en x: `x(@geometry)`
-* Centroide en y: `y(@geometry)`
-* Centroide en x en grados geodésicos: `x(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`
-* Centroide en y en grados geodésicos: `y(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`
-* Límite este en grados decimales: `x_max(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`
-* Límite oeste en grados decimales: `x_min(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`
-* Límite norte en grados decimales: `y_max(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`
-* Límite sur en grados decimales: `y_min(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`
+| Proceso                                                      | Procedimiento                                                                                                                                                                                                                                                                                                    |
+|:-------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Longitud de una poli-línea                                   | `length(@geometry)`                                                                                                                                                                                                                                                                                              |
+| Perimetro de un polígono                                     | `perimeter(@geometry)` or `perimeter`                                                                                                                                                                                                                                                                            |
+| Área planar y geodésica de un polígono                       | `area(@geometry)`<br/>`$area`                                                                                                                                                                                                                                                                                    |
+| Área planar de un polígono con transformación de coordenadas | `area(transform($geometry, layer_property(@layer, 'crs'),'EPSG:9377'))`<br/>`area(transform($geometry, 'EPSG:4686', 'EPSG:9377'))`                                                                                                                                                                               |
+| Coordenada x,y de inicio                                     | `x(start_point(@geometry))`<br/>`y(start_point(@geometry))`                                                                                                                                                                                                                                                      |
+| Coordenada x,y fin                                           | `x(end_point(@geometry))`<br/>`y(end_point(@geometry))`                                                                                                                                                                                                                                                          |
+| Centroide en x,y                                             | `x(@geometry)`<br/>`y(@geometry)`                                                                                                                                                                                                                                                                                |
+| Centroide en x,y en grados geodésicos                        | `x(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`<br/>`y(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`                                                                                                                                                                    |
+| Límites de una capa en grados geodésicos                     | `x_max(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`<br/>`x_min(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`<br/>`y_max(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`<br/>`y_min(transform($geometry, layer_property(@layer, 'crs'),'EPSG:4326'))`  |
+|                                                              |                                                                                                                                                                                                                                                                                                                  |
+|                                                              |                                                                                                                                                                                                                                                                                                                  |
+|                                                              |                                                                                                                                                                                                                                                                                                                  |
 
 
 ##
