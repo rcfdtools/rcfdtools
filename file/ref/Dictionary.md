@@ -2,9 +2,9 @@
 
 **Symbols**: ✓Δ°Σβρσθαπ∑√±πØμx●•∫≠≈≤≥´◄ ►'“”²³
 
-## Iconografía
+## Iconography
 
-Iconografía general utilizada en los repositorios.
+Global icons used in the repositories.
 
 * https://gist.github.com/rxaviers/7360908
 * https://github.com/ikatyang/emoji-cheat-sheet
@@ -58,11 +58,11 @@ Iconografía general utilizada en los repositorios.
 |   ►   |                                | Next activitie                                          |
 
 
-## Abreviaturas y glosario
+## Abbreviations
 
 [Autodesk AutoCAD / Glossary of AutoCAD Terms.](https://help.autodesk.com/view/ACD/2026/ENU/?guid=GUID-C4325DCB-3648-4463-8135-629EA7F72AB0)
 
-Abreviaturas relacionadas dentro de la documentación oficial los repositorios.
+Related abbreviations within the official repository documentation.
 
 | Abreviatura                                                                                   | Significado                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |:----------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -108,11 +108,12 @@ Abreviaturas relacionadas dentro de la documentación oficial los repositorios.
 | [MAXAR](https://www.esri.com/partners/maxar-a2T70000000TNOvEAO) | Maxar Technologies                                                                       |
 
 
-## Extensiones y tipos de archivos
+## File extensions and types
 
-Extensiones usadas en los archivos utilizados en los repositorios.
 
-| Extensión                                      | Descripción                                                                      |
+Extensions used for the files in the repositories.
+
+| Extension                                      | Description                                                                      |
 |:-----------------------------------------------|----------------------------------------------------------------------------------|
 | [.dwg](https://fileinfo.com/extension/dwg)     | AutoCAD Drawing                                                                  |
 | [.dxf](https://fileinfo.com/extension/dxf)     | Drawing Exchange Format File                                                     |
@@ -138,10 +139,10 @@ Extensiones usadas en los archivos utilizados en los repositorios.
 | [.tfw](https://fileinfo.com/extension/tfw)     | TIFF world file                                                                  |
 | [.csv](https://fileinfo.com/extension/csv)     | Comma separated values file                                                      |
 | [.gpkg](https://fileinfo.com/extension/gpkg)   | Geopackage                                                                       |
-| [.ipynb](https://fileinfo.com/extension/ipynb) | Interactive Python Notebook                                                                       |
+| [.ipynb](https://fileinfo.com/extension/ipynb) | Interactive Python Notebook                                                      |
 
 
-## QGIS
+## QGIS processing tools
 
 > Para cálculos geodésicos de longitud, área o perímetro, agregar el símbolo `$` al inicio de la expresión.
 
@@ -173,11 +174,11 @@ Extensiones usadas en los archivos utilizados en los repositorios.
 
 ##
 
-_[rcfdtools](https://github.com/rcfdtools) es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](../../LICENSE.md)._
+_[rcfdtools](https://github.com/rcfdtools) is free to use for academic purposes; learn about our license, clauses, and terms of use, as well as how to cite the content published in this repository [Here](../../LICENSE.md)._
 
-_¡Encontraste útil este repositorio!, apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [rcfdtools](https://github.com/rcfdtools) en GitHub._
+_If you found this repository useful, please support its visibility by starring it (⭐) or by following [rcfdtools](https://github.com/rcfdtools) on GitHub._
 
-| [:house: Inicio](../../README.md) |
-|-----------------------------------|
+| [:house: Home](../../README.md) |
+|---------------------------------|
 
 [^1]: 
