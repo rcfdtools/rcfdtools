@@ -3,7 +3,7 @@
 
 ## 1. Iconografía [^1]
 
-Iconografía utilizada en este respositorio.
+Iconografía utilizada en este repositorio.
 
 |           Ícono            | shortcode                    | Utilidad                                                                                             |
 |:--------------------------:|:-----------------------------|:-----------------------------------------------------------------------------------------------------|
