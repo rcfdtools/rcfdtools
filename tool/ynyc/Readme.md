@@ -10,7 +10,7 @@ An open channel flow is the movement of a liquid, like water, in a conduit that 
 
 </div>
 
-<div align="center"><img alt="R.HydroTools" src="assets/prism.svg" width="400px"></div>
+<div align="center"><img alt="R.HydroTools" src="assets/prism.svg" width="500px"></div>
 
 
 ## 1. General concepts
