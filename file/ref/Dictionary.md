@@ -29,7 +29,7 @@ Global symbols and icons used in the repositories.
 |  🌩️  | `:cloud_with_lightning:`       | Cloud repository                                        |
 |  🧰   | `:toolbox:`                    | Tool                                                    |
 | 📍📌  | `:round_pushpin:` `:pushpin:`  | GIS file (shapefile, nc)                                |
-|  📅   | `:date:`                       | Table                                                   |
+|  📅   | `:date:`                       | Table or Spreadsheet                                    |
 |  🧭   | `:compass:`                    | Digital printed map                                     |
 |  🌐   | `:globe_with_meridians:`       | Geographic location                                     |
 |  🗺️  | `:world_map:`                  | Grid & Geopackage                                       |
