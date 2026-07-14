@@ -28,7 +28,7 @@ Global symbols and icons used in the repositories.
 |  🆕   | `:new:`                        | Recent element                                          |
 |  🌩️  | `:cloud_with_lightning:`       | Cloud repository                                        |
 |  🧰   | `:toolbox:`                    | Tool                                                    |
-| 📍📌  | `:round_pushpin:` `:pushpin:`  | GIS file (shapefile, nc)                                |
+| 📍📌  | `:round_pushpin:` `:pushpin:`  | GIS file (shapefile, nc) or CAD file (dwg, dxf)         |
 |  📅   | `:date:`                       | Table or Spreadsheet                                    |
 |  🧭   | `:compass:`                    | Digital printed map                                     |
 |  🌐   | `:globe_with_meridians:`       | Geographic location                                     |

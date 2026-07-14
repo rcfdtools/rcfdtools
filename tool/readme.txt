@@ -1,7 +1,6 @@
 Local contents
 ******************
 
-cell_size: used for 2D perimeter internal buffer
 PyScript
 Result videos as Hydro-Bogota
 
