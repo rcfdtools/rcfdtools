@@ -33,7 +33,7 @@ Global symbols and icons used in the repositories.
 |  🧭   | `:compass:`                    | Digital printed map                                     |
 |  🌐   | `:globe_with_meridians:`       | Geographic location                                     |
 |  🗺️  | `:world_map:`                  | Grid & Geopackage                                       |
-|  👷   | `:construction_worker:`        | User account                                            |
+|  👷   | `:construction_worker:`        | User account or Professional expertise level - PEL      |
 |  📦   | `:package:`                    | Folder structure                                        |
 |  🛠️  | `:hammer_and_wrench:`          | Standalone tool                                         |
 | 👨‍💻 | `:man_technologist:`           | WebApp Tool                                             |
