@@ -1,8 +1,12 @@
 rcfdtools
 
-Symbols: ✓Δ°Σβρσθαπ∑√±πØμx●•∫≠≈≤≥´◄ ►'“”²³
+Symbols: ✓Δ°Σβρσθαπ∑√±πØμx●•∫≠≈≤≥´→ꝏ◄ ►'“”²³
+
 
 Pending task
+	Integrated references
+	HCMC fix references to HydroTools
+	Markdown License badges https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
 	TSIG - Move quizzes to Google Forms (reports by student repositorie link)
 	DAPC - Move quizzes to Google Forms (files and reports by e-mail)
 	DAPC - Check clausules in quizzes

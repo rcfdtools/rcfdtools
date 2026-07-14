@@ -9,6 +9,8 @@
 * [Sweigart, Al. Beyond the Basic Stuff with Python: Best Practices for Writing Clean Code.](http://inventwithpython.com/beyond/)
 * [Sweigart, Al. Cracking Codes with Python: An Introduction to Building and Breaking Ciphers.](https://inventwithpython.com/cracking/)
 * [Python.org](https://www.python.org/)
+* https://pyscript.net/
+* https://pyscript.com/@examples/fractals-with-numpy-and-canvas/latest
 * [Pandas.pydata.org](https://pandas.pydata.org/)
 * [NumPy.org](https://pandas.pydata.org/)
 * [matplotlib.org](https://matplotlib.org/)
