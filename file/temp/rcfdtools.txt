@@ -3,7 +3,6 @@ rcfdtools
 Symbols: ✓Δ°Σβρσθαπ∑√±πØμx●•∫≠≈≤≥´◄ ►'“”²³
 
 Pending task
-	References WMO
 	TSIG - Move quizzes to Google Forms (reports by student repositorie link)
 	DAPC - Move quizzes to Google Forms (files and reports by e-mail)
 	DAPC - Check clausules in quizzes
