@@ -1,6 +1,6 @@
 <div align="center"><a href="https://github.com/rcfdtools" target="_blank"><img src="https://github.com/rcfdtools/rcfdtools/blob/main/file/graph/rcfdtools_banner.png" alt="R.LTWB" width="100%" border="0" /></a></div>
 
-# Yn & Yc - Normal and critical depth
+# 👨‍💻Yn & Yc - Normal and critical depth
 
 An open channel flow is the movement of a liquid, like water, in a conduit that has a free surface exposed to the atmosphere. Unlike a pipe that is completely full, open channel flow is driven by gravity, and the top surface of the liquid is not under pressure. Common examples include rivers, streams, canals, and storm drains.
 
