@@ -18,7 +18,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../R.HydroTools" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -113,22 +113,6 @@
       <workItem from="1770654951367" duration="350000" />
       <workItem from="1770738138109" duration="76000" />
       <workItem from="1771258416196" duration="23000" />
-    </task>
-    <task id="LOCAL-00528" summary="General update.">
-      <option name="closed" value="true" />
-      <created>1783969453855</created>
-      <option name="number" value="00528" />
-      <option name="presentableId" value="LOCAL-00528" />
-      <option name="project" value="LOCAL" />
-      <updated>1783969453855</updated>
-    </task>
-    <task id="LOCAL-00529" summary="General update.">
-      <option name="closed" value="true" />
-      <created>1783969543825</created>
-      <option name="number" value="00529" />
-      <option name="presentableId" value="LOCAL-00529" />
-      <option name="project" value="LOCAL" />
-      <updated>1783969543825</updated>
     </task>
     <task id="LOCAL-00530" summary="General update.">
       <option name="closed" value="true" />
@@ -506,7 +490,23 @@
       <option name="project" value="LOCAL" />
       <updated>1783982395661</updated>
     </task>
-    <option name="localTasksCounter" value="577" />
+    <task id="LOCAL-00577" summary="General update.">
+      <option name="closed" value="true" />
+      <created>1783996732455</created>
+      <option name="number" value="00577" />
+      <option name="presentableId" value="LOCAL-00577" />
+      <option name="project" value="LOCAL" />
+      <updated>1783996732455</updated>
+    </task>
+    <task id="LOCAL-00578" summary="General update.">
+      <option name="closed" value="true" />
+      <created>1783996790078</created>
+      <option name="number" value="00578" />
+      <option name="presentableId" value="LOCAL-00578" />
+      <option name="project" value="LOCAL" />
+      <updated>1783996790078</updated>
+    </task>
+    <option name="localTasksCounter" value="579" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
