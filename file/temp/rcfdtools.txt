@@ -3,12 +3,10 @@ rcfdtools
 Symbols: ✓Δ°Σβρσθαπ∑√±πØμx●•∫≠≈≤≥´◄ ►'“”²³
 
 Pending task
+	References WMO
 	TSIG - Move quizzes to Google Forms (reports by student repositorie link)
 	DAPC - Move quizzes to Google Forms (files and reports by e-mail)
-	DAPC - Check clausules in quizzes.
-	Water, power, gas bills July.
-	gastric bypass cookbook for free
-
+	DAPC - Check clausules in quizzes
 
 Mac Keyboard Windows + shift + S for print screen
 select * from UCAreaProyectoDissolve4686 order by Aha desc
@@ -20,4 +18,6 @@ dir /b >sss.txt
 W11: https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewiso
 Check windows native language installation: CMD / dism /online /get-intl
 
-
+API
+USGS
+MAXAR
