@@ -1,6 +1,6 @@
 <div align="center"><a href="https://github.com/rcfdtools" target="_blank"><img src="https://github.com/rcfdtools/rcfdtools/blob/main/file/graph/rcfdtools_banner.png" alt="rcfdtools" width="100%" border="0" /></a></div>
 
-# :scroll: Investigaciones, artículos y publicaciones rcfdtools
+# :scroll: Investigaciones, artículos y publicaciones
 
 ## A. Papers
 
