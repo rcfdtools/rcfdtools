@@ -4,7 +4,7 @@
 
 ## Papers
 
-**Paper**: Estudio y análisis de la Precipitación Máxima en 24 horas (PMax24h) en la red de estaciones climatológicas automáticas de Colombia – Suramérica (XXVI Seminario Nacional de Hidráulica e Hidrología, Bogotá D.C., mayo 13 al 15 de 2026). ISSN (en línea): 2619-3787
+**Paper: “Estudio y análisis de la Precipitación Máxima en 24 horas (PMax24h) en la red de estaciones climatológicas automáticas de Colombia – Suramérica (XXVI Seminario Nacional de Hidráulica e Hidrología, Bogotá D.C., mayo 13 al 15 de 2026). ISSN (en línea): 2619-3787”**
 
 * [Artículo local](https://github.com/rcfdtools/rcfdtools/blob/main/file/report/Paper_SCI_XXVI_SNHH26_PMax24HAutomColombia_2026.pdf)
 * [Artículo digital interactivo - Documentación](https://github.com/rcfdtools/R.HydroTools/blob/main/tool/PMP/Readme.md)
@@ -12,7 +12,8 @@
 * [SCI Colombia - Memoria Congreso](https://github.com/rcfdtools/rcfdtools/blob/main/file/report/Paper_SCI_XXVI_SNHH26_2026_Memorias_Pag138.zip)
 * [SCI Colombia - XXVI Seminario Nacional de Hidráulica e Hidrología](https://sci.org.co/memorias-xxvi-seminario-nacional-de-hidraulica-e-hidrologia/)
 
-**Paper**: Estudio de amenazas hidráulicas en la llanura de inundación de la cuenca del Río Bogotá - Cundinamarca - Colombia - Suramérica - HydroBogota (2024). ISSN (impreso): 2636-218X • ISSN (en línea): 2636-2171  
+**Paper: “Estudio de amenazas hidráulicas en la llanura de inundación de la cuenca del Río Bogotá - Cundinamarca - Colombia - Suramérica - HydroBogota (2024). ISSN (impreso): 2636-218X • ISSN (en línea): 2636-2171”**
+
 * [Artículo local](https://github.com/rcfdtools/rcfdtools/blob/main/file/report/Paper_CYAP-v7-n2-2-3283_HydroBogota_2024.pdf)
 * [Artículo Revista Intec - República Dominicana](https://revistas.intec.edu.do/index.php/cite/article/view/3283/3810)
 * [Artículo Revista Intec - República Dominicana - Estadísticas](https://revistas.intec.edu.do/index.php/cite/article/view/3283#nav-statistics)
