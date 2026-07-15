@@ -9,15 +9,15 @@ https://github.com/rcfdtools/R.HydroTools/blob/main/tool/PMP/Readme.md
 https://github.com/rcfdtools/R.HydroTools/blob/main/tool/PMP/dataset/pmax24h_out/paper/Readme.md
 https://sci.org.co/memorias-xxvi-seminario-nacional-de-hidraulica-e-hidrologia/
 
-
 **● Paper**: Estudio de amenazas hidráulicas en la llanura de inundación de la cuenca del Río Bogotá - Cundinamarca - Colombia - Suramérica - HydroBogota (2024). ISSN (impreso): 2636-218X • ISSN (en línea): 2636-2171  
+https://github.com/rcfdtools/rcfdtools/blob/main/file/report/Paper_CYAP-v7-n2-2-3283_HydroBogota_2024.pdf
 https://revistas.intec.edu.do/index.php/cite/article/view/3283/3810
 https://www.researchgate.net/publication/387680423_Estudio_de_amenazas_hidraulicas_en_la_llanura_de_inundacion_de_la_cuenca_del_rio_Bogota_-_Cundinamarca_-_Colombia
 https://revistas.intec.edu.do/index.php/cite/article/view/3283
 https://dialnet.unirioja.es/servlet/articulo?codigo=10016155
 
-
 **● Paper**: Balance hidrológico para el llenado de los Tajos Norte y Sur. Transformación lluvia – escorrentía a nivel diario para las cuencas que drenan a los tajos, Modelo GR4J y Modelo HEC-HMS. (XXVIII Congreso Latinoamericano de Hidráulica. Buenos aires, Argentina, septiembre de 2018).  
+https://github.com/rcfdtools/rcfdtools/blob/main/file/report/LADHI_2018_RE_342.pdf
 https://www.ina.gob.ar/congreso_hidraulica/resumenes/LADHI_2018_RE_342.pdf
 
 **● Paper**: Diseño del realineamiento definitivo del Arroyo San Antonio. Dimensionamiento de las estructuras para la definición del lecho y orillas. (XXIII Seminario Nacional de Hidráulica e Hidrología. Ibagué, 15 al 17 de agosto de 2018).  
