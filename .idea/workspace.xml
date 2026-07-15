@@ -4,36 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d9445cb-b793-45cb-8b3d-5131205cebdf" name="Changes" comment="General update.">
-      <change beforePath="$PROJECT_DIR$/../R.HCMC/activity/M01A16/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../R.HCMC/activity/M01A16/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R.HCMC/activity/M01A19/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../R.HCMC/activity/M01A19/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R.HCMC/activity/M01A20/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../R.HCMC/activity/M01A20/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R.HCMC/activity/M02A05/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../R.HCMC/activity/M02A05/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R.HCMC/activity/M02A06/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../R.HCMC/activity/M02A06/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R.HCMC/activity/M02A07/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../R.HCMC/activity/M02A07/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R.HCMC/activity/M02A08/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../R.HCMC/activity/M02A08/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R.HCMC/activity/M02A09/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../R.HCMC/activity/M02A09/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R.HCMC/activity/M03A01/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../R.HCMC/activity/M03A01/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R.HCMC/activity/M03A02/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../R.HCMC/activity/M03A02/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R.HCMC/activity/M03A03/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../R.HCMC/activity/M03A03/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R.HCMC/activity/M03A04/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../R.HCMC/activity/M03A04/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R.HCMC/activity/M03A05/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../R.HCMC/activity/M03A05/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R.HCMC/activity/M03A06/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../R.HCMC/activity/M03A06/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R.HCMC/activity/M03A07/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../R.HCMC/activity/M03A07/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R.HCMC/activity/M03A08/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../R.HCMC/activity/M03A08/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R.HCMC/activity/M04A00/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../R.HCMC/activity/M04A00/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R.HCMC/activity/M04A01/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../R.HCMC/activity/M04A01/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R.HCMC/activity/M04A02/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../R.HCMC/activity/M04A02/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R.HCMC/activity/M04A03/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../R.HCMC/activity/M04A03/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R.HCMC/activity/M04A04/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../R.HCMC/activity/M04A04/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R.HCMC/activity/M04A05/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../R.HCMC/activity/M04A05/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R.HCMC/activity/M04A06/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../R.HCMC/activity/M04A06/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R.HCMC/activity/M04A07/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../R.HCMC/activity/M04A07/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R.HCMC/activity/M04A08/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../R.HCMC/activity/M04A08/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R.HCMC/activity/M04A09/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../R.HCMC/activity/M04A09/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R.HCMC/activity/M04A10/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../R.HCMC/activity/M04A10/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8d9445cb-b793-45cb-8b3d-5131205cebdf" name="Changes" comment="General update." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +18,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../R.HCMC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -142,30 +113,6 @@
       <workItem from="1770654951367" duration="350000" />
       <workItem from="1770738138109" duration="76000" />
       <workItem from="1771258416196" duration="23000" />
-    </task>
-    <task id="LOCAL-00580" summary="General update.">
-      <option name="closed" value="true" />
-      <created>1783997682143</created>
-      <option name="number" value="00580" />
-      <option name="presentableId" value="LOCAL-00580" />
-      <option name="project" value="LOCAL" />
-      <updated>1783997682143</updated>
-    </task>
-    <task id="LOCAL-00581" summary="General update.">
-      <option name="closed" value="true" />
-      <created>1783997966480</created>
-      <option name="number" value="00581" />
-      <option name="presentableId" value="LOCAL-00581" />
-      <option name="project" value="LOCAL" />
-      <updated>1783997966480</updated>
-    </task>
-    <task id="LOCAL-00582" summary="General update.">
-      <option name="closed" value="true" />
-      <created>1783997981169</created>
-      <option name="number" value="00582" />
-      <option name="presentableId" value="LOCAL-00582" />
-      <option name="project" value="LOCAL" />
-      <updated>1783997981170</updated>
     </task>
     <task id="LOCAL-00583" summary="General update.">
       <option name="closed" value="true" />
@@ -535,7 +482,31 @@
       <option name="project" value="LOCAL" />
       <updated>1784071764046</updated>
     </task>
-    <option name="localTasksCounter" value="629" />
+    <task id="LOCAL-00629" summary="General update.">
+      <option name="closed" value="true" />
+      <created>1784072276613</created>
+      <option name="number" value="00629" />
+      <option name="presentableId" value="LOCAL-00629" />
+      <option name="project" value="LOCAL" />
+      <updated>1784072276613</updated>
+    </task>
+    <task id="LOCAL-00630" summary="General update.">
+      <option name="closed" value="true" />
+      <created>1784072445206</created>
+      <option name="number" value="00630" />
+      <option name="presentableId" value="LOCAL-00630" />
+      <option name="project" value="LOCAL" />
+      <updated>1784072445206</updated>
+    </task>
+    <task id="LOCAL-00631" summary="General update.">
+      <option name="closed" value="true" />
+      <created>1784072481167</created>
+      <option name="number" value="00631" />
+      <option name="presentableId" value="LOCAL-00631" />
+      <option name="project" value="LOCAL" />
+      <updated>1784072481167</updated>
+    </task>
+    <option name="localTasksCounter" value="632" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

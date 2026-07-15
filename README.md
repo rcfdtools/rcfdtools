@@ -5,6 +5,8 @@ Hi and welcome to @rcfdtools, check all my projects here in https://github.com/r
 
 ### Professional Courses
 
+Professional courses are specialized, career-oriented educational programs designed to equip you with practical skills and industry credentials. Unlike traditional academic degrees that focus on theory, our courses prioritize hands-on training to make you immediately job-ready or help you advance in your career.
+
 | Resource                                                                                        | Description                                                                          | Q-Level |
 |:------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------|:-------:|
 | [:mortar_board:️TSIG](https://github.com/rcfdtools/R.TSIG/blob/main/README.md)                  | Geographic information systems applied in engineering (TSIG / PYAS).                 |  B,M,D  |
@@ -19,7 +21,9 @@ Hi and welcome to @rcfdtools, check all my projects here in https://github.com/r
 > Applied levels of university qualification: B-Bachelor’s, M-Master’s, D-Doctorate
 
 
-### Research & Development
+### Research & Development (R&D)
+
+Research and development (R&D) is a systematic process of investigation and experimentation aimed at creating new products, services, or technologies, or improving existing ones. It drives innovation, allowing professionals to gain a competitive edge and secure their intellectual property.
 
 | Resource                                                                                                            | Description                                                                                                                                                                                                                                                                                                                                      |
 |:--------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
