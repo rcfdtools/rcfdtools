@@ -2,7 +2,7 @@
 
 # :scroll: Investigaciones, artículos y publicaciones
 
-## Papers
+## A. Papers
 
 _**“Estudio y análisis de la Precipitación Máxima en 24 horas (PMax24h) en la red de estaciones climatológicas automáticas de Colombia – Suramérica (XXVI Seminario Nacional de Hidráulica e Hidrología, Bogotá D.C., mayo 13 al 15 de 2026). ISSN (en línea): 2619-3787”**_
 
@@ -55,7 +55,7 @@ A methodology was developed to evaluate the surface water availability based on 
 * [International Association for Hydro-Environment Engineering and Research - Proceedings of the 36th IAHR World Congress (Hague, 2015)](https://www.proceedings.com/content/030/030674webtoc.pdf)
 
 
-## Books
+## B. Books
 
 _**“Guía metodológica aplicada para la formulación de indicadores y el seguimiento a metas de Gobierno en el Municipio de Tocancipá. Unidad Coordinadora Local, Departamento Nacional de Planeación – DNP, junio de 2007”**_  
 
@@ -74,7 +74,7 @@ La presente cartilla metodológica es producto del Convenio Interinstitucional d
 * [Publicación web](https://colaboracion.dnp.gov.co/CDT/Sinergia/Documentos/Cartilla_Formulacion_%20PPR_Tocancipa_Sept2007.pdf)
 
 
-## Researches
+## C. Researches
 
 _**“Las Micro-centralidades Urbanas de Tocancipá, Directricez para su gestión y consolidación. Máster en Desarrollo Urbano y Territorial. Universidad Politécnica de Cataluña, 2008”**_  
 
