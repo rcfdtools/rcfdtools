@@ -46,6 +46,8 @@ Standalone tools are software programs or physical devices that operate independ
 
 ### WebApp Tools
 
+A web application (web app) is interactive software that runs directly inside a web browser and requires no installation. While traditional websites are primarily designed to display static information, web apps allow you to actively perform tasks and manipulate data.
+
 | Resource                                                               | Description                                                                   |
 |:-----------------------------------------------------------------------|:------------------------------------------------------------------------------|
 | [:technologist:YnYc](https://rcfdtools.github.io/rcfdtools/tool/ynyc/) | Normal and critical depth in prismatic channels [+info](tool/ynyc/Readme.md). |
