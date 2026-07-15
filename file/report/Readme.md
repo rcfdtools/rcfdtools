@@ -8,9 +8,9 @@
 
 * [Artículo local](https://github.com/rcfdtools/rcfdtools/blob/main/file/report/Paper_SCI_XXVI_SNHH26_PMax24HAutomColombia_2026.pdf)
 * [Artículo digital interactivo](https://github.com/rcfdtools/R.HydroTools/blob/main/tool/PMP/Readme.md)
-* [Artículo digital - Documentación](https://github.com/rcfdtools/R.HydroTools/blob/main/tool/PMP/dataset/pmax24h_out/paper/Readme.md)
-* [SCI - Memoria Congreso](https://github.com/rcfdtools/rcfdtools/blob/main/file/report/Paper_SCI_XXVI_SNHH26_2026_Memorias_Pag138.zip)
-* [SCI - Memorias - XXVI Seminario Nacional de Hidráulica e Hidrología](https://sci.org.co/memorias-xxvi-seminario-nacional-de-hidraulica-e-hidrologia/)
+* [Artículo digital interactivo - Documentación](https://github.com/rcfdtools/R.HydroTools/blob/main/tool/PMP/dataset/pmax24h_out/paper/Readme.md)
+* [SCI Colombia - Memoria Congreso](https://github.com/rcfdtools/rcfdtools/blob/main/file/report/Paper_SCI_XXVI_SNHH26_2026_Memorias_Pag138.zip)
+* [SCI Colombia - XXVI Seminario Nacional de Hidráulica e Hidrología](https://sci.org.co/memorias-xxvi-seminario-nacional-de-hidraulica-e-hidrologia/)
 
 **Paper**: Estudio de amenazas hidráulicas en la llanura de inundación de la cuenca del Río Bogotá - Cundinamarca - Colombia - Suramérica - HydroBogota (2024). ISSN (impreso): 2636-218X • ISSN (en línea): 2636-2171  
 * [Artículo local](https://github.com/rcfdtools/rcfdtools/blob/main/file/report/Paper_CYAP-v7-n2-2-3283_HydroBogota_2024.pdf)
@@ -19,7 +19,7 @@
 * [Artículo Researchgate](https://www.researchgate.net/publication/387680423_Estudio_de_amenazas_hidraulicas_en_la_llanura_de_inundacion_de_la_cuenca_del_rio_Bogota_-_Cundinamarca_-_Colombia)
 * [Artículo Dialnet](https://dialnet.unirioja.es/servlet/articulo?codigo=10016155) 
 
-**● Paper**: Balance hidrológico para el llenado de los Tajos Norte y Sur. Transformación lluvia – escorrentía a nivel diario para las cuencas que drenan a los tajos, Modelo GR4J y Modelo HEC-HMS. (XXVIII Congreso Latinoamericano de Hidráulica. Buenos aires, Argentina, septiembre de 2018).  
+**Paper**: Balance hidrológico para el llenado de los Tajos Norte y Sur. Transformación lluvia – escorrentía a nivel diario para las cuencas que drenan a los tajos, Modelo GR4J y Modelo HEC-HMS. (XXVIII Congreso Latinoamericano de Hidráulica. Buenos aires, Argentina, septiembre de 2018).  
 https://github.com/rcfdtools/rcfdtools/blob/main/file/report/LADHI_2018_RE_342.pdf
 https://www.ina.gob.ar/congreso_hidraulica/resumenes/LADHI_2018_RE_342.pdf
 
@@ -40,7 +40,7 @@ https://colaboracion.dnp.gov.co/CDT/Sinergia/Documentos/Cartilla_Indicadores_Toc
 https://colaboracion.dnp.gov.co/CDT/Sinergia/Documentos/Cartilla_Formulacion_%20PPR_Tocancipa_Sept2007.pdf
 
 
-## Research
+## Researches
 
 **● Research**: Las Micro-centralidades Urbanas de Tocancipá, Directricez para su gestión y consolidación. Máster en Desarrollo Urbano y Territorial. Universidad Politécnica de Cataluña, 2008.  
 https://github.com/rcfdtools/rcfdtools/blob/main/file/report/Research_MicrocentralidadesUrbanas_Tocancipa_2008.pdf
