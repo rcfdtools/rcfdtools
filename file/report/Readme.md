@@ -74,8 +74,12 @@ _**“Guía metodológica aplicada para la formulación de un presupuesto de inv
 
 ## Researches
 
-**● Research**: Las Micro-centralidades Urbanas de Tocancipá, Directricez para su gestión y consolidación. Máster en Desarrollo Urbano y Territorial. Universidad Politécnica de Cataluña, 2008.  
-https://github.com/rcfdtools/rcfdtools/blob/main/file/report/Research_MicrocentralidadesUrbanas_Tocancipa_2008.pdf
+_**“Las Micro-centralidades Urbanas de Tocancipá, Directricez para su gestión y consolidación. Máster en Desarrollo Urbano y Territorial. Universidad Politécnica de Cataluña, 2008”**_  
 
-**● Research**: Guía de diseño aplicada para la planeación, modelación, optimización y expansión de acueductos veredales. Posgrado en Recursos Hidráulicos y Medio Ambiente. Universidad Escuela Colombiana de Ingeniería. 2006.  
-https://github.com/rcfdtools/rcfdtools/tree/main/file/report/Research_GuiaAcueductosVeredales_2006
+* [Archivo local](https://github.com/rcfdtools/rcfdtools/blob/main/file/report/Research_MicrocentralidadesUrbanas_Tocancipa_2008.pdf)
+
+##
+
+_**“Guía de diseño aplicada para la planeación, modelación, optimización y expansión de acueductos veredales. Posgrado en Recursos Hidráulicos y Medio Ambiente. Universidad Escuela Colombiana de Ingeniería. 2006”**_   
+
+* [Archivo local](https://github.com/rcfdtools/rcfdtools/tree/main/file/report/Research_GuiaAcueductosVeredales_2006)
