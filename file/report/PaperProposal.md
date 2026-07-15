@@ -2,9 +2,7 @@
 
 # 📜Open Paper Proposals
 
-An open paper proposal is a preliminary plan submitted to an instructor, director, or funding committee that outlines the goals, scope, and direction of a research project. It is "open" because it acts as a flexible working blueprint, allowing you to modify your exact focus or methodology as your research evolves.
-
-Key ComponentsTypically, an open paper proposal includes:
+An open paper proposal is a preliminary plan submitted to an instructor, director, or funding committee that outlines the goals, scope, and direction of a research project. It is "open" because it acts as a flexible working blueprint, allowing you to modify your exact focus or methodology as your research evolves. Typically, an open paper proposal includes:
 
 | Key aspect                      | Scope                                                                                                          |
 |:--------------------------------|:---------------------------------------------------------------------------------------------------------------|
