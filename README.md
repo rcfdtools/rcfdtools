@@ -21,7 +21,7 @@ Professional courses are specialized, career-oriented educational programs desig
 > Applied levels of university qualification: B-Bachelor’s, M-Master’s, D-Doctorate
 
 
-### Research & Development (R&D)
+### Research and Development (R&D)
 
 Research and development (R&D) is a systematic process of investigation and experimentation aimed at creating new products, services, or technologies, or improving existing ones. It drives innovation, allowing professionals to gain a competitive edge and secure their intellectual property.
 
