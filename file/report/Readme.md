@@ -22,7 +22,7 @@
 
 **“Balance hidrológico para el llenado de los Tajos Norte y Sur. Transformación lluvia – escorrentía a nivel diario para las cuencas que drenan a los tajos, Modelo GR4J y Modelo HEC-HMS. (XXVIII Congreso Latinoamericano de Hidráulica. Buenos aires, Argentina, septiembre de 2018)”** 
 
-* [Artículo local](https://github.com/rcfdtools/rcfdtools/blob/main/file/report/LADHI2018RE342.pdf)
+* [Artículo local](https://github.com/rcfdtools/rcfdtools/blob/main/file/report/Paper_LADHI_RE_342_2018.pdf)
 * [Artículo INA - Argentina](https://www.ina.gob.ar/congresohidraulica/resumenes/LADHI2018RE342.pdf)
 
 **“Diseño del realineamiento definitivo del Arroyo San Antonio. Dimensionamiento de las estructuras para la definición del lecho y orillas. (XXIII Seminario Nacional de Hidráulica e Hidrología. Ibagué, 15 al 17 de agosto de 2018)”** 
