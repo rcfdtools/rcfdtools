@@ -59,7 +59,7 @@ A methodology was developed to evaluate the surface water availability based on 
 
 _**“Guía metodológica aplicada para la formulación de indicadores y el seguimiento a metas de Gobierno en el Municipio de Tocancipá. Unidad Coordinadora Local, Departamento Nacional de Planeación – DNP, junio de 2007”**_  
 
-La cartilla metodológica es producto del Convenio Interinstitucional de cooperación celebrado entre el Municipio de Tocancipá, la Procuraduría General de la Nación y la Dirección de Evaluación de Políticas Públicas del Departamento Nacional de Planeación para la implementación de un Sistema de Gestión y Presupuesto por Resultados Municipal, así como de los avances técnicos y metodológicos desarrollados en los municipios de Medellín y Pasto impulsados por la misma dirección del DNP.
+La cartilla metodológica es producto del Convenio Interinstitucional de cooperación celebrado entre el Municipio de Tocancipá, la Procuraduría General de la Nación y la Dirección de Evaluación de Políticas Públicas del Departamento Nacional de Planeación para la implementación de un Sistema de Gestión y Presupuesto por Resultados Municipal, así como de los avances técnicos y metodológicos desarrollados en los municipios de Medellín y Pasto impulsados por la misma dirección del DNP. Pretende constituirse en un documento de consulta para el desarrollo del Sistema de Seguimiento a Resultados de Gobierno, particularmente en lo relacionado con la formulación de indicadores y el seguimiento a metas. Para tal fin, presenta los principales aspectos conceptuales y metodológicos en la incorporación, uso y aplicación de indicadores de desempeño que permitan realizar el seguimiento a los logros alcanzados en los compromisos de gobierno consignados en el Plan de Desarrollo Municipal. 
 
 * [Archivo local](https://github.com/rcfdtools/rcfdtools/blob/main/file/report/Book_DNP_Cartilla_Indicadores_Tocancipa_2007.pdf)
 * [Publicación web](https://colaboracion.dnp.gov.co/CDT/Sinergia/Documentos/Cartilla_Indicadores_Tocancipa_Junio2007.pdf)
@@ -67,7 +67,9 @@ La cartilla metodológica es producto del Convenio Interinstitucional de coopera
 ## 
 
 _**“Guía metodológica aplicada para la formulación de un presupuesto de inversión orientado a resultados para el Municipio de Tocancipá. Unidad Coordinadora Local, Departamento Nacional de Planeación – DNP, septiembre de 2007”**_
-* 
+
+La presente cartilla metodológica es producto del Convenio Interinstitucional de cooperación celebrado entre el Municipio de Tocancipá, la Procuraduría General de la Nación y la Dirección de Evaluación de Políticas Públicas del Departamento Nacional de Planeación para la implementación de un Sistema de Gestión y Presupuesto por Resultados Municipal. El objetivo del documento es presentar los principales lineamientos metodológicos a partir de los cuales realizar la formulación del Presupuesto de Inversión del Municipio bajo un enfoque orientado a resultados. Para tal fin, se centra en describir en detalle como a partir de los procesos de formulación presupuestaria se integra el uso y aplicación de información de desempeño como criterio para la asignación de gasto. 
+
 * [Archivo local](https://github.com/rcfdtools/rcfdtools/blob/main/file/report/Book_DNP_Cartilla_Formulacion_PPR_Tocancipa_2007.pdf)
 * [Publicación web](https://colaboracion.dnp.gov.co/CDT/Sinergia/Documentos/Cartilla_Formulacion_%20PPR_Tocancipa_Sept2007.pdf)
 
@@ -75,6 +77,8 @@ _**“Guía metodológica aplicada para la formulación de un presupuesto de inv
 ## Researches
 
 _**“Las Micro-centralidades Urbanas de Tocancipá, Directricez para su gestión y consolidación. Máster en Desarrollo Urbano y Territorial. Universidad Politécnica de Cataluña, 2008”**_  
+
+
 
 * [Archivo local](https://github.com/rcfdtools/rcfdtools/blob/main/file/report/Research_MicrocentralidadesUrbanas_Tocancipa_2008.pdf)
 
