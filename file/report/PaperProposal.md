@@ -1,6 +1,6 @@
 <div align="center"><img alt="rcfdtools" src="../graph/rcfdtools.svg" width="260px"><br></div>
 
-# Open Paper Proposals
+# 📜Open Paper Proposals
 
 An open paper proposal is a preliminary plan submitted to an instructor, director, or funding committee that outlines the goals, scope, and direction of a research project. It is "open" because it acts as a flexible working blueprint, allowing you to modify your exact focus or methodology as your research evolves.
 
