@@ -23,11 +23,11 @@
 * [Artículo local](https://github.com/rcfdtools/rcfdtools/blob/main/file/report/LADHI_2018_RE_342.pdf)
 * [Artículo INA - Argentina](https://www.ina.gob.ar/congreso_hidraulica/resumenes/LADHI_2018_RE_342.pdf)
 
-  **● Paper**: Diseño del realineamiento definitivo del Arroyo San Antonio. Dimensionamiento de las estructuras para la definición del lecho y orillas. (XXIII Seminario Nacional de Hidráulica e Hidrología. Ibagué, 15 al 17 de agosto de 2018).  
+**Paper**: Diseño del realineamiento definitivo del Arroyo San Antonio. Dimensionamiento de las estructuras para la definición del lecho y orillas. (XXIII Seminario Nacional de Hidráulica e Hidrología. Ibagué, 15 al 17 de agosto de 2018).  
 * [Artículo local](https://github.com/rcfdtools/rcfdtools/blob/main/file/report/Paper_SCI_ArroyoSanAntonio_2018.pdf)
 * [SCI Colombia - XXIII Seminario Nacional de Hidráulica e Hidrología](https://sci.org.co/wp-content/uploads/2018/11/Art18.pdf)
 
-  **● Paper**: Method for the hydroclimatological characterization and hydrological assessment of the natural watersheds in the mining area of central Cesar State, Colombia. Mean, maximum and minimum flows. July 2015. ISBN 978-90-824846-0-1.  
+**Paper**: Method for the hydroclimatological characterization and hydrological assessment of the natural watersheds in the mining area of central Cesar State, Colombia. Mean, maximum and minimum flows. July 2015. ISBN 978-90-824846-0-1.  
 * [Artículo local](https://github.com/rcfdtools/rcfdtools/blob/main/file/report/Paper_IAHR_Paper_2015.pdf)
 * [International Association for Hydro-Environment Engineering and Research - 36th IAHR World Congress (Hague, 2015)](https://www.iahr.org/library/infor?pid=34213)
 * [International Association for Hydro-Environment Engineering and Research - Proceedings of the 36th IAHR World Congress (Hague, 2015)](https://www.proceedings.com/content/030/030674webtoc.pdf)
