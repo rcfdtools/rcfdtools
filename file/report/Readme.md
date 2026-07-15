@@ -57,11 +57,19 @@ A methodology was developed to evaluate the surface water availability based on 
 
 ## Books
 
-**● Book**: Guía metodológica aplicada para la formulación de indicadores y el seguimiento a metas de Gobierno en el Municipio de Tocancipá. Unidad Coordinadora Local, Departamento Nacional de Planeación – DNP, junio de 2007.  
-https://colaboracion.dnp.gov.co/CDT/Sinergia/Documentos/Cartilla_Indicadores_Tocancipa_Junio2007.pdf
+_**“Guía metodológica aplicada para la formulación de indicadores y el seguimiento a metas de Gobierno en el Municipio de Tocancipá. Unidad Coordinadora Local, Departamento Nacional de Planeación – DNP, junio de 2007”**_  
 
-**● Book**: Guía metodológica aplicada para la formulación de un presupuesto de inversión orientado a resultados para el Municipio de Tocancipá. Unidad Coordinadora Local, Departamento Nacional de Planeación – DNP, septiembre de 2007.  
-https://colaboracion.dnp.gov.co/CDT/Sinergia/Documentos/Cartilla_Formulacion_%20PPR_Tocancipa_Sept2007.pdf
+La cartilla metodológica es producto del Convenio Interinstitucional de cooperación celebrado entre el Municipio de Tocancipá, la Procuraduría General de la Nación y la Dirección de Evaluación de Políticas Públicas del Departamento Nacional de Planeación para la implementación de un Sistema de Gestión y Presupuesto por Resultados Municipal, así como de los avances técnicos y metodológicos desarrollados en los municipios de Medellín y Pasto impulsados por la misma dirección del DNP.
+
+* [Archivo local](https://github.com/rcfdtools/rcfdtools/blob/main/file/report/Book_DNP_Cartilla_Indicadores_Tocancipa_2007.pdf)
+* [Publicación web](https://colaboracion.dnp.gov.co/CDT/Sinergia/Documentos/Cartilla_Indicadores_Tocancipa_Junio2007.pdf)
+
+## 
+
+_**“Guía metodológica aplicada para la formulación de un presupuesto de inversión orientado a resultados para el Municipio de Tocancipá. Unidad Coordinadora Local, Departamento Nacional de Planeación – DNP, septiembre de 2007”**_
+* 
+* [Archivo local](https://github.com/rcfdtools/rcfdtools/blob/main/file/report/Book_DNP_Cartilla_Formulacion_PPR_Tocancipa_2007.pdf)
+* [Publicación web](https://colaboracion.dnp.gov.co/CDT/Sinergia/Documentos/Cartilla_Formulacion_%20PPR_Tocancipa_Sept2007.pdf)
 
 
 ## Researches
