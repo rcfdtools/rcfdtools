@@ -14,6 +14,8 @@ La precipitación máxima en 24 horas (PMax24h), definida como el mayor acumulad
 * [SCI Colombia - Memoria Congreso](https://github.com/rcfdtools/rcfdtools/blob/main/file/report/Paper_SCI_XXVI_SNHH26_2026_Memorias_Pag138.zip)
 * [SCI Colombia - XXVI Seminario Nacional de Hidráulica e Hidrología](https://sci.org.co/memorias-xxvi-seminario-nacional-de-hidraulica-e-hidrologia/)
 
+##
+
 _**“Estudio de amenazas hidráulicas en la llanura de inundación de la cuenca del Río Bogotá - Cundinamarca - Colombia - Suramérica - HydroBogota (2024). ISSN (impreso): 2636-218X • ISSN (en línea): 2636-2171”**_
 
 Este artículo presenta los análisis y resultados de la investigación realizada por el Centro de Estudios Hidráulicos de la Universidad Escuela Colombiana de Ingeniería, correspondientes al “Estudio de amenazas hidráulicas en la llanura de inundación de la cuenca del Río Bogotá - Cundinamarca – Colombia”, mediante el uso de la herramienta computacional de simulación hidráulica HEC-RAS. Esta investigación ha sido dividida en tres horizontes y los resultados aquí presentados, corresponden al corto plazo, que incluyen, el ensamble de un modelo integrado de elevación con cubrimiento sobre toda la cuenca del Río Bogotá, la localización, identificación y ajuste de las intersecciones o pasos de vía con canales y drenajes, la validación, digitalización y complementación de la red de drenaje urbana y rural, la homologación del mapa de suelos a grupos hidrológicos con tasas de infiltración, la homologación del mapa de usos del suelo a valores de rugosidad e impermeabilidad, y la simulación bidimensional de un evento hipotético de descarga súbita, por el colapso simultáneo de los embalses Tominé, Neusa, Sisga, San Rafael, Chisacá y La Regadera.
@@ -23,6 +25,8 @@ Este artículo presenta los análisis y resultados de la investigación realizad
 * [Artículo Revista Intec - República Dominicana - Estadísticas](https://revistas.intec.edu.do/index.php/cite/article/view/3283#nav-statistics)
 * [Artículo Researchgate](https://www.researchgate.net/publication/387680423_Estudio_de_amenazas_hidraulicas_en_la_llanura_de_inundacion_de_la_cuenca_del_rio_Bogota_-_Cundinamarca_-_Colombia)
 * [Artículo Dialnet](https://dialnet.unirioja.es/servlet/articulo?codigo=10016155) 
+
+##
 
 _**“Balance hidrológico para el llenado de los Tajos Norte y Sur. Transformación lluvia – escorrentía a nivel diario para las cuencas que drenan a los tajos, Modelo GR4J y Modelo HEC-HMS. (XXVIII Congreso Latinoamericano de Hidráulica. Buenos aires, Argentina, septiembre de 2018)”**_ 
 
