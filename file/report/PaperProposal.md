@@ -4,7 +4,7 @@
 
 An open paper proposal is a preliminary plan submitted to an instructor, director, or funding committee that outlines the goals, scope, and direction of a research project. It is "open" because it acts as a flexible working blueprint, allowing you to modify your exact focus or methodology as your research evolves.
 
-## Key aspects
+## A. Key aspects
 
 To present a formal inquiry paper proposal, you document my include the following aspects.
 
@@ -18,7 +18,7 @@ To present a formal inquiry paper proposal, you document my include the followin
 | Timeline and References         | A rough schedule of milestones and a preliminary bibliography.                                                 |
 
 
-## Paper proposals
+## B. Paper proposals
 
 The current list may include related rcfdtools product links.
 
