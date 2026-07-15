@@ -35,10 +35,16 @@ Este artículo presenta un modelo conceptual, los cálculos y los resultados par
 * [Artículo local](https://github.com/rcfdtools/rcfdtools/blob/main/file/report/Paper_LADHI_RE_342_2018.pdf)
 * [Artículo INA - Argentina](https://www.ina.gob.ar/congreso_hidraulica/resumenes/LADHI_2018_RE_342.pdf)
 
+##
+
 _**“Diseño del realineamiento definitivo del Arroyo San Antonio. Dimensionamiento de las estructuras para la definición del lecho y orillas. (XXIII Seminario Nacional de Hidráulica e Hidrología. Ibagué, 15 al 17 de agosto de 2018)”**_
+
+En toda actividad minera a cielo abierto se presenta, en diferente grado, la alteración de las condiciones naturales del sistema intervenido, por tanto, es necesario la implementación de planes de mitigación del impacto al medio ambiente para mantener la continuidad y dinámica del recurso hídrico. La empresa Drummond Ltd. realiza actualmente una explotación minera en el sur del departamento del Cesar. El Arroyo San Antonio discurre por la zona de explotación y es necesario estudiar, definir y diseñar un canal de realineamiento para un tramo de la corriente, de tal manera que este sistema de drenaje mantenga sus condiciones y se aseguren las condiciones ambientales tal como se establece en el plan de manejo ambiental propuesto por Drummond Ltd. Con el propósito de preservar las características morfológicas, hidrológicas, hidrográficas y geométricas de la corriente se han realizado los análisis y estudios del realineamiento del Arroyo San Antonio. La concepción meandriforme del nuevo canal permiten simular las condiciones naturales de la corriente para conservar los procesos fluviales. Para asegurar una cierta estabilidad se han realizado análisis, estudios y diseños que han permitido proponer obras sobre el lecho y las orillas del nuevo canal de realineamiento. 
 
 * [Artículo local](https://github.com/rcfdtools/rcfdtools/blob/main/file/report/Paper_SCI_ArroyoSanAntonio_2018.pdf)
 * [SCI Colombia - XXIII Seminario Nacional de Hidráulica e Hidrología](https://sci.org.co/wp-content/uploads/2018/11/Art18.pdf)
+
+##
 
 _**“Method for the hydroclimatological characterization and hydrological assessment of the natural watersheds in the mining area of central Cesar State, Colombia. Mean, maximum and minimum flows. July 2015. ISBN 978-90-824846-0-1”**_
 
