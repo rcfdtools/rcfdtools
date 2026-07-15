@@ -14,21 +14,23 @@
 
 **Paper**: Estudio de amenazas hidráulicas en la llanura de inundación de la cuenca del Río Bogotá - Cundinamarca - Colombia - Suramérica - HydroBogota (2024). ISSN (impreso): 2636-218X • ISSN (en línea): 2636-2171  
 * [Artículo local](https://github.com/rcfdtools/rcfdtools/blob/main/file/report/Paper_CYAP-v7-n2-2-3283_HydroBogota_2024.pdf)
-* [Artículo Revista Intec](https://revistas.intec.edu.do/index.php/cite/article/view/3283/3810)
-* [Artículo Revista Intec - Estadísticas](https://revistas.intec.edu.do/index.php/cite/article/view/3283#nav-statistics)
+* [Artículo Revista Intec - República Dominicana](https://revistas.intec.edu.do/index.php/cite/article/view/3283/3810)
+* [Artículo Revista Intec - República Dominicana - Estadísticas](https://revistas.intec.edu.do/index.php/cite/article/view/3283#nav-statistics)
 * [Artículo Researchgate](https://www.researchgate.net/publication/387680423_Estudio_de_amenazas_hidraulicas_en_la_llanura_de_inundacion_de_la_cuenca_del_rio_Bogota_-_Cundinamarca_-_Colombia)
 * [Artículo Dialnet](https://dialnet.unirioja.es/servlet/articulo?codigo=10016155) 
 
 **Paper**: Balance hidrológico para el llenado de los Tajos Norte y Sur. Transformación lluvia – escorrentía a nivel diario para las cuencas que drenan a los tajos, Modelo GR4J y Modelo HEC-HMS. (XXVIII Congreso Latinoamericano de Hidráulica. Buenos aires, Argentina, septiembre de 2018).  
-https://github.com/rcfdtools/rcfdtools/blob/main/file/report/LADHI_2018_RE_342.pdf
-https://www.ina.gob.ar/congreso_hidraulica/resumenes/LADHI_2018_RE_342.pdf
+* [Artículo local](https://github.com/rcfdtools/rcfdtools/blob/main/file/report/LADHI_2018_RE_342.pdf)
+* [Artículo INA - Argentina](https://www.ina.gob.ar/congreso_hidraulica/resumenes/LADHI_2018_RE_342.pdf)
 
-**● Paper**: Diseño del realineamiento definitivo del Arroyo San Antonio. Dimensionamiento de las estructuras para la definición del lecho y orillas. (XXIII Seminario Nacional de Hidráulica e Hidrología. Ibagué, 15 al 17 de agosto de 2018).  
-https://sci.org.co/wp-content/uploads/2018/11/Art18.pdf
+  **● Paper**: Diseño del realineamiento definitivo del Arroyo San Antonio. Dimensionamiento de las estructuras para la definición del lecho y orillas. (XXIII Seminario Nacional de Hidráulica e Hidrología. Ibagué, 15 al 17 de agosto de 2018).  
+* [Artículo local](https://github.com/rcfdtools/rcfdtools/blob/main/file/report/Paper_SCI_ArroyoSanAntonio_2018.pdf)
+* [SCI Colombia - XXIII Seminario Nacional de Hidráulica e Hidrología](https://sci.org.co/wp-content/uploads/2018/11/Art18.pdf)
 
-**● Paper**: Method for the hydroclimatological characterization and hydrological assessment of the natural watersheds in the mining area of central Cesar State, Colombia. Mean, maximum and minimum flows. July 2015. ISBN 978-90-824846-0-1.  
-https://www.iahr.org/library/infor?pid=34213
-https://www.proceedings.com/content/030/030674webtoc.pdf
+  **● Paper**: Method for the hydroclimatological characterization and hydrological assessment of the natural watersheds in the mining area of central Cesar State, Colombia. Mean, maximum and minimum flows. July 2015. ISBN 978-90-824846-0-1.  
+* [Artículo local](https://github.com/rcfdtools/rcfdtools/blob/main/file/report/Paper_IAHR_Paper_2015.pdf)
+* [International Association for Hydro-Environment Engineering and Research - 36th IAHR World Congress (Hague, 2015)](https://www.iahr.org/library/infor?pid=34213)
+* [International Association for Hydro-Environment Engineering and Research - Proceedings of the 36th IAHR World Congress (Hague, 2015)](https://www.proceedings.com/content/030/030674webtoc.pdf)
 
 
 ## Books
