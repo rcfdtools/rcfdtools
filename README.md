@@ -36,6 +36,8 @@ Research and development (R&D) is a systematic process of investigation and expe
 
 ### Standalone Tools
 
+Standalone tools are software programs or physical devices that operate independently without needing to be connected to a larger network, host application, or internet connection.They are self-contained, meaning they can function offline, hold their own data, and do not rely on an external parent system to perform their specific tasks.
+
 | Resource                                                                                                                                                | Description                                                                                                                                                  |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [🛠️HydroTools](https://github.com/rcfdtools/R.HydroTools/blob/main/README.md)                                                                          | Computational engineering tools for GIS, hydrology and hydraulic analysis.                                                                                   |
