@@ -7,8 +7,6 @@ Hi and welcome to @rcfdtools, check all my projects here in https://github.com/r
 
 Professional courses are specialized, career-oriented educational programs designed to equip you with practical skills and industry credentials. Unlike traditional academic degrees that focus on theory, our courses prioritize hands-on training to make you immediately job-ready or help you advance in your career.
 
-<div align="center">
-
 | Resource                                                                                        | Description                                                                          | Q-Level |
 |:------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------|:-------:|
 | [:mortar_board:️TSIG](https://github.com/rcfdtools/R.TSIG/blob/main/README.md)                  | Geographic information systems applied in engineering (TSIG / PYAS).                 |  B,M,D  |
@@ -19,8 +17,6 @@ Professional courses are specialized, career-oriented educational programs desig
 | [:mortar_board:️LTWB](https://github.com/rcfdtools/R.LTWB/blob/main/README.md)                  | Long-term hydrological water balance for estimating average flows using GIS.         |  B,M,D  |
 | [:mortar_board:️WREM](https://github.com/rcfdtools/R.WREM/blob/main/README.md)                  | Water Resources Engineering and Management.                                          |   B,M   |
 | [:mortar_board:️CTRG](https://github.com/rcfdtools/R.TeachingResearchGuide/blob/main/README.md) | Collaborative teaching and research guide with GitHub (TeachingResearchGuide).       |   B,M   |
-
-</div>
 
 > Applied levels of university qualification: B-Bachelor’s, M-Master’s, D-Doctorate
 
@@ -52,19 +48,12 @@ Standalone tools are software programs or physical devices that operate independ
 
 A web application (web app) is interactive software that runs directly inside a web browser and requires no installation. While traditional websites are primarily designed to display static information, web apps allow you to actively perform tasks and manipulate data.
 
-<div align="center">
-
 | Resource                                                               | Description                                                                   |
 |:-----------------------------------------------------------------------|:------------------------------------------------------------------------------|
 | [:technologist:YnYc](https://rcfdtools.github.io/rcfdtools/tool/ynyc/) | Normal and critical depth in prismatic channels [+info](tool/ynyc/Readme.md). |
 
-</div>
 
 <sub>**APPS & TOOLS & CONTENT DISCLAIMER**: • NO WARRANTY - This content and software is provided by <a href="https://github.com/rcfdtools" target="_blank">github.com/rcfdtools</a> "as is", without any express or implied warranty, including warranties of merchantability, fitness for a particular purpose, or non-infringement. There is no guarantee that the software will be error-free or operate without interruption. • LIMITATION OF LIABILITY - Neither the authors nor copyright holders will be liable for claims or damages arising from the software or its use. You are responsible for determining if the software is appropriate for your use and assume all associated risks, including errors, legal compliance, and data loss. • NO PROFESSIONAL ADVICE - The software provides general information and does not offer professional advice. It should not replace consultation with professional advisors. [Clauses and global license for rcfdtools use.](https://github.com/rcfdtools/rcfdtools/blob/main/LICENSE.md)</sub>
 
-<div align="center">
-
 | [:1st_place_medal: License](LICENSE.md) | [:notebook: References](file/ref/Readme.md)   | [:label: Dictionary](file/ref/Dictionary.md)                          | [:construction_worker: Professional expertise level (PEL)](R.PEL.md) |
 |----------------------------------|-----------------------------------------------|-----------------------------------------------------------------------|----------------------------------------------------------------------|
-
-</div>
