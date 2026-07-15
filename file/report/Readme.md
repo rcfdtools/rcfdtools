@@ -4,7 +4,7 @@
 
 **Paper**: Estudio y análisis de la Precipitación Máxima en 24 horas (pmax24h) en la red de estaciones climatológicas automáticas de Colombia – Suramérica (XXVI Seminario Nacional de Hidráulica e Hidrología, Bogotá D.C., mayo 13 al 15 de 2026). ISSN (en línea): 2619-3787
 * https://github.com/rcfdtools/rcfdtools/blob/main/file/report/Paper_SCI_XXVI_SNHH26_PMax24HAutomColombia_2026.pdf
-* https://github.com/rcfdtools/rcfdtools/blob/main/file/report/Paper_SCI_XXVI_SNHH26_PMax24HAutomColombia_2026_Memoria_Pag138.zip
+* https://github.com/rcfdtools/rcfdtools/blob/main/file/report/Paper_SCI_XXVI_SNHH26_2026_Memorias_Pag138.zip
 * https://github.com/rcfdtools/R.HydroTools/blob/main/tool/PMP/Readme.md
 * https://github.com/rcfdtools/R.HydroTools/blob/main/tool/PMP/dataset/pmax24h_out/paper/Readme.md
 * https://sci.org.co/memorias-xxvi-seminario-nacional-de-hidraulica-e-hidrologia/
