@@ -78,7 +78,7 @@ La presente cartilla metodológica es producto del Convenio Interinstitucional d
 
 _**“Las Micro-centralidades Urbanas de Tocancipá, Directricez para su gestión y consolidación. Máster en Desarrollo Urbano y Territorial. Universidad Politécnica de Cataluña, 2008”**_  
 
-
+En Tocancipá, los asentamientos humanos en el suelo rural suponen una dinámica especial generada por diferentes motivos, como es la cercanía a la capital, la oferta de em leo proveniente del sector industrial y floricultor, el acceso a la vivienda de alquiler a bajo costo que en algunos casos es precaria, el acceso a los servicios educativos municipales, a los diferentes programas sociales y; a la promoción de proyectos específicos de promoción de vivienda de interés social o vivienda protegida. Este fenómeno plasma un conjunto de relaciones entre los diferentes centros poblados, considerados desde la óptica territorial de este estudio, como Microcentralidades con capacidad de crear una red en la cual la supervivencia no sea el factor primordial de sus relaciones, sino que permitan ofrecer un conjunto de servicios para el disfrute y el mejoramiento de la calidad de vida de sus habitantes. El presente estudio pretende plantear un conjunto directrices básicas que puedan ser aplicadas por la administración local, para resolver la problemática de gestión y consolidación de los actuales asentamientos urbanos reconocidos desde el ordenamiento local como Centros Poblados Urbanos, problemática que en gran medida puede estar inducida por la promoción de usos industriales y la densificación de los usos de cultivos bajo invernadero en el contexto municipal.
 
 * [Archivo local](https://github.com/rcfdtools/rcfdtools/blob/main/file/report/Research_MicrocentralidadesUrbanas_Tocancipa_2008.pdf)
 
