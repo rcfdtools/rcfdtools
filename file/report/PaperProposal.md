@@ -6,6 +6,8 @@ An open paper proposal is a preliminary plan submitted to an instructor, directo
 
 ## Key aspects
 
+To present a formal inquiry paper proposal, you document my include the following aspects.
+
 | Key aspect                      | Scope                                                                                                          |
 |:--------------------------------|:---------------------------------------------------------------------------------------------------------------|
 | Proposed Title and Abstract     | A working title and a brief 150–350 word summary of your objective.                                            |
@@ -18,7 +20,9 @@ An open paper proposal is a preliminary plan submitted to an instructor, directo
 
 ## Paper proposals
 
-| Title | Abstract | Status | 
-|:------|:---------|--------|
-|       |          |        |
-|
+The current list may include related rcfdtools product links.
+
+| Title                                                                                                                                                                              | Abstract                                                                                                                                      | Status | 
+|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------|--------|
+| Population and public services demand projections in Colombia - South America<br/><sub>Proyecciones de población y de demanda de servicios públicos en Colombia (Sudamérica)</sub> | May include: PTAB and PTAR by countie with installed capacities.<br/><br/>https://github.com/rcfdtools/R.HydroTools/tree/main/tool/Population | Open   |
+| <sub></sub>                                                                                                                                                                        
