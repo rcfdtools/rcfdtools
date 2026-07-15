@@ -11,7 +11,7 @@ La precipitación máxima en 24 horas (PMax24h), definida como el mayor acumulad
 * [Artículo local](https://github.com/rcfdtools/rcfdtools/blob/main/file/report/Paper_SCI_XXVI_SNHH26_PMax24HAutomColombia_2026.pdf)
 * [Artículo digital interactivo - Documentación](https://github.com/rcfdtools/R.HydroTools/blob/main/tool/PMP/Readme.md)
 * [Artículo digital interactivo](https://github.com/rcfdtools/R.HydroTools/blob/main/tool/PMP/dataset/pmax24h_out/paper/Readme.md)
-* [SCI Colombia - Memoria Congreso](https://github.com/rcfdtools/rcfdtools/blob/main/file/report/PaperSCIXXVISNHH262026MemoriasPag138.zip)
+* [SCI Colombia - Memoria Congreso](https://github.com/rcfdtools/rcfdtools/blob/main/file/report/Paper_SCI_XXVI_SNHH26_2026_Memorias_Pag138.zip)
 * [SCI Colombia - XXVI Seminario Nacional de Hidráulica e Hidrología](https://sci.org.co/memorias-xxvi-seminario-nacional-de-hidraulica-e-hidrologia/)
 
 **“Estudio de amenazas hidráulicas en la llanura de inundación de la cuenca del Río Bogotá - Cundinamarca - Colombia - Suramérica - HydroBogota (2024). ISSN (impreso): 2636-218X • ISSN (en línea): 2636-2171”**
