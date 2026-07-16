@@ -3,12 +3,11 @@
 # 🏷️Icons, abbreviations, file types, and commands
 
 
-
 ## Iconography & Symbols
 
 Global symbols and icons used in the repositories.
 
-* Symbols: ✓Δ°Σβρσθαπ∑√±πØμx●•∫≠≈≤≥´→ꝏ◄ ►'“”²³
+* Symbols: ✓✕Δ°Σβρσθαπ∑√±πØμx●•∫≠≈≤≥´→ꝏ◄ ►'“”²³
 * https://gist.github.com/rxaviers/7360908
 * https://github.com/ikatyang/emoji-cheat-sheet
 

@@ -277,6 +277,7 @@ The exercise _YnYcE0003_ used as a sample in this section , correspond to a trap
 * https://uomustansiriyah.edu.iq/media/lectures/5/5_2021_02_10!04_29_36_PM.pdf
 * https://learn.hydrologystudio.com/hydrology-studio/knowledge-base/nrcs-unit-hydrograph-peak-factors/
 * https://github.com/rcfdtools/R.HydroBogota/blob/main/.model/HEC-RAS.md
+* https://www.fhwa.dot.gov/engineering/hydraulics/software/hy8/
 * [YnYc / Circular channel (juanrodace)](https://deep-pulse-flow.base44.app/hydraulic) 
 
 
