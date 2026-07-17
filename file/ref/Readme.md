@@ -4,6 +4,7 @@
 
 :blue_heart:Reporta referencias adicionales a través de este [hilo de discusión](https://github.com/rcfdtools/rcfdtools/discussions/1).
 
+> Nos encontramos en proceso de adaptación de nuestras referencias a las normas APA, encuentra más información [aquí](https://normas-apa.org/referencias/). Referenciar como: información del autor o autores. (Fecha). Título. Fuente. 
 
 ## Geographic, Hydraulic Resources & Tools
 
@@ -151,9 +152,7 @@ The International Organization for Standardization (ISO) is an independent, non-
 
 #
 
-> Nos encontramos en proceso de adaptación de nuestras referencias a las normas APA, encuentra más información [aquí](https://normas-apa.org/referencias/).
-> 
-> Referenciar como: información del autor o autores. (Fecha). Título. Fuente. 
+| [:house: Home](../../README.md) |
+|---------------------------------|
 
-
-
+[^1]: 
