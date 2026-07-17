@@ -1,4 +1,4 @@
-<div align="center"><img alt="rcfdtools" src="file/graph/rcfdtools.svg" width="260px"><br></div>
+<div align="center"><img alt="rcfdtools" src="../../file/graph/rcfdtools.svg" width="260px"><br></div>
 
 # :mortar_board:Professional expertise levels in academic and/or research content development - PEL 
 <sub>Niveles profesionales en desarrollo de contenidos académicos y/o de investigación</sub>
@@ -18,3 +18,11 @@ A course, research project, section, or activity can be classified into differen
 ## References
 
 * https://scienceofexpertise.com/blog/area-of-expertise
+
+#
+
+| [:house: Home](https://github.com/rcfdtools) |
+|----------------------------------------------|
+
+[^1]: 
+
