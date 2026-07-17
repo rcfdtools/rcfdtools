@@ -1,6 +1,6 @@
 <div align="center"><img alt="rcfdtools" src="../graph/rcfdtools.svg" width="260px"><br></div>
 
-# 🏷️Icons, abbreviations, file types, and commands
+# 🏷️Global Dictionary: Icons, abbreviations, file types, and commands
 
 
 ## Iconography & Symbols
