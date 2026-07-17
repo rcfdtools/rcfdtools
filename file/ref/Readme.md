@@ -85,6 +85,8 @@ Python is a high-level, interpreted programming language known for its clean, En
 
 ## Organización Meteorológica Mundial - OMM, World Meteorological Organization - WMO
 
+The World Meteorological Organization (WMO) is a specialized agency of the United Nations that serves as the international authority on weather, climate, water, and the Earth's atmosphere. Headquartered in Geneva, Switzerland, it coordinates global scientific collaboration to improve disaster warnings, climate resilience, and public safety.
+
 | Referencia                                                              | Alcance                                                                                                                                                               |  Versión  |                                               Archivo local                                               |
 |-------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------:|:---------------------------------------------------------------------------------------------------------:|
 | [OMM-N°0008](https://library.wmo.int/?lvl=notice_display&id=5280)       | Guía de Instrumentos y Métodos de Observación Meteorológicos                                                                                                          |   2019    |             [:bookmark_tabs:](WMO.0008GuiaInstrumentoMetodoObservacionMeteorologico.2019.pdf)             |
@@ -114,6 +116,8 @@ Python is a high-level, interpreted programming language known for its clean, En
 
 ## Instituto de Hidrología, Meteorología y Estudios Ambientales - IDEAM 
 
+El Instituto de Hidrología, Meteorología y Estudios Ambientales (IDEAM) es la entidad pública de Colombia adscrita al Ministerio de Ambiente y Desarrollo Sostenible. Su función es generar, analizar y difundir información técnica y científica sobre el clima, el agua, el suelo y los ecosistemas.
+
 | Referencia                        | Alcance                                                                                     |  Versión  |                                  Archivo local                                   |
 |-----------------------------------|---------------------------------------------------------------------------------------------|:---------:|:--------------------------------------------------------------------------------:|
 | [IDEAM](http://www.ideam.gov.co/) | Guía para el monitoreo de vertimientos                                                      |           |              [:bookmark_tabs:](IDEAM.GuiaMonitoreoVertimiento.pdf)               |
@@ -126,6 +130,8 @@ Python is a high-level, interpreted programming language known for its clean, En
 
 ## Instituto Geográfico Agustín Codazzi - IGAC
 
+El Instituto Geográfico Agustín Codazzi (IGAC) es la entidad del gobierno colombiano encargada de producir el mapa oficial y la cartografía básica del país. Además, funge como la autoridad nacional en temas geográficos, cartográficos, agrológicos, geodésicos y catastrales.
+
 | Referencia                                                  | Alcance                                                                                                                                             |  Versión  |                  Archivo local                   |
 |-------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|:---------:|:------------------------------------------------:|
 | [IGAC - Resolución 1562 año 2018](https://www.igac.gov.co/) | Por medio de la cual se definen los valores que representan la calidad de los puntos medidos en redes geodésicas y levantamientos geodésicos        |   2018    | [:bookmark_tabs:](Resolucion1562de2018.IGAC.pdf) |
@@ -134,6 +140,8 @@ Python is a high-level, interpreted programming language known for its clean, En
 
 
 ## International Organization for Standardization - ISO
+
+The International Organization for Standardization (ISO) is an independent, non-governmental global network of national standards bodies. Headquartered in Geneva, Switzerland, it develops and publishes voluntary international standards that ensure products, services, and systems are safe, reliable, and of high quality.
 
 | Referencia                                                              | Alcance                                                                                                                                                                                                                                                                                                                  |  Versión   | Archivo local |
 |-------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------:|:-------------:|
