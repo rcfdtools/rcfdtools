@@ -51,7 +51,7 @@ Global symbols and icons used in the repositories.
 |  👥   | `:busts_in_silhouette:`        | Grupal activitie                                        |
 |   ⚡   | `:zap:`                        | Code or script                                          |
 |  🪝   | `:hook:`                       | Hyperkink                                               |
-|  🥇   | `:1st_place_medal:`            | Required activitie to get certificate                   |
+|  🥇   | `:1st_place_medal:`            | Required activitie to get certificate. License          |
 |  🚦   | `:vertical_traffic_light:`     | Network Analyst                                         |
 |  ⚙️   | `:gear:`                       | Settings                                                |
 |   ◄   |                                | Previous activitie                                      |
