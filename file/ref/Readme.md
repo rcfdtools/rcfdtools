@@ -2,6 +2,8 @@
 
 # 📓References
 
+:blue_heart:Reporta referencias adicionales a través de este [hilo de discusión](https://github.com/rcfdtools/rcfdtools/discussions/1).
+
 
 ## Hydraulic resources
 
@@ -59,8 +61,6 @@
 
 
 ## Enlaces generales
-
-:blue_heart:Reporta referencias adicionales a través de este [hilo de discusión](https://github.com/rcfdtools/R.HydroTools/discussions/27).
 
 | Referencia APA / Archivo                                                                                                                                                                                                                                                                                                                                                                                                                                             | By                                         |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------|
