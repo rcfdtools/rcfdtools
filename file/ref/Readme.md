@@ -5,16 +5,15 @@
 :blue_heart:Reporta referencias adicionales a través de este [hilo de discusión](https://github.com/rcfdtools/rcfdtools/discussions/1).
 
 
-## Hydraulic Resources
+## Geographic & Hydraulic Resources
 
 Hydraulic resources, often synonymous with water resources, refer to the available supplies of water in a region that can be harnessed for human, ecological, and industrial use. This includes surface water, groundwater, and renewable energy generated from the natural flow of water.
 
-| Link                                                                                                                                                        | By                                         |
-|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------|
-| [Global administrative maps (GADM) and data ](https://gadm.org/index.html)                                                                                              | [rcfdtools](https://github.com/rcdfdtools) |
-| [NASA Grace](https://nasagrace.unl.edu/Default.aspx) - Groundwater and Soil Moisture Conditions from GRACE-FO Data Assimilation for the Contiguous U.S. and Global Land | [rcfdtools](https://github.com/rcdfdtools) |
-| [NASA Grace](https://nasagrace.unl.edu/Default.aspx) - Groundwater and Soil Moisture Conditions from GRACE-FO Data Assimilation for the Contiguous U.S. and Global Land | [rcfdtools](https://github.com/rcdfdtools) |
-| [HydroSHEDS](https://www.hydrosheds.org/about) - Provides seamless hydrographic data products including catchment boundaries, river networks, and lakes.                | [rcfdtools](https://github.com/rcdfdtools) |
+* [Global administrative maps and data ](https://gadm.org/index.html) - Global administrative maps (GADM) and data
+* [NASA Grace](https://nasagrace.unl.edu/Default.aspx) - Groundwater and Soil Moisture Conditions from GRACE-FO Data Assimilation for the Contiguous U.S. and Global Land
+* [NASA Grace](https://nasagrace.unl.edu/Default.aspx) - Groundwater and Soil Moisture Conditions from GRACE-FO Data Assimilation for the Contiguous U.S. and Global Land
+* [HydroSHEDS](https://www.hydrosheds.org/about) - Provides seamless hydrographic data products including catchment boundaries, river networks, and lakes
+* [AGC - The Geology of Colombia](https://www2.sgc.gov.co/MGC/Paginas/agc_500K2020.aspx) - Servicio Geológico de Colombia (SGC)
 
 
 ## Python and Computer Science
