@@ -1,6 +1,6 @@
 <div align="center"><img alt="rcfdtools" src="file/graph/rcfdtools.svg" width="260px"><br></div>
  
-# Cláusulas y licencia global de uso rcfdtools
+# 🥇Cláusulas y licencia global de uso rcfdtools
 
 Al consultar, descargar, descomprimir, instalar, usar o explorar las herramientas, scripts y guías de desarrollo contenidas en este repositorio, sus archivos y documentación, usted como empresa, individuo, investigador, estudiante, profesional, empleado o persona, acepta los siguientes términos de uso:
 
@@ -15,6 +15,12 @@ Al consultar, descargar, descomprimir, instalar, usar o explorar las herramienta
 * No se permite la privatización, acaparamiento, venta o distribución comercial de este repositorio, software o del proyecto _R.HydroTools_, ni ninguno de sus componentes, herramientas, memorias de cálculo, scripts, algoritmos y demás herramientas complementarias que se encuentran aquí publicadas o dentro de paquetes de instalación o liberaciones.
 
 
-##
+#
 
 <sub>**APPS & TOOLS & CONTENT DISCLAIMER**: • NO WARRANTY - This content and software is provided by <a href="https://github.com/rcfdtools" target="_blank">github.com/rcfdtools</a> "as is", without any express or implied warranty, including warranties of merchantability, fitness for a particular purpose, or non-infringement. There is no guarantee that the software will be error-free or operate without interruption. • LIMITATION OF LIABILITY - Neither the authors nor copyright holders will be liable for claims or damages arising from the software or its use. You are responsible for determining if the software is appropriate for your use and assume all associated risks, including errors, legal compliance, and data loss. • NO PROFESSIONAL ADVICE - The software provides general information and does not offer professional advice. It should not replace consultation with professional advisors.</sub>
+
+| [:house: Home](https://github.com/rcfdtools) |
+|----------------------------------------------|
+
+[^1]: 
+
