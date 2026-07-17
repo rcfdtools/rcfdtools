@@ -1,11 +1,11 @@
 <div align="center"><img alt="rcfdtools" src="../graph/rcfdtools.svg" width="260px"><br></div>
 
-# 📓References
+# 📓Global References
 
 :blue_heart:Reporta referencias adicionales a través de este [hilo de discusión](https://github.com/rcfdtools/rcfdtools/discussions/1).
 
 
-## Geographic & Hydraulic Resources
+## Geographic, Hydraulic Resources & Tools
 
 Hydraulic resources, often synonymous with water resources, refer to the available supplies of water in a region that can be harnessed for human, ecological, and industrial use. This includes surface water, groundwater, and renewable energy generated from the natural flow of water.
 
@@ -13,7 +13,8 @@ Hydraulic resources, often synonymous with water resources, refer to the availab
 * [NASA Grace](https://nasagrace.unl.edu/Default.aspx) - Groundwater and Soil Moisture Conditions from GRACE-FO Data Assimilation for the Contiguous U.S. and Global Land
 * [NASA Grace](https://nasagrace.unl.edu/Default.aspx) - Groundwater and Soil Moisture Conditions from GRACE-FO Data Assimilation for the Contiguous U.S. and Global Land
 * [HydroSHEDS](https://www.hydrosheds.org/about) - Provides seamless hydrographic data products including catchment boundaries, river networks, and lakes
-* [AGC - The Geology of Colombia](https://www2.sgc.gov.co/MGC/Paginas/agc_500K2020.aspx) - Servicio Geológico de Colombia (SGC)
+* [AGC The Geology of Colombia](https://www2.sgc.gov.co/MGC/Paginas/agc_500K2020.aspx) - Servicio Geológico de Colombia (SGC)
+* [USGS Scoops3D](https://www.usgs.gov/software/scoops3d) - evaluates slope stability throughout a digital landscape represented by a digital elevation model (DEM). The program uses a three-dimensional (3D) method of columns limit-equilibrium analysis to assess the stability of many potential landslides (typically millions) within a user-defined size range. For each potential landslide, Scoops3D assesses the stability of a rotational, spherical slip surface encompassing many DEM cells. It provides the least-stable potential landslide for each DEM cell in the landscape, as well the associated volumes and (or) areas.
 
 
 ## Python and Computer Science
