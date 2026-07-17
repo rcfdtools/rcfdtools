@@ -7,9 +7,7 @@
 
 Global symbols and icons used in the repositories.
 
-* Symbols: ✓✕Δ°Σβρσθαπ∑√±πØμx●•∫≠≈≤≥´→ꝏ◄ ►'“”²³
-* https://gist.github.com/rxaviers/7360908
-* https://github.com/ikatyang/emoji-cheat-sheet
+**Symbols**: ✓✕Δ°Σβρσθαπ∑√±πØμx●•∫≠≈≤≥´→ꝏ◄ ►'“”²³
 
 | Icon  | Markdown                       | Description                                             | 
 |:-----:|:-------------------------------|:--------------------------------------------------------|
@@ -58,6 +56,9 @@ Global symbols and icons used in the repositories.
 |  ⚙️   | `:gear:`                       | Settings                                                |
 |   ◄   |                                | Previous activitie                                      |
 |   ►   |                                | Next activitie                                          |
+
+* https://gist.github.com/rxaviers/7360908
+* https://github.com/ikatyang/emoji-cheat-sheet
 
 
 ## Abbreviations & definitions
