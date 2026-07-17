@@ -5,7 +5,9 @@
 :blue_heart:Reporta referencias adicionales a través de este [hilo de discusión](https://github.com/rcfdtools/rcfdtools/discussions/1).
 
 
-## Hydraulic resources
+## Hydraulic Resources
+
+Hydraulic resources, often synonymous with water resources, refer to the available supplies of water in a region that can be harnessed for human, ecological, and industrial use. This includes surface water, groundwater, and renewable energy generated from the natural flow of water.
 
 | Link                                                                                                                                                        | By                                         |
 |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------|
@@ -15,7 +17,9 @@
 | [HydroSHEDS](https://www.hydrosheds.org/about) - Provides seamless hydrographic data products including catchment boundaries, river networks, and lakes.                | [rcfdtools](https://github.com/rcdfdtools) |
 
 
-## Python y Computer Science
+## Python and Computer Science
+
+Python is a high-level, interpreted programming language known for its clean, English-like syntax that prioritizes readability. Created by Guido van Rossum and released in 1991, it is widely used in computer science for machine learning, data analysis, web development, and task automation.
 
 * [Sweigart, Al. Automate the Boring Stuff with Python, 2nd Edition: Practical Programming for Total Beginners 2nd Edition.](https://automatetheboringstuff.com/)
 * [Sweigart, Al. The Big Book of Small Python Projects: 81 Easy Practice Programs.](https://inventwithpython.com/bigbookpython/)
