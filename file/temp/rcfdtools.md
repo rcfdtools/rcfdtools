@@ -3,6 +3,7 @@
 
 ## Pending task
 
+* Add QGIS most used process to the Global Dictionary 
 * Send PMax24hr paper to ECI admin
 * Convert all /temp/repositorie.txt to .md file
 * TSIG - Move quizzes to Google Forms (reports by student repositorie link)
@@ -12,7 +13,6 @@
 * Sample API datos.gov.co
 * Scripts .py SIGE copiar a TSIG. Script para categorizar nombres de drenajes o vias
 * HydroTools - HSLB & HSAP Labs spreadsheets
-* Old TSIG references into rcfdtools/file/ref
 * Concentration time (TC): revisar unidades >>> TC_California = 0.0195*(("10_85_len"/0.3048)^0.77/("10_85_slo"^0.385))
 
 
@@ -30,7 +30,7 @@
 ## Links
 
 * Markdown License badges https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
-* W11: https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewiso
+* W11 download https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewiso
 * https://www.qrcode-monkey.com/
 * https://www.qr-code-generator.com/
 * Export a list of all Teams members as a CSV file https://www.youtube.com/watch?v=baYxnNdcKPU
