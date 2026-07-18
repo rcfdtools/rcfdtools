@@ -37,3 +37,6 @@
 * Padlet
 * Run Uncensored AI from USB and No Internet, No Limits https://www.youtube.com/watch?v=cqrMfO6AZRU
 
+
+https://github.com/rcfdtools/rcfdtools/blob/main/file/report/PaperProposal.md
+| **“”**<br/><sub></sub> | Requires:<br/>• | Open   |
