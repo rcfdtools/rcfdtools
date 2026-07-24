@@ -42,4 +42,34 @@ https://github.com/rcfdtools/rcfdtools/blob/main/file/report/PaperProposal.md
 | **“”**<br/><sub></sub> | Requires:<br/>• | Open   |
 
 
+# Requerimientos Aulas
+
+María del Mar, buenas tardes.
+
+Para el desarrollo de los cursos del periodo 2026-02 que inician el lunes 27 de julio, favor solicitar a la Dirección de Tecnología Osiris la instalación de las siguientes herramientas en las aulas: 
+
+Dibujo Asistido por Computador - DAPC / Aulas D-306-E, C4-201 y D-205
+
+* Notepad++ (editor de texto): https://notepad-plus-plus.org/
+* QGIS 3.44.12: https://qgis.org/
+* QGIS 4.2.0 o superior: https://qgis.org/
+* Autodesk AutoCAD 2027 o superior (English version): https://www.autodesk.com/products/autocad
+* Autodesk Revit 2027 o superior (English version): https://www.autodesk.com/products/revit
+* 7-Zip File Manager (descompresor de archivos): https://www.7-zip.org/
+
+Principios y Aplicaciones de SIG - PYAS / Aulas D-203 y E-204
+
+* Notepad++ (editor de texto): https://notepad-plus-plus.org/
+* QGIS 3.44.12: https://qgis.org/
+* QGIS 4.2.0: https://qgis.org/
+* HEC-HMS 4.13: https://www.hec.usace.army.mil/software/hec-hms/downloads.aspx
+* HEC-DSSVue HEC-DSSVue 3.4.18: https://www.hec.usace.army.mil/software/hec-dssvue/downloads.aspx
+* HEC-RAS 7.0.1: https://www.hec.usace.army.mil/software/hec-ras/download.aspx
+* 7-Zip File Manager (descompresor de archivos): https://www.7-zip.org/
+
+
+
+
+
+
 
