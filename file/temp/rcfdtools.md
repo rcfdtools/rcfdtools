@@ -3,8 +3,8 @@
 
 ## Pending task
 
-* Add QGIS most used process to the Global Dictionary 
 * Send PMax24hr paper to ECI admin
+* Add QGIS most used process to the Global Dictionary 
 * Convert all /temp/repositorie.txt to .md file
 * TSIG - Move quizzes to Google Forms (reports by student repositorie link)
 * DAPC - Move quizzes to Google Forms (files and reports by e-mail)
