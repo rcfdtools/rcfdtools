@@ -6,6 +6,7 @@
     <mapping directory="$PROJECT_DIR$/../R.HCMC" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../R.HydroTools" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../R.TSIG" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../R.TeachingResearchGuide" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../R.WREM" vcs="Git" />
   </component>
 </project>
