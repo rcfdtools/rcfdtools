@@ -48,9 +48,9 @@ HCMC
 * Modelación hidráulica 1D y 2D de cauces sinuosos artificiales con HEC-RAS (12 horas / 2026-02 / martes 06:30am-08:30am)
 
 WREM
-* Sistemas de información geográfica en ingeniería y gestión de recursos hidráulicos (10 horas / 2026-02 / martes 06:30am-08:30am)
-* Hidrología computacional en ingeniería y gestión de recursos hidráulicos (10 horas / 2026-02 / martes 06:30am-08:30am)
-* Hidráulica computacional de canales en ingeniería y gestión de recursos hidráulicos (10 horas / 2026-02 / martes 06:30am-08:30am)
+* Sistemas de información geográfica en ingeniería y gestión de recursos hidráulicos (10 horas / 2027-i)
+* Hidrología computacional en ingeniería y gestión de recursos hidráulicos (10 horas / 2027-i)
+* Hidráulica computacional de canales en ingeniería y gestión de recursos hidráulicos (10 horas / 2027-i)
 
 IAMB
 * Sistemas de información geográfica aplicados a estudios ambientales (12 horas / 2027-01 / horario IAMB)
