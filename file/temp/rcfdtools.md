@@ -12,6 +12,7 @@
 * Scripts .py SIGE copiar a TSIG. Script para categorizar nombres de drenajes o vias
 * HydroTools - HSLB & HSAP Labs spreadsheets
 * Concentration time (TC): revisar unidades >>> TC_California = 0.0195*(("10_85_len"/0.3048)^0.77/("10_85_slo"^0.385))
+* qgis how to set environment path in a file
 
 
 ## Various
