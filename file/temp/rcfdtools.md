@@ -3,7 +3,6 @@
 
 ## Pending task
 
-* Convert all /temp/repositories.txt to .md file
 * Add QGIS most used process to the Global Dictionary 
 * TSIG - Move quizzes to Google Forms (reports by student repositorie link)
 * DAPC - Move quizzes to Google Forms (files and reports by e-mail)
@@ -43,12 +42,12 @@ https://github.com/rcfdtools/rcfdtools/blob/main/file/report/PaperProposal.md
 
 ## Short courses proposal
 
-* Sistemas de información geográfica aplicados a estudios ambientales (12 horas)
-* Sistemas de información geográfica en ingeniería y gestión de recursos hidráulicos (10 horas)
-* Hidrología computacional en ingeniería y gestión de recursos hidráulicos (10 horas)
-* Hidráulica computacional de canales en ingeniería y gestión de recursos hidráulicos (10 horas)
-* Análisis y diseño geométrico e hidráulico de cauces sinuosos artificiales con HEC-HMS y HEC-RAS (12 horas)
-* Modelación hidráulica 1D y 2D de cauces sinuosos artificiales con HEC-RAS (12 horas)
+* Sistemas de información geográfica en ingeniería y gestión de recursos hidráulicos (10 horas / 2026-02 / martes 06:30am-08:30am)
+* Hidrología computacional en ingeniería y gestión de recursos hidráulicos (10 horas / 2026-02 / martes 06:30am-08:30am)
+* Hidráulica computacional de canales en ingeniería y gestión de recursos hidráulicos (10 horas / 2026-02 / martes 06:30am-08:30am)
+* Análisis y diseño geométrico e hidráulico de cauces sinuosos artificiales con HEC-HMS y HEC-RAS (12 horas / 2026-02 / martes 06:30am-08:30am)
+* Modelación hidráulica 1D y 2D de cauces sinuosos artificiales con HEC-RAS (12 horas / 2026-02 / martes 06:30am-08:30am)
+* Sistemas de información geográfica aplicados a estudios ambientales (12 horas / 2027-01 / horario IAMB)
 
 
 
