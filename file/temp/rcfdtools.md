@@ -34,6 +34,7 @@
 * Export a list of all Teams members as a CSV file https://www.youtube.com/watch?v=baYxnNdcKPU
 * Padlet
 * Run Uncensored AI from USB and No Internet, No Limits https://www.youtube.com/watch?v=cqrMfO6AZRU
+* Make Any Program Portable on Windows 11: https://www.youtube.com/watch?v=8S1L0HugWOU
 
 
 https://github.com/rcfdtools/rcfdtools/blob/main/file/report/PaperProposal.md
@@ -42,13 +43,16 @@ https://github.com/rcfdtools/rcfdtools/blob/main/file/report/PaperProposal.md
 
 ## Short courses proposal
 
+HCMC
 * Análisis y diseño geométrico e hidráulico de cauces sinuosos artificiales con HEC-HMS y HEC-RAS (12 horas / 2026-02 / martes 06:30am-08:30am)
 * Modelación hidráulica 1D y 2D de cauces sinuosos artificiales con HEC-RAS (12 horas / 2026-02 / martes 06:30am-08:30am)
 
+WREM
 * Sistemas de información geográfica en ingeniería y gestión de recursos hidráulicos (10 horas / 2026-02 / martes 06:30am-08:30am)
 * Hidrología computacional en ingeniería y gestión de recursos hidráulicos (10 horas / 2026-02 / martes 06:30am-08:30am)
 * Hidráulica computacional de canales en ingeniería y gestión de recursos hidráulicos (10 horas / 2026-02 / martes 06:30am-08:30am)
 
+IAMB
 * Sistemas de información geográfica aplicados a estudios ambientales (12 horas / 2027-01 / horario IAMB)
 
 
