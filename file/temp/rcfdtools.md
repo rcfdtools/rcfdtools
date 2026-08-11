@@ -36,6 +36,8 @@
 * Padlet
 * Run Uncensored AI from USB and No Internet, No Limits https://www.youtube.com/watch?v=cqrMfO6AZRU
 * Make Any Program Portable on Windows 11: https://www.youtube.com/watch?v=8S1L0HugWOU
+* https://banderas-locales-de-america-e-iberia.fandom.com/es/wiki/Banderas_Municipales_de_Colombia#Amazonas
+* https://www.dane.gov.co/files/censo2005/provincias/subregiones.pdf
 
 
 https://github.com/rcfdtools/rcfdtools/blob/main/file/report/PaperProposal.md
