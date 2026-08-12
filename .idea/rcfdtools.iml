@@ -6,7 +6,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="R.DAPC" />
     <orderEntry type="module" module-name="R.TSIG" />
-    <orderEntry type="module" module-name="R.HydroTools" />
     <orderEntry type="module" module-name="R.WREM" />
     <orderEntry type="module" module-name="R.HCMC" />
     <orderEntry type="module" module-name="R.TeachingResearchGuide" />
