@@ -48,7 +48,7 @@ Global symbols and icons used in the repositories.
 |    ✒️️    | `:black_nib:`                                     | Quiz                                                    |
 |    📐    | `:triangular_ruler:`                              | Project activitie                                       |
 |    📏    | `:straight_ruler:`                                | Layout or CAD drawing                                   |
-|    👥    | `:bust_in_silhouette:`                            | Individual ativitie                                     |
+|    👤    | `:bust_in_silhouette:`                            | Individual ativitie                                     |
 |    👥    | `:busts_in_silhouette:`                           | Grupal activitie                                        |
 |    ⚡    | `:zap:`                                           | Code or script                                          |
 |    🪝    | `:hook:`                                          | Hyperkink                                               |
