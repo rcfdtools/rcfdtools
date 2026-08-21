@@ -28,6 +28,8 @@
 
 ## Links
 
+* https://www.colombiaenmapas.gov.co/inicio
+* Base Catastral Pública del Gestor IGAC en Formato Geopackage 06-2026 https://datos-abiertos-igac-igac-oit.hub.arcgis.com/content/27e4473ca51c4c4085d92ace2fc87f2c/about
 * Markdown License badges https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
 * W11 download https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewiso
 * https://www.qrcode-monkey.com/
