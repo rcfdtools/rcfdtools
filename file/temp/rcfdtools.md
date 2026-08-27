@@ -29,7 +29,7 @@
 ## Links
 
 * Markdown License badges https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
-* W11 download https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewiso
+* W11 insider download https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewiso
 * https://www.qrcode-monkey.com/
 * https://www.qr-code-generator.com/
 * Export a list of all Teams members as a CSV file https://www.youtube.com/watch?v=baYxnNdcKPU
