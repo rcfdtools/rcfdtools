@@ -3,16 +3,15 @@
 
 ## Pending task
 
-* Add QGIS most used process to the Global Dictionary 
-* TSIG - Move quizzes to Google Forms (reports by student repositorie link)
-* DAPC - Move quizzes to Google Forms (files and reports by e-mail)
-* DAPC - Check clausules in quizzes
+* GISMobile / shapefile index, check counties without data
+* rcfdtools / Add QGIS most used process to the Global Dictionary 
+* TSIG / Move quizzes to Google Forms (reports by student repositorie link)
+* DAPC / Move quizzes to Google Forms (files and reports by e-mail)
+* DAPC / Check clausules in quizzes
 * TSIG / DAPC - Export all Forms quizzes to pdf with right answers
-* Sample API datos.gov.co
 * Scripts .py SIGE copiar a TSIG. Script para categorizar nombres de drenajes o vias
-* HydroTools - HSLB & HSAP Labs spreadsheets
-* Concentration time (TC): revisar unidades >>> TC_California = 0.0195*(("10_85_len"/0.3048)^0.77/("10_85_slo"^0.385))
-* qgis how to set environment path in a file
+* HydroTools / HSLB & HSAP Labs spreadsheets
+* TSIG / Concentration time (TC): revisar unidades >>> TC_California = 0.0195*(("10_85_len"/0.3048)^0.77/("10_85_slo"^0.385))
 
 
 ## Various
