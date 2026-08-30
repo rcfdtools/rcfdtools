@@ -3,7 +3,9 @@
 
 ## Pending task
 
-* GISMobile / shapefile index, check counties without data
+* GISMobile / MiniMAP
+* GISMobile / .poi refactor
+* GISMobile / Check counties without data
 * rcfdtools / Add QGIS most used process to the Global Dictionary 
 * TSIG / Move quizzes to Google Forms (reports by student repositorie link)
 * DAPC / Move quizzes to Google Forms (files and reports by e-mail)
