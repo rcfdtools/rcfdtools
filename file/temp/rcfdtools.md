@@ -62,3 +62,10 @@ IAMB
 
 
 
+## Refactor a folder in GitHUB
+
+1. Go to your repository on the GitHub Website.
+2. Press the . (period) key on your keyboard to open the web-based GitHub.dev code editor.
+3. Locate the folder you want to refactor in the left sidebar file tree.
+4. Right-click the folder, select Rename, and type the new name.
+5. Go to the Source Control tab (the-branch/commit icon on the left), stage the changes, type a commit message, and click Commit & Push.
