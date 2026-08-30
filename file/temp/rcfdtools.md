@@ -5,7 +5,7 @@
 
 * GISMobile / MiniMAP
 * GISMobile / .poi refactor
-* GISMobile / Check counties without data
+* GISMobile / Check counties without data 
 * rcfdtools / Add QGIS most used process to the Global Dictionary 
 * TSIG / Move quizzes to Google Forms (reports by student repositorie link)
 * DAPC / Move quizzes to Google Forms (files and reports by e-mail)
@@ -14,6 +14,15 @@
 * Scripts .py SIGE copiar a TSIG. Script para categorizar nombres de drenajes o vias
 * HydroTools / HSLB & HSAP Labs spreadsheets
 * TSIG / Concentration time (TC): revisar unidades >>> TC_California = 0.0195*(("10_85_len"/0.3048)^0.77/("10_85_slo"^0.385))
+
+
+MiniMAP
+
+* Map Location - State: MapLocationState
+* Map Location - County: MapLocaltionCounty
+* Map Location - Country: MapLocaltionCountry
+* Map Location - World: MapLocaltionWorld
+
 
 
 ## Various
