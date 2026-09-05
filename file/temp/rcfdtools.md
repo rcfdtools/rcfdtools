@@ -3,7 +3,7 @@
 
 ## Pending task
 
-
+* Dec 27 - Jan 16 $1.978.850
 * rcfdtools / Add QGIS most used process to the Global Dictionary 
 * TSIG / Move quizzes to Google Forms (reports by student repositorie link)
 * DAPC / Move quizzes to Google Forms (files and reports by e-mail)
