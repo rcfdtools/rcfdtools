@@ -6,7 +6,6 @@ https://services8.arcgis.com/SxnAJh3m3lmltMfp/ArcGIS/rest/services
 
 ## Pending task
 
-* Create TSIG Q8H quiz and remove layouts from Q3H
 * Dec 27 - Jan 16 $1.978.850
 * rcfdtools / Add QGIS most used process to the Global Dictionary 
 * TSIG / Move quizzes to Google Forms (reports by student repositorie link)
