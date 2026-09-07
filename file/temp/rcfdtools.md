@@ -4,6 +4,7 @@ https://services8.arcgis.com/SxnAJh3m3lmltMfp/ArcGIS/rest/services
 05607 https://dsitelretiro-alcretiro.hub.arcgis.com/datasets/e4a313ef008749c3a110d84a7c63aa7e/about
 Vaupés https://hub.arcgis.com/datasets/4263d357365c450186e345e4d977c4bc/about
 Terreno de Predio Urbano en Formato Shape 07-2026 https://datos.icde.gov.co/datasets/b99e5959b1d74d54a946d23893c068e6/about
+Terreno de Predio Rural en Formato Shape 07-2026 https://datos.icde.gov.co/datasets/1ab5d2d687534c8d85d7586985cac2cd
 https://data-agenciadetierras.opendata.arcgis.com/search
 
 
