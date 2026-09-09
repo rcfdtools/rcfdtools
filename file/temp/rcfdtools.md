@@ -91,6 +91,12 @@ esri2geojson https://geodatos.antioquia.gov.co/server/rest/services/Catastro/BCG
 
 esri2geojson https://portalidem.metropol.gov.co/server/rest/services/DISTRITO_MEDELLIN_CATASTRO/MapServer/6 DistritoMedellinCatastro_Predio_Urbano_202608.geojson
 
+esri2geojson https://miciudad.barranquilla.gov.co/gis/rest/services/catastro/datosabiertos/MapServer/205 08001_Lot_202608.geojson
+esri2geojson https://miciudad.barranquilla.gov.co/gis/rest/services/catastro/datosabiertos/MapServer/310 08001_Building_202608.geojson
+esri2geojson https://miciudad.barranquilla.gov.co/gis/rest/services/catastro/datosabiertos/MapServer/320 08001_Block_202608.geojson
+esri2geojson https://miciudad.barranquilla.gov.co/gis/rest/services/catastro/datosabiertos/MapServer/105 08001_Nomenclature_202608.geojson
+esri2geojson https://miciudad.barranquilla.gov.co/gis/rest/services/catastro/datosabiertos/MapServer/110 08001_Nomenclature_road_202608.geojson
+
 
 
 C:\Python314\python ideam_bulk_download.py --lista estaciones.txt --variable PRECIPITACION --inicio 1900-01-01 --fin 2025-12-31
