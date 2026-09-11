@@ -8,6 +8,8 @@ https://data-agenciadetierras.opendata.arcgis.com/search
 
 ## Pending task
 
+* XYZ simple
+* OSMDownloader, QuickOSM, https://download.geofabrik.de/south-america.html, https://download.geofabrik.de/south-america/colombia-latest-internal-free.gpkg.zip
 * Dec 27 - Jan 16 $1.978.850
 * rcfdtools / Add QGIS most used process to the Global Dictionary 
 * TSIG / Move quizzes to Google Forms (reports by student repositorie link)
