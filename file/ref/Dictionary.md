@@ -49,7 +49,7 @@ Global symbols and icons used in the repositories.
 |    📐    | `:triangular_ruler:`                              | Project activitie                                       |
 |    📏    | `:straight_ruler:`                                | Layout or CAD drawing                                   |
 |    👤    | `:bust_in_silhouette:`                            | Individual ativitie                                     |
-|    👥    | `:busts_in_silhouette:`                           | Grupal activitie                                        |
+|    👥    | `:busts_in_silhouette:`                           | Grupal activitie. Population                            |
 |    ⚡    | `:zap:`                                           | Code or script                                          |
 |    🪝    | `:hook:`                                          | Hyperkink                                               |
 |    🥇    | `:1st_place_medal:`                               | Required activitie to get certificate. License          |
