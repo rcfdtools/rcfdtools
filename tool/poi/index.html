@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Shapefile Map</title>
-    <!-- Mapbox GL JS CSS -->
+    <meta charset="utf-8">
+    <title>Mapbox Point Layer from GitHub</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <!-- Load Mapbox GL JS -->
     <link href="https://mapbox.com" rel="stylesheet">
+    <script src="https://mapbox.com"></script>
     <style>
         body { margin: 0; padding: 0; }
         #map { position: absolute; top: 0; bottom: 0; width: 100%; }
@@ -15,38 +16,38 @@
 
 <div id="map"></div>
 
-<!-- Mapbox GL JS Script -->
-<script src="https://mapbox.com"></script>
 <script>
-    // 1. Initialize Map
+    // Replace with your actual Mapbox Access Token
     mapboxgl.accessToken = 'pk.eyJ1IjoicmNmZHRvb2xzIiwiYSI6ImNtdWFhZTNybjFjY2wzNG9rb2tydjF1cjUifQ.xYlv5HxHl_bT_fnu8RnHQg';
+
     const map = new mapboxgl.Map({
         container: 'map',
-        style: 'mapbox://styles/mapbox/streets-v12', // Or your custom style URL
-        center:, // [Longitude, Latitude] - change to your data's location
-        zoom: 2
+        style: 'mapbox://styles/mapbox/streets-v12', // Map style
+        center: [-74.0060, 40.7128], // Starting position [lng, lat]
+        zoom: 3 // Starting zoom
     });
 
-    // 2. Load and Render GeoJSON Data
     map.on('load', () => {
-        map.addSource('my-shapefile-data', {
+        // Add the GeoJSON source using your GitHub Raw URL
+        map.addSource('github-points', {
             type: 'geojson',
-            data: './poi.geojson' // Path to your GeoJSON file in the GitHub repo
+            data: 'https://github.com/rcfdtools/rcfdtools/blob/main/tool/poi/poi_picture.geojson' // Replace with your URL
         });
 
-        // Add a layer to visualize the data (this example assumes Polygons)
+        // Add a layer to style and display the points
         map.addLayer({
-            id: 'data-layer',
-            type: 'fill',
-            source: 'my-shapefile-data',
+            id: 'points-layer',
+            type: 'circle',
+            source: 'github-points',
             paint: {
-                'fill-color': '#0080ff',
-                'fill-opacity': 0.6,
-                'fill-outline-color': '#ffffff'
+                'circle-radius': 6,
+                'circle-color': '#B42222',
+                'circle-stroke-width': 1,
+                'circle-stroke-color': '#fff'
             }
         });
     });
 </script>
+
 </body>
 </html>
-
