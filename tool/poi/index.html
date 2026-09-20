@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Shapefile Map</title>
+    <!-- Mapbox GL JS CSS -->
+    <link href="https://mapbox.com" rel="stylesheet">
+    <style>
+        body { margin: 0; padding: 0; }
+        #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+    </style>
+</head>
+<body>
+
+<div id="map"></div>
+
+<!-- Mapbox GL JS Script -->
+<script src="https://mapbox.com"></script>
+<script>
+    // 1. Initialize Map
+    mapboxgl.accessToken = 'pk.eyJ1IjoicmNmZHRvb2xzIiwiYSI6ImNtdWFhZTNybjFjY2wzNG9rb2tydjF1cjUifQ.xYlv5HxHl_bT_fnu8RnHQg';
+    const map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/streets-v12', // Or your custom style URL
+        center:, // [Longitude, Latitude] - change to your data's location
+        zoom: 2
+    });
+
+    // 2. Load and Render GeoJSON Data
+    map.on('load', () => {
+        map.addSource('my-shapefile-data', {
+            type: 'geojson',
+            data: './poi.geojson' // Path to your GeoJSON file in the GitHub repo
+        });
+
+        // Add a layer to visualize the data (this example assumes Polygons)
+        map.addLayer({
+            id: 'data-layer',
+            type: 'fill',
+            source: 'my-shapefile-data',
+            paint: {
+                'fill-color': '#0080ff',
+                'fill-opacity': 0.6,
+                'fill-outline-color': '#ffffff'
+            }
+        });
+    });
+</script>
+</body>
+</html>
