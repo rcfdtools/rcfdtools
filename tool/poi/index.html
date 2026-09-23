@@ -1,4 +1,5 @@
 <!-- Host Leaflet map in GitHub for Free | WebGIS | GeoDev https://www.youtube.com/watch?v=IwpAAXNgxMs-->
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -79,11 +80,11 @@
                 "</h2>" +
                 "<p>Latitude: " +
                 feature.properties.Latitude +
-                "Longitude: " +
+                "°<br/>Longitude: " +
                 feature.properties.Longitude +
-                "Altitude: " +
+                "°<br/>Altitude: " +
                 feature.properties.Altitude +
-                "</p>"
+                " masl</p>"
             );
           },
         }).addTo(map);
