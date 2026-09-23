@@ -8,7 +8,6 @@ https://data-agenciadetierras.opendata.arcgis.com/search
 
 ## Pending task
 
-* QGIS: Leafmap, Maxar Open Data
 * Dec 27 - Jan 16 $1.978.850
 * rcfdtools / Add QGIS most used process to the Global Dictionary 
 * TSIG / Move quizzes to Google Forms (reports by student repositorie link)
