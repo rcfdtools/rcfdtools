@@ -20,7 +20,7 @@
       crossorigin=""
     ></script>
 
-    <title>POI Picture - rcfdtools</title>
+    <title>Host Leaflet Map in GitHub</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <style>
@@ -54,7 +54,7 @@
     ).addTo(map);
 
     // Load geojson data using fetch API
-    fetch("./poi_picture.geojson")
+    fetch("./nepal_provinces.json")
       .then((response) => {
         return response.json();
       })
@@ -75,10 +75,10 @@
           onEachFeature: function (feature, layer) {
             layer.bindPopup(
               "<h1>" +
-                feature.properties.URL +
+                feature.properties.PR_NAME +
                 "</h1>" +
-                "<p>Altitude: " +
-                feature.properties.Altitude +
+                "<p>Province No: " +
+                feature.properties.PROVINCE +
                 "</p>"
             );
           },
