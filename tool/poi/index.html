@@ -84,7 +84,10 @@
                 feature.properties.Longitude +
                 "°<br/>Altitude: " +
                 feature.properties.Altitude +
-                " masl</p>"
+                " masl" +
+                "<br/><a href=" +
+                feature.properties.URL +
+                ">Picture link</a></p>"
             );
           },
         }).addTo(map);
