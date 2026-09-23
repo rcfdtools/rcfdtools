@@ -55,7 +55,8 @@
     ).addTo(map);
 
     // Load geojson data using fetch API
-    fetch("./poi_picture.geojson")
+    <!-- fetch("./poi_picture.geojson")-->
+    fetch("https://raw.githubusercontent.com/rcfdtools/R.GISMobile/refs/heads/main/file/geojson/poi_picture.geojson")
       .then((response) => {
         return response.json();
       })
