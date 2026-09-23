@@ -76,9 +76,9 @@
           // popup function
           onEachFeature: function (feature, layer) {
             layer.bindPopup(
-              "<h2>POI " +
-                feature.properties.POI +
-                "</h2>" +
+              "<h2>POI <a href=" +
+                feature.properties.POIURL +
+                ">"+feature.properties.POI+"</a></h2>" +
                 "<p>Latitude: " +
                 feature.properties.Latitude +
                 "°<br/>Longitude: " +
