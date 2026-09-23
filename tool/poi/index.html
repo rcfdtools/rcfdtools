@@ -1,53 +1,87 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <title>Mapbox Point Layer from GitHub</title>
-    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
-    <!-- Load Mapbox GL JS -->
-    <link href="https://mapbox.com" rel="stylesheet">
-    <script src="https://mapbox.com"></script>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- leaflet css -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+      integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+      crossorigin=""
+    />
+
+    <!-- leaflet js -->
+    <script
+      src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+      integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+      crossorigin=""
+    ></script>
+
+    <title>Host Leaflet Map in GitHub</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <style>
-        body { margin: 0; padding: 0; }
-        #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      #map {
+        height: 100vh;
+        width: 100%;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
+    <div id="map"></div>
+  </body>
 
-<div id="map"></div>
+  <script>
+    // basic leaflet map with setview
+    var map = L.map("map").setView([28.3949, 84.124], 7);
 
-<script>
-    // Replace with your actual Mapbox Access Token
-    mapboxgl.accessToken = 'pk.eyJ1IjoicmNmZHRvb2xzIiwiYSI6ImNtdWFhZTNybjFjY2wzNG9rb2tydjF1cjUifQ.xYlv5HxHl_bT_fnu8RnHQg';
+    // OpenStreetMap map
+    var osmMap = L.tileLayer(
+      "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+      {
+        maxZoom: 19,
+        attribution:
+          '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      }
+    ).addTo(map);
 
-    const map = new mapboxgl.Map({
-        container: 'map',
-        style: 'mapbox://styles/mapbox/streets-v12', // Map style
-        center: [-74.0060, 40.7128], // Starting position [lng, lat]
-        zoom: 3 // Starting zoom
-    });
+    // Load geojson data using fetch API
+    fetch("./nepal_provinces.json")
+      .then((response) => {
+        return response.json();
+      })
+      .then((data) => {
+        L.geoJSON(data, {
+          // style function
+          style: function (feature) {
+            return {
+              color: "black",
+              weight: 2,
+              fillOpacity: 0.5,
+              fillColor:
+                "#" + Math.floor(Math.random() * 16777215).toString(16),
+            };
+          },
 
-    map.on('load', () => {
-        // Add the GeoJSON source using your GitHub Raw URL
-        map.addSource('github-points', {
-            type: 'geojson',
-            data: 'https://raw.githubusercontent.com/rcfdtools/rcfdtools/refs/heads/main/tool/poi/poi.geojson' // Replace with your URL
-        });
-
-        // Add a layer to style and display the points
-        map.addLayer({
-            id: 'points-layer',
-            type: 'circle',
-            source: 'github-points',
-            paint: {
-                'circle-radius': 6,
-                'circle-color': '#B42222',
-                'circle-stroke-width': 1,
-                'circle-stroke-color': '#fff'
-            }
-        });
-    });
-</script>
-
-</body>
+          // popup function
+          onEachFeature: function (feature, layer) {
+            layer.bindPopup(
+              "<h1>" +
+                feature.properties.PR_NAME +
+                "</h1>" +
+                "<p>Province No: " +
+                feature.properties.PROVINCE +
+                "</p>"
+            );
+          },
+        }).addTo(map);
+      });
+  </script>
 </html>
