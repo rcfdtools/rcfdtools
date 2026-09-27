@@ -5,10 +5,14 @@ Terreno de Predio Urbano en Formato Shape 07-2026 https://datos.icde.gov.co/data
 Terreno de Predio Rural en Formato Shape 07-2026 https://datos.icde.gov.co/datasets/1ab5d2d687534c8d85d7586985cac2cd
 https://data-agenciadetierras.opendata.arcgis.com/search
 
+Ser coherente entre lo que se piensa, se elige, se dice y se hace.
+
 
 ## Pending task
 
-* Dec 27 - Jan 16 $1.978.850
+* Nov 27 - Jan 16 $1.978.850
+* Nov 25 - Jan 15 $2.054.040
+* Dec 02 - Jan 15 $2.261.430
 * rcfdtools / Add QGIS most used process to the Global Dictionary 
 * TSIG / Move quizzes to Google Forms (reports by student repositorie link)
 * DAPC / Move quizzes to Google Forms (files and reports by e-mail)
