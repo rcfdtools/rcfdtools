@@ -23,6 +23,32 @@ Ser coherente entre lo que se piensa, se elige, se dice y se hace.
 * TSIG / Concentration time (TC): revisar unidades >>> TC_California = 0.0195*(("10_85_len"/0.3048)^0.77/("10_85_slo"^0.385))
 
 
+## Altillanura
+
+Líderes Facultad Ingeniería Civil
+
+* Diagnóstico y modelamiento de infraestructura, catastro y aptitud del suelo como insumo del modelo territorial 2055. Lider: Nancy Tórres Castellanos, Decanatura Ingeniería Civil, Doctorado en Ingeniería
+
+* Diagnóstico de necesidades y priorización de infraestructura vial, fluvial, férrea y aérea para el sistema multimodal del Plan. Lider: Mónica Marcela Suárez Pradilla, Directora Grupo de Investigación en Vias y Transporte, Doctorado en Gestión y Valoración Urbana
+
+
+CEH - Productos y casos de estudio aplicables a Altillanura
+
+* Población y proyección de demanda de agua potable para usos habitacionales. https://github.com/rcfdtools/R.HydroTools/blob/main/tool/Population/file/report/Readme.md
+
+* Estudio y análisis de la precipitación máxima en 24 horas y caudales máximos. https://github.com/rcfdtools/R.HydroTools/blob/main/tool/PMP/dataset/pmax24h_out/paper/Readme.md
+
+* Catastro predial e infrastructura vial. https://github.com/rcfdtools/R.GISMobile/blob/main/file/gis/CountyLayer_CO/Readme.md
+
+* Mapa de número de curva CN para estudios hidrológicos: https://github.com/rcfdtools/R.HydroTools/tree/main/tool/CN
+
+* Análisis de amenazas naturales. https://github.com/rcfdtools/R.SIGE/blob/main/activity/Hazard/Readme.md
+
+* Balance hidrológico de largo plazo a partir de datos hidrolimatoógicos de estaciones terrestres y sensores remotos satelitales con segmentación por fenómenos climatológicos ENSO-ONI
+
+* Modelación hidrológica contínua de caudales diarios en las subzonas hidrográficas convergentes y derivadas de la altillanura (identificación de zonas potenciales para embalsamiento hídrico y sistemas de regulación para control de inundaciones y mitigación de sequías) 
+
+
 ## Various
 
 * dir /b >sss.txt
