@@ -6,6 +6,8 @@ Terreno de Predio Rural en Formato Shape 07-2026 https://datos.icde.gov.co/datas
 https://data-agenciadetierras.opendata.arcgis.com/search
 
 Ser coherente entre lo que se piensa, se elige, se dice y se hace.
+https://share.geolibre.app/
+https://share.geolibre.app/rcfdtools/poi-rcfdools.geolibre.json
 
 
 ## Pending task
