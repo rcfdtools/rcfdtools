@@ -11,6 +11,7 @@ https://share.geolibre.app/rcfdtools/poi-rcfdools.geolibre.json
 
 ## Pending task
 
+* TSIG / Profile slope from distance elevation table
 * rcfdtools / Add QGIS most used process to the Global Dictionary 
 * TSIG / Move quizzes to Google Forms (reports by student repositorie link)
 * DAPC / Move quizzes to Google Forms (files and reports by e-mail)
