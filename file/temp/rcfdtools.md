@@ -11,6 +11,7 @@ https://raw.githubusercontent.com/rcfdtools/R.GISMobile/refs/heads/main/file/par
 https://raw.githubusercontent.com/rcfdtools/R.GISMobile/refs/heads/main/file/parquet/25899_Urban_Block_201301.parquet
 https://raw.githubusercontent.com/rcfdtools/R.GISMobile/refs/heads/main/file/parquet/25899_Urban_Building_201301.parquet
 https://raw.githubusercontent.com/rcfdtools/R.GISMobile/refs/heads/main/file/parquet/25899_Rural_Vereda_202411.parquet
+https://raw.githubusercontent.com/rcfdtools/R.GISMobile/refs/heads/main/file/parquet/25899_OSM_Road_202608.parquet
 
 
 
