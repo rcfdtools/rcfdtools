@@ -7,8 +7,9 @@ Instrucciones:
 Ser coherente entre lo que se piensa, se elige, se dice y se hace.
 https://share.geolibre.app/
 https://share.geolibre.app/rcfdtools/poi-rcfdools.geolibre.json
-https://raw.githubusercontent.com/rcfdtools/R.GISMobile/refs/heads/main/file/geojson/25899_Urban_Building_201301.geojson
-https://raw.githubusercontent.com/rcfdtools/R.GISMobile/refs/heads/main/file/geojson/25899_Urban_Block_201301.geojson
+https://raw.githubusercontent.com/rcfdtools/R.GISMobile/refs/heads/main/file/parquet/25899_Lot_202211.parquet
+https://raw.githubusercontent.com/rcfdtools/R.GISMobile/refs/heads/main/file/parquet/25899_Urban_Block_201301.parquet
+https://raw.githubusercontent.com/rcfdtools/R.GISMobile/refs/heads/main/file/parquet/25899_Urban_Building_201301.parquet
 
 
 ## Pending task
