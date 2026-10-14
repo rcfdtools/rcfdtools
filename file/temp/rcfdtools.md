@@ -61,6 +61,7 @@ https://raw.githubusercontent.com/rcfdtools/R.GISMobile/refs/heads/main/file/par
 * Nomenclatura vial Cundinamarca https://ider.cundinamarca.gov.co/datasets/36f3fdc8367348cc85f8a850fc3a5ed4_0/explore?location=5.021282%2C-73.999352%2C15
 * https://countrycode.org/colombia
 * https://community.wmo.int/site/knowledge-hub/programmes-and-initiatives/climate-services/wmo-climatological-normals?utm_source
+* https://climatedataguide.ucar.edu/climate-data/standardized-precipitation-index-spi
 
 
 https://github.com/rcfdtools/rcfdtools/blob/main/file/report/PaperProposal.md
