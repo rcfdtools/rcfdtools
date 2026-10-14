@@ -5,6 +5,8 @@
 Instrucciones:
 
 Ser coherente entre lo que se piensa, se elige, se dice y se hace.
+Casual -> Obligation -> Responsability
+
 https://share.geolibre.app/
 https://share.geolibre.app/rcfdtools/poi-rcfdools.geolibre.json
 https://raw.githubusercontent.com/rcfdtools/R.GISMobile/refs/heads/main/file/parquet/25899_Lot_202211.parquet
@@ -21,6 +23,7 @@ https://raw.githubusercontent.com/rcfdtools/R.GISMobile/refs/heads/main/file/par
 
 ## Pending task
 
+* Simple XYZ Tiles with selection by user
 * TSIG / Profile slope from distance elevation table
 * rcfdtools / Add QGIS most used process to the Global Dictionary 
 * TSIG / Move quizzes to Google Forms (reports by student repositorie link)
