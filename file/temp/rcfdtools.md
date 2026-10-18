@@ -3,6 +3,9 @@
 ✒️
 (No resuelto)
 Instrucciones:
+Sí enviado
+No enviado
+📝A. INFORME TÉCNICO TALLER
 
 Ser coherente entre lo que se piensa, se elige, se dice y se hace.
 Casual -> Obligation -> Responsability
@@ -153,3 +156,5 @@ https://www.datos.gov.co/Ambiente-y-Desarrollo-Sostenible/Cat-logo-Nacional-de-E
 
 
 "MpCodigo" NOT IN ('00000')
+
+
