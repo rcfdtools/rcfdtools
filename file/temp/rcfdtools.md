@@ -66,6 +66,7 @@ https://raw.githubusercontent.com/rcfdtools/R.GISMobile/refs/heads/main/file/par
 * https://countrycode.org/colombia
 * https://community.wmo.int/site/knowledge-hub/programmes-and-initiatives/climate-services/wmo-climatological-normals?utm_source
 * https://climatedataguide.ucar.edu/climate-data/standardized-precipitation-index-spi
+* https://www.escuelaing.edu.co/es/programas/curso-modelacion-hidrologica-e-hidraulica-en-ingenieria/
 
 
 https://github.com/rcfdtools/rcfdtools/blob/main/file/report/PaperProposal.md
