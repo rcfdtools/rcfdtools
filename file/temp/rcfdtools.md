@@ -12,11 +12,8 @@ https://raw.githubusercontent.com/rcfdtools/R.GISMobile/refs/heads/main/file/par
 https://raw.githubusercontent.com/rcfdtools/R.GISMobile/refs/heads/main/file/parquet/25899_Rural_Vereda_202411.parquet
 https://raw.githubusercontent.com/rcfdtools/R.GISMobile/refs/heads/main/file/parquet/25899_OSM_Road_202608.parquet
 
-
  if ( "25899_OrthoImage_10cm_CPBolivar83_202412@1" = 0, "25899_OrthoImage_10cm_CPBolivar83_202412@1"/0, "25899_OrthoImage_10cm_CPBolivar83_202412@1")
  
- GDAL / Raster Miscellaneous / Merge
-
 
 ## Pending task
 
@@ -30,6 +27,7 @@ https://raw.githubusercontent.com/rcfdtools/R.GISMobile/refs/heads/main/file/par
 * Scripts .py SIGE copiar a TSIG. Script para categorizar nombres de drenajes o vias
 * HydroTools / HSLB & HSAP Labs spreadsheets
 * TSIG / Concentration time (TC): revisar unidades >>> TC_California = 0.0195*(("10_85_len"/0.3048)^0.77/("10_85_slo"^0.385))
+* Syllabus
 
 
 ## Various
