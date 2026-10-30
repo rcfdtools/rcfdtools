@@ -2,6 +2,8 @@
 
 https://github.com/rcfdtools/R.HydroTools/blob/main/file/src/
 
+Tarjeta Bancolombia 292014
+
 Ser coherente entre lo que se piensa, se elige, se dice y se hace.
 Casual -> Obligation -> Responsability
 
@@ -18,13 +20,7 @@ https://raw.githubusercontent.com/rcfdtools/R.GISMobile/refs/heads/main/file/par
 
 ## Pending task
 
-* Simple XYZ Tiles with selection by user
-* TSIG / Profile slope from distance elevation table
 * rcfdtools / Add QGIS most used process to the Global Dictionary 
-* TSIG / Move quizzes to Google Forms (reports by student repositorie link)
-* DAPC / Move quizzes to Google Forms (files and reports by e-mail)
-* DAPC / Check clausules in quizzes
-* TSIG / DAPC - Export all Forms quizzes to pdf with right answers
 * Scripts .py SIGE copiar a TSIG. Script para categorizar nombres de drenajes o vias
 * HydroTools / HSLB & HSAP Labs spreadsheets
 * TSIG / Concentration time (TC): revisar unidades >>> TC_California = 0.0195*(("10_85_len"/0.3048)^0.77/("10_85_slo"^0.385))
