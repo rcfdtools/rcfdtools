@@ -20,6 +20,9 @@ https://raw.githubusercontent.com/rcfdtools/R.GISMobile/refs/heads/main/file/par
 
 ## Pending task
 
+* ERA5: Monthly drought indices from 1940 to present derived from ERA5 reanalysis https://cds.climate.copernicus.eu/
+* https://raw.githubusercontent.com/Eurac-Research/ado-data/main/factsheets/SPI_4.pdf
+* https://drought.emergency.copernicus.eu/data/factsheets/factsheet_spi.pdf
 * rcfdtools / Add QGIS most used process to the Global Dictionary 
 * Scripts .py SIGE copiar a TSIG. Script para categorizar nombres de drenajes o vias
 * HydroTools / HSLB & HSAP Labs spreadsheets
